@@ -85,18 +85,15 @@
         <link rel="stylesheet" href="assets/css/default.css?<?php echo APPVERSION ?>">
         <link rel="stylesheet" href="assets/css/layout.css?<?php echo APPVERSION ?>">
         <link rel="stylesheet" href="assets/css/media-queries.css?<?php echo APPVERSION ?>">
-        <link rel="stylesheet" href="assets/css/magnific-popup.css?">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
         <!-- Script
         ================================================== -->
-        <script src="assets/js/modernizr.js"></script>
+        <!-- <script src="assets/js/modernizr.js"></script> -->
 
-        <!-- Favicons
-             ================================================== -->
+        <!-- Favicon ==================================== -->
         <link rel="shortcut icon" href="assets/favicon.ico" >
 
-        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
 
     <body>
