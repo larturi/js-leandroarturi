@@ -282,7 +282,7 @@ ul#nav li.current a { color: #F06000; }
     padding-bottom: 6px;
 }
 #resume h3 {
-    font: 22px/27px 'opensans-bold', sans-serif;
+    font: 19px/24px 'opensans-bold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -326,9 +326,9 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li {
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     background: #ccc;
-    height: 42px;
+    height: 20px;
     border-radius: 3px;
 }
 .bars li em {
@@ -338,100 +338,70 @@ ul#nav li.current a { color: #F06000; }
     letter-spacing: 2px;
     font-weight: normal;
     position: relative;
-    top: -36px;
+    top: -25px;
 }
 .bar-expand {
     position: absolute;
     left: 0;
     top: 0;
-
     margin: 0;
     padding-right: 24px;
     background: #313131;
     display: inline-block;
-    height: 42px;
+    height: 20px;
     line-height: 42px;
     border-radius: 3px 0 0 3px;
 }
 
 .cincuentaycinco {
     width: 55%;
-    -moz-animation: illustrator 2s ease;
-    -webkit-animation: illustrator 2s ease;
+    -moz-animation: cincuenta-cinco 2s ease;
+    -webkit-animation: cincuenta-cinco 2s ease;
 }
+
 .sesenta {
     width: 60%;
-    -moz-animation: photoshop 2s ease;
-    -webkit-animation: photoshop 2s ease;
+    -moz-animation: sesenta 2s ease;
+    -webkit-animation: sesenta 2s ease;
+}
+
+.sesentaycinco {
+    width: 65%;
+    -moz-animation: sesenta-cinco 2s ease;
+    -webkit-animation: sesenta-cinco 2s ease;
+}
+
+.setenta {
+    width: 70%;
+    -moz-animation: setenta 2s ease;
+    -webkit-animation: setenta 2s ease;
 }
 
 .setentaycinco {
     width: 75%;
-    -moz-animation: jquery 2s ease;
-    -webkit-animation: jquery 2s ease;
+    -moz-animation: setenta-cinco 2s ease;
+    -webkit-animation: setenta-cinco 2s ease;
 }
 
 .ochenta {
     width: 80%;
-    -moz-animation: html5 2s ease;
-    -webkit-animation: html5 2s ease;
+    -moz-animation: ochenta 2s ease;
+    -webkit-animation: ochenta 2s ease;
+}
+
+.ochentaycinco {
+    width: 85%;
+    -moz-animation: ochenta-cinco 2s ease;
+    -webkit-animation: ochenta-cinco 2s ease;
 }
 
 .noventa {
     width: 90%;
-    -moz-animation: css 2s ease;
-    -webkit-animation: css 2s ease;
+    -moz-animation: noventa 2s ease;
+    -webkit-animation: noventa 2s ease;
 }
 
-@-moz-keyframes photoshop {
-    0%   { width: 0px;  }
-100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-    0%   { width: 0px;  }
-100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-    0%   { width: 0px;  }
-100% { width: 50%;  }
-}
-@-moz-keyframes css {
-    0%   { width: 0px;  }
-100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-    0%   { width: 0px;  }
-100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-    0%   { width: 0px;  }
-100% { width: 50%;  }
-}
 
-@-webkit-keyframes photoshop {
-    0%   { width: 0px;  }
-100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-    0%   { width: 0px;  }
-100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-    0%   { width: 0px;  }
-100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-    0%   { width: 0px;  }
-100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-    0%   { width: 0px;  }
-100% { width: 80%;  }
-}
-@-webkit-keyframes jquery {
-    0%   { width: 0px;  }
-100% { width: 50%;  }
-}
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -1036,4 +1006,10 @@ footer .social-links li:first-child { margin-left: 0; }
 .profile-pic-tw{
     width: 40px;
     border-radius: 100px;
+}
+
+.item {
+    margin: 10px;
+    float: left;
+    width: 70px;
 }

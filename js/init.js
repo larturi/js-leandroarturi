@@ -212,23 +212,23 @@ jQuery(document).ready(function($) {
 
     });
 
-    $(window).load(function() {
-        // Una vez se cargue al completo la página desaparecerá el div "cargando"
-        $('#cargando').hide();
-        $("#contenido").fadeIn("slow");
+    // $(window).load(function() {
+    //     // Una vez se cargue al completo la página desaparecerá el div "cargando"
+    //     $('#cargando').hide();
+    //     $("#contenido").fadeIn("slow");
         
-        /*----------------------------------------------------*/
-        /* FitText Settings
-         ------------------------------------------------------ */
+    //     /*----------------------------------------------------*/
+    //     /* FitText Settings
+    //      ------------------------------------------------------ */
 
-        setTimeout(function() {
-            $('h1.responsive-headline').fitText(1, {minFontSize: '40px', maxFontSize: '75px'});
-        }, 100);
+    //     setTimeout(function() {
+    //         $('h1.responsive-headline').fitText(1, {minFontSize: '40px', maxFontSize: '75px'});
+    //     }, 100);
 		
-	    $("li").removeClass("current");
-	    $("#nav li:first-child").addClass("current");
+	//     $("li").removeClass("current");
+	//     $("#nav li:first-child").addClass("current");
 
-    });
+    // });
 
 
 });

@@ -88,7 +88,6 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
 
         <!-- Owl Carousel Assets -->
-
         <link href="lib/owl-carousel/assets/css/custom.css?v1.1" rel="stylesheet">
         <link href="lib/owl-carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
         <link href="lib/owl-carousel/owl-carousel/owl.theme.css" rel="stylesheet">
@@ -111,9 +110,9 @@
 
     <body>
 
-        <div id="cargando">
+        <!-- <div id="cargando">
 
-        </div>
+        </div> -->
 
         <div id="contenido">
 
@@ -141,8 +140,8 @@
                 <div class="row banner">
                     <div class="banner-text">
                         <h1 class="responsive-headline">Leandro Arturi</h1>
-                        <h3>Soy profesional IT, <span>Licenciado en Sistemas de Informaci&oacute;n</span> con <?php echo getExperiencia(); ?> a&ntilde;os de experiencia en gesti&oacute;n y desarrollo de proyectos de software.
-                            He trabajado en el desarrollo de aplicaciones <span>web</span>, de <span>escritorio</span> y <span>mobile</span>.
+                        <h3>Soy profesional IT, Licenciado en Sistemas de Informaci&oacute;n con <?php echo getExperiencia(); ?> a&ntilde;os de experiencia en gesti&oacute;n y desarrollo de proyectos de software.
+                            He trabajado en el desarrollo de aplicaciones web, de escritorio y mobile.
                             Conoc&eacute; mas <a class="smoothscroll" href="#about">acerca de mi</a>.</h3>
                         <hr />
                         <ul class="social">
@@ -176,8 +175,7 @@
 
                         <h2>Acerca de mi</h2>
 
-                        <p>Soy profesional IT con experiencia en gesti&oacute;n y desarrollo de proyectos de software en diferentes tecnolog&iacute;as. 
-                            Actualmente trabajo como Coordinador en PAMI, gestionando la demanada de requerimientos de desarrollo provenientes de las distintas &aacute;reas y administrando una amplia cartera de proyectos institucionales. 
+                        <p>Licenciado en Sistemas con experiencia en gesti&oacute;n y desarrollo de proyectos de software en diferentes tecnolog&iacute;as. 
                             A lo largo de mi carrera he cumplido diferentes roles, habiendo trabajado como desarrollador, 
                             analista programador, analista t&eacute;cnico funcional y l&iacute;der de proyectos en el desarrollo de aplicaciones web, de escritorio y mobile. 
                         </p>
@@ -209,9 +207,6 @@
 
                     </div> <!-- end .main-col -->
 
-
-
-
                 </div>
 
             </section> <!-- About Section End-->
@@ -219,34 +214,6 @@
 
             <!-- Resume Section -->
             <section id="resume">
-
-                <!-- Descarga CV 
-                <div class="row education">
-
-                    <div class="three columns header-col">
-                        <h1><span>Descargar CV</span></h1>
-                    </div>
-
-                    <div class="nine columns main-col">
-
-                        <div class="row item">
-
-                            <div class="twelve columns">
-
-                                <p class="info" id="buttonCV">
-                                    <a class="button" target="_blank" style="color: white;" href="https://drive.google.com/open?id=1ne1KXW_e4aMT0MezTawO3TYcOVyDUS2D">CV Leandro Arturi.pdf</a>
-                                </p>
-
-                                <p>
-                                </p>
-
-                            </div>
-
-                        </div> 
-
-                    </div> 
-
-                </div> -->
 
                 <!-- Education -->
                 <div class="row education">
@@ -295,6 +262,149 @@
                 </div> <!-- End Education -->
 
 
+                <!-- Cursos -->
+                <div class="row education">
+
+                    <div class="three columns header-col">
+                        <h1><span>Cursos</span></h1>
+                    </div>
+
+                    <div class="nine columns main-col">
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Angular: De cero a experto creando aplicaciones</h5>
+                                <p class="detalle-cursos">
+                                  <em class="detalle-cursos-em">2020 | 34h | Udemy</em><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Node.js de cero a experto</h5>
+                                <p class="detalle-cursos">
+                                  <em class="detalle-cursos-em">2020 | 20h | Udemy</em><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>GIT+GitHub: Todo un sistema de control de versiones de cero</h5>
+                                <p class="detalle-cursos">
+                                  <em class="detalle-cursos-em">2020 | 7h | Udemy</em><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+                        
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Scrum Master + La Revolución Ágil + Liderar Equipos Scrum</h5>
+                                <p class="detalle-cursos">
+                                    <em class="detalle-cursos-em">2020 | 3h | Udemy</em><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Aprende Docker desde Cero a Swarm y Kubernetes</h5>
+                                <p class="detalle-cursos">
+                                    <em class="detalle-cursos-em">2020 | 11h | Udemy</em><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>4to Encuentro de la Comunidad Digital AE</h5>
+                                <p class="detalle-cursos">
+                                   <em class="detalle-cursos-em">2019 | 34h | ONTI</em><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Los 7 hábitos de las personas altamente efectivas</h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>2018 | 16h | INAP</em></span><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Programación en Android</h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>2015 | 21h | UTN</em></span><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Programa de Formación Conducción y Gestión - Liderazgo Activo</h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>2014 | 18h | UBA</em></span><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Software Publico para el Desarrollo</h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>2013 | 8h | Subsecretaría de Tecnologías de Gestión</em></span><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Programa de Formación Conducción y Gestión - Liderazgo Activo II</h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>2013 | 18h | UBA</em></span><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Programa de Formación Conducción y Gestión - Liderazgo Activo</h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>2011 | 40h | UBA</em></span><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Curso Programador Web UTN-FRBA</h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>2010 | 72h | UTN</em></span><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end --> 
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <h5>Curso Professional Webmaster UTN-FRBA</h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>2010 | 144h | UTN</em></span><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                    </div> <!-- main-col end -->
+
+                </div> <!-- End Education -->
+
+
                 <!-- Work -->
                 <div class="row work">
 
@@ -314,10 +424,10 @@
                                     <i class="fa iconos-cv fa-calendar"></i><em class="date">Septiembre 2015 - Presente</em>
                                 </p>
                                 <p>
-                                    Actualmente trabajo como Coordinador en PAMI gestionando la demanada de requerimientos de desarrollo provenientes de las distintas &aacute;reas 
-                                    y administrando una amplia cartera de proyectos institucionales. 
-                                    Mis objetivos consisten en gestionar la demanda, monitorear los avances de cada proyecto, detectar desv&iacute;os, riesgos, relaciones con otros 
-                                    sistemas, facilitar los recursos necesarios a los L&iacute;deres de Proyecto y contar con infomaci&oacute;n consolidada que facilite la priorizaci&oacute;n y toma de decisiones.
+                                  Responsable de 6 departamentos especializados en las diferentes áreas de negocio, 
+                                  a través de los cuales se gestiona la cartera de proyectos de desarrollo de la institución. 
+                                  Cada uno de mis equipos lidera diferentes proyectos de desarrollo, teniendo a cargo 
+                                  la gestión de la demanda de requerimientos, el análisis funcional y su implementación.
                                 </p>
 
                             </div>
@@ -336,9 +446,11 @@
                                     <i class="fa iconos-cv fa-calendar"></i><em class="date">Abril 2014 - Septiembre 2015</em>
                                 </p>
                                 <p>
-                                    Trabaj&eacute; en la Coordinaci&oacute;n de Desarrollo como Project Manager gestionando la cartera de proyectos de software institucionales.
-                                    Mis objetivos consistieron en monitorear los avances de cada proyecto, detectar desv&iacute;os, riesgos, facilitar los recursos necesarios a 
-                                    los L&iacute;deres de T&eacute;cnicos, definir la arquitectura de desarrollo y la gesti&oacute;n de la configuraci&oacute;n.
+                                   Responsable de la coordinación de 7 departamentos de desarrollo 
+                                   (PHP, HTML5, JavaScript, JQuery | Oracle). Gestión de la demanda, 
+                                   gestión de la capacidad, estimaciones y enlace con Infraestructura. 
+                                   Implementación de Jenkins para los despliegues a los diferentes ambientes de 
+                                   desarrollo.
                                 </p>
 
                             </div>
@@ -356,10 +468,13 @@
                                 </p>
 
                                 <p>
-                                    Durante casi dos años me desempe&ntilde;&eacute; como L&iacute;der de Proyectos de Software. Trabajamos en m&uacute;ltiples proyectos 
-                                    con arquitectura orientada a servicios en tecnología PHP, HTML 5, JavaScript, JQuery y Oracle. Uno de los proyectos mas
-                                    interesantes que llevamos a cabo fue el desarrollo de un sistema de seguridad single sign on (SSO) para administrar la 
-                                    seguridad de mas de cuarenta sistemas web.
+                                    Líder Técnico del Departamento Desarrollo Web en la Coordinación de Sistemas, 
+                                    a cargo de un equipo de 7 desarrolladores. Análisis técnico, diseño, 
+                                    desarrollo y mantenimiento de sistemas de información (PHP, HTML5, 
+                                    JavaScript, JQuery | Oracle). Desarrollo e implementación de una solución 
+                                    Single Sign On que permitió integrar ~40 sistemas que se encontraban 
+                                    dispersos (CUP - Clave Única Pami). Desarrollo de un checksystem para 
+                                    monitorear la salud de los sistemas.
                                 </p>
 
                             </div>
@@ -377,9 +492,10 @@
                                 </p>
 
                                 <p>
-                                    En esta etapa de m&aacute;s de cuatro a&ntilde;os profundic&eacute; mi rol de l&iacute;der de equipo dando el salto a Visual Basic .NET 
-                                    como principal herramienta de desarrollo. Desarrollamos m&aacute;s de decenas de aplicaciones de diversas &iacute;ndoles.
-                                    Las tecnolog&iacute;as utilizadas fueron Vb6, VB.Net, C# .Net / Sql Server y Oracle.
+                                    Líder técnico de un equipo de 4 desarrolladores. Análisis, diseño, 
+                                    desarrollo y mantenimiento de más de 30 sistemas de información y 
+                                    aplicaciones (Visual Basic .NET, C#, PHP, VB 6.0, VBA, | Oracle, 
+                                    SQL Server y MySql).
                                 </p>
 
                             </div>
@@ -397,10 +513,10 @@
                                 </p>
 
                                 <p>
-                                    Esta fue mi primera experiencia coordinando un equipo de trabajo. Trabajamos puntualmente como mesa de
-                                    ayuda t&eacute;cnica / funcional en la implementaci&oacute;n de un proyecto, siendo los intermediarios entre los usuarios
-                                    de todo el pa&iacute;s y los desarrolladores. Para poder administrar la demanda, en paralelo desarrollamos herramientas
-                                    en Visual Basic 6 / Sql Server y Oracle.
+                                    Líder de un equipo de 4 analistas. Implementación del módulo de 
+                                    distribución de cápitas del Sistema Interactivo de Información (SII) 
+                                    en todo el país. Análisis de información con los sistemas gestores de 
+                                    bases de datos Oracle y SQL Server.
                                 </p>
 
                             </div>
@@ -479,15 +595,21 @@
                         <div class="bars">
 
                             <ul class="skills">
-                                <li><span class="bar-expand ochenta"></span><em>Php</em></li>
-                                <li><span class="bar-expand ochenta"></span><em>Laravel</em></li>
+                                <li><span class="bar-expand noventa"></span><em>Php</em></li>
+                                <li><span class="bar-expand setentaycinco"></span><em>Laravel</em></li>
                                 <li><span class="bar-expand ochenta"></span><em>Html / Css</em></li>
-                                <li><span class="bar-expand ochenta"></span><em>Javascript / jQuery</em></li>
+                                <li><span class="bar-expand ochenta"></span><em>JavaScript</em></li>
+                                <li><span class="bar-expand setenta"></span><em>jQuery</em></li>
+                                <li><span class="bar-expand setenta"></span><em>Angular</em></li>
+                                <li><span class="bar-expand setenta"></span><em>Node</em></li>
+                                <li><span class="bar-expand setenta"></span><em>Git</em></li>
                                 <li><span class="bar-expand noventa"></span><em>Visual Basic / .Net / C#</em></li>
-                                <li><span class="bar-expand cincuentaycinco"></span><em>C / C++ / Java</em></li>
                                 <li><span class="bar-expand noventa"></span><em>Oracle / Sql Server / MySql</em></li>
-                                <li><span class="bar-expand sesenta"></span><em>Android</em></li>
+                                <li><span class="bar-expand sesenta"></span><em>Android Sdk</em></li>
+                                <li><span class="bar-expand cincuentaycinco"></span><em>C / C++ / Java</em></li>
                                 <li><span class="bar-expand noventa"></span><em>Visio / Office / Project</em></li>
+                                <li><span class="bar-expand noventa"></span><em>Jira / Trello</em></li>
+                                <li><span class="bar-expand cincuentaycinco"></span><em>Docker / Jenkins / Gitlab</em></li>
                             </ul>
 
                         </div><!-- end skill-bars -->
@@ -495,148 +617,7 @@
                     </div> <!-- nine columns -->
 
                 </div> <!-- End Skills -->
-
-
-
-                <!-- Tecnologias -->
-                <div class="row skills">
-
-                    <div class="three columns header-col">
-                        <h1><span>Tecnolog&iacute;as</span></h1>
-                    </div>
-
-                    <!-- Tecnologias -->
-
-                    <div class="nine columns main-col">
-
-                        <p>Estas son algunas de las principales tecnolog&iacute;as con las que trabajo</p>
-
-                        <div id="demo" style="margin-top: 50px;">
-                            <div class="container">
-
-                                <div class="row">
-                                    <div class="span12">
-
-                                        <div id="owl-example" class="owl-carousel">
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/html5.png" alt="Html5">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/css3.png" alt="CSS3">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/javascript.png" alt="Javascript">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/php.png" alt="PHP">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/jquery.png" alt="jQuery">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/laravel.png" alt="Laravel">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/visual.png" alt="Visual Studio">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/csharp.png" alt="C#">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/android.png" alt="Android Studio">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/java.png" alt="Java">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/c.png" alt="C">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/cplusplus.png" alt="C++">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/oracle.png" alt="Oracle">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/mysql.png" alt="MySql">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/sqlserver.png" alt="Sql Server">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/mongodb.png" alt="Mongodb">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/bootstrap.png" alt="Bootstrap">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/jira.png" alt="Jira">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/confluence.png" alt="Confluence">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/vba.png" alt="VBA">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/googlescript.png" alt="Google Apps Script">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/office.png" alt="Office">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/svn.png" alt="Svn">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/git.png" alt="Git">
-                                            </div>
-
-                                            <div class="item">
-                                                <img src="lib/owl-carousel/assets/img/demo-slides/apache.png" alt="Apache">
-                                            </div>
-
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- End Tecnologias -->
-
-                </div> <!-- End Tecnologias -->
-
-
+                
 
             </section> <!-- Resume Section End-->
 
@@ -649,69 +630,14 @@
 
                     <div class="twelve columns collapsed">
 
-                        <h1>Algunos de mis trabajos</h1>
+                        <h1>Portfolio</h1>
 
                         <!-- portfolio-wrapper -->
                         <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
-                            <div class="columns portfolio-item">
+
+                        <div class="columns portfolio-item">
                                 <div class="item-wrap">
-
-                                    <a href="#modal-01" title="">
-                                        <img alt="" src="images/portfolio/modals/m-mipami.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Mi PAMI</h5>
-                                                <p>Android App</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-
-                                </div>
-                            </div> <!-- item end -->
-
-                            <div class="columns portfolio-item">
-
-                                <div class="item-wrap">
-
-                                    <a href="#modal-02" title="">
-                                        <img alt="" src="images/portfolio/modals/m-diseta.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Diseta - Ropa de Seda</h5>
-                                                <p>Web Development</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-
-                                </div>
-                            </div> <!-- item end -->
-
-                            <div class="columns portfolio-item">
-
-                                    <div class="item-wrap">
-
-                                        <a href="#modal-03" title="">
-                                            <img alt="" src="images/portfolio/modals/m-laboratorioequis.jpg">
-                                            <div class="overlay">
-                                                <div class="portfolio-item-meta">
-                                                    <h5>Laboratorio Equis</h5>
-                                                    <p>Web Development</p>
-                                                </div>
-                                            </div>
-                                            <div class="link-icon"><i class="icon-plus"></i></div>
-                                        </a>
-
-                                    </div>
-                                </div>  <!-- item end -->
-
-
-                            <div class="columns portfolio-item">
-
-                                <div class="item-wrap">
-
                                     <a href="#modal-04" title="">
                                         <img alt="" src="images/portfolio/modals/m-sombreros.jpg">
                                         <div class="overlay">
@@ -722,14 +648,11 @@
                                         </div>
                                         <div class="link-icon"><i class="icon-plus"></i></div>
                                     </a>
-
                                 </div>
                             </div> <!-- item end -->
 
                             <div class="columns portfolio-item">
-
                                 <div class="item-wrap">
-
                                     <a href="#modal-05" title="">
                                         <img alt="" src="images/portfolio/modals/m-famosos.jpg">
                                         <div class="overlay">
@@ -740,14 +663,72 @@
                                         </div>
                                         <div class="link-icon"><i class="icon-plus"></i></div>
                                     </a>
-
                                 </div>
                             </div> <!-- item end -->
 
                             <div class="columns portfolio-item">
-
                                 <div class="item-wrap">
+                                    <a href="#modal-01" title="">
+                                        <img alt="" src="images/portfolio/modals/m-mipami.jpg">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                <h5>Mi PAMI</h5>
+                                                <p>Android App</p>
+                                            </div>
+                                        </div>
+                                        <div class="link-icon"><i class="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div> <!-- item end -->
 
+                            <div class="columns portfolio-item">
+                                <div class="item-wrap">
+                                    <a href="#modal-12" title="">
+                                        <img alt="" src="images/portfolio/modals/m-hoyjugamos.jpg">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                <h5>HoyJugamos</h5>
+                                                <p>Laravel</p>
+                                            </div>
+                                        </div>
+                                        <div class="link-icon"><i class="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div> <!-- item end -->
+
+                            <div class="columns portfolio-item">
+                                <div class="item-wrap">
+                                    <a href="#modal-02" title="">
+                                        <img alt="" src="images/portfolio/modals/m-diseta.jpg">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                <h5>Diseta - Ropa de Seda</h5>
+                                                <p>Web Development</p>
+                                            </div>
+                                        </div>
+                                        <div class="link-icon"><i class="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div> <!-- item end -->
+
+                            <div class="columns portfolio-item">
+                                    <div class="item-wrap">
+                                        <a href="#modal-03" title="">
+                                            <img alt="" src="images/portfolio/modals/m-laboratorioequis.jpg">
+                                            <div class="overlay">
+                                                <div class="portfolio-item-meta">
+                                                    <h5>Laboratorio Equis</h5>
+                                                    <p>Web Development</p>
+                                                </div>
+                                            </div>
+                                            <div class="link-icon"><i class="icon-plus"></i></div>
+                                        </a>
+                                    </div>
+                                </div>  <!-- item end -->
+                            
+
+                            <div class="columns portfolio-item">
+                                <div class="item-wrap">
                                     <a href="#modal-06" title="">
                                         <img alt="" src="images/portfolio/modals/m-series.jpg">
                                         <div class="overlay">
@@ -758,15 +739,12 @@
                                         </div>
                                         <div class="link-icon"><i class="icon-plus"></i></div>
                                     </a>
-
                                 </div>
                             </div> <!-- item end -->
                             
 
                             <div class="columns portfolio-item">
-
                                     <div class="item-wrap">
-
                                         <a href="#modal-11" title="">
                                             <img alt="" src="images/portfolio/modals/m-programmerday.jpg">
                                             <div class="overlay">
@@ -777,40 +755,81 @@
                                             </div>
                                             <div class="link-icon"><i class="icon-plus"></i></div>
                                         </a>
-
                                     </div>
                                 </div>  <!-- item end -->
                                 
-
-                                <div class="columns portfolio-item">
-
-                                <div class="item-wrap">
-
-                                    <a href="#modal-10" title="">
-                                        <img alt="" src="images/portfolio/modals/m-maschefacts.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Los Mejores Maschefacts</h5>
-                                                <p>Web Development</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-
-                                </div>
-                            </div>  <!-- item end -->
 
 
                             <!-- OCULTOS --> 
 
 
 
-                            <div class="mas-proyectos">
+                        <div class="mas-proyectos">
 
                             <div class="columns portfolio-item">
-
                                 <div class="item-wrap">
+                                    <a href="#modal-13" title="">
+                                        <img alt="" src="images/portfolio/modals/m-chat.png">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                <h5>Chat Socket Angular</h5>
+                                                <p>Angular / Firebase</p>
+                                            </div>
+                                        </div>
+                                        <div class="link-icon"><i class="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div> <!-- item end -->
 
+
+                            <div class="columns portfolio-item">
+                                <div class="item-wrap">
+                                    <a href="#modal-14" title="">
+                                        <img alt="" src="images/portfolio/modals/m-goty.png">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                <h5>Juego del Año</h5>
+                                                <p>Angular / Firebase / Node</p>
+                                            </div>
+                                        </div>
+                                        <div class="link-icon"><i class="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div> <!-- item end -->
+
+
+                            <div class="columns portfolio-item">
+                                <div class="item-wrap">
+                                    <a href="#modal-15" title="">
+                                        <img alt="" src="images/portfolio/modals/m-spoty.png">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                <h5>SpotyApp</h5>
+                                                <p>Angular / Spotify Api</p>
+                                            </div>
+                                        </div>
+                                        <div class="link-icon"><i class="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div> <!-- item end -->
+
+                            <div class="columns portfolio-item">
+                                <div class="item-wrap">
+                                    <a href="#modal-16" title="">
+                                        <img alt="" src="images/portfolio/modals/m-uploadfotos.png">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                <h5>Upload Fotos Firebase</h5>
+                                                <p>Angular / Firebase</p>
+                                            </div>
+                                        </div>
+                                        <div class="link-icon"><i class="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div> <!-- item end -->
+
+                            <div class="columns portfolio-item">
+                                <div class="item-wrap">
                                     <a href="#modal-07" title="">
                                         <img alt="" src="images/portfolio/modals/m-calculadora.jpg">
                                         <div class="overlay">
@@ -821,9 +840,23 @@
                                         </div>
                                         <div class="link-icon"><i class="icon-plus"></i></div>
                                     </a>
-
                                 </div>
                             </div> <!-- item end -->
+
+                            <div class="columns portfolio-item">
+                                <div class="item-wrap">
+                                    <a href="#modal-10" title="">
+                                        <img alt="" src="images/portfolio/modals/m-maschefacts.jpg">
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta">
+                                                <h5>Los Mejores Maschefacts</h5>
+                                                <p>Web Development</p>
+                                            </div>
+                                        </div>
+                                        <div class="link-icon"><i class="icon-plus"></i></div>
+                                    </a>
+                                </div>
+                            </div>  <!-- item end -->
 
 
                             <div class="columns portfolio-item">
@@ -854,24 +887,6 @@
                                             <div class="portfolio-item-meta">
                                                 <h5>The Vision Test</h5>
                                                 <p>Game - Web Development</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-
-                                </div>
-                            </div> <!-- item end -->
-
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-
-                                    <a href="#modal-12" title="">
-                                        <img alt="" src="images/portfolio/modals/m-hoyjugamos.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>HoyJugamos</h5>
-                                                <p>Laravel</p>
                                             </div>
                                         </div>
                                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -1104,6 +1119,59 @@
                         </div>
 
                     </div><!-- modal-11 End -->
+
+
+                    <div id="modal-13" class="popup-modal mfp-hide">
+                        <img class="scale-with-grid" src="images/portfolio/modals/m-chat-print.png" alt="" />
+                        <div class="description-box">
+                            <h4>Chat Socket</h4>
+                            <p>Chat en Angular y Firebase con login por Google y Twitter (Curso Fernando Herrera Udemy)</p>
+                            <span class="categories"><i class="fa fa-tag"></i>Angular, Firebase, Web Development</span>
+                        </div>
+                        <div class="link-box">
+                            <a href="https://www.leandroarturi.com/demo/firechat/" target="_blank">Ir al Sitio</a>
+                            <a class="popup-modal-dismiss">Cerrar</a>
+                        </div>
+                    </div><!-- modal-13 End -->
+
+                    <div id="modal-14" class="popup-modal mfp-hide">
+                        <img class="scale-with-grid" src="images/portfolio/modals/m-goty-print.png" alt="" />
+                        <div class="description-box">
+                            <h4>Juego del Año</h4>
+                            <p>Permite hacer la votación y muestra en tiempo real la gráfica de resultados (Curso Fernando Herrera Udemy)</p>
+                            <span class="categories"><i class="fa fa-tag"></i>Angular, Firebase, Node, Web Development</span>
+                        </div>
+                        <div class="link-box">
+                            <a href="https://www.leandroarturi.com/demo/goty/#/inicio" target="_blank">Ir al Sitio</a>
+                            <a class="popup-modal-dismiss">Cerrar</a>
+                        </div>
+                    </div><!-- modal-14 End -->
+
+                    <div id="modal-15" class="popup-modal mfp-hide">
+                        <img class="scale-with-grid" src="images/portfolio/modals/m-spoty-print.png" alt="" />
+                        <div class="description-box">
+                            <h4>SpotyApp</h4>
+                            <p>App que se conecta a la api de Spotify y muestra algunas listas del momento. También tiene un buscardor de artistas que lista las canciones mas populares (Curso Fernando Herrera Udemy)</p>
+                            <span class="categories"><i class="fa fa-tag"></i>Angular, Spotify Api, Web Development</span>
+                        </div>
+                        <div class="link-box">
+                            <a href="https://www.leandroarturi.com/demo/spotiapp/#/home" target="_blank">Ir al Sitio</a>
+                            <a class="popup-modal-dismiss">Cerrar</a>
+                        </div>
+                    </div><!-- modal-15 End -->
+
+                    <div id="modal-16" class="popup-modal mfp-hide">
+                        <img class="scale-with-grid" src="images/portfolio/modals/m-uploadfotos-print.png" alt="" />
+                        <div class="description-box">
+                            <h4>Upload de fotos con Angular y Firebase </h4>
+                            <p>Upload de fotos drag and drop con Angular y Firebase (Curso Fernando Herrera Udemy)</p>
+                            <span class="categories"><i class="fa fa-tag"></i>Angular, Firebase, Node, Web Development</span>
+                        </div>
+                        <div class="link-box">
+                            <a href="https://www.leandroarturi.com/demo/upload-images/#/carga" target="_blank">Ir al Sitio</a>
+                            <a class="popup-modal-dismiss">Cerrar</a>
+                        </div>
+                    </div><!-- modal-16 End -->
                     
 
                 </div> <!-- row End -->
