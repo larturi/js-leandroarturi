@@ -680,566 +680,203 @@
                     </div> <!-- nine columns -->
 
                 </div> <!-- End Skills -->
+
+
+                <!-- Portfolio -->
+
+                <section id="portfolio">
+
+                <div class="row work">
+
+                    <div class="three columns header-col">
+                        <h1><span>Portfolio</span></h1>
+                    </div>
+
+                    <div class="nine columns main-col">
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="http://www.projectsapps.com/sixhattest/el-test-de-los-seis-sombreros.php" target="_blank">El Test de los Seis Sombreros</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Php</em></span><br/> 
+                                Aplicaci&oacute;n Web que permite realizar el Test de los Seis Sombreros de Edward De Bono.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="http://www.famososentwitter.com/" target="_blank">Famosos en Twitter</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Php</em></span><br/> 
+                                P&aacute;gina Web que consume el servicio de Twitter y muestra los tweets mas 
+                                relevantes de las cuentas mas famosas en forma de noticias.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="https://apkpure.com/es/mi-pami/com.mipami.larturi.mipami" target="_blank">Mi Pami</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Mobile | Android SDK</em></span><br/> 
+                                Aplicación para dispositivos Android que muestra las Agencias y Farmacias 
+                                con cobertura PAMI mas cercanas. (No productivo).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="http://projectsapps.com/hoyjugamos/public" target="_blank">HoyJugamos</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Php | Laravel</em></span><br/> 
+                                Web App social que permite organizar partidos de fútbol.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="http://www.diseta.com.ar" target="_blank">Diseta</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Php</em></span><br/>
+                                Sitio oficial de Diseta.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="http://laboratorioequis.com.ar/" target="_blank">Laboratorio Equis</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Php</em></span><br/> 
+                                Sitio oficial de Laboratorio Equis, diagnóstico veterinario.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="http://projectsapps.com/triviaseries/trivia_series.php" target="_blank">Trivia Series</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Php</em></span><br/>
+                                Trivia para poner a prueba tus conocimientos de Series de TV.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="http://programmerday.projectsapps.com/" target="_blank">Programmer Day</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Php</em></span><br/>
+                                Sitio dedicado a los colegas programadores para recordar 
+                                su d&iacute;a cada a&ntilde;o.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="https://www.leandroarturi.com/demo/firechat/" target="_blank">Chat Socket</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Angular | Firebase</em></span><br/>
+                                Chat en Angular y Firebase con login por Google y Twitter
+                                 (Curso Fernando Herrera Udemy).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="https://www.leandroarturi.com/demo/goty/#/inicio" target="_blank">Game of the Year</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Angular | Firebase</em></span><br/>
+                                Permite hacer la votación y muestra en tiempo real la gráfica 
+                                de resultados (Curso Fernando Herrera Udemy).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="https://www.leandroarturi.com/demo/spotiapp/#/home" target="_blank">SpotyApp</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Angular | Spotify Api</em></span><br/>
+                                App que se conecta a la api de Spotify y muestra algunas listas del 
+                                momento. También tiene un buscardor de artistas que lista las 
+                                canciones mas populares (Curso Fernando Herrera Udemy).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="https://www.leandroarturi.com/demo/upload-images/#/carga" target="_blank">Upload de fotos con Angular y Firebase</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Angular | Node | Firebase</em></span><br/>
+                                Upload de fotos drag and drop con Angular y Firebase (Curso Fernando 
+                                Herrera Udemy).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="https://play.google.com/store/apps/details?id=com.larturi.calculadoraviajeroargento" target="_blank">Calculadora del Viajero</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Mobile | Android SDK</em></span><br/> 
+                                Calculadora para dispositivos Android que permite configurar de manera sencilla el tipo de cambio y el porcentaje de percepción de 
+                                impuestos para luego calcular el importe en pesos de una compra (2015).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="http://maschefacts.projectsapps.com/" target="_blank">Los Mejores Maschefacts</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Php</em></span><br/>
+                                Sitio homenaje a Javier Mascherano luego de las conocidas 
+                                repercusiones en las redes sociales tras su destacada 
+                                participaci&oacute;n en la copa del mundo 2014.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="http://chistescodificados.projectsapps.com/" target="_blank">Chistes Codificados</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | Php</em></span><br/> 
+                                Sitio Web de chistes.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h5><a href="http://projectsapps.com/visiontest/" target="_blank">The Vision Test</a></h5>
+                                <p class="detalle-cursos">
+                                <em class="detalle-cursos-em"><span>Web Development | JavaScript</em></span><br/>
+                                Juego desarrollado en Javascript que pone a prueba la rapidez visual del jugador.
+                                </p>
+                            </div>
+                        </div>
+
+                        
+
+                    </div> <!-- nine columns -->
+
+                </div> <!-- End Portfolio -->
+
+             </section> <!-- Portfolio Section End-->
                 
 
             </section> <!-- Resume Section End-->
 
 
-            <!-- Portfolio Section
-            ================================================== -->
-            <section id="portfolio">
-
-                <div class="row">
-
-                    <div class="twelve columns collapsed">
-
-                        <h1 class="h1-portfolio">Portfolio</h1>
-
-                        <!-- portfolio-wrapper -->
-                        <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-
-                        <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-04" title="">
-                                        <img alt="" src="images/portfolio/modals/m-sombreros.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>El Test de los Seis Sombreros</h5>
-                                                <p>Web Development</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div> <!-- item end -->
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-05" title="">
-                                        <img alt="" src="images/portfolio/modals/m-famosos.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Famosos en Twitter</h5>
-                                                <p>Web Development</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div> <!-- item end -->
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-01" title="">
-                                        <img alt="" src="images/portfolio/modals/m-mipami.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Mi PAMI</h5>
-                                                <p>Android App</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div> <!-- item end -->
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-12" title="">
-                                        <img alt="" src="images/portfolio/modals/m-hoyjugamos.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>HoyJugamos</h5>
-                                                <p>Laravel</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div> <!-- item end -->
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-02" title="">
-                                        <img alt="" src="images/portfolio/modals/m-diseta.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Diseta - Ropa de Seda</h5>
-                                                <p>Web Development</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div> <!-- item end -->
-
-                            <div class="columns portfolio-item">
-                                    <div class="item-wrap">
-                                        <a href="#modal-03" title="">
-                                            <img alt="" src="images/portfolio/modals/m-laboratorioequis.jpg">
-                                            <div class="overlay">
-                                                <div class="portfolio-item-meta">
-                                                    <h5>Laboratorio Equis</h5>
-                                                    <p>Web Development</p>
-                                                </div>
-                                            </div>
-                                            <div class="link-icon"><i class="icon-plus"></i></div>
-                                        </a>
-                                    </div>
-                                </div>  <!-- item end -->
-                            
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-06" title="">
-                                        <img alt="" src="images/portfolio/modals/m-series.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Trivia Series de TV</h5>
-                                                <p>Game - Web Development</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div> <!-- item end -->
-                            
-
-                            <div class="columns portfolio-item">
-                                    <div class="item-wrap">
-                                        <a href="#modal-11" title="">
-                                            <img alt="" src="images/portfolio/modals/m-programmerday.jpg">
-                                            <div class="overlay">
-                                                <div class="portfolio-item-meta">
-                                                    <h5>Programmer Day</h5>
-                                                    <p>Web Development</p>
-                                                </div>
-                                            </div>
-                                            <div class="link-icon"><i class="icon-plus"></i></div>
-                                        </a>
-                                    </div>
-                                </div>  <!-- item end -->
-                                
-
-
-                            <!-- OCULTOS --> 
-
-
-
-                        <div class="mas-proyectos">
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-13" title="">
-                                        <img alt="" src="images/portfolio/modals/m-chat.png">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Chat Socket Angular</h5>
-                                                <p>Angular / Firebase</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div> <!-- item end -->
-
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-14" title="">
-                                        <img alt="" src="images/portfolio/modals/m-goty.png">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Juego del Año</h5>
-                                                <p>Angular / Firebase / Node</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div> <!-- item end -->
-
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-15" title="">
-                                        <img alt="" src="images/portfolio/modals/m-spoty.png">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>SpotyApp</h5>
-                                                <p>Angular / Spotify Api</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div> <!-- item end -->
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-16" title="">
-                                        <img alt="" src="images/portfolio/modals/m-uploadfotos.png">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Upload Fotos Firebase</h5>
-                                                <p>Angular / Firebase</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div> <!-- item end -->
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-07" title="">
-                                        <img alt="" src="images/portfolio/modals/m-calculadora.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Calculadora del Viajero</h5>
-                                                <p>Android App</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div> <!-- item end -->
-
-                            <div class="columns portfolio-item">
-                                <div class="item-wrap">
-                                    <a href="#modal-10" title="">
-                                        <img alt="" src="images/portfolio/modals/m-maschefacts.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Los Mejores Maschefacts</h5>
-                                                <p>Web Development</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-                                </div>
-                            </div>  <!-- item end -->
-
-
-                            <div class="columns portfolio-item">
-
-                                <div class="item-wrap">
-
-                                    <a href="#modal-09" title="">
-                                        <img alt="" src="images/portfolio/modals/m-chistes.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>Chistes Codificados</h5>
-                                                <p>Web Development</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-
-                                </div>
-                            </div> <!-- item end -->
-
-                            <div class="columns portfolio-item">
-
-                                <div class="item-wrap">
-
-                                    <a href="#modal-08" title="">
-                                        <img alt="" src="images/portfolio/modals/m-visiontest.jpg">
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta">
-                                                <h5>The Vision Test</h5>
-                                                <p>Game - Web Development</p>
-                                            </div>
-                                        </div>
-                                        <div class="link-icon"><i class="icon-plus"></i></div>
-                                    </a>
-
-                                </div>
-                            </div> <!-- item end -->
-
-
-                            </div>
-
-
-
-                        </div> <!-- portfolio-wrapper end -->
-
-                        <div class="section-mas-proyectos" id="section-mas-proyectos">
-                            <button id="buton-mas-proyectos" class="submit">Mas Proyectos</button>
-                        </div>
-
-
-                    </div> <!-- twelve columns end -->
-
-
-                    <!-- Modal Popup -->
-
-                    <div id="modal-01" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-mipami-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>Mi PAMI</h4>
-                            <p>Aplicaci&oacute;n para dispositivos Android que muestra las Agencias y Farmacias con cobertura PAMI mas cercanas.</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Android</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://play.google.com/store/apps/details?id=com.mipami.larturi.mipami&hl=es_419" target="_blank">Descargar App</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-01 End -->
-
-                    <div id="modal-12" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-hoyjugamos-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>HoyJugamos</h4>
-                            <p>Web App social que permite organizar partidos de fútbol.</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Laravel</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://projectsapps.com/hoyjugamos/public" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-12 End -->
-
-                    <div id="modal-02" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-diseta-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>Diseta</h4>
-                            <p>Sitio oficial de Diseta</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Web Development</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://www.diseta.com.ar" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-02 End -->
-
-                    <div id="modal-03" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-laboratorioequis-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>Laboratorio Equis</h4>
-                            <p>Laboratorio Equis es un laboratorio de diagnóstico veterinario especializado en las enfermedades reproductivas.</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Php, Web Development</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://laboratorioequis.com.ar/" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-03 End -->
-
-
-                    <div id="modal-04" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-sombreros-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>El Test de los Seis Sombreros</h4>
-                            <p>Aplicaci&oacute;n Web que permite realizar el Test de los Seis Sombreros de Edward De Bono. Muy interesante para conocer perfiles r&aacute;pidamente y armar equipos sinergicos. 
-                                Es util adem&aacute;s para saber que tendencia tiene uno mismo y tenerlo presente a la hora de tomar decisiones.</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Php, Web Development</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://www.projectsapps.com/sixhattest/el-test-de-los-seis-sombreros.php" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-04 End -->
-
-                    <div id="modal-05" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-famosos-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>Famosos en Twitter</h4>
-                            <p>P&aacute;gina Web que consume el servicio de Twitter y muestra los tweets mas relevantes de las cuentas mas famosas en forma de noticias.</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Php, Web Development</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://www.famososentwitter.com/" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-05 End -->
-
-                    <div id="modal-06" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-series-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>Trivia Series de TV</h4>
-                            <p>Trivia para poner a prueba tus conocimientos de Series Televisivas.</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Javascript, Web Development</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://projectsapps.com/triviaseries/trivia_series.php" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-06 End -->
-
-
-                    <div id="modal-07" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-calculadora-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>Calculadora del Viajero</h4>
-                            <p>Calculadora para dispositivos Android que permite configurar de manera sencilla el tipo de cambio y el porcentaje de percepción de 
-                                impuestos para luego calcular el importe en pesos de una compra.</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Android</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://play.google.com/store/apps/details?id=com.larturi.calculadoraviajeroargento" target="_blank">Descargar App</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-07 End -->
-
-                    <div id="modal-08" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-visiontest-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>The Vision Test</h4>
-                            <p>Juego desarrollado en Javascript que pone a prueba la rapidez visual del jugador.</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Javascript, Web Development</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://projectsapps.com/visiontest/" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-08 End -->
-
-                    <div id="modal-09" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-chistes-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>Chistes Codificados</h4>
-                            <p>Sitio Web de chistes.</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Php, Web Development</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://chistescodificados.projectsapps.com/" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-09 End -->
-
-                    <div id="modal-10" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-maschefacts-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>Los Mejores Maschefacts</h4>
-                            <p>Sitio homenaje a Javier Mascherano luego de las conocidas repercusiones en las redes sociales tras su destacada participaci&oacute;n en la copa del mundo 2014.</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Php, Web Development</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://maschefacts.projectsapps.com/" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-10 End -->
-
-                    <div id="modal-11" class="popup-modal mfp-hide">
-
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-programmerday-print.jpg" alt="" />
-
-                        <div class="description-box">
-                            <h4>Programmer Day</h4>
-                            <p>Sitio dedicado a los colegas programadores para recordar su d&iacute;a cada a&ntilde;o.</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Php, Web Development</span>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="http://programmerday.projectsapps.com/" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-
-                    </div><!-- modal-11 End -->
-
-
-                    <div id="modal-13" class="popup-modal mfp-hide">
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-chat-print.png" alt="" />
-                        <div class="description-box">
-                            <h4>Chat Socket</h4>
-                            <p>Chat en Angular y Firebase con login por Google y Twitter (Curso Fernando Herrera Udemy)</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Angular, Firebase, Web Development</span>
-                        </div>
-                        <div class="link-box">
-                            <a href="https://www.leandroarturi.com/demo/firechat/" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-                    </div><!-- modal-13 End -->
-
-                    <div id="modal-14" class="popup-modal mfp-hide">
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-goty-print.png" alt="" />
-                        <div class="description-box">
-                            <h4>Juego del Año</h4>
-                            <p>Permite hacer la votación y muestra en tiempo real la gráfica de resultados (Curso Fernando Herrera Udemy)</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Angular, Firebase, Node, Web Development</span>
-                        </div>
-                        <div class="link-box">
-                            <a href="https://www.leandroarturi.com/demo/goty/#/inicio" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-                    </div><!-- modal-14 End -->
-
-                    <div id="modal-15" class="popup-modal mfp-hide">
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-spoty-print.png" alt="" />
-                        <div class="description-box">
-                            <h4>SpotyApp</h4>
-                            <p>App que se conecta a la api de Spotify y muestra algunas listas del momento. También tiene un buscardor de artistas que lista las canciones mas populares (Curso Fernando Herrera Udemy)</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Angular, Spotify Api, Web Development</span>
-                        </div>
-                        <div class="link-box">
-                            <a href="https://www.leandroarturi.com/demo/spotiapp/#/home" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-                    </div><!-- modal-15 End -->
-
-                    <div id="modal-16" class="popup-modal mfp-hide">
-                        <img class="scale-with-grid" src="images/portfolio/modals/m-uploadfotos-print.png" alt="" />
-                        <div class="description-box">
-                            <h4>Upload de fotos con Angular y Firebase </h4>
-                            <p>Upload de fotos drag and drop con Angular y Firebase (Curso Fernando Herrera Udemy)</p>
-                            <span class="categories"><i class="fa fa-tag"></i>Angular, Firebase, Node, Web Development</span>
-                        </div>
-                        <div class="link-box">
-                            <a href="https://www.leandroarturi.com/demo/upload-images/#/carga" target="_blank">Ir al Sitio</a>
-                            <a class="popup-modal-dismiss">Cerrar</a>
-                        </div>
-                    </div><!-- modal-16 End -->
-                    
-
-                </div> <!-- row End -->
-
-            </section> <!-- Portfolio Section End-->
 
             <!-- Contact Section
             ================================================== -->
@@ -1370,7 +1007,6 @@
             <script src="js/jquery.flexslider.js"></script>
             <script src="js/waypoints.js"></script>
             <script src="js/jquery.fittext.js"></script>
-            <script src="js/magnific-popup.js"></script>
             <script src="js/init.js?<?php echo APPVERSION ?>"></script>
 
         </div> <!-- Contenido -->
