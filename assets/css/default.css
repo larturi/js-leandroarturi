@@ -1,42 +1,3 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Default Stylesheet
-*   url: styleshout.com
-*   03-17-2014
-=====================================================================
-
-TOC:
-a. Webfonts and Icon fonts
-b. Reset
-c. Default Styles
-   1. Basic
-   2. Typography
-   3. Links
-   4. Images
-   5. Buttons
-   6. Forms
-d. Grid
-e. Others
-   1. Clearing
-   2. Misc
-
-=====================================================================  */
-
-/* ------------------------------------------------------------------ */
-/* a. Webfonts and Icon fonts
- ------------------------------------------------------------------ */
-
-@import url("fonts.css");
-@import url("fontello/css/fontello.css");
-@import url("font-awesome/css/font-awesome.min.css");
-
-/* ------------------------------------------------------------------
-/* b. Reset
-      Adapted from:
-      Normalize.css - https://github.com/necolas/normalize.css/
-      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
-/* ------------------------------------------------------------------ */
-
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -143,7 +104,7 @@ html {
 
 body {
     background: #fff;
-    font-family: 'opensans-regular', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 15px;
     line-height: 30px;
@@ -159,15 +120,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: #313131;
-    font-family: 'opensans-bold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
-h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
-h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
+h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; font-weight: 800!important;}
+h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; font-weight: 800!important;}
+h3 { font-size: 19px; line-height: 30px; margin-bottom: 12px; font-weight: 800;}
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
-h5 { font-size: 18px; line-height: 30px; }
+h5 { font-size: 18px; line-height: 30px; font-weight: 800!important;}
 h6 { font-size: 14px; line-height: 30px; }
 
 p { margin: 0 0 35px 0; }
@@ -354,7 +315,7 @@ li p { }
     display: block;
     margin: 6px 0 0 0;
     font-size: 13px;
-    font-family: 'opensans-regular', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #8B9798;
 }
 
@@ -572,7 +533,7 @@ legend {
 label span,
 legend span {
     color: #8B9798;
-    font: 14px/24px 'opensans-regular', sans-serif;
+    font: 14px/24px 'Open Sans', sans-serif;
 }
 
 input[type="checkbox"],
@@ -872,13 +833,12 @@ properly.
 }
 
 .detalle-cursos {
-   margin: 1px 0 20px 0;
+    margin: -10px 0 16px 0;
 }
 
 .detalle-cursos-em  {
   margin-left: 0px !important;
-  font: 13px/20px 'opensans-regular', sans-serif;
-  color: #BEBEBE;
+  font: 13px/20px 'Open Sans', sans-serif;
 }
 
 .mb-5 {

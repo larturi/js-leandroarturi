@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!-->
-<html class="no-js" lang="es"> <!--<![endif]-->
+<html class="no-js" lang="es"> 
 <!--2020-->
     <head>
 
-        <?php define("APPVERSION", "v1.2.0"); ?>
+        <?php define("APPVERSION", "v1.3.1"); ?>
 
         <?php define("HOMEBACKGROUND", rand(1, 1)); ?>
 
@@ -36,9 +33,7 @@
 
         </script>
 
-        <?php
-        include_once('helper.php');
-        ?>
+        <?php include_once('helper.php'); ?>
 
         <!--- Basic Page Needs
         ================================================== -->
@@ -85,14 +80,13 @@
         <link rel="stylesheet" href="assets/css/default.css?<?php echo APPVERSION ?>">
         <link rel="stylesheet" href="assets/css/layout.css?<?php echo APPVERSION ?>">
         <link rel="stylesheet" href="assets/css/media-queries.css?<?php echo APPVERSION ?>">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-        <!-- Script
-        ================================================== -->
-        <!-- <script src="assets/js/modernizr.js"></script> -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <!-- Favicon ==================================== -->
-        <link rel="shortcut icon" href="assets/favicon.ico" >
+        <link rel="shortcut icon" href="assets/images/favicon.ico" >
 
     </head>
 
@@ -123,9 +117,10 @@
                 <div class="row banner">
                     <div class="banner-text">
                         <h1 class="responsive-headline">Leandro Arturi</h1>
-                        <h3>Soy profesional IT, Licenciado en Sistemas de Informaci&oacute;n con <?php echo getExperiencia(); ?> a&ntilde;os de experiencia en gesti&oacute;n y desarrollo de proyectos de software.
+                        <h3>Soy profesional IT, Licenciado en Sistemas de Información con <?php echo getExperiencia(); ?> años de experiencia
+                            en gestión y desarrollo de proyectos de software.
                             He trabajado en desarrollo de aplicaciones web, de escritorio y mobile.
-                            Conoc&eacute; mas <a class="smoothscroll" href="#about">acerca de mi</a>.</h3>
+                            Conocé mas <a class="smoothscroll" href="#about">acerca de mi</a>.</h3>
                         <hr />
                         <ul class="social">
                             <li><a href="https://ar.linkedin.com/in/leandroarturi" target="_blank"><i class="fa fa-linkedin"></i></a></li>
@@ -135,12 +130,10 @@
                 </div>
 
                 <p class="scrolldown">
-                    <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+                    <a class="smoothscroll" href="#about"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
                 </p>
 
-
             </header> <!-- Header End -->
-
 
             <!-- Sections
             ================================================== -->
@@ -156,38 +149,14 @@
             <?php include_once('sections/skills.html'); ?>
 
             <?php include_once('sections/portfolio.html'); ?>
+            
+            <?php include_once('sections/footer.php'); ?>
 
-            <!-- footer
-            ================================================== -->
-            <footer>
-
-                <div class="row">
-
-                    <div class="twelve columns">
-
-                        <ul class="social-links">
-                            <li><a href="https://ar.linkedin.com/in/leandroarturi" target="_blank"><i class="fa fa-linkedin"></i></a></li> 
-                            <li><a href="https://twitter.com/leandroarturi" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        </ul>
-
-                        <ul class="copyright" style="color:#8C8C8C;">
-                            <li>&copy; Copyright <?php echo date('Y') ?> | Leandro Arturi</li> 
-                        </ul>
-
-                    </div>
-
-                    <div id="go-top"><a class="smoothscroll" title="Volver al Inicio" href="#home"><i class="icon-up-open"></i></a></div>
-
-                </div>
-
-            </footer> <!-- Footer End-->
+           
 
             <!-- Java Script
             ================================================== -->
             <script src="assets/js/jquery.min.js"></script>
-            <script>window.jQuery || document.write('<script src="assets/js/jquery-1.10.2.min.js"><\/script>')</script>
-            <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-
             <script src="assets/js/jquery.flexslider.js"></script>
             <script src="assets/js/waypoints.js"></script>
             <script src="assets/js/jquery.fittext.js"></script>

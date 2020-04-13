@@ -3,7 +3,10 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { 
+    background: #0f0f0f; 
+    /* font-family: 'Open Sans', sans-serif; */
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -66,7 +69,8 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-    font: 75px/1.1em 'opensans-bold', sans-serif;
+    font: 75px/1.1em 'Open Sans', sans-serif;
+    font-weight: 800;
     color: #fff;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
@@ -110,12 +114,12 @@ header .scrolldown a {
     position: absolute;
     bottom: 30px;
     left: 50%;
-    margin-left: -29px;
+    margin-left: -19px;
     color: #fff;
     display: block;
     height: 42px;
     width: 42px;
-    font-size: 42px;
+    font-size: 45px;
     line-height: 42px;
     color: #fff;
     border-radius: 100%;
@@ -138,7 +142,8 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-    font: 12px 'opensans-bold', sans-serif;
+    font: 12px 'Open Sans', sans-serif;
+    font-weight: 800;
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -205,7 +210,7 @@ ul#nav li.current a { color: #F06000; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-    font: 22px/30px 'opensans-bold', sans-serif;
+    font: 22px/30px 'Open Sans', sans-serif;
     color: #fff;
     margin-bottom: 12px;
 }
@@ -254,7 +259,8 @@ ul#nav li.current a { color: #F06000; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
+    font: 18px/24px 'Open Sans', sans-serif;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -263,7 +269,7 @@ ul#nav li.current a { color: #F06000; }
     padding-bottom: 6px;
 }
 #resume h3 {
-    font: 19px/24px 'opensans-bold', sans-serif;
+    font: 19px/24px 'Open Sans', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -311,19 +317,17 @@ seccion-profile  a, seccion-profile a:visited  { color: #313131; }
 .seccion-profile a:hover, .seccion-profile a:focus { color: #313131; }
 
 .seccion-profile h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
+    font: 18px/24px 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-weight: 800;
 }
 .seccion-profile h1 span {
     border-bottom: 3px solid #640C98;
     padding-bottom: 6px;
 }
-.seccion-profile h3 {
-    font: 19px/24px 'opensans-bold', sans-serif;
-}
 
-.seccion-profile .header-col { padding-top: 9px; }
+.seccion-profile .header-col { padding-top: 5px; }
 .seccion-profile .main-col { padding-right: 10%; }
 
 .seccion-profile .info {
@@ -365,7 +369,7 @@ seccion-profile  a, seccion-profile a:visited  { color: #313131; }
 }
 
 #portfolio h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
+    font: 18px/24px 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
@@ -395,11 +399,11 @@ seccion-profile  a, seccion-profile a:visited  { color: #313131; }
     border-radius: 3px;
 }
 .bars li em {
-    font: 15px 'opensans-bold', sans-serif;
+    font: 15px 'Open Sans', sans-serif;
     color: #313131;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: normal;
+    font-weight: 800;    
     position: relative;
     top: -28px;
 }
@@ -543,7 +547,7 @@ footer .social-links li:first-child { margin-left: 0; }
     transition: all 0.2s ease-in-out;
 
     color: #fff;
-    font-size: 21px;
+    font-size: 35px;
     line-height: 60px;
     border-radius: 100%;
 }
