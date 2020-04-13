@@ -6,6 +6,8 @@
 <!--2020-->
     <head>
 
+        <?php define("APPVERSION", "v1.1.1"); ?>
+
         <?php define("HOMEBACKGROUND", rand(1, 1)); ?>
 
         <script type="application/ld+json">
@@ -49,7 +51,6 @@
         ================================================== -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-
         <?php
 
         switch (HOMEBACKGROUND) {
@@ -81,20 +82,11 @@
 
         <!-- CSS
     ================================================== -->
-        <link rel="stylesheet" href="css/default.css?v1.5">
-        <link rel="stylesheet" href="css/layout.css?v1.1">
-        <link rel="stylesheet" href="css/media-queries.css?v1.5">
-        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/default.css?<?php echo APPVERSION ?>">
+        <link rel="stylesheet" href="css/layout.css?<?php echo APPVERSION ?>">
+        <link rel="stylesheet" href="css/media-queries.css?<?php echo APPVERSION ?>">
+        <link rel="stylesheet" href="css/magnific-popup.css?">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-
-        <!-- Owl Carousel Assets -->
-        <link href="lib/owl-carousel/assets/css/custom.css?v1.1" rel="stylesheet">
-        <link href="lib/owl-carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
-        <link href="lib/owl-carousel/owl-carousel/owl.theme.css" rel="stylesheet">
-
-        <!-- Prettify -->
-        <link href="lib/owl-carousel/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-
 
         <!-- Script
         ================================================== -->
@@ -103,7 +95,6 @@
         <!-- Favicons
              ================================================== -->
         <link rel="shortcut icon" href="favicon.ico" >
-
 
         <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
@@ -141,7 +132,7 @@
                     <div class="banner-text">
                         <h1 class="responsive-headline">Leandro Arturi</h1>
                         <h3>Soy profesional IT, Licenciado en Sistemas de Informaci&oacute;n con <?php echo getExperiencia(); ?> a&ntilde;os de experiencia en gesti&oacute;n y desarrollo de proyectos de software.
-                            He trabajado en el desarrollo de aplicaciones web, de escritorio y mobile.
+                            He trabajado en desarrollo de aplicaciones web, de escritorio y mobile.
                             Conoc&eacute; mas <a class="smoothscroll" href="#about">acerca de mi</a>.</h3>
                         <hr />
                         <ul class="social">
@@ -177,7 +168,7 @@
 
                         <p>Licenciado en Sistemas con experiencia en gesti&oacute;n y desarrollo de proyectos de software en diferentes tecnolog&iacute;as. 
                             A lo largo de mi carrera he cumplido diferentes roles, habiendo trabajado como desarrollador, 
-                            analista programador, analista t&eacute;cnico funcional y l&iacute;der de proyectos en el desarrollo de aplicaciones web, de escritorio y mobile. 
+                            analista programador, analista t&eacute;cnico funcional y l&iacute;der de proyectos en desarrollo de aplicaciones web, de escritorio y mobile. 
                         </p>
 
                         <div class="row">
@@ -273,9 +264,12 @@
 
                         <div class="row item">
                             <div class="twelve columns">
-                                <h5>Angular: De cero a experto creando aplicaciones</h5>
+                                <a href="https://www.udemy.com/certificate/UC-7dd74f29-2397-4f0f-843a-70679b07d8e4/" target="_blank">
+                                    <h5>Angular: De cero a experto creando aplicaciones</h5>
+                                </a>
                                 <p class="detalle-cursos">
-                                  <em class="detalle-cursos-em">2020 | 34h | Udemy</em><br/> 
+                                  <em class="detalle-cursos-em">2020 | 33.5h | Udemy</em>
+                                  <br/> 
                                 </p>
                             </div>
                         </div> <!-- item end -->
@@ -283,7 +277,9 @@
 
                         <div class="row item">
                             <div class="twelve columns">
-                                <h5>Node.js de cero a experto</h5>
+                                <a href="https://www.udemy.com/certificate/UC-36f27f2c-aea9-42a2-bebd-4c1a156b7444/" target="_blank">
+                                   <h5>Node.js de cero a experto</h5>
+                                </a>
                                 <p class="detalle-cursos">
                                   <em class="detalle-cursos-em">2020 | 20h | Udemy</em><br/> 
                                 </p>
@@ -292,9 +288,34 @@
 
                         <div class="row item">
                             <div class="twelve columns">
-                                <h5>GIT+GitHub: Todo un sistema de control de versiones de cero</h5>
+                                <a href="https://www.udemy.com/certificate/UC-d95b9bbc-a8cc-4f59-8bcd-921cfbef140d/" target="_blank">
+                                   <h5>GIT+GitHub: Todo un sistema de control de versiones de cero</h5>
+                                </a>
                                 <p class="detalle-cursos">
                                   <em class="detalle-cursos-em">2020 | 7h | Udemy</em><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <a href="https://www.udemy.com/certificate/UC-08edb55a-cd92-4a36-80a5-f3bb6384d7ac/" target="_blank">
+                                   <h5>Scrum Práctico en Proyectos de Software</h5>
+                                </a>
+                                <p class="detalle-cursos">
+                                  <em class="detalle-cursos-em">2020 | 4.5h | Udemy</em><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <a href="https://www.udemy.com/certificate/UC-307cfd40-8e9c-4914-b6b3-9f9c611b4410/" target="_blank">
+                                   <h5>Visual Studio Code: Mejora tu velocidad para programar</h5>
+                                </a>
+                                <p class="detalle-cursos">
+                                  <em class="detalle-cursos-em">2020 | 1.5h | Udemy</em><br/> 
                                 </p>
                             </div>
                         </div> <!-- item end -->
@@ -302,19 +323,44 @@
 
                         <div class="row item">
                             <div class="twelve columns">
-                                <h5>Scrum Master + La Revolución Ágil + Liderar Equipos Scrum</h5>
+                                <a href="https://www.udemy.com/certificate/UC-1O1ERB81/" target="_blank">
+                                   <h5>Scrum Master + La Revolución Ágil</h5>
+                                </a>
                                 <p class="detalle-cursos">
-                                    <em class="detalle-cursos-em">2020 | 3h | Udemy</em><br/> 
+                                  <em class="detalle-cursos-em">2020 | 3h | Udemy</em><br/> 
                                 </p>
                             </div>
                         </div> <!-- item end -->
 
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <a href="https://www.udemy.com/certificate/UC-d0b356ad-73e3-4ad6-91bc-c0ce5b7d2dca/" target="_blank">
+                                   <h5>Aprende Docker desde Cero a Swarm y Kubernetes</h5>
+                                </a>
+                                <p class="detalle-cursos">
+                                  <em class="detalle-cursos-em">2020 | 11h | Udemy</em><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
 
                         <div class="row item">
                             <div class="twelve columns">
-                                <h5>Aprende Docker desde Cero a Swarm y Kubernetes</h5>
+                                <a href="https://www.udemy.com/certificate/UC-6b320205-bb1c-46dc-8be4-3353236cccec/" target="_blank">
+                                   <h5>Aprende a dominar GIT de cero a experto</h5>
+                                </a>
                                 <p class="detalle-cursos">
-                                    <em class="detalle-cursos-em">2020 | 11h | Udemy</em><br/> 
+                                  <em class="detalle-cursos-em">2020 | 3h | Udemy</em><br/> 
+                                </p>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="row item">
+                            <div class="twelve columns">
+                                <a href="https://www.udemy.com/certificate/UC-2e0fcccc-6c1a-426d-a6fc-79abda193a3e/" target="_blank">
+                                   <h5>UX Design - Conceptos Básicos para principiantes</h5>
+                                </a>
+                                <p class="detalle-cursos">
+                                  <em class="detalle-cursos-em">2020 | 1h | Udemy</em><br/> 
                                 </p>
                             </div>
                         </div> <!-- item end -->
@@ -537,8 +583,6 @@
                                     He trabajado en diversos desarrollos independientes y para terceros en las tecnolog&iacute;as mencionadas.
                                 </p>
 
-                                <br/> <br/>
-
                             </div>
 
                         </div> <!-- item end -->
@@ -586,31 +630,50 @@
 
                     <div class="nine columns main-col">
 
-                        <p>A lo largo de mi carrera profesional he cumplido diferentes roles, habiendo trabajado como Desarrollador, 
-                            Analista Programador, Analista T&eacute;cnico Funcional, L&iacute;der de Proyectos y Project Manager. En todos estos a&ntilde;os
-                            me he especializado en multiples tecnolog&iacute;as, lenguajes de programaci&oacute;n y herramientas de 
-                            dise&ntilde;o y de gesti&oacute;n de proyectos.
-                        </p>
-
                         <div class="bars">
 
+                        <h5 class="mb-5 color-dark">DESARROLLO WEB</h5>
                             <ul class="skills">
                                 <li><span class="bar-expand noventa"></span><em>Php</em></li>
                                 <li><span class="bar-expand setentaycinco"></span><em>Laravel</em></li>
-                                <li><span class="bar-expand ochenta"></span><em>Html / Css</em></li>
+                                <li><span class="bar-expand ochenta"></span><em>Html</em></li>
+                                <li><span class="bar-expand setentaycinco"></span><em>Css</em></li>
                                 <li><span class="bar-expand ochenta"></span><em>JavaScript</em></li>
                                 <li><span class="bar-expand setenta"></span><em>jQuery</em></li>
-                                <li><span class="bar-expand setenta"></span><em>Angular</em></li>
+                                <li><span class="bar-expand setentaycinco"></span><em>Angular</em></li>
                                 <li><span class="bar-expand setenta"></span><em>Node</em></li>
-                                <li><span class="bar-expand setenta"></span><em>Git</em></li>
-                                <li><span class="bar-expand noventa"></span><em>Visual Basic / .Net / C#</em></li>
-                                <li><span class="bar-expand noventa"></span><em>Oracle / Sql Server / MySql</em></li>
+                            </ul>
+
+                        <h5 class="mb-5 color-dark">DESARROLLO DESKTOP</h5>
+                            <ul class="skills">
+                                <li><span class="bar-expand noventa"></span><em>Visual Basic</em></li>
+                                <li><span class="bar-expand ochenta"></span><em>Visual Basic .Net </em></li>
+                                <li><span class="bar-expand setentaycinco"></span><em>C#</em></li>
+                                <li><span class="bar-expand setenta"></span><em>C</em></li>
+                                <li><span class="bar-expand setenta"></span><em>C++</em></li>
+                                <li><span class="bar-expand cincuentaycinco"></span><em>Java</em></li>
+                            </ul>
+
+                        <h5 class="mb-5 color-dark">DESARROLLO MOBILE</h5>
+                            <ul class="skills">
                                 <li><span class="bar-expand sesenta"></span><em>Android Sdk</em></li>
-                                <li><span class="bar-expand cincuentaycinco"></span><em>C / C++ / Java</em></li>
+                                <li><span class="bar-expand cincuentaycinco"></span><em>Ionic</em></li>
+                            </ul>   
+                        
+                        <h5 class="mb-5 color-dark">BASES DE DATOS</h5>
+                            <ul class="skills">
+                                <li><span class="bar-expand noventa"></span><em>Oracle</em></li>
+                                <li><span class="bar-expand ochenta"></span><em>Sql Server</em></li>
+                                <li><span class="bar-expand ochenta"></span><em>MySql</em></li>
+                            </ul>
+
+                        <h5 class="mb-5 color-dark">OTROS SKILLS</h5>
+                            <ul class="skills">
+                                <li><span class="bar-expand setenta"></span><em>Git</em></li>
                                 <li><span class="bar-expand noventa"></span><em>Visio / Office / Project</em></li>
                                 <li><span class="bar-expand noventa"></span><em>Jira / Trello</em></li>
                                 <li><span class="bar-expand cincuentaycinco"></span><em>Docker / Jenkins / Gitlab</em></li>
-                            </ul>
+                            </ul>    
 
                         </div><!-- end skill-bars -->
 
@@ -630,7 +693,7 @@
 
                     <div class="twelve columns collapsed">
 
-                        <h1>Portfolio</h1>
+                        <h1 class="h1-portfolio">Portfolio</h1>
 
                         <!-- portfolio-wrapper -->
                         <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
@@ -1308,34 +1371,7 @@
             <script src="js/waypoints.js"></script>
             <script src="js/jquery.fittext.js"></script>
             <script src="js/magnific-popup.js"></script>
-            <script src="js/init.js?v1.1"></script>
-
-
-
-            <!-- Carrusel -->
-            <script src="lib/owl-carousel/assets/js/jquery-1.9.1.min.js"></script>
-            <script src="lib/owl-carousel/owl-carousel/owl.carousel.min.js"></script>
-
-            <script>
-
-                $(document).ready(function($) {
-                    $("#owl-example").owlCarousel({
-                        // Most important owl features
-                        items: 5,
-                        autoPlay: 2000,
-                        responsive: true
-                    });
-
-                });
-
-
-                $("body").data("page", "frontpage");
-
-            </script>
-            <script src="lib/owl-carousel/assets/js/bootstrap-collapse.js"></script>
-            <script src="lib/owl-carousel/assets/js/bootstrap-transition.js"></script>
-            <script src="lib/owl-carousel/assets/js/google-code-prettify/prettify.js"></script>
-            <script src="lib/owl-carousel/assets/js/application.js"></script>
+            <script src="js/init.js?<?php echo APPVERSION ?>"></script>
 
         </div> <!-- Contenido -->
 

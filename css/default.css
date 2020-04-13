@@ -87,7 +87,7 @@ pre {
     word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: #8220 #8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -169,9 +169,8 @@ h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
 h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
-.subheader { }
 
-p { margin: 0 0 20px 0; }
+p { margin: 0 0 35px 0; }
 p img { margin: 0; }
 p.lead {
     font: 19px/36px 'opensans-light', sans-serif;
@@ -836,13 +835,6 @@ properly.
     font-size: 16px !important;
 }
 
-/* #cargando {
-    position:absolute;
-    width:100%;
-    height:100%;
-	background:#fff url(../images/loading.svg) no-repeat center;
-    /*background:#fff url(../images/loading.gif) no-repeat center;*/
-} */
 
 #contenido {
     display: block;
@@ -880,7 +872,7 @@ properly.
 }
 
 .detalle-cursos {
-  margin-top: 1px;
+   margin: 1px 0 20px 0;
 }
 
 .detalle-cursos-em  {
@@ -888,3 +880,12 @@ properly.
   font: 13px/20px 'opensans-regular', sans-serif;
   color: #BEBEBE;
 }
+
+.mb-5 {
+    padding-bottom: 5px;
+}
+
+.color-dark {
+    color: #838A91;
+}
+
