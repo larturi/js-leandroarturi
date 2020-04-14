@@ -3,9 +3,7 @@
 <!--2020-->
     <head>
 
-        <?php define("APPVERSION", "v1.5.0"); ?>
-
-        <?php define("HOMEBACKGROUND", 1); ?>
+        <?php define("APPVERSION", "v1.5.61"); ?>
 
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
@@ -15,23 +13,6 @@
           "logo": "https://www.leandroarturi.com/images/profilephoto.jpg" }
         </script>
 
-        <script>
-            (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                        m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            ga('create', 'UA-43659401-7', 'auto');
-            ga('send', 'pageview');
-
-        </script>
 
         <?php include_once('helper.php'); ?>
 
@@ -46,18 +27,37 @@
         ================================================== -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
+         <!-- Fonts
+        ================================================== -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <!-- CSS
         ================================================== -->
         <link rel="stylesheet" href="assets/css/default.css?<?php echo APPVERSION ?>">
         <link rel="stylesheet" href="assets/css/layout.css?<?php echo APPVERSION ?>">
         <link rel="stylesheet" href="assets/css/media-queries.css?<?php echo APPVERSION ?>">
 
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
         <!-- Favicon ==================================== -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico" >
+        <!-- <link rel="shortcut icon" href="assets/images/favicon.ico" > -->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
 
     </head>
 
@@ -67,7 +67,7 @@
 
             <!-- Header
             ================================================== -->
-            <header id="home" class="class<?php echo HOMEBACKGROUND; ?>">
+            <header id="home">
 
                 <nav id="nav-wrap">
 
@@ -86,18 +86,21 @@
                 </nav> <!-- end #nav-wrap -->
 
                 <div class="row banner">
+
                     <div class="banner-text">
                         <h1 class="responsive-headline">Leandro Arturi</h1>
                         <h3>Soy profesional IT, Licenciado en Sistemas de Información con <?php echo getExperiencia(); ?> años de experiencia
                             en gestión y desarrollo de proyectos de software.
                             He trabajado en desarrollo de aplicaciones web, de escritorio y mobile.
-                            Conocé mas <a class="smoothscroll" href="#about">acerca de mi</a>.</h3>
+                            Conocé mas <a class="smoothscroll" href="#about">acerca de mi</a>.
+                        </h3>
                         <hr />
                         <ul class="social">
                             <li><a href="https://ar.linkedin.com/in/leandroarturi" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="https://twitter.com/leandroarturi" target="_blank"><i class="fa fa-twitter"></i></a></li>
                         </ul>
                     </div>
+
                 </div>
 
                 <p class="scrolldown">
@@ -125,6 +128,17 @@
             <script src="assets/js/waypoints.js"></script>
             <script src="assets/js/jquery.fittext.js"></script>
             <script src="assets/js/init.js?<?php echo APPVERSION ?>"></script>
+
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43659401-7"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-43659401-7');
+            </script>
 
         </div> <!-- Contenido -->
 
