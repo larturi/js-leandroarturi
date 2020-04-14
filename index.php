@@ -3,9 +3,9 @@
 <!--2020-->
     <head>
 
-        <?php define("APPVERSION", "v1.3.1"); ?>
+        <?php define("APPVERSION", "v1.5.0"); ?>
 
-        <?php define("HOMEBACKGROUND", rand(1, 1)); ?>
+        <?php define("HOMEBACKGROUND", 1); ?>
 
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
@@ -45,35 +45,6 @@
         <!-- Mobile Specific Metas
         ================================================== -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
-        <?php
-
-        switch (HOMEBACKGROUND) {
-            case 1:
-                ?>
-                <meta name="theme-color" content="#24004a" />
-                <?php
-                break;
-
-            case 2:
-                ?>
-                <meta name="theme-color" content="#590d4c" />
-                <?php
-                break;
-
-            case 3:
-                ?>
-                <meta name="theme-color" content="#244c66" />
-                <?php
-                break;
-
-            case 4:
-                ?>
-                <meta name="theme-color" content="#4c4354" />
-                <?php
-                break;
-        }
-        ?>
 
         <!-- CSS
         ================================================== -->
@@ -137,22 +108,15 @@
 
             <!-- Sections
             ================================================== -->
-
-            <?php include_once('sections/about.html'); ?>
-
-            <?php include_once('sections/education.html'); ?>
-
-            <?php include_once('sections/work.html'); ?>
             
-            <?php include_once('sections/docencia.html'); ?>
-
-            <?php include_once('sections/skills.html'); ?>
-
-            <?php include_once('sections/portfolio.html'); ?>
-            
-            <?php include_once('sections/footer.php'); ?>
-
-           
+            <section id="about"></section>
+            <section id="education" class="seccion-profile"></section>
+            <section id="work" class="seccion-profile"></section>
+            <section id="docencia" class="seccion-profile"></section>
+            <section id="skills" class="seccion-profile"></section>
+            <section id="portfolio" class="seccion-profile"></section>
+            <footer id="footer"><?php include_once('sections/footer.php') ?></footer> 
+  
 
             <!-- Java Script
             ================================================== -->

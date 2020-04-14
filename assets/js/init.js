@@ -7,7 +7,7 @@
 jQuery(document).ready(function($) {
     
      /*----------------------------------------------------*/
-    /*	Flexslider
+     /*	Flexslider
      /*----------------------------------------------------*/
     $('.flexslider').flexslider({
         namespace: "flex-",
@@ -20,7 +20,52 @@ jQuery(document).ready(function($) {
         animationSpeed: 400,
         randomize: false,
     });
-    
+
+    /*----------------------------------------------------*/
+    /*	Carga secciones de forma asincrona
+    /*----------------------------------------------------*/
+
+    $.ajax({
+        url: 'sections/about.html',
+        success: function(respuesta) {
+            $('#about').append(respuesta);
+        }
+    });
+
+    $.ajax({
+        url: 'sections/education.html',
+        success: function(respuesta) {
+            $('#education').append(respuesta);
+        }
+    });
+
+    $.ajax({
+        url: 'sections/work.html',
+        success: function(respuesta) {
+            $('#work').append(respuesta);
+        }
+    });
+
+    $.ajax({
+        url: 'sections/docencia.html',
+        success: function(respuesta) {
+            $('#docencia').append(respuesta);
+        }
+    });
+
+    $.ajax({
+        url: 'sections/skills.html',
+        success: function(respuesta) {
+            $('#skills').append(respuesta);
+        }
+    });
+
+    $.ajax({
+        url: 'sections/portfolio.html',
+        success: function(respuesta) {
+            $('#portfolio').append(respuesta);
+        }
+    });
 
     /*----------------------------------------------------*/
     /* Smooth Scrolling
@@ -29,8 +74,9 @@ jQuery(document).ready(function($) {
     $('.smoothscroll').on('click', function(e) {
         e.preventDefault();
 
-        var target = this.hash,
-                $target = $(target);
+        var target = this.hash;
+        
+        $target = $(target);
 
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top

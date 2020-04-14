@@ -1,6 +1,3 @@
-<!-- Inicio End-->
-<footer>
-
 <div class="row">
 
     <div class="twelve columns">
@@ -23,6 +20,3 @@
     </div>
 
 </div>
-
-</footer> 
-<!-- Footer End-->
