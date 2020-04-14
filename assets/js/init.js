@@ -24,6 +24,13 @@ jQuery(document).ready(function($) {
     /*----------------------------------------------------*/
     /*	Carga secciones de forma asincrona
     /*----------------------------------------------------*/
+    
+    $.ajax({
+        url: 'sections/header.php',
+        success: function(respuesta) {
+            $('#content-header').append(respuesta).hide().fadeIn(1500);
+        }
+    });
 
     $.ajax({
         url: 'sections/about.html',
@@ -64,20 +71,16 @@ jQuery(document).ready(function($) {
         url: 'sections/portfolio.html',
         success: function(respuesta) {
             $('#portfolio').append(respuesta);
-            // $("#home").css("background-image:", "url(../images/home-background/home-background-1.jpg) no-repeat top center");
         }
     });
 
     $.ajax({
         url: 'assets/images/home-background/home-background-1.jpg',
         success: function(respuesta) {
-
-            setInterval(function() {
+            setTimeout(function() {
+                $('#home').animate({ opacity: 1 }, { duration: 1500 });
                 $('#home').css({"background": "#240048 url(assets/images/home-background/home-background-1.jpg) no-repeat top center"});
-                $('#home').animate({ opacity: 1 }, { duration: 3000 });
-            }, 400);
-
-
+            }, 1);
         }
     });
 

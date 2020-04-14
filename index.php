@@ -3,7 +3,7 @@
 <!--2020-->
     <head>
 
-        <?php define("APPVERSION", "v1.5.65"); ?>
+        <?php define("APPVERSION", "v1.5.11"); ?>
 
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
@@ -85,23 +85,7 @@
 
                 </nav> <!-- end #nav-wrap -->
 
-                <div class="row banner">
-
-                    <div class="banner-text">
-                        <h1 class="responsive-headline">Leandro Arturi</h1>
-                        <h3>Soy profesional IT, Licenciado en Sistemas de Información con <?php echo getExperiencia(); ?> años de experiencia
-                            en gestión y desarrollo de proyectos de software.
-                            He trabajado en desarrollo de aplicaciones web, de escritorio y mobile.
-                            Conocé mas <a class="smoothscroll" href="#about">acerca de mi</a>.
-                        </h3>
-                        <hr />
-                        <ul class="social">
-                            <li><a href="https://ar.linkedin.com/in/leandroarturi" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="https://twitter.com/leandroarturi" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        </ul>
-                    </div>
-
-                </div>
+                <div id="content-header" class="row banner"></div>
 
                 <p class="scrolldown">
                     <a class="smoothscroll" href="#about"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
