@@ -64,8 +64,24 @@ jQuery(document).ready(function($) {
         url: 'sections/portfolio.html',
         success: function(respuesta) {
             $('#portfolio').append(respuesta);
+            // $("#home").css("background-image:", "url(../images/home-background/home-background-1.jpg) no-repeat top center");
         }
     });
+
+    $.ajax({
+        url: 'assets/images/home-background/home-background-1.jpg',
+        success: function(respuesta) {
+
+            setInterval(function() {
+                $('#home').css({"background": "#240048 url(assets/images/home-background/home-background-1.jpg) no-repeat top center"});
+                $('#home').animate({ opacity: 1 }, { duration: 3000 });
+            }, 400);
+
+
+        }
+    });
+
+
 
     /*----------------------------------------------------*/
     /* Smooth Scrolling

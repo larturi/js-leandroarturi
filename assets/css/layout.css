@@ -21,7 +21,8 @@ header {
     -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;
-    background: #240048 url(../images/home-background/home-background-1.jpg?sds) no-repeat top center ;
+    background: #240048;
+    opacity: 0;
 }
 
 /* vertically center banner section */
