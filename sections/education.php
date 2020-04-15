@@ -10,7 +10,7 @@
 
             <div class="twelve columns">
 
-                <h3>Licenciatura en Sistemas de Información</h3>
+                <h3>Licenciatura en Sistemas de Información de las Organizaciones</h3>
                 <p class="info">
                     <i class="fa iconos-cv fa-suitcase"></i><span>Universidad de Buenos Aires</span><br />
                     <i class="fa iconos-cv fa-calendar"></i><em class="date">2003 - 2009</em>
@@ -77,7 +77,6 @@
                     </div>
                 </div>';
             }
-
         ?>
 
 

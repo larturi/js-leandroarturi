@@ -77,6 +77,10 @@
         padding: 0;
     }
 
+    .education {
+        padding-bottom: 50px;
+    }
+
     .column, .columns {
         width: auto !important;
         float: none;
@@ -99,7 +103,6 @@
         line-height: 30px;
         font-weight: 800!important;
     }
-
 
     .bars li em {
         font: 13.5px 'Open Sans', sans-serif;
@@ -246,8 +249,8 @@
         width: 85%;
     }
     header .banner-text hr {
-        width: 80%;
-        margin: 18px auto;
+        width: 33%;
+        margin: 30px auto;
     }
 
     /* header social links */
@@ -399,8 +402,27 @@
         margin-top: 30px;
     }
 
+    .education {
+        padding-bottom: 50px;
+    }
+
 }
 
+/* Screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+    /* block grids on small screens */
+    .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
+    .s-bgrid-quarters [class*="column"] { width: 25%; }
+    .s-bgrid-thirds [class*="column"]   { width: 33.33333%; }
+    .s-bgrid-halves [class*="column"]   { width: 50%; }
+
+    /* block grids left clearing */
+    .first { clear: none; }
+    .s-first { clear: left; }
+
+}
 
 
 /* Larger Screens > 1200px
@@ -433,13 +455,3 @@
     margin-right: auto !important;
     text-align: center !important;
 }
-
-
-/* mobile narrow
---------------------------------------------------------------- */
-/* @media only screen and (max-width: 460px) {
-    .row { width: auto; }
-} */
-
-/* larger screens
---------------------------------------------------------------- */

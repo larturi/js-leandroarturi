@@ -1,0 +1,107 @@
+[
+    {
+        "nombre": "El Test de los Seis Sombreros",
+        "lenguaje": "#web-development #php",
+        "resumen": "Aplicación Web que permite realizar el Test de los Seis Sombreros de Edward De Bono.",
+        "url": "http://www.projectsapps.com/sixhattest/el-test-de-los-seis-sombreros.#php",
+        "anio": 2014
+    },
+    {
+        "nombre": "Famosos en Twitter",
+        "lenguaje": "#web-development #php",
+        "resumen": "Página Web que consume el servicio de Twitter y muestra los tweets mas relevantes de cuentas famosas en forma de noticias.",
+        "url": "http://www.famososentwitter.com/",
+        "anio": 2013
+    },
+    {
+        "nombre": "Mi Pami",
+        "lenguaje": "#mobile #android-sdk",
+        "resumen": "Aplicación para dispositivos Android que muestra las Agencias y Farmacias con cobertura PAMI mas cercanas. No productivo.",
+        "url": "https://apkpure.com/es/mi-pami/com.mipami.larturi.mipami",
+        "anio": 2015
+    },
+    {
+        "nombre": "Hoy Jugamos",
+        "lenguaje": "#web-development #php #laravel",
+        "resumen": "Web App social que permite organizar partidos de fútbol.",
+        "url": "http://projectsapps.com/hoyjugamos/public",
+        "anio": 2017
+    },
+    {
+        "nombre": "Diseta",
+        "lenguaje": "#web-development #php",
+        "resumen": "Sitio oficial de Diseta.",
+        "url": "http://www.diseta.com.ar",
+        "anio": 2016
+    },
+    {
+        "nombre": "Laboratorio Equis",
+        "lenguaje": "#web-development #php",
+        "resumen": "Sitio oficial de Laboratorio Equis, diagnóstico veterinario.",
+        "url": "http://laboratorioequis.com.ar/",
+        "anio": 2015
+    },
+    {
+        "nombre": "Trivia Series",
+        "lenguaje": "#web-development #php",
+        "resumen": "Trivia para poner a prueba tus conocimientos de Series de TV.",
+        "url": "http://projectsapps.com/triviaseries/trivia_series.#php",
+        "anio": 2014
+    },
+    {
+        "nombre": "Programmer Day",
+        "lenguaje": "#web-development #php",
+        "resumen": "Sitio dedicado a los colegas programadores para recordar su día cada año.",
+        "url": "http://programmerday.projectsapps.com/",
+        "anio": 2014
+    },
+    {
+        "nombre": "Chat Socket",
+        "lenguaje": "#web-development #angular #firebase",
+        "resumen": "Chat en Angular y Firebase con login por Google y Twitter.",
+        "url": "https://www.leandroarturi.com/demo/firechat/",
+        "anio": 2020
+    },
+    {
+        "nombre": "Game of the Year",
+        "lenguaje": "#web-development #angular #firebase",
+        "resumen": "Permite hacer la votación y muestra en tiempo real la gráfica de resultados.",
+        "url": "https://www.leandroarturi.com/demo/goty/#/inicio",
+        "anio": 2020
+    },
+    {
+        "nombre": "SpotyApp",
+        "lenguaje": "#web-development #angular #spotify-api",
+        "resumen": "App que se conecta a la api de Spotify y muestra las listas del momento. Permite buscar artistas y lista las canciones mas populares.",
+        "url": "https://www.leandroarturi.com/demo/spotiapp/#/home",
+        "anio": 2020
+    },
+    {
+        "nombre": "Upload de fotos",
+        "lenguaje": "#web-development #angular #node #firebase",
+        "resumen": "Upload de fotos drag and drop con Angular y Firebase.",
+        "url": "https://www.leandroarturi.com/demo/upload-images/#/carga",
+        "anio": 2020
+    },
+    {
+        "nombre": "Calculadora del Viajero",
+        "lenguaje": "#mobile #android-sdk",
+        "resumen": "Calculadora que permite configurar el tipo de cambio y el porcentaje de percepción de impuestos para luego calcular el importe en pesos de una compra (2015).",
+        "url": "https://play.google.com/store/apps/details?id=com.larturi.calculadoraviajeroargento",
+        "anio": 2015
+    },
+    {
+        "nombre": "Los Mejores Maschefacts",
+        "lenguaje": "#web-development #php",
+        "resumen": "Sitio homenaje a Javier Mascherano luego de las conocidas repercusiones en redes sociales en la copa del mundo 2014.",
+        "url": "http://maschefacts.projectsapps.com/",
+        "anio": 2014
+    },
+    {
+        "nombre": "The Vision Test",
+        "lenguaje": "#web-development #javascript",
+        "resumen": "Juego desarrollado en Javascript que pone a prueba la rapidez visual del jugador.",
+        "url": "http://projectsapps.com/visiontest/",
+        "anio": 2015
+    }
+]

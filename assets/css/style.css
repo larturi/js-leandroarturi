@@ -101,10 +101,11 @@ header .banner-text h3 a {
     color: #fff;
 }
 header .banner-text hr {
-    width: 60%;
-    margin: 18px auto 24px auto;
+    width: 10%;
+    margin: 29px auto 24px auto;
     border-color: #2F2D2E;
-    border-color: rgba(150, 150, 150, .1);
+    border-width: 2px 0 0 !important;
+    border: rgba(150, 150, 150, 0.4) dotted;
 }
 
 header .social {
@@ -119,7 +120,7 @@ header .social li {
     padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #d8d5d1; }
 
 /* Scrolldown Link
 ---------------------------------------------------------- */
@@ -142,7 +143,7 @@ header .scrolldown a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #d8d5d1; }
 
 /* Primary Navigation
 ---------------------------------------------------------- */
@@ -573,6 +574,11 @@ footer .social-links li:first-child { margin-left: 0; }
 
 /* Fixes
 ---------------------------------------------------------- */
+.hash-lenguaje {
+    color: #adacac;
+    font-style: italic!important;
+}
+
 .profile-pic-tw{
     width: 40px;
     border-radius: 100px;
@@ -686,21 +692,4 @@ seccion-profile  a, seccion-profile a:visited  { color: #313131; }
     margin-top: 6px;
     margin-left: 6px;
     color: #BEBEBE;
-}
-
-
-/* Smaller Screens
---------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {
-
-    /* block grids on small screens */
-    .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
-    .s-bgrid-quarters [class*="column"] { width: 25%; }
-    .s-bgrid-thirds [class*="column"]   { width: 33.33333%; }
-    .s-bgrid-halves [class*="column"]   { width: 50%; }
-
-    /* block grids left clearing */
-    .first { clear: none; }
-    .s-first { clear: left; }
-
 }

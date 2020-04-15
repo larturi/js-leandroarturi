@@ -62,7 +62,7 @@ jQuery(document).ready(function($) {
     });
 
     $.ajax({
-        url: 'sections/portfolio.html',
+        url: 'sections/portfolio.php',
         success: function(respuesta) {
             $('#portfolio').append(respuesta);
         }

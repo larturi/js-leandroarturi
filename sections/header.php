@@ -3,10 +3,8 @@
 <div class="banner-text">
   <h1 class="responsive-headline">Leandro Arturi</h1>
   <h3>Licenciado en Sistemas de Información y Desarrollador Web con <?php echo getExperiencia(); ?> años 
-      de experiencia en gestión y desarrollo de aplicaciones.
-      Conocé mas acerca de mi.
+      de experiencia en gestión y desarrollo de aplicaciones. Conocé mas acerca de mi.
   </h3>
-  <hr />
   <ul class="social">
       <li><a href="https://ar.linkedin.com/in/leandroarturi" target="_blank"><i class="fa fa-linkedin"></i></a></li>
       <li><a href="https://twitter.com/leandroarturi" target="_blank"><i class="fa fa-twitter"></i></a></li>
