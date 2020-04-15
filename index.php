@@ -3,7 +3,7 @@
 <!--2020-->
     <head>
 
-        <?php define("APPVERSION", "v1.5.11"); ?>
+        <?php define("APPVERSION", "v1.5.12"); ?>
 
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
