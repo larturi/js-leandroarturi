@@ -3,7 +3,9 @@
 <!--2020-->
     <head>
 
-        <?php define("APPVERSION", "v1.6.1"); ?>
+        <?php 
+            define("APPVERSION", "1.6.3"); 
+        ?>
 
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
@@ -109,7 +111,7 @@
             <script src="assets/js/jquery.flexslider.js"></script>
             <script src="assets/js/waypoints.js"></script>
             <script src="assets/js/jquery.fittext.js"></script>
-            <script src="assets/js/init.js?<?php echo APPVERSION ?>"></script>
+            <script src="assets/js/init.js?v=<?php echo APPVERSION ?>"></script>
 
             <!-- Global site tag (gtag.js) - Google Analytics -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43659401-7"></script>

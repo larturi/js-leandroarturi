@@ -1,4 +1,6 @@
 jQuery(document).ready(function($) {
+
+    var version = '1.6.3';
     
      /*----------------------------------------------------*/
      /*	Flexslider
@@ -20,49 +22,49 @@ jQuery(document).ready(function($) {
     /*----------------------------------------------------*/
     
     $.ajax({
-        url: 'sections/header.php',
+        url: 'sections/header.php?v='+version,
         success: function(respuesta) {
             $('#content-header').append(respuesta).hide().fadeIn(1500);
         }
     });
 
     $.ajax({
-        url: 'sections/about.html',
+        url: 'sections/about.html?v='+version,
         success: function(respuesta) {
             $('#about').append(respuesta);
         }
     });
 
     $.ajax({
-        url: 'sections/education.php',
+        url: 'sections/education.php?v='+version,
         success: function(respuesta) {
             $('#education').append(respuesta);
         }
     });
 
     $.ajax({
-        url: 'sections/work.html',
+        url: 'sections/work.html?v='+version,
         success: function(respuesta) {
             $('#work').append(respuesta);
         }
     });
 
     $.ajax({
-        url: 'sections/docencia.html',
+        url: 'sections/docencia.html?v='+version,
         success: function(respuesta) {
             $('#docencia').append(respuesta);
         }
     });
 
     $.ajax({
-        url: 'sections/skills.html',
+        url: 'sections/skills.html?v='+version,
         success: function(respuesta) {
             $('#skills').append(respuesta);
         }
     });
 
     $.ajax({
-        url: 'sections/portfolio.php',
+        url: 'sections/portfolio.php?v='+version,
         success: function(respuesta) {
             $('#portfolio').append(respuesta);
         }
@@ -175,7 +177,6 @@ jQuery(document).ready(function($) {
 
     $('header').css({'height': $(window).height()});
     $(window).on('resize', function() {
-
         $('header').css({'height': $(window).height()});
         $('body').css({'width': $(window).width()});
     });
@@ -217,3 +218,5 @@ jQuery(document).ready(function($) {
     });
 
 });
+
+
