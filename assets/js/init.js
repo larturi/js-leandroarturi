@@ -158,6 +158,11 @@ jQuery(document).ready(function($) {
                     $('head').append('<meta name="theme-color" content="#292929">');
                 break;
             }
+
+            if(current_section==='skills'){
+                $('.bar-expand').removeClass('progress').addClass('progress');
+            }
+            
         },
         offset: '35%'
 

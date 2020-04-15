@@ -473,7 +473,7 @@ img {
     left: 0;
     top: 0;
     margin: 0;
-    padding-right: 24px;
+    padding-right: 0px;
     background: #313131;
     display: inline-block;
     height: 10px;
@@ -481,14 +481,181 @@ img {
     border-radius: 3px 0 0 3px;
 }
 
-.cincuentaycinco { width: 55%;}
-.sesenta { width: 60%; }
-.sesentaycinco { width: 65%; }
-.setenta { width: 70%; }
-.setentaycinco { width: 75%; }
-.ochenta { width: 80%; }
-.ochentaycinco { width: 85%; }
-.noventa { width: 90%; }
+.meter span {
+    display: block;
+    height: 100%;
+}
+
+/********** Progress Bar Animation 55% **********/
+.progress.cincuentaycinco {
+    background-color: #313131;
+    animation: progressBarCincuentaycinco 3s ease-in-out;
+    animation-fill-mode:both; 
+    -webkit-animation: progressBarCincuentaycinco 3s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBarCincuentaycinco 3s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+@keyframes progressBarCincuentaycinco {
+  0% { width: 0; }
+  100% { width: 55%; }
+}
+@-moz-keyframes progressBarCincuentaycinco {
+  0% { width: 0; }
+  100% { width: 55%; }
+}
+
+/********** Progress Bar Animation 60% **********/
+.progress.sesenta {
+    background-color: #313131;
+    animation: progressBarSesenta 3s ease-in-out;
+    animation-fill-mode:both; 
+    -webkit-animation: progressBarSesenta 3s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBarSesenta 3s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+@keyframes progressBarSesenta {
+  0% { width: 0; }
+  100% { width: 60%; }
+}
+@-moz-keyframes progressBarSesenta {
+  0% { width: 0; }
+  100% { width: 60%; }
+}
+
+/********** Progress Bar Animation 65% **********/
+.progress.sesentaycinco {
+    background-color: #313131;
+    animation: progressBarSesentaCinco 3s ease-in-out;
+    animation-fill-mode:both; 
+    -webkit-animation: progressBarSesentaCinco 3s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBarSesentaCinco 3s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+@keyframes progressBarSesentaCinco {
+  0% { width: 0; }
+  100% { width: 65%; }
+}
+@-moz-keyframes progressBarSesentaCinco {
+  0% { width: 0; }
+  100% { width: 65%; }
+}
+
+/********** Progress Bar Animation 70% **********/
+.progress.setenta {
+    background-color: #313131;
+    animation: progressBarSetenta 3s ease-in-out;
+    animation-fill-mode:both; 
+    -webkit-animation: progressBarSetenta 3s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBarSetenta 3s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+@keyframes progressBarSetenta {
+  0% { width: 0; }
+  100% { width: 70%; }
+}
+@-moz-keyframes progressBarSetenta {
+  0% { width: 0; }
+  100% { width: 70%; }
+}
+
+/********** Progress Bar Animation 75% **********/
+.progress.setentaycinco {
+    background-color: #313131;
+    animation: progressBarSetentaCinco 3s ease-in-out;
+    animation-fill-mode:both; 
+    -webkit-animation: progressBarSetentaCinco 3s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBarSetentaCinco 3s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+@keyframes progressBarSetentaCinco {
+  0% { width: 0; }
+  100% { width: 75%; }
+}
+@-moz-keyframes progressBarSetentaCinco {
+  0% { width: 0; }
+  100% { width: 75%; }
+}
+
+/********** Progress Bar Animation 80% **********/
+.progress.ochenta {
+    background-color: #313131;
+    animation: progressBarOchenta 3s ease-in-out;
+    animation-fill-mode:both; 
+    -webkit-animation: progressBarOchenta 3s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBarOchenta 3s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+@keyframes progressBarOchenta {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+@-moz-keyframes progressBarOchenta {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+
+/********** Progress Bar Animation 85% **********/
+.progress.ochentaycinco {
+    background-color: #313131;
+    animation: progressBarOchentaCinco 3s ease-in-out;
+    animation-fill-mode:both; 
+    -webkit-animation: progressBarOchentaCinco 3s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBarOchentaCinco 3s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+@keyframes progressBarOchentaCinco {
+  0% { width: 0; }
+  100% { width: 85%; }
+}
+@-moz-keyframes progressBarOchentaCinco {
+  0% { width: 0; }
+  100% { width: 85%; }
+}
+
+/********** Progress Bar Animation 90% **********/
+.progress.noventa {
+    background-color: #313131;
+    animation: progressBarNoventa 3s ease-in-out;
+    animation-fill-mode:both; 
+    -webkit-animation: progressBarNoventa 3s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBarNoventa 3s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+@keyframes progressBarNoventa {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+@-moz-keyframes progressBarNoventa {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+/********** Progress Bar Animation 95% **********/
+.progress.noventaycinco {
+    background-color: #313131;
+    animation: progressBarNoventaCinco 3s ease-in-out;
+    animation-fill-mode:both; 
+    -webkit-animation: progressBarNoventaCinco 3s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBarNoventaCinco 3s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+@keyframes progressBarNoventaCinco {
+  0% { width: 0; }
+  100% { width: 95%; }
+}
+@-moz-keyframes progressBarNoventaCinco {
+  0% { width: 0; }
+  100% { width: 95%; }
+}
 
 /* Footer
 ---------------------------------------------------------- */
