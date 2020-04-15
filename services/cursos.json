@@ -1,0 +1,129 @@
+[
+    {
+        "nombre": "Angular: De cero a experto creando aplicaciones",
+        "anio": 2020,
+        "horas": 33.5,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-7dd74f29-2397-4f0f-843a-70679b07d8e4/"
+    },
+    {
+        "nombre": "Node.js de cero a experto",
+        "anio": 2020,
+        "horas": 20,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-36f27f2c-aea9-42a2-bebd-4c1a156b7444/"
+    },
+    {
+        "nombre": "GIT+GitHub: Todo un sistema de control de versiones de cero",
+        "anio": 2020,
+        "horas": 7,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-d95b9bbc-a8cc-4f59-8bcd-921cfbef140d/"
+    },
+    {
+        "nombre": "Scrum Práctico en Proyectos de Software",
+        "anio": 2020,
+        "horas": 4.5,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-08edb55a-cd92-4a36-80a5-f3bb6384d7ac/"
+    },
+    {
+        "nombre": "Visual Studio Code: Mejora tu velocidad para programar",
+        "anio": 2020,
+        "horas": 1.5,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-307cfd40-8e9c-4914-b6b3-9f9c611b4410/"
+    },
+    {
+        "nombre": "Scrum Master + La Revolución Ágil",
+        "anio": 2020,
+        "horas": 3,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-1O1ERB81/"
+    },
+    {
+        "nombre": "Aprende Docker desde Cero a Swarm y Kubernetes",
+        "anio": 2020,
+        "horas": 11,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-d0b356ad-73e3-4ad6-91bc-c0ce5b7d2dca/"
+    },
+    {
+        "nombre": "Aprende a dominar GIT de cero a experto",
+        "anio": 2020,
+        "horas": 3,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-6b320205-bb1c-46dc-8be4-3353236cccec/"
+    },
+    {
+        "nombre": "UX Design - Conceptos Básicos para principiantes",
+        "anio": 2020,
+        "horas": 1,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-2e0fcccc-6c1a-426d-a6fc-79abda193a3e/"
+    },
+    {
+        "nombre": "4to Encuentro de la Comunidad Digital AE",
+        "anio": 2019,
+        "horas": 34,
+        "institucion": "ONTI",
+        "url": ""
+    },
+    {
+        "nombre": "Los 7 hábitos de las personas altamente efectivas",
+        "anio": 2018,
+        "horas": 16,
+        "institucion": "INAP",
+        "url": ""
+    },
+    {
+        "nombre": "Programación en Android",
+        "anio": 2015,
+        "horas": 21,
+        "institucion": "UTN",
+        "url": ""
+    },
+    {
+        "nombre": "Programa de Formación Conducción y Gestión - Liderazgo Activo",
+        "anio": 2014,
+        "horas": 18,
+        "institucion": "UBA",
+        "url": ""
+    },
+    {
+        "nombre": "Software Publico para el Desarrollo",
+        "anio": 2013,
+        "horas": 8,
+        "institucion": "Subsecretaría de Tecnologías de Gestión",
+        "url": ""
+    },
+    {
+        "nombre": "Programa de Formación Conducción y Gestión - Liderazgo Activo II",
+        "anio": 2013,
+        "horas": 18,
+        "institucion": "UBA",
+        "url": ""
+    },
+    {
+        "nombre": "Programa de Formación Conducción y Gestión - Liderazgo Activo",
+        "anio": 2011,
+        "horas": 40,
+        "institucion": "UBA",
+        "url": ""
+    },
+    {
+        "nombre": "Curso Programador Web UTN-FRBA",
+        "anio": 2010,
+        "horas": 72,
+        "institucion": "UTN",
+        "url": ""
+    },
+    {
+        "nombre": "Curso Professional Webmaster UTN-FRBA",
+        "anio": 2010,
+        "horas": 114,
+        "institucion": "UTN",
+        "url": ""
+    }
+]
+

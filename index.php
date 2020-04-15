@@ -103,7 +103,6 @@
             <section id="portfolio" class="seccion-profile"></section>
             <footer id="footer"><?php include_once('sections/footer.php') ?></footer> 
   
-
             <!-- Java Script
             ================================================== -->
             <script src="assets/js/jquery.min.js"></script>
@@ -111,7 +110,6 @@
             <script src="assets/js/waypoints.js"></script>
             <script src="assets/js/jquery.fittext.js"></script>
             <script src="assets/js/init.js?<?php echo APPVERSION ?>"></script>
-
 
             <!-- Global site tag (gtag.js) - Google Analytics -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43659401-7"></script>

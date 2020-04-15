@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
     });
 
     $.ajax({
-        url: 'sections/education.html',
+        url: 'sections/education.php',
         success: function(respuesta) {
             $('#education').append(respuesta);
         }
