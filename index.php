@@ -34,11 +34,8 @@
         
         <!-- CSS
         ================================================== -->
-        <!-- <link rel="stylesheet" href="assets/css/default.css?<?php // echo APPVERSION ?>">
-        <link rel="stylesheet" href="assets/css/layout.css?<?php // echo  APPVERSION ?>">
-        <link rel="stylesheet" href="assets/css/media-queries.css?<?php // echo APPVERSION ?>"> -->
-
         <link rel="stylesheet" href="assets/css/style.css?<?php echo APPVERSION ?>"> 
+        <link rel="stylesheet" href="assets/css/media-queries.css?<?php echo APPVERSION ?>"> 
 
         <!-- Favicon ==================================== -->
         <!-- <link rel="shortcut icon" href="assets/images/favicon.ico" > -->
