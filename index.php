@@ -4,7 +4,7 @@
     <head>
 
         <?php 
-            define("APPVERSION", "1.6.9"); 
+            define("APPVERSION", "1.7.3"); 
         ?>
 
         <script type="application/ld+json">

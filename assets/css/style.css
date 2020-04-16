@@ -192,14 +192,14 @@ h1, h2, h3, h4, h5, h6 {
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; font-weight: 800;}
 h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; font-weight: 800;}
-h3 { font-size: 19px; line-height: 30px; margin-bottom: 12px; font-weight: 800;}
+h3 { font-size: 19px; line-height: 30px; margin-bottom: 8px; font-weight: 800;}
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; font-weight: 800;}
 h5 { font-size: 18px; line-height: 30px; font-weight: 800;}
 h6 { font-size: 14px; line-height: 30px; font-weight: 800;}
 
 /* Parrafos
 ---------------------------------------------------------- */
-p { margin: 0 0 35px 0; }
+p { margin: -14px 0 35px 0; }
 p img { margin: 0; }
 p.lead {
     font: 19px/36px 'Open Sans', sans-serif;
@@ -389,6 +389,9 @@ img {
 #about p {
     line-height: 30px;
     color: #9B9B9B;
+}
+#about h2{
+    margin-bottom: 20px;
 }
 #about .profile-pic {
     position: relative;
@@ -783,12 +786,13 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .detalle-cursos {
-    margin: -10px 0 16px 0;
+    margin: -6px 0 16px 0;
 }
 
 .detalle-cursos-em  {
   margin-left: 0px !important;
-  font: 13px/20px 'Open Sans', sans-serif;
+  font: 14px/20px 'Open Sans', sans-serif;
+  color: #ababab;
 }
 
 .mb-5 {
@@ -853,15 +857,12 @@ seccion-profile  a, seccion-profile a:visited  { color: #313131; }
 .seccion-profile .main-col { padding-right: 10%; }
 
 .seccion-profile .info {
-    font: 16px/24px, serif;
-    color: #6E7881;
-    margin-bottom: 12px;
-    margin-top: 9px;
-}
-.seccion-profile .info span {
-    margin-right: 5px;
-    margin-left: 5px;
-}
+    color: #ababab;
+    font-size: 14px !important;
+    margin-bottom: 20px;
+    margin-top: -3px;
+}  
+
 .seccion-profile .date {
     font: 13px/20px 'opensans-regular', sans-serif;
     margin-top: 6px;

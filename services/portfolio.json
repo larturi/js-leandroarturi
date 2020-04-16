@@ -77,6 +77,20 @@
         "anio": 2020
     },
     {
+        "nombre": "Api Peliculas",
+        "lenguaje": "#web-development #angular",
+        "resumen": "App que se conecta a la api themoviedb.org y permite realizar busquedas de peliculas.",
+        "url": "https://www.leandroarturi.com/demo/peliculas/#/home",
+        "anio": 2020
+    },
+    {
+        "nombre": "Youtube App",
+        "lenguaje": "#web-development #angular #spotify-api",
+        "resumen": "App que se conecta a la api de Youtube y muestra los videos de una lista determinada.",
+        "url": "https://www.leandroarturi.com/demo/youtube-app/",
+        "anio": 2020
+    },
+    {
         "nombre": "Upload de fotos",
         "lenguaje": "#web-development #angular #node #firebase",
         "resumen": "Upload de fotos drag and drop con Angular y Firebase.",
@@ -89,6 +103,13 @@
         "resumen": "Calculadora que permite configurar el tipo de cambio y el porcentaje de percepción de impuestos para luego calcular el importe en pesos de una compra (2015).",
         "url": "https://play.google.com/store/apps/details?id=com.larturi.calculadoraviajeroargento",
         "anio": 2015
+    },
+    {
+        "nombre": "Chistes Sin Codificar",
+        "lenguaje": "#web-development #php",
+        "resumen": "Sitio web de chistes del programa Peligro Sin Codificar.",
+        "url": "http://chistescodificados.projectsapps.com/controllers/chiste.php?accion=listar",
+        "anio": 2014
     },
     {
         "nombre": "Los Mejores Maschefacts",

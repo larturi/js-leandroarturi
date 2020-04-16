@@ -12,11 +12,8 @@
 
                 <h3>Licenciatura en Sistemas de Información de las Organizaciones</h3>
                 <p class="info">
-                    <i class="fa iconos-cv fa-suitcase"></i><span>Universidad de Buenos Aires</span><br />
-                    <i class="fa iconos-cv fa-calendar"></i><em class="date">2003 - 2009</em>
-                </p>
-
-                <p>
+                    <span>Universidad de Buenos Aires</span><br />
+                    <span>2003 • 2009</span><br />
                 </p>
 
             </div>
@@ -29,12 +26,8 @@
 
                 <h3>Tecnicatura en Programación de Sistemas</h3>
                 <p class="info">
-                    <i class="fa iconos-cv fa-suitcase"></i><span>Universidad de Ciencias Empresariales y
-                        Sociales</span><br />
-                    <i class="fa iconos-cv fa-calendar"></i><em class="date">2011 - 2012 (restan cinco
-                        materias)</em>
-                </p>
-                <p>
+                    <span>Universidad de Ciencias Empresariales y Sociales</span><br />
+                    <span>2011 • 2012 (restan cinco materias)</span><br />
                 </p>
 
             </div>
@@ -71,7 +64,7 @@
                 }  
                 
                 echo '<p class="detalle-cursos">
-                            <em class="detalle-cursos-em">' . $curso['anio'] . '  | ' . $curso['horas'] . ' h | ' . $curso['institucion'] . '</em>
+                            <em class="detalle-cursos-em">' . $curso['anio'] . '  • ' . $curso['horas'] . ' h • ' . $curso['institucion'] . '</em>
                             <br />
                       </p>
                     </div>
