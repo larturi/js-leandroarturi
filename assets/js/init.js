@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 
-    var version = '1.6.3';
+    var version = '1.6.9';
     
      /*----------------------------------------------------*/
      /*	Flexslider
@@ -25,6 +25,11 @@ jQuery(document).ready(function($) {
         url: 'sections/header.php?v='+version,
         success: function(respuesta) {
             $('#content-header').append(respuesta).hide().fadeIn(1500);
+
+            setTimeout(function() {
+                $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(1500);
+            }, 200);
+
         }
     });
 
@@ -74,9 +79,8 @@ jQuery(document).ready(function($) {
         url: 'assets/images/home-background/home-background-1.jpg',
         success: function(respuesta) {
             setTimeout(function() {
-                $('#home').animate({ opacity: 1 }, { duration: 1500 });
-                $('#home').css({"background": "#240048 url(assets/images/home-background/home-background-1.jpg) no-repeat top center"});
-            }, 1);
+                $("header").removeClass("background-hide").fadeIn(1500);
+            }, 200);
         }
     });
 

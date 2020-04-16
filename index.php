@@ -4,7 +4,7 @@
     <head>
 
         <?php 
-            define("APPVERSION", "1.6.3"); 
+            define("APPVERSION", "1.6.9"); 
         ?>
 
         <script type="application/ld+json">
@@ -68,7 +68,7 @@
 
             <!-- Header
             ================================================== -->
-            <header id="home">
+            <header id="home" class="background-hide">
 
                 <nav id="nav-wrap">
 
@@ -89,7 +89,7 @@
                 <div id="content-header" class="row banner"></div>
 
                 <p class="scrolldown">
-                    <a class="smoothscroll" href="#about"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+                    <a class="smoothscroll" href="#about"><i class="fa fa-chevron-circle-down hidden" aria-hidden="true"></i></a>
                 </p>
 
             </header> <!-- Header End -->

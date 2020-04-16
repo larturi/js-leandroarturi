@@ -3,7 +3,7 @@
         "nombre": "El Test de los Seis Sombreros",
         "lenguaje": "#web-development #php",
         "resumen": "Aplicación Web que permite realizar el Test de los Seis Sombreros de Edward De Bono.",
-        "url": "http://www.projectsapps.com/sixhattest/el-test-de-los-seis-sombreros.#php",
+        "url": "http://www.projectsapps.com/sixhattest/el-test-de-los-seis-sombreros.php",
         "anio": 2014
     },
     {
@@ -45,7 +45,7 @@
         "nombre": "Trivia Series",
         "lenguaje": "#web-development #php",
         "resumen": "Trivia para poner a prueba tus conocimientos de Series de TV.",
-        "url": "http://projectsapps.com/triviaseries/trivia_series.#php",
+        "url": "http://projectsapps.com/triviaseries/trivia_series.php",
         "anio": 2014
     },
     {
