@@ -31,7 +31,7 @@
 
          <!-- Fonts
         ================================================== -->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/fonts/font-opensans-min.css" >
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <!-- CSS
@@ -107,10 +107,10 @@
   
             <!-- Java Script
             ================================================== -->
-            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery-3.5.0.min.js"></script>
+            <script src="assets/js/jquery-migrate-3.2.0.min.js"></script>
             <script src="assets/js/jquery.flexslider.js"></script>
             <script src="assets/js/waypoints.js"></script>
-            <script src="assets/js/jquery.fittext.js"></script>
             <script src="assets/js/init.js?v=<?php echo APPVERSION ?>"></script>
 
             <!-- Global site tag (gtag.js) - Google Analytics -->
