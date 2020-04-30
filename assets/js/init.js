@@ -1,10 +1,19 @@
 jQuery(document).ready(function($) {
 
-    var version = '1.8.0';
+    /*----------------------------------------------------*/
+    /*	Version de la aplicacion
+    /*----------------------------------------------------*/
+    let version = '';
+    const metas = document.getElementsByTagName('meta');
+    for (let i = 0; i < metas.length; i++) {
+        if (metas[i].getAttribute('name') === 'version') {
+            version = metas[i].getAttribute('content');
+        }
+    }
     
-     /*----------------------------------------------------*/
-     /*	Flexslider
-     /*----------------------------------------------------*/
+    /*----------------------------------------------------*/
+    /*	Flexslider
+    /*----------------------------------------------------*/
     $('.flexslider').flexslider({
         namespace: "flex-",
         controlsContainer: ".flex-container",

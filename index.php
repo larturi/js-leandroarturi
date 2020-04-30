@@ -3,9 +3,9 @@
 <!--2020-->
     <head>
 
-        <?php 
-            define("APPVERSION", "1.8.0"); 
-        ?>
+        <!--- Version de la aplicacion
+        ================================================== -->
+        <?php define("APPVERSION", "1.7.4.1"); ?>
 
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
@@ -24,6 +24,8 @@
         <title>Leandro Arturi</title>
         <meta name="description" content="Leandro Arturi">
         <meta name="author" content="Leandro Arturi">
+        <meta name="version" content="<?php echo APPVERSION;?>">
+        
 
         <!-- Mobile Specific Metas
         ================================================== -->
