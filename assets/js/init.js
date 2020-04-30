@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 
-    var version = '1.7.3';
+    var version = '1.8.0';
     
      /*----------------------------------------------------*/
      /*	Flexslider

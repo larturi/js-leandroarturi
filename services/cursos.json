@@ -1,4 +1,4 @@
-[
+[   
     {
         "nombre": "Angular: De cero a experto creando aplicaciones",
         "anio": 2020,
@@ -12,6 +12,13 @@
         "horas": 20,
         "institucion": "Udemy",
         "url": "https://www.udemy.com/certificate/UC-36f27f2c-aea9-42a2-bebd-4c1a156b7444/"
+    },
+    {
+        "nombre": "JavaScript Moderno: Guía para dominar el lenguaje",
+        "anio": 2020,
+        "horas": 17.5,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-e97ea70d-754d-4d58-a9c7-475e68616d4f/"
     },
     {
         "nombre": "GIT+GitHub: Todo un sistema de control de versiones de cero",

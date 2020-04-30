@@ -378,7 +378,7 @@ img {
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #a2a2a2; }
 
 #about h2 {
     font: 22px/30px 'Open Sans', sans-serif;
@@ -452,14 +452,14 @@ img {
     text-align: left;
 }
 .bars .skills {
-    margin-top: 36px;
+    margin-top: 46px;
     list-style: none;
 }
 .bars li {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
     background: #ccc;
-    height: 10px;
+    height: 8px;
     border-radius: 3px;
 }
 .bars li em {
@@ -479,7 +479,7 @@ img {
     padding-right: 0px;
     background: #313131;
     display: inline-block;
-    height: 10px;
+    height: 8px;
     line-height: 42px;
     border-radius: 3px 0 0 3px;
 }
@@ -658,6 +658,26 @@ img {
 @-moz-keyframes progressBarNoventaCinco {
   0% { width: 0; }
   100% { width: 95%; }
+}
+
+
+/********** Progress Bar Animation 100% **********/
+.progress.cien {
+    background-color: #313131;
+    animation: progressBarCien 3s ease-in-out;
+    animation-fill-mode:both; 
+    -webkit-animation: progressBarCien 3s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBarCien 3s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+@keyframes progressBarCien {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+@-moz-keyframes progressBarCien {
+  0% { width: 0; }
+  100% { width: 100%; }
 }
 
 /* Footer
