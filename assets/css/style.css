@@ -62,7 +62,7 @@ header {
     -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;
-    background: #240048 url('../images/home-background/home-background-1.jpg') no-repeat top center;
+    background: #240048;
 }
 
 header:before {
@@ -764,8 +764,10 @@ footer .social-links li:first-child { margin-left: 0; }
 
 /* Fixes
 ---------------------------------------------------------- */
-.background-hide {
-   background-size: 0 0 !important;
+
+#home {
+    opacity: 0.1;
+    background-color: #240048 !important;
 }
 
 .hidden {

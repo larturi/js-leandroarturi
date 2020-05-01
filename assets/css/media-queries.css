@@ -5,6 +5,7 @@
         font: 80px/1.1em 'Open Sans', sans-serif;
         letter-spacing: -1px;
         margin: 0 auto 12px auto;
+        font-weight: 800;
     }
 }
 
@@ -18,7 +19,8 @@
     header .banner { padding-bottom: 12px; }
     header .banner-text h1 {
         font: 78px/1.1em 'Open Sans', sans-serif;
-        letter-spacing: -1px;      
+        letter-spacing: -1px;
+        font-weight: 800;      
     }
     header .banner-text h3 {
         font: 17px/1.9em 'Open Sans', sans-serif;
@@ -243,7 +245,10 @@
         padding-bottom: 12px;
         padding-top: 6px;
     }
-    header .banner-text h1 { font: 68px/1.1em 'Open Sans', sans-serif; }
+    header .banner-text h1 { 
+        font: 55px/1.1em 'Open Sans', sans-serif; 
+        font-weight: 800;
+    }
     header .banner-text h3 {
         font: 16px/1.9em 'Open Sans', serif;
         width: 85%;

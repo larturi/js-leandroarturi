@@ -1,8 +1,34 @@
 jQuery(document).ready(function($) {
 
-    /*----------------------------------------------------*/
-    /*	Version de la aplicacion
-    /*----------------------------------------------------*/
+    // ==============================================================
+    // Imagen de fondo y opacidad al inicio
+    // ==============================================================
+
+    var myopacity = 0;
+    var img1 = document.createElement("img");
+    img1.src = "./assets/images/home-background/home-background-1.jpg";
+
+    img1.onload = function() {
+        // $('header').append(this);
+        console.log('Listo');
+        $('header').css('background', "url('./assets/images/home-background/home-background-1.jpg') no-repeat top center" );
+        myFadeFunction(); 
+    };
+
+    function myFadeFunction() {
+        if (myopacity < 1) {
+            myopacity += 0.075;
+            setTimeout(function(){
+                myFadeFunction();
+            }, 50);
+        }
+        document.getElementById('home').style.opacity = myopacity;
+    }
+  
+    // ==============================================================
+    // Version de la aplicacion
+    // ==============================================================
+
     let version = '';
     const metas = document.getElementsByTagName('meta');
     for (let i = 0; i < metas.length; i++) {
@@ -11,9 +37,10 @@ jQuery(document).ready(function($) {
         }
     }
     
-    /*----------------------------------------------------*/
-    /*	Flexslider
-    /*----------------------------------------------------*/
+    // ==============================================================
+    // Flexslider
+    // ==============================================================
+
     $('.flexslider').flexslider({
         namespace: "flex-",
         controlsContainer: ".flex-container",
@@ -26,19 +53,17 @@ jQuery(document).ready(function($) {
         randomize: false,
     });
 
-    /*----------------------------------------------------*/
-    /*	Carga secciones de forma asincrona
-    /*----------------------------------------------------*/
+    // ==============================================================
+    // Carga secciones de forma asincrona
+    // ==============================================================
     
     $.ajax({
         url: 'sections/header.php?v='+version,
         success: function(respuesta) {
-            $('#content-header').append(respuesta).hide().fadeIn(1500);
-
+            $('#content-header').append(respuesta).hide().fadeIn(2000);
             setTimeout(function() {
-                $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(1500);
-            }, 200);
-
+                $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
+            }, 50);
         }
     });
 
@@ -84,18 +109,9 @@ jQuery(document).ready(function($) {
         }
     });
 
-    $.ajax({
-        url: 'assets/images/home-background/home-background-1.jpg',
-        success: function(respuesta) {
-            setTimeout(function() {
-                $("header").removeClass("background-hide").fadeIn(1500);
-            }, 200);
-        }
-    });
-
-    /*----------------------------------------------------*/
-    /* Smooth Scrolling
-     ------------------------------------------------------ */
+    // ==============================================================
+    // Smooth Scrolling
+    // ==============================================================
 
     $('.smoothscroll').on('click', function(e) {
         e.preventDefault();
@@ -112,9 +128,9 @@ jQuery(document).ready(function($) {
     });
 
 
-    /*----------------------------------------------------*/
-    /* Highlight the current section in the navigation bar
-     ------------------------------------------------------*/
+    // ==============================================================
+    // Highlight the current section in the navigation bar
+    // ==============================================================
 
     var sections = $("section");
     var navigation_links = $("#nav-wrap a");
@@ -183,10 +199,10 @@ jQuery(document).ready(function($) {
 
     });
 
-    /*----------------------------------------------------*/
-    /*	Make sure that #header-background-image height is
-     /* equal to the browser height.
-     ------------------------------------------------------ */
+    // ==============================================================
+    // Make sure that #header-background-image height is equal 
+    // to the browser height.
+    // ==============================================================
 
     $('header').css({'height': $(window).height()});
     $(window).on('resize', function() {
@@ -195,9 +211,9 @@ jQuery(document).ready(function($) {
     });
 
 
-    /*----------------------------------------------------*/
-    /*	Fade In/Out Primary Navigation
-     ------------------------------------------------------*/
+    // ==============================================================
+    // Fade In/Out Primary Navigation
+    // ==============================================================
 
     $(window).on('scroll', function() {
 

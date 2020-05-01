@@ -5,7 +5,7 @@
 
         <!--- Version de la aplicacion
         ================================================== -->
-        <?php define("APPVERSION", "1.7.4.1"); ?>
+        <?php define("APPVERSION", "1.7.4.2"); ?>
 
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
@@ -70,7 +70,7 @@
 
             <!-- Header
             ================================================== -->
-            <header id="home" class="background-hide">
+            <header id="home">
 
                 <nav id="nav-wrap">
 
