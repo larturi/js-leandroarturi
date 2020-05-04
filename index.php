@@ -12,7 +12,7 @@
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
          "@type" : "Organization",  
-          "name" : "Leandro Arturi",
+          "name" : "Leandro Nahuel Arturi",
           "url" : "https://www.leandroarturi.com", 
           "logo": "https://www.leandroarturi.com/images/profilephoto.jpg" }
         </script>
