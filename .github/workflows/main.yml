@@ -13,7 +13,7 @@ jobs:
       with:
         ftp-server: ftp.leandroarturi.com
         ftp-username: u982958056.larturi
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        ftp-password: l34ndr0FTP!
         
         
         
