@@ -7,7 +7,8 @@
         <!-- Version de la aplicacion                                    -->
         <!-- =========================================================== -->
 
-        <?php define("APPVERSION", "1.7.6"); ?>
+        <?php define("APPVERSION", "1.7.7"); ?>
+        <?php define("AMBIENTE", "prod"); ?>
 
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
@@ -48,8 +49,17 @@
         <!-- CSS                                                         -->
         <!-- =========================================================== -->
 
-        <link rel="stylesheet" href="assets/css/style.css?<?php echo APPVERSION ?>"> 
-        <link rel="stylesheet" href="assets/css/media-queries.css?<?php echo APPVERSION ?>"> 
+        <?php if(AMBIENTE === 'dev') { ?>
+
+        <link rel="stylesheet" href="assets/css/dev/style.css?<?php echo APPVERSION ?>">
+        <link rel="stylesheet" href="assets/css/dev/media-queries.css?<?php echo APPVERSION ?>">
+
+        <?php } else { ?>
+
+        <link rel="stylesheet" href="assets/css/min/style.min.css?<?php echo APPVERSION ?>">
+        <link rel="stylesheet" href="assets/css/min/media-queries.min.css?<?php echo APPVERSION ?>">
+
+        <?php } ?>
 
         <!-- =========================================================== -->
         <!-- Favicon                                                     -->
@@ -130,12 +140,23 @@
         <!-- =========================================================== -->
         <!-- Java Script                                                 -->
         <!-- =========================================================== -->
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/jquery.flexslider.js"></script>
-            <script src="assets/js/waypoints.js"></script>
-            <script src="assets/js/jquery.fittext.js"></script>
-            <script src="assets/js/init.js?v=<?php echo APPVERSION ?>"></script>
 
+            <script src="assets/js/min/jquery.min.js"></script>
+            <script src="assets/js/min/jquery.flexslider.min.js"></script>
+            <script src="assets/js/min/waypoints.min.js"></script>
+            
+            <?php if(AMBIENTE === 'dev') { ?>
+
+            <script src="assets/js/dev/init.js?v=<?php echo APPVERSION ?>"></script>
+            <script src="assets/js/dev/jquery.fittext.js?v=<?php echo APPVERSION ?>"></script>
+            
+            <?php } else { ?>
+
+            <script src="assets/js/min/init.min.js?v=<?php echo APPVERSION ?>"></script>
+            <script src="assets/js/min/jquery.fittext.min.js?v=<?php echo APPVERSION ?>"></script>
+            
+            <?php } ?>
+            
             <!-- Global site tag (gtag.js) - Google Analytics -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43659401-7"></script>
             <script>
