@@ -11,8 +11,8 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
-        ftp-server: ftp.leandroarturi.com
-        ftp-username: u982958056.larturi
+        ftp-server: 156.67.222.154
+        ftp-username: u982958056
         ftp-password: l34ndr0FTP!
         
         
