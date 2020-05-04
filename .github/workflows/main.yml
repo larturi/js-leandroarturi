@@ -13,7 +13,7 @@ jobs:
       with:
         ftp-server: 156.67.222.154
         ftp-username: u982958056
-        ftp-password: l34ndr0FTP!
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
         
         
         
