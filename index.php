@@ -26,7 +26,7 @@
         <!-- =========================================================== -->
 
         <meta charset="utf-8">
-        <title>Leandro Nahuel Arturi</title>
+        <title>Leandro Arturi</title>
         <meta name="description" content="Leandro Arturi">
         <meta name="author" content="Leandro Arturi">
         <meta name="version" content="<?php echo APPVERSION;?>">
