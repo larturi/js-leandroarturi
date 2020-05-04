@@ -12,7 +12,7 @@
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
          "@type" : "Organization",  
-          "name" : "Leandro N. Arturi",
+          "name" : "Leandro Arturi",
           "url" : "https://www.leandroarturi.com", 
           "logo": "https://www.leandroarturi.com/images/profilephoto.jpg" }
         </script>
@@ -25,7 +25,7 @@
         <!-- =========================================================== -->
 
         <meta charset="utf-8">
-        <title>Leandro Arturi</title>
+        <title>Leandro Nahuel Arturi</title>
         <meta name="description" content="Leandro Arturi">
         <meta name="author" content="Leandro Arturi">
         <meta name="version" content="<?php echo APPVERSION;?>">
