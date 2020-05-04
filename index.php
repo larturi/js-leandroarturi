@@ -3,9 +3,11 @@
 <!--2020-->
     <head>
 
-        <!--- Version de la aplicacion
-        ================================================== -->
-        <?php define("APPVERSION", "1.7.4.2"); ?>
+        <!-- =========================================================== -->
+        <!-- Version de la aplicacion                                    -->
+        <!-- =========================================================== -->
+
+        <?php define("APPVERSION", "1.7.5"); ?>
 
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
@@ -18,31 +20,40 @@
 
         <?php include_once('helper.php'); ?>
 
-        <!--- Basic Page Needs
-        ================================================== -->
+        <!-- =========================================================== -->
+        <!-- Basic Page Needs                                            -->
+        <!-- =========================================================== -->
+
         <meta charset="utf-8">
         <title>Leandro Arturi</title>
         <meta name="description" content="Leandro Arturi">
         <meta name="author" content="Leandro Arturi">
         <meta name="version" content="<?php echo APPVERSION;?>">
         
+        <!-- =========================================================== -->
+        <!-- Mobile Specific Metas                                       -->
+        <!-- =========================================================== -->
 
-        <!-- Mobile Specific Metas
-        ================================================== -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-         <!-- Fonts
-        ================================================== -->
+
+        <!-- =========================================================== -->
+        <!-- Fonts                                                       -->
+        <!-- =========================================================== -->
+
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         
-        <!-- CSS
-        ================================================== -->
+        <!-- =========================================================== -->
+        <!-- CSS                                                         -->
+        <!-- =========================================================== -->
+
         <link rel="stylesheet" href="assets/css/style.css?<?php echo APPVERSION ?>"> 
         <link rel="stylesheet" href="assets/css/media-queries.css?<?php echo APPVERSION ?>"> 
 
-        <!-- Favicon ==================================== -->
-        <!-- <link rel="shortcut icon" href="assets/images/favicon.ico" > -->
+        <!-- =========================================================== -->
+        <!-- Favicon                                                     -->
+        <!-- =========================================================== -->
 
         <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
@@ -66,10 +77,16 @@
 
     <body>
 
+        <div class="loading">
+           Cargando...
+        </div>
+
         <div id="contenido">
 
-            <!-- Header
-            ================================================== -->
+        <!-- =========================================================== -->
+        <!-- Header                                                      -->
+        <!-- =========================================================== -->
+
             <header id="home">
 
                 <nav id="nav-wrap">
@@ -96,8 +113,10 @@
 
             </header> <!-- Header End -->
 
-            <!-- Sections
-            ================================================== -->
+
+        <!-- =========================================================== -->
+        <!-- Sections                                                    -->
+        <!-- =========================================================== -->
             
             <section id="about"></section>
             <section id="education" class="seccion-profile"></section>
@@ -107,8 +126,10 @@
             <section id="portfolio" class="seccion-profile"></section>
             <footer id="footer"><?php include_once('sections/footer.php') ?></footer> 
   
-            <!-- Java Script
-            ================================================== -->
+
+        <!-- =========================================================== -->
+        <!-- Java Script                                                 -->
+        <!-- =========================================================== -->
             <script src="assets/js/jquery.min.js"></script>
             <script src="assets/js/jquery.flexslider.js"></script>
             <script src="assets/js/waypoints.js"></script>

@@ -40,8 +40,7 @@ html {
 }
 
 body {
-    /* background: #fff; */
-    background: #0f0f0f; 
+    background: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 15px;
@@ -683,9 +682,9 @@ img {
 /* Footer
 ---------------------------------------------------------- */
 footer {
-    padding-top: 48px;
-    margin-bottom: 48px;
+    padding-top: 30px;
     color: #303030;
+    background: #0f0f0f;
     font-size: 14px;
     text-align: center;
     position: relative;
@@ -765,10 +764,10 @@ footer .social-links li:first-child { margin-left: 0; }
 /* Fixes
 ---------------------------------------------------------- */
 
-#home {
-    opacity: 0.1;
+/* #home {
+    opacity: 0;
     background-color: #240048 !important;
-}
+} */
 
 .hidden {
     visibility: hidden;
@@ -798,8 +797,13 @@ footer .social-links li:first-child { margin-left: 0; }
     font-size: 16px !important;
 }
 
+.loading {
+    margin: 5px 0 0 14px;
+}
+
 #contenido {
     display: block;
+    opacity: 0;
 }
 
 .capcha{

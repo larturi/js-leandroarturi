@@ -11,6 +11,8 @@
             <li>&copy; Copyright <?php echo date('Y') ?> | Leandro Arturi</li> 
         </ul>
 
+        <br>
+
     </div>
 
     <div id="go-top">

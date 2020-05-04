@@ -9,10 +9,9 @@ jQuery(document).ready(function($) {
     img1.src = "./assets/images/home-background/home-background-1.jpg";
 
     img1.onload = function() {
-        // $('header').append(this);
-        console.log('Listo');
         $('header').css('background', "url('./assets/images/home-background/home-background-1.jpg') no-repeat top center" );
-        myFadeFunction(); 
+        myFadeFunction();
+        $('.loading').css('display', 'none');
     };
 
     function myFadeFunction() {
@@ -22,7 +21,7 @@ jQuery(document).ready(function($) {
                 myFadeFunction();
             }, 50);
         }
-        document.getElementById('home').style.opacity = myopacity;
+        document.getElementById('contenido').style.opacity = myopacity;
     }
   
     // ==============================================================
