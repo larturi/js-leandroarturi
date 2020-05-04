@@ -7,7 +7,7 @@
         <!-- Version de la aplicacion                                    -->
         <!-- =========================================================== -->
 
-        <?php define("APPVERSION", "1.7.5"); ?>
+        <?php define("APPVERSION", "1.7.6"); ?>
 
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
@@ -25,7 +25,7 @@
         <!-- =========================================================== -->
 
         <meta charset="utf-8">
-        <title>Leandro Arturi</title>
+        <title>Leandro N. Arturi</title>
         <meta name="description" content="Leandro Arturi">
         <meta name="author" content="Leandro Arturi">
         <meta name="version" content="<?php echo APPVERSION;?>">
