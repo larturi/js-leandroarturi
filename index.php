@@ -8,8 +8,8 @@
         <!-- =========================================================== -->
 
         <?php 
-           define("APPVERSION", "2.0.4"); 
-           define("AMBIENTE", "dev"); 
+           define("APPVERSION", "2.0.5"); 
+           define("AMBIENTE", "prod"); 
            $_SESSION['lang'] = "es";
            $_SESSION['langId'] = 0;
         ?>
