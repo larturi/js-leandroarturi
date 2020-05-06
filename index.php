@@ -8,7 +8,7 @@
         <!-- =========================================================== -->
 
         <?php 
-           define("APPVERSION", "1.7.7"); 
+           define("APPVERSION", "1.7.8"); 
            define("AMBIENTE", "prod"); 
            $_SESSION['lang'] = "es";
            $_SESSION['langId'] = 0;
