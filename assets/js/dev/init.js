@@ -112,14 +112,13 @@ jQuery(document).ready(function($) {
                     break;
                 }
 
-                $('#link-home').html(jsonResult.inicio[idLang]).hide().fadeIn(1000);
-                $('#link-acerca').html(jsonResult.acerca[idLang]).hide().fadeIn(1000);
-                $('#link-education').html(jsonResult.educacion[idLang]).hide().fadeIn(1000);
-                $('#link-work').html(jsonResult.trabajo[idLang]).hide().fadeIn(1000);
-                $('#link-skills').html(jsonResult.skills[idLang]).hide().fadeIn(1000);
-                $('#link-portfolio').html(jsonResult.portfolio[idLang]).hide().fadeIn(1000);
-                $('#lang').html(jsonResult.idioma[idLang]).hide().fadeIn(1000);
-
+                $('#link-home').html(jsonResult.inicio[idLang]).hide().fadeIn(100);
+                $('#link-acerca').html(jsonResult.acerca[idLang]).hide().fadeIn(100);
+                $('#link-education').html(jsonResult.educacion[idLang]).hide().fadeIn(100);
+                $('#link-work').html(jsonResult.trabajo[idLang]).hide().fadeIn(100);
+                $('#link-skills').html(jsonResult.skills[idLang]).hide().fadeIn(100);
+                $('#link-portfolio').html(jsonResult.portfolio[idLang]).hide().fadeIn(100);
+                $('#lang').html(jsonResult.idioma[idLang]).hide().fadeIn(100);
             
             }
         });
