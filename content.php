@@ -7,12 +7,6 @@ $content = [
     // ==============================================================
     'idioma' => ['English', 'Español'],
     'cargando' => ['Cargando', 'Loading'],
-    'inicio' => ['Inicio', 'Home'],
-    'acerca-de' => ['Acerca de mi', 'About me'],
-    'educacion' => ['Educación', 'Education'],
-    'trabajo' => ['Trabajo', 'Work'],
-    'skills' => ['Skills', 'Skills'],
-    'portfolio' => ['Portfolio', 'Portfolio'],
 
     // ==============================================================
     // Header
@@ -56,6 +50,7 @@ $content = [
     'trabajo-titulo' => ['Trabajo', 'Work'],
     'presente' => ['Presente', 'Present'],
     'it-lead-sector' => ['PAMI - Subgerencia de Desarrollo', 'PAMI - Demand Management Office | IT Department '],
+    'it-lead-fecha' => ['Septiembre 2015 • Presente', 'September 2015 • Present'],
     'it-lead' => [
         'Responsable de 6 departamentos especializados en las diferentes áreas
         de negocio, a través de los cuales se gestiona la cartera de proyectos
@@ -67,7 +62,8 @@ $content = [
         leads different development projects and they are responsible for managing demand
         requirements, functional analysis and implementation.'
     ],
-    'it-project-manager-sector' => ['PAMI - Subgerencia de Desarrollo', 'PAMI - IT Development Department '],
+    'it-project-manager-sector' => ['PAMI - Subgerencia de Desarrollo', 'PAMI - IT Development Department'],
+    'it-project-manager-fecha' => ['Abril 2014 • Septiembre 2015', 'April 2014 • September 2015'],
     'it-project-manager' => [
         'Responsable de la coordinación de 7 departamentos de desarrollo (PHP,
         HTML5, JavaScript, JQuery | Oracle). Gestión de la demanda, gestión de
@@ -79,6 +75,7 @@ $content = [
         Jenkins implementation for deployments to different development environments.'
     ],
     'desarrolloweb-sector' => ['PAMI - Departamento Desarrollo Web', 'PAMI - IT Web Development Department'],
+    'desarrolloweb-fecha' => ['Julio 2012 • Abril 2014', 'July 2012 • April 2014'],
     'desarrolloweb' => [
         'Líder Técnico del Departamento Desarrollo Web en la Coordinación de
         Sistemas, a cargo de un equipo de 7 desarrolladores. Análisis técnico,
@@ -94,6 +91,7 @@ $content = [
          (CUP - Clave Única Pami). Development of a checksystem to monitor the health of the systems.'
     ],
     'desarrollodesk-sector' => ['PAMI - División Desarrollo de Aplicaciones y Soporte Informáico', 'PAMI - Division Chief Development of Desktop Applications'],
+    'desarrollodesk-fecha' => ['Abril 2008 • Julio 2012', 'April 2008 • July 2012'],
     'desarrollodesk' => [
         'Líder técnico de un equipo de 4 desarrolladores. Análisis, diseño,
         desarrollo y mantenimiento de más de 30 sistemas de información y
@@ -104,6 +102,7 @@ $content = [
         | Oracle, SQL Server and MySql).'
     ],
     'analisis-sector' => ['PAMI - División Análisis Funcional', 'PAMI - Functional Technical Leader'],
+    'analisis-fecha' => ['Noviembre 2007 • Abril 2008', 'November 2007 • April 2008'],
     'analisis' => [
         'Líder de un equipo de 4 analistas. Implementación del módulo de
         distribución de cápitas del Sistema Interactivo de Información (SII)
@@ -114,6 +113,7 @@ $content = [
         Information System (SII), core system of the organization.'
     ],
     'freelance-sector' => ['Desarrollo Web y Mobile', 'Web Development and Mobile'],
+    'freelance-fecha' => ['Marzo 2010 • Presente', 'March 2010 • Present'],
     'freelance' => [
         'He trabajado en diversos desarrollos independientes y para terceros en las tecnologías mencionadas.', 
         'I have worked in independent and third party developments in the mentioned technologies.'

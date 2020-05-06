@@ -8,7 +8,7 @@
         <!-- =========================================================== -->
 
         <?php 
-           define("APPVERSION", "2.0.0"); 
+           define("APPVERSION", "2.0.3"); 
            define("AMBIENTE", "prod"); 
            $_SESSION['lang'] = "es";
            $_SESSION['langId'] = 0;
@@ -23,8 +23,10 @@
         </script>
 
 
-        <?php include('helper.php'); ?>
-        <?php include('content.php'); ?>
+        <?php 
+            include('helper.php');
+            include('content.php'); 
+        ?>
 
         <!-- =========================================================== -->
         <!-- Basic Page Needs                                            -->
@@ -110,13 +112,13 @@
                     <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
                     <ul id="nav" class="nav">
-                        <li class="current"><a class="smoothscroll" href="#home"><?php echo $content['inicio'][$_SESSION['langId']] ?></a></li>
-                        <li><a class="smoothscroll" href="#about"><?php echo $content['acerca-de'][0] ?></a></li>
-                        <li><a class="smoothscroll" href="#education"><?php echo $content['educacion'][0] ?></a></li>
-                        <li><a class="smoothscroll" href="#work"><?php echo $content['trabajo'][0] ?></a></li>
-                        <li><a class="smoothscroll" href="#skills"><?php echo $content['skills'][0] ?></a></li>
-                        <li><a class="smoothscroll" href="#portfolio"><?php echo $content['portfolio'][0] ?></a></li>
-                        <li><a id="lang" href="#"><?php echo $content['idioma'][0] ?></a></li>
+                        <li class="current"><a id="link-home" class="smoothscroll" href="#home"></a></li>
+                        <li><a id="link-acerca" class="smoothscroll" href="#about"><?php echo $menu['acerca-de'][0] ?></a></li>
+                        <li><a id="link-education" class="smoothscroll" href="#education"><?php echo $menu['educacion'][0] ?></a></li>
+                        <li><a id="link-work" class="smoothscroll" href="#work"><?php echo $menu['trabajo'][0] ?></a></li>
+                        <li id="li-skills"><a id="link-skills" class="smoothscroll" href="#skills"><?php echo $menu['skills'][0] ?></a></li>
+                        <li><a id="link-portfolio" class="smoothscroll" href="#portfolio"><?php echo $menu['portfolio'][0] ?></a></li>
+                        <li><a id="lang" href=""><?php echo $content['idioma'][0] ?></a></li>
                     </ul> <!-- end #nav -->
 
                 </nav> <!-- end #nav-wrap -->

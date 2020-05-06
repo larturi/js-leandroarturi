@@ -15,7 +15,7 @@
         <h3>IT Lead</h3>
         <p class="info">
           <span><?php echo $content['it-lead-sector'][$_SESSION['langId']]?></span><br />
-          <span>Septiembre 2015 • <?php echo $content['presente'][$_SESSION['langId']]?></span><br />
+          <span><?php echo $content['it-lead-fecha'][$_SESSION['langId']]?></span><br />
         </p>
         <p>
            <?php echo $content['it-lead'][$_SESSION['langId']]?>
@@ -29,7 +29,7 @@
         <h3>IT Project Manager</h3>
         <p class="info">
           <span><?php echo $content['it-project-manager-sector'][$_SESSION['langId']]?></span><br />
-          <span>Abril 2014 • Septiembre 2015</span><br />
+          <span><?php echo $content['it-project-manager-fecha'][$_SESSION['langId']]?></span><br />
         </p>
         <p>
         <?php echo $content['it-project-manager'][$_SESSION['langId']]?>
@@ -43,7 +43,7 @@
         <h3>Web Developer Technical Lead</h3>
         <p class="info">
           <span><?php echo $content['desarrolloweb-sector'][$_SESSION['langId']]?></span><br />
-          <span>Julio 2012 • Abril 2014</span><br />
+          <span><?php echo $content['desarrolloweb-fecha'][$_SESSION['langId']]?></span><br />
         </p>
 
         <p>
@@ -58,7 +58,7 @@
         <h3>Technical Lead .NET</h3>
         <p class="info">
            <span><?php echo $content['desarrollodesk-sector'][$_SESSION['langId']]?></span><br />
-           <span>Abril 2008 • Julio 2012</span><br />
+           <span><?php echo $content['desarrollodesk-fecha'][$_SESSION['langId']]?></span><br />
         </p>
 
         <p>
@@ -73,7 +73,7 @@
         <h3>Functional Technical Leader</h3>
         <p class="info">
           <span><?php echo $content['analisis-sector'][$_SESSION['langId']]?></span><br />
-          <span>Noviembre 2007 • Abril 2008</span><br />
+          <span><?php echo $content['analisis-fecha'][$_SESSION['langId']]?></span><br />
         </p>
 
         <p>
@@ -88,7 +88,7 @@
         <h3>Freelance Developer</h3>
         <p class="info">
           <span><?php echo $content['freelance-sector'][$_SESSION['langId']]?></span><br />
-          <span>Marzo 2010 • Presente</span><br />
+          <span><?php echo $content['freelance-fecha'][$_SESSION['langId']]?></span><br />
         </p>
 
         <p>

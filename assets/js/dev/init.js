@@ -6,6 +6,8 @@ jQuery(document).ready(function($) {
 
     $('#lang').click(function(e) {
 
+        e.preventDefault();
+
         let idioma = 'es';
 
         switch (e.target.innerText) {
@@ -80,11 +82,46 @@ jQuery(document).ready(function($) {
     // Carga secciones de forma asincrona
     // ==============================================================
 
-    function cargarSecciones(idioma = 'es') {
+    function cargarSecciones(idioma) {
+
+        const idiomaLocalStorage = getIdiomaLocalStorage();
+
+        if(idiomaLocalStorage !== idioma) {
+            localStorage.setItem('lang', idioma);
+        }
 
         $.ajax({
             url: 'helper.php?v='+version+'&lang='+idioma,
             success: function(respuesta) {}
+        });
+
+        $.ajax({
+            url: 'menu.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+
+                const jsonResult = JSON.parse(respuesta);
+                let idLang = 0;
+
+                switch (idioma) {
+                    case 'es':
+                        idLang = 0;
+                    break;
+                
+                    case 'en':
+                        idLang = 1;
+                    break;
+                }
+
+                $('#link-home').html(jsonResult.inicio[idLang]).hide().fadeIn(1000);
+                $('#link-acerca').html(jsonResult.acerca[idLang]).hide().fadeIn(1000);
+                $('#link-education').html(jsonResult.educacion[idLang]).hide().fadeIn(1000);
+                $('#link-work').html(jsonResult.trabajo[idLang]).hide().fadeIn(1000);
+                $('#link-skills').html(jsonResult.skills[idLang]).hide().fadeIn(1000);
+                $('#link-portfolio').html(jsonResult.portfolio[idLang]).hide().fadeIn(1000);
+                $('#lang').html(jsonResult.idioma[idLang]).hide().fadeIn(1000);
+
+            
+            }
         });
 
         $.ajax({
@@ -128,7 +165,13 @@ jQuery(document).ready(function($) {
         $.ajax({
             url: 'sections/skills.php?v='+version+'&lang='+idioma,
             success: function(respuesta) {
+                var current_section = $("#nav li.current").text();
+
                 $('#skills').html(respuesta);
+
+                if(current_section==="Skills") {
+                    $('.bar-expand').removeClass('progress').addClass('progress');
+                }
             }
         });
     
@@ -141,10 +184,19 @@ jQuery(document).ready(function($) {
 
     }
 
-    cargarSecciones();
-    
-    
+    function getIdiomaLocalStorage() {
+        if (localStorage.getItem('lang')) {
+            return localStorage.getItem('lang');
+        } else {
+            localStorage.setItem('lang', 'es');
+            return localStorage.getItem('lang');
+        }
+    }
 
+    
+    let idioma = getIdiomaLocalStorage();
+    cargarSecciones(idioma);
+    
     // ==============================================================
     // Smooth Scrolling
     // ==============================================================
