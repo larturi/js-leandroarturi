@@ -8,7 +8,7 @@
         <!-- =========================================================== -->
 
         <?php 
-           define("APPVERSION", "2.0.3"); 
+           define("APPVERSION", "2.0.4"); 
            define("AMBIENTE", "prod"); 
            $_SESSION['lang'] = "es";
            $_SESSION['langId'] = 0;
@@ -118,7 +118,7 @@
                         <li><a id="link-work" class="smoothscroll" href="#work"><?php echo $menu['trabajo'][0] ?></a></li>
                         <li id="li-skills"><a id="link-skills" class="smoothscroll" href="#skills"><?php echo $menu['skills'][0] ?></a></li>
                         <li><a id="link-portfolio" class="smoothscroll" href="#portfolio"><?php echo $menu['portfolio'][0] ?></a></li>
-                        <li><a id="lang" href=""><?php echo $content['idioma'][0] ?></a></li>
+                        <li><a id="lang" href=""><?php echo $menu['idioma'][0] ?></a></li>
                     </ul> <!-- end #nav -->
 
                 </nav> <!-- end #nav-wrap -->
