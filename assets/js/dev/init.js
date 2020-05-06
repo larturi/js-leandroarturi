@@ -19,23 +19,8 @@ jQuery(document).ready(function($) {
                 e.target.innerText = 'ENGLISH';
             break;
         }
-        
-        $.ajax({
-            url: 'sections/header.php?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-                $('#content-header').html(respuesta).hide().fadeIn(2000);
-                setTimeout(function() {
-                    $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
-                }, 50);
-            }
-        });
 
-        $.ajax({
-            url: 'sections/about.php?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-                $('#about').html(respuesta);
-            }
-        });
+        cargarSecciones(idioma);
 
     });
 
@@ -94,59 +79,71 @@ jQuery(document).ready(function($) {
     // ==============================================================
     // Carga secciones de forma asincrona
     // ==============================================================
+
+    function cargarSecciones(idioma = 'es') {
+
+        $.ajax({
+            url: 'helper.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {}
+        });
+
+        $.ajax({
+            url: 'sections/header.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#content-header').html(respuesta).hide().fadeIn(1000);
+                setTimeout(function() {
+                    $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
+                }, 50);
+            }
+        });
     
-    $.ajax({
-        url: 'sections/header.php?v='+version+'&lang=es',
-        success: function(respuesta) {
+        $.ajax({
+            url: 'sections/about.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#about').html(respuesta);
+            }
+        });
+    
+        $.ajax({
+            url: 'sections/education.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#education').html(respuesta);
+            }
+        });
+    
+        $.ajax({
+            url: 'sections/work.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#work').html(respuesta);
+            }
+        });
+    
+        $.ajax({
+            url: 'sections/docencia.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#docencia').html(respuesta);
+            }
+        });
+    
+        $.ajax({
+            url: 'sections/skills.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#skills').html(respuesta);
+            }
+        });
+    
+        $.ajax({
+            url: 'sections/portfolio.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#portfolio').html(respuesta);
+            }
+        });
 
-            $('#content-header').append(respuesta).hide().fadeIn(2000);
-            setTimeout(function() {
-                $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
-            }, 50);
-        }
-    });
+    }
 
-    $.ajax({
-        url: 'sections/about.php?v='+version+'&lang=es',
-        success: function(respuesta) {
-            $('#about').append(respuesta);
-        }
-    });
-
-    $.ajax({
-        url: 'sections/education.php?v='+version,
-        success: function(respuesta) {
-            $('#education').append(respuesta);
-        }
-    });
-
-    $.ajax({
-        url: 'sections/work.html?v='+version,
-        success: function(respuesta) {
-            $('#work').append(respuesta);
-        }
-    });
-
-    $.ajax({
-        url: 'sections/docencia.html?v='+version,
-        success: function(respuesta) {
-            $('#docencia').append(respuesta);
-        }
-    });
-
-    $.ajax({
-        url: 'sections/skills.html?v='+version,
-        success: function(respuesta) {
-            $('#skills').append(respuesta);
-        }
-    });
-
-    $.ajax({
-        url: 'sections/portfolio.php?v='+version,
-        success: function(respuesta) {
-            $('#portfolio').append(respuesta);
-        }
-    });
+    cargarSecciones();
+    
+    
 
     // ==============================================================
     // Smooth Scrolling

@@ -1,3 +1,7 @@
+<?php 
+   include_once('../helper.php'); 
+?>
+
 <div class="row education">
   <div class="three columns header-col">
     <h1><span>Skills</span></h1>
@@ -8,11 +12,11 @@
 
       <h5 class="mb-5 color-dark">LEADERSHIP SKILLS</h5>
       <ul class="skills">
-        <li><span class="bar-expand cien"></span><em>Responsabilidad</em></li>
-        <li><span class="bar-expand cien"></span><em>Compromiso</em></li>
-        <li><span class="bar-expand cien"></span><em>Proactividad</em></li>
-        <li><span class="bar-expand noventaycinco"></span><em>Comunicación</em></li>
-        <li><span class="bar-expand noventaycinco"></span><em>Motivación</em></li>
+        <li><span class="bar-expand cien"></span><em><?php echo $content['responsabilidad'][$_SESSION['langId']]?></em></li>
+        <li><span class="bar-expand cien"></span><em><?php echo $content['compromiso'][$_SESSION['langId']]?></em></li>
+        <li><span class="bar-expand cien"></span><em><?php echo $content['proactividad'][$_SESSION['langId']]?></em></li>
+        <li><span class="bar-expand noventaycinco"></span><em><?php echo $content['comunicacion'][$_SESSION['langId']]?></em></li>
+        <li><span class="bar-expand noventaycinco"></span><em><?php echo $content['motivacion'][$_SESSION['langId']]?></em></li>
       </ul>
 
       <h5 class="mb-5 color-dark">WEB DEVELOPMENT</h5>

@@ -1,19 +1,5 @@
 <?php 
    include_once('../helper.php'); 
-   include_once('../content.php');
-
-   switch ($_GET['lang']) {
-    case 'es':
-      $_SESSION['lang'] = "es";
-      $_SESSION['langId'] = 0;
-    break;
-   
-    case 'en':
-      $_SESSION['lang'] = "en";
-      $_SESSION['langId'] = 1;
-    break;
- }
-
 ?>
 
 <div class="row">

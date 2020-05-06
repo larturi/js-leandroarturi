@@ -1,59 +1,103 @@
 <?php
 
-function numero_a_letra($num) {
+if(!isset($_GET['lang'])){
+    $_GET['lang'] = "es";
+}
 
-    switch ($num) {
-        case 8:
-            return 'ocho';
-            break;
-        case 9:
-            return 'nueve';
-            break;
-        case 10:
-            return 'diez';
-            break;
-        case 11:
-            return 'once';
-            break;
-        case 12:
-            return 'doce';
-            break;
-        case 13:
-            return 'trece';
-            break;
-        case 14:
-            return 'catorce';
-            break;
-        case 15:
-            return 'quince';
-            break;
-        case 16:
-            return 'dieciséis';
-            break;
-        case 17:
-            return 'diecisiete';
-            break;
-        case 18:
-            return 'dieciocho';
-            break;
-        case 19:
-            return 'diecinueve';
-            break;
-        case 20:
-            return 'veinte';
-            break;
+switch ($_GET['lang']) {
+ case 'es':
+   $_SESSION['lang'] = "es";
+   $_SESSION['langId'] = 0;
+ break;
+
+ case 'en':
+   $_SESSION['lang'] = "en";
+   $_SESSION['langId'] = 1;
+ break;
+}
+
+include_once('content.php');
+
+function numero_a_letra($num, $lang) {
+
+    switch ($lang) {
+        case 0:
+            switch ($num) {
+                case 12:
+                    return 'doce';
+                    break;
+                case 13:
+                    return 'trece';
+                    break;
+                case 14:
+                    return 'catorce';
+                    break;
+                case 15:
+                    return 'quince';
+                    break;
+                case 16:
+                    return 'dieciséis';
+                    break;
+                case 17:
+                    return 'diecisiete';
+                    break;
+                case 18:
+                    return 'dieciocho';
+                    break;
+                case 19:
+                    return 'diecinueve';
+                    break;
+                case 20:
+                    return 'veinte';
+                    break;
+            }
+        break;
+        
+        case 1:
+            switch ($num) {
+                case 12:
+                    return 'twelve';
+                    break;
+                case 13:
+                    return 'thirteen';
+                    break;
+                case 14:
+                    return 'fourteen';
+                    break;
+                case 15:
+                    return 'fifteen';
+                    break;
+                case 16:
+                    return 'sixteen';
+                    break;
+                case 17:
+                    return 'seventeen';
+                    break;
+                case 18:
+                    return 'eighteen';
+                    break;
+                case 19:
+                    return 'nineteen';
+                    break;
+                case 20:
+                    return 'twenty';
+                    break;
+            }
+        break;
     }
+
+    
 }
 
 function getAmbiente(){
     return "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 }
 
-function getExperiencia() {
+function getExperiencia($lang) {
     $datetimeInicioLaboral = new DateTime('2006-09-01');
     $datetimeHoy = new DateTime("now");
     $interval = $datetimeInicioLaboral->diff($datetimeHoy);
-    return numero_a_letra($interval->y);
+    return numero_a_letra($interval->y, $lang);
 }
 
 function linkEntitiesWithinText($apiResponseTweetObject) {

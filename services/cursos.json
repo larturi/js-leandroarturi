@@ -1,6 +1,7 @@
 [   
     {
         "nombre": "Angular: De cero a experto creando aplicaciones",
+        "name": "Angular: From the basics to expert creating applications",
         "anio": 2020,
         "horas": 33.5,
         "institucion": "Udemy",
@@ -8,6 +9,7 @@
     },
     {
         "nombre": "Node.js de cero a experto",
+        "name": "Node.js from the basics to expert",
         "anio": 2020,
         "horas": 20,
         "institucion": "Udemy",
@@ -15,6 +17,7 @@
     },
     {
         "nombre": "JavaScript Moderno: Guía para dominar el lenguaje",
+        "name": "Modern JavaScript: A guide to mastering the language",
         "anio": 2020,
         "horas": 17.5,
         "institucion": "Udemy",
@@ -22,6 +25,7 @@
     },
     {
         "nombre": "GIT+GitHub: Todo un sistema de control de versiones de cero",
+        "name": "GIT+GitHub: A complete version control system from the basics",
         "anio": 2020,
         "horas": 7,
         "institucion": "Udemy",
@@ -29,6 +33,7 @@
     },
     {
         "nombre": "Scrum Práctico en Proyectos de Software",
+        "name": "Practical Scrum in Software Projects",
         "anio": 2020,
         "horas": 4.5,
         "institucion": "Udemy",
@@ -36,6 +41,7 @@
     },
     {
         "nombre": "Visual Studio Code: Mejora tu velocidad para programar",
+        "name": "Visual Studio Code: Improve your speed to program",
         "anio": 2020,
         "horas": 1.5,
         "institucion": "Udemy",
@@ -43,6 +49,7 @@
     },
     {
         "nombre": "Scrum Master + La Revolución Ágil",
+        "name": "Scrum Master + The Agile Revolution",
         "anio": 2020,
         "horas": 3,
         "institucion": "Udemy",
@@ -50,6 +57,7 @@
     },
     {
         "nombre": "Aprende Docker desde Cero a Swarm y Kubernetes",
+        "name": "Learn Docker from the basics to Swarm and Kubernetes",
         "anio": 2020,
         "horas": 11,
         "institucion": "Udemy",
@@ -57,6 +65,7 @@
     },
     {
         "nombre": "Aprende a dominar GIT de cero a experto",
+        "name": "Learn to master GIT from the basics to expert",
         "anio": 2020,
         "horas": 3,
         "institucion": "Udemy",
@@ -64,13 +73,15 @@
     },
     {
         "nombre": "UX Design - Conceptos Básicos para principiantes",
+        "name": "UX Design - Basic Concepts for Beginners",
         "anio": 2020,
         "horas": 1,
         "institucion": "Udemy",
         "url": "https://www.udemy.com/certificate/UC-2e0fcccc-6c1a-426d-a6fc-79abda193a3e/"
     },
     {
-        "nombre": "4to Encuentro de la Comunidad Digital AE",
+        "nombre": "4to Encuentro de la Comunidad Digital",
+        "name": "4th Meeting of the Digital Community",
         "anio": 2019,
         "horas": 34,
         "institucion": "ONTI",
@@ -78,20 +89,23 @@
     },
     {
         "nombre": "Los 7 hábitos de las personas altamente efectivas",
+        "name": "7 Habits of Highly Effective People Course",
         "anio": 2018,
         "horas": 16,
         "institucion": "INAP",
         "url": ""
     },
     {
-        "nombre": "Programación en Android",
+        "nombre": "Curso de Programación en Android",
+        "name": "Android Programming Course",
         "anio": 2015,
         "horas": 21,
         "institucion": "UTN",
         "url": ""
     },
     {
-        "nombre": "Programa de Formación Conducción y Gestión - Liderazgo Activo",
+        "nombre": "Programa de Formación Conducción y Gestión - Liderazgo Activo III",
+        "name": "Training and Management Program - Active Leadership III",
         "anio": 2014,
         "horas": 18,
         "institucion": "UBA",
@@ -99,6 +113,7 @@
     },
     {
         "nombre": "Software Publico para el Desarrollo",
+        "name": "Public Software for Development",
         "anio": 2013,
         "horas": 8,
         "institucion": "Subsecretaría de Tecnologías de Gestión",
@@ -106,6 +121,7 @@
     },
     {
         "nombre": "Programa de Formación Conducción y Gestión - Liderazgo Activo II",
+        "name": "Training and Management Program - Active Leadership II",
         "anio": 2013,
         "horas": 18,
         "institucion": "UBA",
@@ -113,6 +129,7 @@
     },
     {
         "nombre": "Programa de Formación Conducción y Gestión - Liderazgo Activo",
+        "name": "Training and Management Program - Active Leadership",
         "anio": 2011,
         "horas": 40,
         "institucion": "UBA",
@@ -120,6 +137,7 @@
     },
     {
         "nombre": "Curso Programador Web UTN-FRBA",
+        "name": "Web Programmer Course UTN-FRBA",
         "anio": 2010,
         "horas": 72,
         "institucion": "UTN",
@@ -127,6 +145,7 @@
     },
     {
         "nombre": "Curso Professional Webmaster UTN-FRBA",
+        "name": "Professional Webmaster Course UTN-FRBA",
         "anio": 2010,
         "horas": 114,
         "institucion": "UTN",

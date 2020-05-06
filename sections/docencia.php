@@ -1,7 +1,11 @@
+<?php 
+   include_once('../helper.php'); 
+?>
+
 <div class="row education">
   
   <div class="three columns header-col">
-    <h1><span>Docencia</span></h1>
+    <h1><span><?php echo $content['docencia-titulo'][$_SESSION['langId']]?></span></h1>
   </div>
 
   <div class="nine columns main-col">
@@ -15,10 +19,7 @@
         </p>
 
         <p>
-          Fui Auxiliar Docente de las materias Construcción de Aplicaciones
-          Informáticas, Análisis Numérico, Estadística II y Administración
-          General en la Facultad de Ciencias Económicas de la UBA durante más de
-          cinco años.
+            <?php echo $content['docencia'][$_SESSION['langId']]?>
         </p>
 
       </div>
