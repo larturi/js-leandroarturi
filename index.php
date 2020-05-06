@@ -7,8 +7,12 @@
         <!-- Version de la aplicacion                                    -->
         <!-- =========================================================== -->
 
-        <?php define("APPVERSION", "1.7.7"); ?>
-        <?php define("AMBIENTE", "prod"); ?>
+        <?php 
+           define("APPVERSION", "1.7.7"); 
+           define("AMBIENTE", "dev"); 
+           $_SESSION['lang'] = "es";
+           $_SESSION['langId'] = 0;
+        ?>
 
         <script type="application/ld+json">
         {"@context" : "https://schema.org",
@@ -19,7 +23,8 @@
         </script>
 
 
-        <?php include_once('helper.php'); ?>
+        <?php include('helper.php'); ?>
+        <?php include('content.php'); ?>
 
         <!-- =========================================================== -->
         <!-- Basic Page Needs                                            -->
@@ -88,7 +93,7 @@
     <body>
 
         <div class="loading">
-           Cargando...
+           <?php echo $content['cargando'][0] . '...' ?>
         </div>
 
         <div id="contenido">
@@ -105,12 +110,13 @@
                     <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
                     <ul id="nav" class="nav">
-                        <li class="current"><a class="smoothscroll" href="#home">Inicio</a></li>
-                        <li><a class="smoothscroll" href="#about">Acerca de mi</a></li>
-                        <li><a class="smoothscroll" href="#education">Educación</a></li>
-                        <li><a class="smoothscroll" href="#work">Trabajo</a></li>
-                        <li><a class="smoothscroll" href="#skills">Skills</a></li>
-                        <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+                        <li class="current"><a class="smoothscroll" href="#home"><?php echo $content['inicio'][$_SESSION['langId']] ?></a></li>
+                        <li><a class="smoothscroll" href="#about"><?php echo $content['acerca-de'][0] ?></a></li>
+                        <li><a class="smoothscroll" href="#education"><?php echo $content['educacion'][0] ?></a></li>
+                        <li><a class="smoothscroll" href="#work"><?php echo $content['trabajo'][0] ?></a></li>
+                        <li><a class="smoothscroll" href="#skills"><?php echo $content['skills'][0] ?></a></li>
+                        <li><a class="smoothscroll" href="#portfolio"><?php echo $content['portfolio'][0] ?></a></li>
+                        <li><a id="lang" href="#"><?php echo $content['idioma'][0] ?></a></li>
                     </ul> <!-- end #nav -->
 
                 </nav> <!-- end #nav-wrap -->

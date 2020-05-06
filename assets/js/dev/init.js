@@ -1,6 +1,45 @@
 jQuery(document).ready(function($) {
 
     // ==============================================================
+    // Idioma
+    // ==============================================================
+
+    $('#lang').click(function(e) {
+
+        let idioma = 'es';
+
+        switch (e.target.innerText) {
+            case 'ENGLISH':
+                idioma = 'en';
+                e.target.innerText = 'ESPAÑOL';
+            break;
+        
+            case 'ESPAÑOL':
+                idioma = 'es';
+                e.target.innerText = 'ENGLISH';
+            break;
+        }
+        
+        $.ajax({
+            url: 'sections/header.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#content-header').html(respuesta).hide().fadeIn(2000);
+                setTimeout(function() {
+                    $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
+                }, 50);
+            }
+        });
+
+        $.ajax({
+            url: 'sections/about.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#about').html(respuesta);
+            }
+        });
+
+    });
+
+    // ==============================================================
     // Imagen de fondo y opacidad al inicio
     // ==============================================================
 
@@ -57,8 +96,9 @@ jQuery(document).ready(function($) {
     // ==============================================================
     
     $.ajax({
-        url: 'sections/header.php?v='+version,
+        url: 'sections/header.php?v='+version+'&lang=es',
         success: function(respuesta) {
+
             $('#content-header').append(respuesta).hide().fadeIn(2000);
             setTimeout(function() {
                 $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
@@ -67,7 +107,7 @@ jQuery(document).ready(function($) {
     });
 
     $.ajax({
-        url: 'sections/about.html?v='+version,
+        url: 'sections/about.php?v='+version+'&lang=es',
         success: function(respuesta) {
             $('#about').append(respuesta);
         }

@@ -1,22 +1,34 @@
+<?php 
+   include_once('../helper.php'); 
+   include_once('../content.php');
+
+   switch ($_GET['lang']) {
+    case 'es':
+      $_SESSION['lang'] = "es";
+      $_SESSION['langId'] = 0;
+    break;
+   
+    case 'en':
+      $_SESSION['lang'] = "en";
+      $_SESSION['langId'] = 1;
+    break;
+ }
+
+?>
+
 <div class="row">
   <div class="three columns">
     <img class="profile-pic" src="assets/images/profilephoto.jpg" alt="" />
   </div>
 
-  <div class="nine columns main-col">
-    <h2>Acerca de mi</h2>
+<div class="nine columns main-col">
+    <h2><?php echo $content['acerca-de'][$_SESSION['langId']]?></h2>
 
-    <p>
-      Licenciado en Sistemas con experiencia en gestión y desarrollo de
-      proyectos de software en diferentes tecnologías. A lo largo de mi carrera
-      he cumplido diferentes roles, habiendo trabajado como desarrollador,
-      analista programador, analista técnico funcional y líder de proyectos de
-      desarrollo. 
-    </p>
+    <p><?php echo $content['about'][$_SESSION['langId']]?></p>
 
     <div class="row">
       <div class="columns contact-details">
-        <h2>Contactar</h2>
+        <h2><?php echo $content['contactar'][$_SESSION['langId']]?></h2>
         <p class="address">
 
           <span style="margin-left: 2px;"><i class="fa fa-envelope"></i></span>
