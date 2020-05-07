@@ -1,40 +1,12 @@
 jQuery(document).ready(function($) {
 
-    // ==============================================================
-    // Idioma
-    // ==============================================================
-
-    $('#lang').click(function(e) {
-
-        let idioma = 'es';
-
-        switch (e.target.innerText) {
-            case 'ENGLISH':
-                idioma = 'en';
-                e.target.innerText = 'ESPAÑOL';
-            break;
-        
-            case 'ESPAÑOL':
-                idioma = 'es';
-                e.target.innerText = 'ENGLISH';
-            break;
-        }
-
-        var current_section = $("#nav li.current").children().attr('href');
-        var buttonMenu = $('#nav-wrap').children().eq(1);
-
-        buttonMenu.click();
-        $(this).attr("href", current_section);
-
-        cargarSecciones(idioma);
-
-    });
-
+    var content = '';
+    var portfolio = '';
+    var cursos = '';
 
     // ==============================================================
     // Imagen de fondo y opacidad al inicio
     // ==============================================================
-
     var myopacity = 0;
     var img1 = document.createElement("img");
     img1.src = "./assets/images/home-background/home-background-1.jpg";
@@ -54,23 +26,10 @@ jQuery(document).ready(function($) {
         }
         document.getElementById('contenido').style.opacity = myopacity;
     }
-  
-    // ==============================================================
-    // Version de la aplicacion
-    // ==============================================================
-
-    let version = '';
-    const metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-        if (metas[i].getAttribute('name') === 'version') {
-            version = metas[i].getAttribute('content');
-        }
-    }
     
     // ==============================================================
     // Flexslider
     // ==============================================================
-
     $('.flexslider').flexslider({
         namespace: "flex-",
         controlsContainer: ".flex-container",
@@ -83,128 +42,10 @@ jQuery(document).ready(function($) {
         randomize: false,
     });
 
-    // ==============================================================
-    // Carga secciones de forma asincrona
-    // ==============================================================
-
-    function cargarSecciones(idioma) {
-
-        const idiomaLocalStorage = getIdiomaLocalStorage();
-
-        if(idiomaLocalStorage !== idioma) {
-            localStorage.setItem('lang', idioma);
-        }
-
-        $.ajax({
-            url: 'helper.php?v='+version+'&lang='+idioma,
-            success: function(respuesta) {}
-        });
-
-        $.ajax({
-            url: 'menu.php?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-
-                const jsonResult = JSON.parse(respuesta);
-                let idLang = 0;
-
-                switch (idioma) {
-                    case 'es':
-                        idLang = 0;
-                    break;
-                
-                    case 'en':
-                        idLang = 1;
-                    break;
-                }
-
-                $('#link-home').html(jsonResult.inicio[idLang]).hide().fadeIn(100);
-                $('#link-acerca').html(jsonResult.acerca[idLang]).hide().fadeIn(100);
-                $('#link-education').html(jsonResult.educacion[idLang]).hide().fadeIn(100);
-                $('#link-work').html(jsonResult.trabajo[idLang]).hide().fadeIn(100);
-                $('#link-skills').html(jsonResult.skills[idLang]).hide().fadeIn(100);
-                $('#link-portfolio').html(jsonResult.portfolio[idLang]).hide().fadeIn(100);
-                $('#lang').html(jsonResult.idioma[idLang]).hide().fadeIn(100);
-            
-            }
-        });
-
-        $.ajax({
-            url: 'sections/header.php?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-                $('#content-header').html(respuesta).hide().fadeIn(1000);
-                setTimeout(function() {
-                    $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
-                }, 50);
-            }
-        });
-    
-        $.ajax({
-            url: 'sections/about.php?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-                $('#about').html(respuesta);
-            }
-        });
-    
-        $.ajax({
-            url: 'sections/education.php?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-                $('#education').html(respuesta);
-            }
-        });
-    
-        $.ajax({
-            url: 'sections/work.php?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-                $('#work').html(respuesta);
-            }
-        });
-    
-        $.ajax({
-            url: 'sections/docencia.php?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-                $('#docencia').html(respuesta);
-            }
-        });
-    
-        $.ajax({
-            url: 'sections/skills.php?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-                var current_section = $("#nav li.current").text();
-
-                $('#skills').html(respuesta);
-
-                if(current_section==="Skills") {
-                    $('.bar-expand').removeClass('progress').addClass('progress');
-                }
-            }
-        });
-    
-        $.ajax({
-            url: 'sections/portfolio.php?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-                $('#portfolio').html(respuesta);
-            }
-        });
-
-    }
-
-    function getIdiomaLocalStorage() {
-        if (localStorage.getItem('lang')) {
-            return localStorage.getItem('lang');
-        } else {
-            localStorage.setItem('lang', 'es');
-            return localStorage.getItem('lang');
-        }
-    }
-    
-    let idioma = getIdiomaLocalStorage();
-    cargarSecciones(idioma);
-
     
     // ==============================================================
     // Smooth Scrolling
     // ==============================================================
-
     $('.smoothscroll').on('click', function(e) {
         e.preventDefault();
 
@@ -219,11 +60,9 @@ jQuery(document).ready(function($) {
         });
     });
 
-
     // ==============================================================
     // Highlight the current section in the navigation bar
     // ==============================================================
-
     var sections = $("section");
     var navigation_links = $("#nav-wrap a");
 
@@ -292,21 +131,17 @@ jQuery(document).ready(function($) {
     });
 
     // ==============================================================
-    // Make sure that #header-background-image height is equal 
-    // to the browser height.
+    // Make sure that #header-background-image height is = browser height
     // ==============================================================
-
     $('header').css({'height': $(window).height()});
-    $(window).on('resize', function() {
+       $(window).on('resize', function() {
         $('header').css({'height': $(window).height()});
         $('body').css({'width': $(window).width()});
     });
 
-
     // ==============================================================
     // Fade In/Out Primary Navigation
     // ==============================================================
-
     $(window).on('scroll', function() {
 
         var h = $('header').height();
@@ -326,6 +161,594 @@ jQuery(document).ready(function($) {
         }
 
     });
+
+    // ==============================================================
+    // Cambiar Idioma
+    // ==============================================================
+    $('#lang').click(function(e) {
+
+        let idioma = 'es';
+
+        switch (e.target.innerText) {
+            case 'ENGLISH':
+                idioma = 'en';
+                e.target.innerText = 'ESPAÑOL';
+            break;
+        
+            case 'ESPAÑOL':
+                idioma = 'es';
+                e.target.innerText = 'ENGLISH';
+            break;
+        }
+
+        var current_section = $("#nav li.current").children().attr('href');
+        var buttonMenu = $('#nav-wrap').children().eq(1);
+
+        $("#lang").parent().removeClass("current");
+
+        cambiarIdioma(idioma, content);
+
+        buttonMenu.click();
+        $(this).attr("href", current_section);
+
+    });
+
+    // ==============================================================
+    // Funciones
+    // ==============================================================
+    function numeroEnLetras(num, idioma) {
+
+        switch (idioma) {
+            case 0:
+
+                switch (num) {
+                    case 12:
+                        return 'doce';
+                    case 13:
+                        return 'trece';
+                    case 14:
+                        return 'catorce';
+                    case 15:
+                        return 'quince';
+                    case 16:
+                        return 'dieciséis';
+                    case 17:
+                        return 'diecisiete';
+                    case 18:
+                        return 'dieciocho';
+                    case 19:
+                        return 'diecinueve';
+                    case 20:
+                        return 'veinte';
+                    case 21:
+                        return 'veintiun';
+                    case 22:
+                        return 'veintidos';
+                    case 23:
+                        return 'veintitres';
+                    case 24:
+                        return 'veinticuatro';
+                    case 25:
+                        return 'veinticino';
+                    case 26:
+                        return 'veintiseis';
+                    case 27:
+                        return 'veintidossiete';
+                    case 28:
+                        return 'veintidosocho';
+                    case 29:
+                        return 'veintidosnueve';
+                    case 30:
+                        return 'treinta';
+                    case 31:
+                        return 'treinta y un';
+                    case 32:
+                        return 'treinta y dos';
+                    case 33:
+                        return 'treinta y tres';
+                    case 34:
+                        return 'treinta y cuatro';
+                    case 35:
+                        return 'treinta y cinco';
+                    case 36:
+                        return 'treinta y seis';
+                    case 37:
+                        return 'treinta y siete';
+                    case 38:
+                        return 'treinta y ocho';
+                    case 39:
+                        return 'treinta y nueve';
+                    case 40:
+                        return 'cuarenta';
+                    default:
+                        return 'mas de cuarenta';
+                }
+                
+                break;
+        
+            case 1:
+
+                switch (num) {
+                    case 12:
+                        return 'twelve';
+                    case 13:
+                        return 'thirteen';
+                    case 14:
+                        return 'fourteen';
+                    case 15:
+                        return 'fifteen';
+                    case 16:
+                        return 'sixteen';
+                    case 17:
+                        return 'seventeen';
+                    case 18:
+                        return 'eighteen';
+                    case 19:
+                        return 'nineteen';
+                    case 20:
+                        return 'twenty';
+                    case 21:
+                        return 'twenty one';
+                    case 22:
+                        return 'twenty two';
+                    case 23:
+                        return 'twenty three';
+                    case 24:
+                        return 'twenty four';
+                    case 25:
+                        return 'twenty five';
+                    case 26:
+                        return 'twenty six';
+                    case 27:
+                        return 'twenty seven';
+                    case 28:
+                        return 'twenty eigth';
+                    case 29:
+                        return 'twenty nine';
+                    case 30:
+                        return 'thirty';
+                    case 31:
+                        return 'thirty one';
+                    case 32:
+                        return 'thirty two';
+                    case 33:
+                        return 'thirty three';
+                    case 34:
+                        return 'thirty four';
+                    case 35:
+                        return 'thirty five';
+                    case 36:
+                        return 'thirty six';
+                    case 37:
+                        return 'thirty seven';
+                    case 38:
+                        return 'thirty eigth';
+                    case 39:
+                        return 'thirty nine';
+                    case 40:
+                        return 'forty';
+                    default:
+                        return 'more then forty';
+                }
+
+                break;
+        }
+        
+    }
+    
+    function getExperiencia(idioma) {
+        const datetimeInicioLaboral = new Date('September 1, 2006');
+        const hoy = new Date();
+
+        let antiguedad = hoy.getFullYear() - datetimeInicioLaboral.getFullYear();
+        const m = hoy.getMonth() - datetimeInicioLaboral.getMonth();
+
+        if (m < 0 || (m === 0 && hoy.getDate() < datetimeInicioLaboral.getDate())) {
+            antiguedad--;
+        }
+
+        return numeroEnLetras(antiguedad, idioma);
+    }
+
+    function getVersionApp() {
+        let version = '';
+        const metas = document.getElementsByTagName('meta');
+        for (let i = 0; i < metas.length; i++) {
+            if (metas[i].getAttribute('name') === 'version') {
+                version = metas[i].getAttribute('content');
+            }
+        }
+
+        return version;
+    }
+
+    function getIdiomaLocalStorage() {
+        if (localStorage.getItem('lang')) {
+            return localStorage.getItem('lang');
+        } else {
+            localStorage.setItem('lang', 'es');
+            return localStorage.getItem('lang');
+        }
+    }
+
+    function getIdLang(idioma) {
+
+       switch (idioma) {
+           case 'es':
+               idLang = 0;
+           break;
+       
+           case 'en':
+               idLang = 1;
+           break;
+       }
+
+       return idLang;
+    }
+
+    function cambiarIdioma(idioma, content) {
+
+        const idiomaLocalStorage = getIdiomaLocalStorage();
+
+        if(idiomaLocalStorage !== idioma) {
+            localStorage.setItem('lang', idioma);
+        }
+
+        // Loading
+        showLoading(idLang, content);
+        // Menu
+        showMenuSection(idioma, content);
+        // Header
+        showHeaderSection(idioma, content);
+        // About
+        showAboutSection(idioma, content);
+        // Education
+        showEducationSection(idioma, content);
+        // Cursos
+        showCursos(idioma, cursos);
+        // Education
+        showWorkSection(idioma, content);
+        // Docencia
+        showDocenciaSection(idioma, content);
+        // Skills
+        showSkillsSection(idioma, content);
+        // Portfolio
+        showPortfolioSection(idioma, portfolio);
+    }
+    
+    function cargarSecciones(idioma, content) {
+
+        let idLang = getIdLang(idioma);
+        showLoading(idLang, content);
+
+        $.ajax({
+            url: 'menu.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+
+                const jsonResult = JSON.parse(respuesta);
+                let idLang = getIdLang(idioma);
+
+                $('#link-home').html(jsonResult.inicio[idLang]).hide().fadeIn(100);
+                $('#link-acerca').html(jsonResult.acerca[idLang]).hide().fadeIn(100);
+                $('#link-education').html(jsonResult.educacion[idLang]).hide().fadeIn(100);
+                $('#link-work').html(jsonResult.trabajo[idLang]).hide().fadeIn(100);
+                $('#link-skills').html(jsonResult.skills[idLang]).hide().fadeIn(100);
+                $('#link-portfolio').html(jsonResult.portfolio[idLang]).hide().fadeIn(100);
+                $('#lang').html(jsonResult.idioma[idLang]).hide().fadeIn(100);
+            
+            }
+        });
+
+        $.ajax({
+            url: 'sections/header.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#content-header').html(respuesta).hide().fadeIn(1000);
+                showHeaderSection(idioma, content);
+                setTimeout(function() {
+                    $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
+                }, 50);
+            }
+        });
+
+        $.ajax({
+                url: 'sections/about.php?v='+version+'&lang='+idioma,
+                success: function(respuesta) {
+                    $('#about').html(respuesta);
+                    showAboutSection(idioma, content);
+               }
+        });
+    
+        $.ajax({
+            url: 'sections/education.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#education').html(respuesta);
+                showEducationSection(idioma, content);
+                showCursos(idioma, cursos);
+            }
+        });
+    
+        $.ajax({
+            url: 'sections/work.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#work').html(respuesta);
+                showWorkSection(idioma, content);
+            }
+        });
+    
+        $.ajax({
+            url: 'sections/docencia.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#docencia').html(respuesta);
+                showDocenciaSection(idioma, content);
+            }
+        });
+    
+        $.ajax({
+            url: 'sections/skills.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                var current_section = $("#nav li.current").text();
+
+                $('#skills').html(respuesta);
+                showSkillsSection(idioma, content);
+
+                if(current_section==="Skills") {
+                    $('.bar-expand').removeClass('progress').addClass('progress');
+                }
+            }
+        });
+    
+        $.ajax({
+            url: 'sections/portfolio.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+                $('#portfolio').html(respuesta);
+                showPortfolioSection(idioma, portfolio);
+            }
+        });
+
+    }
+
+    function showLoading(idioma, content) {
+        idLang = getIdLang(idioma);
+        $("#loading").text(content.loading[idLang]);
+    }
+
+    function showMenuSection(idioma, content) {
+        idLang = getIdLang(idioma);
+
+        $.ajax({
+            url: 'menu.php?v='+version+'&lang='+idioma,
+            success: function(respuesta) {
+
+                const jsonResult = JSON.parse(respuesta);
+                let idLang = getIdLang(idioma);
+
+                $('#link-home').html(jsonResult.inicio[idLang]).hide().fadeIn(100);
+                $('#link-acerca').html(jsonResult.acerca[idLang]).hide().fadeIn(100);
+                $('#link-education').html(jsonResult.educacion[idLang]).hide().fadeIn(100);
+                $('#link-work').html(jsonResult.trabajo[idLang]).hide().fadeIn(100);
+                $('#link-skills').html(jsonResult.skills[idLang]).hide().fadeIn(100);
+                $('#link-portfolio').html(jsonResult.portfolio[idLang]).hide().fadeIn(100);
+                $('#lang').html(jsonResult.idioma[idLang]).hide().fadeIn(100);
+            
+            }
+        });
+
+    }
+
+    function showHeaderSection(idioma, content) {
+        idLang = getIdLang(idioma);
+        $("#content-header").hide();
+
+        $("#header1").text(content.header1[idLang]);
+        $("#header2").text(content.header2[idLang]);
+        $("#headerAnios").text(getExperiencia(idLang));
+        $("#headerAnios");
+
+        $("#content-header").fadeIn(1000);
+    }
+
+    function showAboutSection(idioma, content) {
+       idLang = getIdLang(idioma);
+       
+       $("#aboutTitulo").text(content.aboutTitulo[idLang]).hide().fadeIn(1000);
+       $("#aboutParrafo").text(content.aboutParrafo[idLang]).hide().fadeIn(1000);
+       $("#aboutContacto").text(content.aboutContacto[idLang]).hide().fadeIn(1000);
+       $("#aboutLinks").hide().fadeIn(1000);
+    }
+
+    function showEducationSection(idioma, content) {
+        
+       idLang = getIdLang(idioma);
+
+       $('#education').hide();
+
+       $("#educationTitulo").text(content.educationTitulo[idLang]);
+       $("#educationLicenciado").text(content.educationLicenciado[idLang]);
+       $("#educationTecnicatura").text(content.educationTecnicatura[idLang]);
+       $("#educationPendienteUces").text(content.educationPendienteUces[idLang]);
+       $("#educationCursosTitulo").text(content.educationCursosTitulo[idLang]);
+
+       $('#education').fadeIn(1000);
+    }
+
+    function showCursos(idioma, cursos) {
+
+        idLang = getIdLang(idioma);
+        var tituloCurso;
+        var nombreCurso;
+
+        $('#cursosContent').html('');
+        $('#cursosContent').hide();
+
+        cursos.forEach(element => {
+
+            if (idLang === 0) {
+               nombreCurso = element.nombre;
+            } else {
+               nombreCurso = element.name;
+            }
+
+            if(element.url.length > 1) {
+                tituloCurso = `<a href="${element.url}" target="_blank">
+                                  <h3>${nombreCurso}</h3>
+                               </a>`;
+            } else {
+                tituloCurso = `<h3>${nombreCurso}</h3>`;
+            }
+
+            $('#cursosContent').append(`
+                <div class="row item">
+                    <div class="twelve columns"> ${tituloCurso}
+                        <p class="detalle-cursos">
+                                <em class="detalle-cursos-em">${element.anio} • ${element.horas}h • ${element.institucion}</em>
+                                <br/>
+                        </p>
+                    </div>
+                </div>
+           `);
+        });
+
+        $('#cursosContent').hide().fadeIn(1000);
+
+    }
+
+    function showWorkSection(idioma, content) {
+        idLang = getIdLang(idioma);
+
+        $('#work').hide();
+
+        $("#trabajoTitulo").text(content.trabajoTitulo[idLang]);
+        
+        $("#trabajoItLeadSector").text(content.trabajoItLeadSector[idLang]);
+        $("#trabajoItLeadFecha").text(content.trabajoItLeadFecha[idLang]);
+        $("#trabajoItLeadText").text(content.trabajoItLeadText[idLang]);
+
+        $("#trabajoProjectManagerSector").text(content.trabajoProjectManagerSector[idLang]);
+        $("#trabajoProjectManagerFecha").text(content.trabajoProjectManagerFecha[idLang]);
+        $("#trabajoProjectManagerText").text(content.trabajoProjectManagerText[idLang]);
+
+        $("#trabajoDesaWebSector").text(content.trabajoDesaWebSector[idLang]);
+        $("#trabajoDesaWebFecha").text(content.trabajoDesaWebFecha[idLang]);
+        $("#trabajoDesaWebText").text(content.trabajoDesaWebText[idLang]);
+
+        $("#trabajoDesaDeskSector").text(content.trabajoDesaDeskSector[idLang]);
+        $("#trabajoDesaDeskFecha").text(content.trabajoDesaDeskFecha[idLang]);
+        $("#trabajoDesaDeskText").text(content.trabajoDesaDeskText[idLang]);
+        
+        $("#trabajoAnalisisSector").text(content.trabajoAnalisisSector[idLang]);
+        $("#trabajoAnalisisFecha").text(content.trabajoAnalisisFecha[idLang]);
+        $("#trabajoAnalisisText").text(content.trabajoAnalisisText[idLang]);
+        
+        $("#trabajoFreelanceSector").text(content.trabajoFreelanceSector[idLang]);
+        $("#trabajoFreelanceFecha").text(content.trabajoFreelanceFecha[idLang]);
+        $("#trabajoFreelanceText").text(content.trabajoFreelanceText[idLang]);
+
+        $('#work').fadeIn(1000);
+    }
+
+    function showDocenciaSection(idioma, content) {
+        idLang = getIdLang(idioma);
+        $("#docenciaTitulo").text(content.docenciaTitulo[idLang]).hide().fadeIn(1000);
+        $("#docenciaFecha").text(content.docenciaFecha[idLang]).hide().fadeIn(1000);
+        $("#docenciaText").text(content.docenciaText[idLang]).hide().fadeIn(1000);
+    }
+
+    function showSkillsSection(idioma, content) {
+        idLang = getIdLang(idioma);
+        $("#skillsResponsabilidad").text(content.skillsResponsabilidad[idLang]).hide().fadeIn(1000);
+        $("#skillsCompromiso").text(content.skillsCompromiso[idLang]).hide().fadeIn(1000);
+        $("#skillsProactividad").text(content.skillsProactividad[idLang]).hide().fadeIn(1000);
+        $("#skillsComunicacion").text(content.skillsComunicacion[idLang]).hide().fadeIn(1000);
+        $("#skillsMotivacion").text(content.skillsMotivacion[idLang]).hide().fadeIn(1000);
+    }
+
+    function showPortfolioSection(idioma, portfolio) {
+
+        idLang = getIdLang(idioma);
+
+        $('#portfolioContent').html('');
+        $('#portfolioContent').hide();
+
+        switch (idLang) {
+            case 0:
+
+                portfolio.forEach(element => {
+                    $('#portfolioContent').append(`
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h3><a href="${element.url}" target="_blank">${element.nombre}</a></h3>
+                                    <p class="detalle-cursos">
+                                        <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
+                                        ${element.resumen}
+                                    </p>
+                            </div>
+                        </div>
+                    `);
+                }); 
+                
+                break;
+
+            case 1:
+
+                portfolio.forEach(element => {
+                    $('#portfolioContent').append(`
+                        <div class="row">
+                            <div class="twelve columns">
+                                <h3><a href="${element.url}" target="_blank">${element.name}</a></h3>
+                                    <p class="detalle-cursos">
+                                        <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
+                                        ${element.summary}
+                                    </p>
+                            </div>
+                        </div>
+                    `);
+                }); 
+                
+                break;
+        }
+
+        $('#portfolioContent').fadeIn(1000);
+
+        
+
+    }
+
+    const getContenido = async function() {
+        const result = await $.ajax({
+            url: 'services/content.json?v='+version
+        });
+        return result;
+    };
+
+    const getPortfolio = async function() {
+        const result = await $.ajax({
+            url: 'services/portfolio.json?v='+version
+        });
+        return result;
+    };
+
+    const getCursos = async function() {
+        const result = await $.ajax({
+            url: 'services/cursos.json?v='+version
+        });
+        return result;
+    };
+
+    // ==============================================================
+    // Inicializacion
+    // ==============================================================
+    const version = getVersionApp();
+    var idioma = getIdiomaLocalStorage();
+
+    const start = async function() {
+        content = await getContenido();
+        cursos = await getCursos();
+        portfolio = await getPortfolio();
+
+        cargarSecciones(idioma, content);
+    };
+      
+    start();
 
 });
 

@@ -1,21 +1,17 @@
-<?php 
-   include_once('../helper.php'); 
-?>
-
 <div class="row">
   <div class="three columns">
     <img class="profile-pic" src="assets/images/profilephoto.jpg" alt="" />
   </div>
 
 <div class="nine columns main-col">
-    <h2><?php echo $content['acerca-de'][$_SESSION['langId']]?></h2>
+    <h2 id="aboutTitulo"></h2>
 
-    <p><?php echo $content['about'][$_SESSION['langId']]?></p>
+    <p id="aboutParrafo"></p>
 
     <div class="row">
       <div class="columns contact-details">
-        <h2><?php echo $content['contactar'][$_SESSION['langId']]?></h2>
-        <p class="address">
+        <h2 id="aboutContacto"></h2>
+        <p id="aboutLinks" class="address">
 
           <span style="margin-left: 2px;"><i class="fa fa-envelope"></i></span>
           <span class="item-contacto">
