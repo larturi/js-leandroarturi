@@ -540,12 +540,11 @@ jQuery(document).ready(function($) {
 
     function showHeaderSection(idioma, content) {
         idLang = getIdLang(idioma);
-        //$("#content-header").hide();
+        $("#content-header").hide();
 
         $("#header1").text(content.header1[idLang]);
         $("#header2").text(content.header2[idLang]);
         $("#headerAnios").text(getExperiencia(idLang));
-        $("#headerAnios");
 
         $("#content-header").fadeIn(1000);
     }
@@ -745,7 +744,7 @@ jQuery(document).ready(function($) {
 
     const start = async function() {
         content = await getContenido();
-        cursos = await getCursos();
+        cursos =  await getCursos();
         portfolio = await getPortfolio();
 
         cargarSecciones(idioma, content);
