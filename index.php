@@ -9,7 +9,7 @@
 
         <?php 
            define("APPVERSION", "2.2.0"); 
-           define("AMBIENTE", "prod"); 
+           define("AMBIENTE", "dev"); 
            $_SESSION['lang'] = "es";
            $_SESSION['langId'] = 0;
         ?>
@@ -140,7 +140,7 @@
             <section id="docencia" class="seccion-profile"></section>
             <section id="skills" class="seccion-profile"></section>
             <section id="portfolio" class="seccion-profile"></section>
-            <footer id="footer"><?php include_once('sections/footer.php') ?></footer> 
+            <footer id="footer"><?php include_once('sections/footer.html') ?></footer> 
   
 
         <!-- =========================================================== -->

@@ -440,7 +440,7 @@ jQuery(document).ready(function($) {
         });
 
         $.ajax({
-            url: 'sections/header.php?v='+version+'&lang='+idioma,
+            url: 'sections/header.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
                 $('#content-header').html(respuesta).hide().fadeIn(1000);
                 showHeaderSection(idioma, content);
@@ -451,7 +451,7 @@ jQuery(document).ready(function($) {
         });
 
         $.ajax({
-                url: 'sections/about.php?v='+version+'&lang='+idioma,
+                url: 'sections/about.html?v='+version+'&lang='+idioma,
                 success: function(respuesta) {
                     $('#about').html(respuesta);
                     showAboutSection(idioma, content);
@@ -459,7 +459,7 @@ jQuery(document).ready(function($) {
         });
     
         $.ajax({
-            url: 'sections/education.php?v='+version+'&lang='+idioma,
+            url: 'sections/education.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
                 $('#education').html(respuesta);
                 showEducationSection(idioma, content);
@@ -468,7 +468,7 @@ jQuery(document).ready(function($) {
         });
     
         $.ajax({
-            url: 'sections/work.php?v='+version+'&lang='+idioma,
+            url: 'sections/work.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
                 $('#work').html(respuesta);
                 showWorkSection(idioma, content);
@@ -476,7 +476,7 @@ jQuery(document).ready(function($) {
         });
     
         $.ajax({
-            url: 'sections/docencia.php?v='+version+'&lang='+idioma,
+            url: 'sections/docencia.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
                 $('#docencia').html(respuesta);
                 showDocenciaSection(idioma, content);
@@ -484,7 +484,7 @@ jQuery(document).ready(function($) {
         });
     
         $.ajax({
-            url: 'sections/skills.php?v='+version+'&lang='+idioma,
+            url: 'sections/skills.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
                 var current_section = $("#nav li.current").text();
 
@@ -498,12 +498,15 @@ jQuery(document).ready(function($) {
         });
     
         $.ajax({
-            url: 'sections/portfolio.php?v='+version+'&lang='+idioma,
+            url: 'sections/portfolio.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
                 $('#portfolio').html(respuesta);
                 showPortfolioSection(idioma, portfolio);
             }
         });
+
+        current_date = new Date();
+        $("#footerYear").text(current_date.getFullYear());
 
     }
 
