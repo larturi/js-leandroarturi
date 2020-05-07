@@ -8,7 +8,7 @@
         <!-- =========================================================== -->
 
         <?php 
-           define("APPVERSION", "2.2.2"); 
+           define("APPVERSION", "2.2.3"); 
            define("AMBIENTE", "prod"); 
            $_SESSION['lang'] = "es";
            $_SESSION['langId'] = 0;
@@ -121,7 +121,20 @@
 
                 </nav> <!-- end #nav-wrap -->
 
-                <div id="content-header" class="row banner"></div>
+                <div id="content-header" class="row banner">
+                <div class="banner-text">
+                    <h1 class="responsive-headline">Leandro Arturi</h1>
+                    <h3 id="headerText">
+                        <span id="header1"></span>
+                        <span id="headerAnios"></span>
+                        <span id="header2"></span>
+                    </h3>
+                    <ul class="social">
+                        <li><a href="https://ar.linkedin.com/in/leandroarturi" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/leandroarturi" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                    </div>
+                </div>
 
                 <p class="scrolldown">
                     <a class="smoothscroll" href="#about"><i class="fa fa-chevron-circle-down hidden" aria-hidden="true"></i></a>

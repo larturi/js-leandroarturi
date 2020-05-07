@@ -3,19 +3,7 @@ jQuery(document).ready(function($) {
     var content = '';
     var portfolio = '';
     var cursos = '';
-
-    // ==============================================================
-    // Imagen de fondo y opacidad al inicio
-    // ==============================================================
     var myopacity = 0;
-    var img1 = document.createElement("img");
-    img1.src = "./assets/images/home-background/home-background-1.jpg";
-
-    img1.onload = function() {
-        $('header').css('background', "url('./assets/images/home-background/home-background-1.jpg') no-repeat top center" );
-        myFadeFunction();
-        $('.loading').css('display', 'none');
-    };
 
     function myFadeFunction() {
         if (myopacity < 1) {
@@ -421,6 +409,7 @@ jQuery(document).ready(function($) {
         let idLang = getIdLang(idioma);
         showLoading(idLang, content);
 
+        // Menu
         $.ajax({
             url: 'menu.php?v='+version+'&lang='+idioma,
             success: function(respuesta) {
@@ -439,17 +428,13 @@ jQuery(document).ready(function($) {
             }
         });
 
-        $.ajax({
-            url: 'sections/header.html?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-                $('#content-header').html(respuesta);
-                showHeaderSection(idioma, content);
-                setTimeout(function() {
-                    $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
-                }, 50);
-            }
-        });
+        // Header
+        showHeaderSection(idioma, content);
+        setTimeout(function() {
+            $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
+        }, 50);
 
+        // About
         $.ajax({
                 url: 'sections/about.html?v='+version+'&lang='+idioma,
                 success: function(respuesta) {
@@ -458,6 +443,7 @@ jQuery(document).ready(function($) {
                }
         });
     
+        // Educacion
         $.ajax({
             url: 'sections/education.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
@@ -467,6 +453,7 @@ jQuery(document).ready(function($) {
             }
         });
     
+        // Trabajo
         $.ajax({
             url: 'sections/work.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
@@ -475,6 +462,7 @@ jQuery(document).ready(function($) {
             }
         });
     
+        // Docencia
         $.ajax({
             url: 'sections/docencia.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
@@ -483,6 +471,7 @@ jQuery(document).ready(function($) {
             }
         });
     
+        // Skills
         $.ajax({
             url: 'sections/skills.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
@@ -497,6 +486,7 @@ jQuery(document).ready(function($) {
             }
         });
     
+        // Portfolio
         $.ajax({
             url: 'sections/portfolio.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
@@ -505,6 +495,7 @@ jQuery(document).ready(function($) {
             }
         });
 
+        // Footer
         current_date = new Date();
         $("#footerYear").text(current_date.getFullYear());
 
@@ -715,6 +706,17 @@ jQuery(document).ready(function($) {
 
     }
 
+    function cargarImagenBackground() {
+        // Imagen de fondo y opacidad al inicio
+        var img1 = document.createElement("img");
+        img1.src = "./assets/images/home-background/home-background-1.jpg";
+        img1.onload = function() {
+            $('header').css('background', "url('./assets/images/home-background/home-background-1.jpg') no-repeat top center" );
+            myFadeFunction();
+            $('.loading').css('display', 'none');
+        };
+    }
+
     const getContenido = async function() {
         const result = await $.ajax({
             url: 'services/content.json?v='+version
@@ -748,6 +750,10 @@ jQuery(document).ready(function($) {
         portfolio = await getPortfolio();
 
         cargarSecciones(idioma, content);
+
+        cargarImagenBackground();
+
+        
     };
       
     start();
