@@ -1,8 +1,8 @@
 jQuery(document).ready(function($) {
 
-    var content = '';
-    var portfolio = '';
-    var cursos = '';
+    var content = [];
+    var portfolio = [];
+    var cursos = [];
     var myopacity = 0;
 
     function myFadeFunction() {
@@ -374,6 +374,10 @@ jQuery(document).ready(function($) {
        return idLang;
     }
 
+    // ==============================================================
+    // Carga de secciones asincrona
+    // ==============================================================
+
     function cambiarIdioma(idioma, content) {
 
         const idiomaLocalStorage = getIdiomaLocalStorage();
@@ -717,6 +721,9 @@ jQuery(document).ready(function($) {
         };
     }
 
+    // ==============================================================
+    // Promesas con datos json 
+    // ==============================================================
     const getContenido = async function() {
         const result = await $.ajax({
             url: 'services/content.json?v='+version
@@ -745,14 +752,16 @@ jQuery(document).ready(function($) {
     var idioma = getIdiomaLocalStorage();
 
     const start = async function() {
-        content = await getContenido();
-        cursos =  await getCursos();
-        portfolio = await getPortfolio();
-
-        cargarSecciones(idioma, content);
 
         cargarImagenBackground();
 
+        Promise.all([getContenido(), getCursos(), getPortfolio()])
+               .then(arr => {
+                    content = arr[0];
+                    cursos =  arr[1];
+                    portfolio = arr[2];
+                    cargarSecciones(idioma, content);
+               });
         
     };
       
