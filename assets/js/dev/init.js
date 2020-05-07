@@ -6,8 +6,6 @@ jQuery(document).ready(function($) {
 
     $('#lang').click(function(e) {
 
-        e.preventDefault();
-
         let idioma = 'es';
 
         switch (e.target.innerText) {
@@ -22,9 +20,16 @@ jQuery(document).ready(function($) {
             break;
         }
 
+        var current_section = $("#nav li.current").children().attr('href');
+        var buttonMenu = $('#nav-wrap').children().eq(1);
+
+        buttonMenu.click();
+        $(this).attr("href", current_section);
+
         cargarSecciones(idioma);
 
     });
+
 
     // ==============================================================
     // Imagen de fondo y opacidad al inicio
@@ -191,10 +196,10 @@ jQuery(document).ready(function($) {
             return localStorage.getItem('lang');
         }
     }
-
     
     let idioma = getIdiomaLocalStorage();
     cargarSecciones(idioma);
+
     
     // ==============================================================
     // Smooth Scrolling
@@ -308,27 +313,16 @@ jQuery(document).ready(function($) {
         var y = $(window).scrollTop();
         var nav = $('#nav-wrap');
 
-        if ((y > h * .20) && (y < h) && ($(window).outerWidth() > 768)) {
+        if ((y > h * 0.20) && (y < h) && ($(window).outerWidth() > 768)) {
             nav.fadeOut('fast');
         }
         else {
-            if (y < h * .20) {
+            if (y < h * 0.20) {
                 nav.removeClass('opaque').fadeIn('fast');
             }
             else {
                 nav.addClass('opaque').fadeIn('fast');
             }
-        }
-
-    });
-
-    $('#buton-mas-proyectos').click(function() {
-        if ($('#buton-mas-proyectos').text() === "Mas Proyectos") {
-            $(".mas-proyectos").css("display", "block");
-            $('#buton-mas-proyectos').text("Menos Proyectos");
-        } else {
-            $(".mas-proyectos").css("display", "none");
-            $('#buton-mas-proyectos').text("Mas Proyectos");
         }
 
     });
