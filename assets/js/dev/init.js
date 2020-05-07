@@ -442,7 +442,7 @@ jQuery(document).ready(function($) {
         $.ajax({
             url: 'sections/header.html?v='+version+'&lang='+idioma,
             success: function(respuesta) {
-                $('#content-header').html(respuesta).hide().fadeIn(1000);
+                $('#content-header').html(respuesta);
                 showHeaderSection(idioma, content);
                 setTimeout(function() {
                     $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
@@ -540,7 +540,7 @@ jQuery(document).ready(function($) {
 
     function showHeaderSection(idioma, content) {
         idLang = getIdLang(idioma);
-        $("#content-header").hide();
+        //$("#content-header").hide();
 
         $("#header1").text(content.header1[idLang]);
         $("#header2").text(content.header2[idLang]);

@@ -8,8 +8,8 @@
         <!-- =========================================================== -->
 
         <?php 
-           define("APPVERSION", "2.2.0"); 
-           define("AMBIENTE", "dev"); 
+           define("APPVERSION", "2.2.1"); 
+           define("AMBIENTE", "prod"); 
            $_SESSION['lang'] = "es";
            $_SESSION['langId'] = 0;
         ?>
@@ -93,7 +93,7 @@
 
     <body>
 
-        <div id="loading" class="loading"></div>
+        <div id="loading" class="loading">Cargando...</div>
 
         <div id="contenido">
 

@@ -764,11 +764,6 @@ footer .social-links li:first-child { margin-left: 0; }
 /* Fixes
 ---------------------------------------------------------- */
 
-/* #home {
-    opacity: 0;
-    background-color: #240048 !important;
-} */
-
 .hidden {
     visibility: hidden;
 }
@@ -798,17 +793,13 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .loading {
-    margin: 5px 0 0 14px;
+    margin: 7px 0 0 15px;
+    display: block;
 }
 
 #contenido {
     display: block;
     opacity: 0;
-}
-
-.capcha{
-    margin-left: 165px;
-    margin-bottom: 33px;
 }
 
 .detalle-cursos {
