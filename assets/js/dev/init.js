@@ -753,14 +753,13 @@ jQuery(document).ready(function($) {
 
     const start = async function() {
 
-        cargarImagenBackground();
-
         Promise.all([getContenido(), getCursos(), getPortfolio()])
                .then(arr => {
                     content = arr[0];
                     cursos =  arr[1];
                     portfolio = arr[2];
                     cargarSecciones(idioma, content);
+                    cargarImagenBackground();
                });
         
     };
