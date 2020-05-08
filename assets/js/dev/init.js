@@ -731,7 +731,6 @@ jQuery(document).ready(function($) {
                     cursos =  arr[1];
                     portfolio = arr[2];
                     cargarSecciones(idioma, content);
-                    console.log(content);
                     cargarImagenBackground();
                });
         
