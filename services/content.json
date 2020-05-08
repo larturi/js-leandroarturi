@@ -1,4 +1,14 @@
 {
+        "menu": { 
+            "inicio" : ["Inicio", "Home"],
+            "acerca": ["Acerca de mi", "About me"],
+            "educacion": ["Educación", "Education"],
+            "trabajo": ["Trabajo", "Work"],
+            "skills": ["Skills", "Skills"],
+            "portfolio": ["Portfolio", "Portfolio"],
+            "idioma": ["ENGLISH", "ESPAÑOL"]
+        },
+
         "loading": ["Cargando", "Loading"],
 
         "header1": [
@@ -70,9 +80,9 @@
             ],
 
             "skillsResponsabilidad": ["Responsabilidad", "Responsibility"],
-            "skillsCompromiso": ["Compromiso", "Commitment"],
             "skillsProactividad": ["Proactividad", "Proactivity"],
             "skillsComunicacion": ["Comunicacion", "Communication"],
-            "skillsMotivacion": ["Motivacion", "Motivation"]
+            "skillsMotivacion": ["Motivacion", "Motivation"],
+            "skillsCompromiso": ["Delegación", "Delegation"]
 
     }
