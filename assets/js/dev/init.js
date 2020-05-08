@@ -625,10 +625,10 @@ jQuery(document).ready(function($) {
     function showSkillsSection(idioma, content) {
         idLang = getIdLang(idioma);
         $("#skillsResponsabilidad").text(content.skillsResponsabilidad[idLang]).hide().fadeIn(1000);
-        $("#skillsCompromiso").text(content.skillsCompromiso[idLang]).hide().fadeIn(1000);
         $("#skillsProactividad").text(content.skillsProactividad[idLang]).hide().fadeIn(1000);
         $("#skillsComunicacion").text(content.skillsComunicacion[idLang]).hide().fadeIn(1000);
         $("#skillsMotivacion").text(content.skillsMotivacion[idLang]).hide().fadeIn(1000);
+        $("#skillsDelegation").text(content.skillsDelegation[idLang]).hide().fadeIn(1000);
     }
 
     function showPortfolioSection(idioma, portfolio) {
