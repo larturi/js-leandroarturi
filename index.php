@@ -8,7 +8,7 @@
         <!-- =========================================================== -->
 
         <?php 
-           define("APPVERSION", "2.2.8"); 
+           define("APPVERSION", "2.3.0"); 
            define("AMBIENTE", "prod"); 
            $_SESSION['lang'] = "es";
            $_SESSION['langId'] = 0;
@@ -117,6 +117,7 @@
                         <li><a id="link-portfolio" class="smoothscroll" href="#portfolio"></a></li>
                         <li><a id="lang" href="#"></a></li>
                     </ul> 
+
                     <!-- end #nav -->
 
                 </nav> <!-- end #nav-wrap -->

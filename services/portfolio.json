@@ -72,6 +72,15 @@
         "anio": 2014
     },
     {
+        "nombre": "Blackjack",
+        "name": "Blackjack",
+        "lenguaje": "#web-development #javascript",
+        "resumen": "Blackjack en Javascript (curso de Fernando Herrera)",
+        "summary": "Blackjack with Javascript",
+        "url": "https://www.leandroarturi.com/demo/blackjack/",
+        "anio": 2020
+    },
+    {
         "nombre": "Chat Socket",
         "name": "Chat Socket",
         "lenguaje": "#web-development #angular #firebase",

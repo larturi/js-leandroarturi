@@ -30,7 +30,6 @@ jQuery(document).ready(function($) {
         randomize: false,
     });
 
-    
     // ==============================================================
     // Smooth Scrolling
     // ==============================================================
@@ -181,6 +180,7 @@ jQuery(document).ready(function($) {
 
     });
 
+    
     // ==============================================================
     // Funciones
     // ==============================================================
@@ -377,7 +377,6 @@ jQuery(document).ready(function($) {
     // ==============================================================
     // Carga de secciones asincrona
     // ==============================================================
-
     function cambiarIdioma(idioma, content) {
 
         const idiomaLocalStorage = getIdiomaLocalStorage();
@@ -540,21 +539,34 @@ jQuery(document).ready(function($) {
        $('#education').fadeIn(1000);
     }
 
+    $('body').on('click', '#cargarMasCursos', function() {
+        $('#cursosContentOculto').css('display', 'block');
+        $('#cargarMasCursos').remove();
+    });
+
     function showCursos(idioma, cursos) {
 
         idLang = getIdLang(idioma);
         var tituloCurso;
         var nombreCurso;
+        let cantidadItems = 0;
+        var mostrarMasLink = '';
 
-        $('#cursosContent').html('');
-        $('#cursosContent').hide();
+        $('#cursosContentVisible').html('');
+        $('#cursosContentOculto').html('');
+        $('#cursosContentVisible').hide();
+        $('#cursosContentOculto').hide();
 
         cursos.forEach(element => {
 
+            cantidadItems++;
+
             if (idLang === 0) {
                nombreCurso = element.nombre;
+               mostrarMasLink = 'Mostrar mas';
             } else {
                nombreCurso = element.name;
+               mostrarMasLink = 'Show more';
             }
 
             if(element.url.length > 1) {
@@ -565,19 +577,45 @@ jQuery(document).ready(function($) {
                 tituloCurso = `<h3>${nombreCurso}</h3>`;
             }
 
-            $('#cursosContent').append(`
-                <div class="row item">
-                    <div class="twelve columns"> ${tituloCurso}
-                        <p class="detalle-cursos">
-                                <em class="detalle-cursos-em">${element.anio} • ${element.horas}h • ${element.institucion}</em>
-                                <br/>
-                        </p>
+            if (cantidadItems <= 10) {
+                $('#cursosContentVisible').append(`
+                    <div class="row item">
+                        <div class="twelve columns"> ${tituloCurso}
+                            <p class="detalle-cursos">
+                                    <em class="detalle-cursos-em">${element.anio} • ${element.horas}h • ${element.institucion}</em>
+                                    <br/>
+                            </p>
+                        </div>
                     </div>
-                </div>
-           `);
+                `);
+            } else {
+                $('#cursosContentOculto').append(`
+                    <div class="row item">
+                        <div class="twelve columns"> ${tituloCurso}
+                            <p class="detalle-cursos">
+                                    <em class="detalle-cursos-em">${element.anio} • ${element.horas}h • ${element.institucion}</em>
+                                    <br/>
+                            </p>
+                        </div>
+                    </div>
+                `);
+            }    
+
+
         });
 
-        $('#cursosContent').hide().fadeIn(1000);
+        if ($('#cargarMasCursos').length > 0) {
+            $('#cargarMasCursos').remove();
+        }
+
+        $('#cursosContentMostrarMas').append(`
+            <div>
+                <a id="cargarMasCursos" style="cursor: pointer;">${mostrarMasLink}</a>
+            </div>
+        `);
+
+        $('#cursosContentVisible').fadeIn(1000);
+
 
     }
 
@@ -631,54 +669,84 @@ jQuery(document).ready(function($) {
         $("#skillsDelegation").text(content.skillsDelegation[idLang]).hide().fadeIn(1000);
     }
 
+    $('body').on('click', '#cargarMasPortfolio', function() {
+        $('#portfolioContentOculto').css('display', 'block');
+        $('#cargarMasPortfolio').remove();
+    });
+
     function showPortfolioSection(idioma, portfolio) {
 
         idLang = getIdLang(idioma);
 
-        $('#portfolioContent').html('');
-        $('#portfolioContent').hide();
+        $('#portfolioContentVisible').html('');
+        $('#portfolioContentOculto').html('');
+        $('#portfolioContentVisible').hide();
+        $('#portfolioContentOculto').hide();
 
-        switch (idLang) {
-            case 0:
+        let cantidadItems = 0;
 
-                portfolio.forEach(element => {
-                    $('#portfolioContent').append(`
-                        <div class="row">
-                            <div class="twelve columns">
-                                <h3><a href="${element.url}" target="_blank">${element.nombre}</a></h3>
-                                    <p class="detalle-cursos">
-                                        <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
-                                        ${element.resumen}
-                                    </p>
-                            </div>
+        var nombre;
+        var resumen;
+        var mostrarMasLink;
+
+        portfolio.forEach(element => {
+
+            switch (idLang) {
+                case 0:
+                    nombre = element.nombre;
+                    resumen = element.resumen;
+                    mostrarMasLink = 'Mostrar mas';
+                    break;
+    
+                case 1:
+                    nombre = element.name;
+                    resumen = element.summary;
+                    mostrarMasLink = 'Show more';
+                    break;
+            }
+
+            cantidadItems++;
+
+            if (cantidadItems <= 10) {
+                $('#portfolioContentVisible').append(`
+                 <div class="row">
+                     <div class="twelve columns">
+                        <h3><a href="${element.url}" target="_blank">${nombre}</a></h3>
+                            <p class="detalle-cursos">
+                                <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
+                                ${resumen}
+                            </p>
+                     </div>
+                 </div>
+               `);
+            } else {
+                $('#portfolioContentOculto').append(`
+                    <div class="row">
+                        <div class="twelve columns">
+                            <h3><a href="${element.url}" target="_blank">${nombre}</a></h3>
+                                <p class="detalle-cursos">
+                                    <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
+                                    ${resumen}
+                                </p>
                         </div>
-                    `);
-                }); 
-                
-                break;
+                    </div>
+                `);
+            }
 
-            case 1:
+            
+        }); 
 
-                portfolio.forEach(element => {
-                    $('#portfolioContent').append(`
-                        <div class="row">
-                            <div class="twelve columns">
-                                <h3><a href="${element.url}" target="_blank">${element.name}</a></h3>
-                                    <p class="detalle-cursos">
-                                        <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
-                                        ${element.summary}
-                                    </p>
-                            </div>
-                        </div>
-                    `);
-                }); 
-                
-                break;
+        if ($('#cargarMasPortfolio').length > 0) {
+            $('#cargarMasPortfolio').remove();
         }
 
-        $('#portfolioContent').fadeIn(1000);
+        $('#portfolioContent').append(`
+            <div>
+                <a id="cargarMasPortfolio" style="cursor: pointer;">${mostrarMasLink}</a>
+            </div>
+        `);
 
-        
+        $('#portfolioContentVisible').fadeIn(1000);
 
     }
 
