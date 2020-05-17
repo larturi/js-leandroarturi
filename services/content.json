@@ -9,7 +9,7 @@
             "idioma": ["ENGLISH", "ESPAÑOL"]
         },
 
-        "loading": ["Cargando", "Loading"],
+        "loading": ["Cargando...", "Loading..."],
 
         "header1": [
             "Licenciado en Sistemas de Información y Desarrollador con", 
@@ -68,21 +68,21 @@
             "trabajoFreelanceSector": ["Desarrollo Web y Mobile", "Web Development and Mobile"],
             "trabajoFreelanceFecha": ["Marzo 2010 • Presente", "March 2010 • Present"],
             "trabajoFreelanceText": [
-                "He trabajado en diversos desarrollos independientes y para terceros en las tecnologías mencionadas.", 
+                "He trabajado en diversos desarrollos independientes y de terceros en las tecnologías mencionadas.", 
                 "I have worked in independent and third party developments in the mentioned technologies."
             ],
 
             "docenciaTitulo": ["Docencia", "Teaching"],
             "docenciaFecha": ["Marzo 2007 – Diciembre 2012", "March 2007 – December de 2012"],
             "docenciaText": [
-                "Fui Auxiliar Docente de las materias Construcción de Aplicaciones Informáticas, Análisis Numérico, Estadística II y Administración General en la Facultad de Ciencias Económicas de la UBA durante cinco años.", 
+                "Auxiliar Docente de las materias Construcción de Aplicaciones Informáticas, Análisis Numérico, Estadística II y Administración General en la Facultad de Ciencias Económicas de la UBA durante cinco años.", 
                 "I was a Teaching Assistant of the subjects: Construction of Computer Applications, Numerical Analysis, Statistics II and General Administration at Facultad de Ciencias Económicas (UBA) for five years."
             ],
 
             "skillsResponsabilidad": ["Responsabilidad", "Responsibility"],
             "skillsProactividad": ["Proactividad", "Proactivity"],
-            "skillsComunicacion": ["Comunicacion", "Communication"],
-            "skillsMotivacion": ["Motivacion", "Motivation"],
+            "skillsComunicacion": ["Comunicación", "Communication"],
+            "skillsMotivacion": ["Motivación", "Motivation"],
             "skillsDelegation": ["Delegación", "Delegation"]
 
     }

@@ -1,5 +1,13 @@
 [   
     {
+        "nombre": "Angular Avanzado: Lleva tus bases al siguiente nivel",
+        "name": "Advanced Angular: Take your bases to the next level",
+        "anio": 2020,
+        "horas": 30,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-b688434a-254a-451a-b7f6-ea5b0c9cf57d/"
+    },
+    {
         "nombre": "Angular: De cero a experto creando aplicaciones",
         "name": "Angular: From the basics to expert creating applications",
         "anio": 2020,
