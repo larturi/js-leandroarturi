@@ -17,70 +17,32 @@ export function cargarSecciones(idioma, allContent) {
     }, 50);
 
     // About
-    $.ajax({
-            url: '../src/sections/about.html?v='+version+'&lang='+idioma,
-            success: function(respuesta) {
-                $('#about').html(respuesta);
-                showAboutSection(idioma, allContent);
-            }
-    });
+    showAboutSection(idioma, allContent);
 
     // Educacion
-    $.ajax({
-        url: '../src/sections/education.html?v='+version+'&lang='+idioma,
-        success: function(respuesta) {
-            $('#education').html(respuesta);
-            showEducationSection(idioma, allContent);
-            showCursos(idioma, allContent.cursos);
-        }
-    });
+    showEducationSection(idioma, allContent);
+    showCursos(idioma, allContent.cursos);
 
     // Trabajo
-    $.ajax({
-        url: '../src/sections/work.html?v='+version+'&lang='+idioma,
-        success: function(respuesta) {
-            $('#work').html(respuesta);
-            showWorkSection(idioma, allContent);
-        }
-    });
+    showWorkSection(idioma, allContent);
 
     // Docencia
-    $.ajax({
-        url: '../src/sections/docencia.html?v='+version+'&lang='+idioma,
-        success: function(respuesta) {
-            $('#docencia').html(respuesta);
-            showDocenciaSection(idioma, allContent);
-        }
-    });
+    showDocenciaSection(idioma, allContent);
 
     // Skills
-    $.ajax({
-        url: '../src/sections/skills.html?v='+version+'&lang='+idioma,
-        success: function(respuesta) {
-            var current_section = $("#nav li.current").text();
+    var current_section = $("#nav li.current").text();
+    showSkillsSection(idioma, allContent);
 
-            $('#skills').html(respuesta);
-            showSkillsSection(idioma, allContent);
-
-            if(current_section==="Skills") {
-                $('.bar-expand').removeClass('progress').addClass('progress');
-            }
-        }
-    });
+    if(current_section==="Skills") {
+        $('.bar-expand').removeClass('progress').addClass('progress');
+    }
 
     // Portfolio
-    $.ajax({
-        url: '../src/sections/portfolio.html?v='+version+'&lang='+idioma,
-        success: function(respuesta) {
-            $('#portfolio').html(respuesta);
-            showPortfolioSection(idioma, allContent.portfolio);
-        }
-    });
+    showPortfolioSection(idioma, allContent.portfolio);
 
     // Footer
     let anio = new Date().getFullYear();
     $('#footerYear').html(anio);
-
     
 }
 
