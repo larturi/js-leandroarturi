@@ -1,3 +1,5 @@
+// require("regenerator-runtime/runtime");
+
 import * as mySections from './sections';
 import * as myFunctions from './functions.js';
 import * as myContent from './content';
