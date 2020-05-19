@@ -77,6 +77,10 @@ export function cargarSecciones(idioma, allContent) {
         }
     });
 
+    // Footer
+    let anio = new Date().getFullYear();
+    $('#footerYear').html(anio);
+
     
 }
 
