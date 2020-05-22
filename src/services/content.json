@@ -1,88 +1,228 @@
 {
         "menu": { 
-            "inicio" : ["Inicio", "Home"],
-            "acerca": ["Acerca de mi", "About me"],
-            "educacion": ["Educación", "Education"],
-            "trabajo": ["Trabajo", "Work"],
-            "skills": ["Skills", "Skills"],
-            "portfolio": ["Portfolio", "Portfolio"],
-            "idioma": ["ENGLISH", "ESPAÑOL"]
+            "inicio": { 
+                "es": "Inicio", 
+                "en": "Home"
+            },
+            "acerca": { 
+                "es": "Acerca de mi", 
+                "en": "About me"
+            },
+            "educacion": { 
+                "es": "Educación", 
+                "en": "Education"
+            },
+            "trabajo": { 
+                "es": "Trabajo", 
+                "en": "Work"
+            },
+            "skills": { 
+                "es": "Skills", 
+                "en": "Skills"
+            },
+            "portfolio": { 
+                "es": "Portfolio", 
+                "en": "Portfolio"
+            },
+            "idioma": { 
+                "es": "ENGLISH", 
+                "en": "ESPAÑOL"
+            }
         },
 
-        "loading": ["Cargando...", "Loading..."],
+        "loading": { 
+            "es": "Cargando...", 
+            "en": "Loading..."
+        },
 
-        "header1": [
-            "Licenciado en Sistemas de Información y Desarrollador con", 
-            "Degree in Information Systems and Software Developer with"
-        ],
-        "header2": [
-            "años de experiencia en desarrollo de software, gestión de proyectos y coordinación de equipos técnicos.",
-            "years of experience in software project development, project management and team leadership."
-        ],
+        "header1": { 
+            "es": "Licenciado en Sistemas de Información y Desarrollador con", 
+            "en": "Degree in Information Systems and Software Developer with"
+        },
 
-        "aboutParrafo": [
-            "Licenciado en Sistemas y Desarrollador con amplia experiencia en desarrollo de aplicaciones y gestión de proyectos de software. A lo largo de mi carrera he cumplido diferentes roles, habiendo trabajado como Desarrollador, Analista Técnico Funcional, Líder de Proyectos y Coordinador de Desarrollo.",
-            "Degree in Information Systems and Software Developer with extensive experience in application development and software project management. Throughout my career I have worked at different roles, as a Developer, Functional Technical Analyst, Project Manager and Development Coordinator."
-        ],
-        "aboutTitulo": ["Acerca de mi", "About me"],
-        "aboutContacto": ["Contactar", "Contact"],
+        "header2": { 
+            "es": "años de experiencia en desarrollo de software, gestión de proyectos y coordinación de equipos técnicos.", 
+            "en": "years of experience in software project development, project management and team leadership."
+        },
 
-        "educationTitulo": ["Educación", "Education"],
-        "educationLicenciado": ["Licenciatura en Sistemas de Información de las Organizaciones", "Degree in Information Systems for Organizations"],
-        "educationTecnicatura": ["Tecnicatura en Programación de Sistemas", "Systems Programming Technician"],
-        "educationPendienteUces": ["restan cinco materias", "five pending subjects"],
-        "educationCursosTitulo": ["Cursos", "Courses"],
+        "aboutParrafo": { 
+            "es": "Licenciado en Sistemas y Desarrollador con amplia experiencia en desarrollo de aplicaciones y gestión de proyectos de software. A lo largo de mi carrera he cumplido diferentes roles, habiendo trabajado como Desarrollador, Analista Técnico Funcional, Líder de Proyectos y Coordinador de Desarrollo.", 
+            "en": "Degree in Information Systems and Software Developer with extensive experience in application development and software project management. Throughout my career I have worked at different roles, as a Developer, Functional Technical Analyst, Project Manager and Development Coordinator."
+        },
 
-        "trabajoTitulo": ["Trabajo", "Work"],
-            "trabajoPresente": ["Presente", "Present"],
-            "trabajoItLeadSector": ["PAMI - Subgerencia de Desarrollo", "PAMI - Demand Management Office | IT Department "],
-            "trabajoItLeadFecha": ["Septiembre 2015 • Presente", "September 2015 • Present"],
-            "trabajoItLeadText": [
-                "Responsable de 6 departamentos especializados en las diferentes áreas de negocio, a través de los cuales se gestiona la cartera de proyectos de desarrollo de la institución. Cada uno de mis equipos lidera diferentes proyectos de desarrollo, teniendo a cargo la gestión de la demanda de requerimientos, el análisis funcional y su implementación.", 
-                "I am responsible for 6 specialized departments in the different business areas, that manage the institution's development project portfolio. Each one of my teams leads different development projects and they are responsible for managing demand requirements, functional analysis and implementation."
-            ],
-            "trabajoProjectManagerSector": ["PAMI - Subgerencia de Desarrollo", "PAMI - IT Development Department"],
-            "trabajoProjectManagerFecha": ["Abril 2014 • Septiembre 2015", "April 2014 • September 2015"],
-            "trabajoProjectManagerText": [
-                "Responsable de la coordinación de 7 departamentos de desarrollo (PHP, HTML5, JavaScript, JQuery | Oracle). Gestión de la demanda, gestión de la capacidad, estimaciones y enlace con Infraestructura. Implementación de Jenkins para los despliegues a los diferentes ambientes de desarrollo.", 
-                "Responsible for the coordination of 7 development departments (PHP, HTML5, JavaScript, JQuery | Oracle). Demand management, capacity management, estimates and link with infrastructure. Jenkins implementation for deployments to different development environments."
-            ],
-            "trabajoDesaWebSector": ["PAMI - Departamento Desarrollo Web", "PAMI - IT Web Development Department"],
-            "trabajoDesaWebFecha": ["Julio 2012 • Abril 2014", "July 2012 • April 2014"],
-            "trabajoDesaWebText": [
-                "Líder Técnico del Departamento Desarrollo Web en la Coordinación de Sistemas, a cargo de un equipo de 7 desarrolladores. Análisis técnico, diseño, desarrollo y mantenimiento de sistemas de información (PHP, HTML5, JavaScript, JQuery | Oracle). Desarrollo e implementación de una solución Single Sign On que permitió integrar ~40 sistemas que se encontraban dispersos (CUP - Clave Única Pami). Desarrollo de un checksystem para monitorear la salud de los sistemas.", 
-                "Technical Leader of the Web Development Department, responsible for a team of 7 developers. Technical analysis, design, development and maintenance of information systems (PHP, HTML5, JavaScript, JQuery | Oracle). Development and implementation of a Single Sign On solution that allowed the integration of ~ 40 systems that were scattered (CUP - Clave Única Pami). Development of a checksystem to monitor the health of the systems."
-            ],
-            "trabajoDesaDeskSector": ["PAMI - División Desarrollo de Aplicaciones y Soporte Informáico", "PAMI - Division Chief Development of Desktop Applications"],
-            "trabajoDesaDeskFecha": ["Abril 2008 • Julio 2012", "April 2008 • July 2012"],
-            "trabajoDesaDeskText": [
-                "Líder técnico de un equipo de 4 desarrolladores. Análisis, diseño, desarrollo y mantenimiento de más de 30 sistemas de información y aplicaciones (Visual Basic .NET, C#, PHP, VB 6.0, VBA | Oracle, SQL Server y MySql).", 
-                "Technical leader of a team of 4 developers. Analysis, design, development and maintenance of more than 30 information systems and applications (Visual Basic .NET, C#, PHP, VB 6.0, VBA | Oracle, SQL Server and MySql)."
-            ],
-            "trabajoAnalisisSector": ["PAMI - División Análisis Funcional", "PAMI - Functional Technical Leader"],
-            "trabajoAnalisisFecha": ["Noviembre 2007 • Abril 2008", "November 2007 • April 2008"],
-            "trabajoAnalisisText": [
-                "Líder de un equipo de 4 analistas. Implementación del módulo de distribución de cápitas del Sistema Interactivo de Información (SII) en todo el país. Análisis de información con los sistemas gestores de bases de datos Oracle y SQL Server.", 
-                "Leader of a team of 4 systems analysts. Information analysis with the Oracle and SQL Server database management systems. Implementation of the Interactive Information System (SII), core system of the organization."
-            ],
-            "trabajoFreelanceSector": ["Desarrollo Web y Mobile", "Web Development and Mobile"],
-            "trabajoFreelanceFecha": ["Marzo 2010 • Presente", "March 2010 • Present"],
-            "trabajoFreelanceText": [
-                "He trabajado en diversos desarrollos independientes y de terceros en las tecnologías mencionadas.", 
-                "I have worked in independent and third party developments in the mentioned technologies."
-            ],
+        "aboutTitulo": { 
+            "es": "Acerca de mi", 
+            "en": "About me"
+        },
 
-            "docenciaTitulo": ["Docencia", "Teaching"],
-            "docenciaFecha": ["Marzo 2007 – Diciembre 2012", "March 2007 – December de 2012"],
-            "docenciaText": [
-                "Auxiliar Docente de las materias Construcción de Aplicaciones Informáticas, Análisis Numérico, Estadística II y Administración General en la Facultad de Ciencias Económicas de la UBA durante cinco años.", 
-                "I was a Teaching Assistant of the subjects: Construction of Computer Applications, Numerical Analysis, Statistics II and General Administration at Facultad de Ciencias Económicas (UBA) for five years."
-            ],
+        "aboutContacto": { 
+            "es": "Contactar", 
+            "en": "Contact"
+        },
 
-            "skillsResponsabilidad": ["Responsabilidad", "Responsibility"],
-            "skillsProactividad": ["Proactividad", "Proactivity"],
-            "skillsComunicacion": ["Comunicación", "Communication"],
-            "skillsMotivacion": ["Motivación", "Motivation"],
-            "skillsDelegation": ["Delegación", "Delegation"]
+        "educationTitulo": { 
+            "es": "Educación", 
+            "en": "Education"
+        },
+
+        "educationLicenciado": { 
+            "es": "Licenciatura en Sistemas de Información de las Organizaciones", 
+            "en": "Degree in Information Systems for Organizations"
+        },
+
+        "educationTecnicatura": { 
+            "es": "Tecnicatura en Programación de Sistemas", 
+            "en": "Systems Programming Technician"
+        },
+
+        "educationPendienteUces": { 
+            "es": "restan cinco materias.", 
+            "en": "five pending subjects"
+        },
+
+        "educationCursosTitulo": { 
+            "es": "Cursos", 
+            "en": "Courses"
+        },
+
+        "trabajoTitulo": { 
+            "es": "Trabajo", 
+            "en": "Work"
+        },
+
+        "trabajoPresente": { 
+            "es": "Presente", 
+            "en": "Present"
+        },
+
+        "trabajoItLeadSector": { 
+            "es": "PAMI - Subgerencia de Desarrollo", 
+            "en": "PAMI - Demand Management Office"
+        },
+
+        "trabajoItLeadFecha": { 
+            "es": "Septiembre 2015 • Presente", 
+            "en": "September 2015 • Present"
+        },
+
+        "trabajoItLeadText": { 
+            "es": "Responsable de 6 departamentos especializados en las diferentes áreas de negocio, a través de los cuales se gestiona la cartera de proyectos de desarrollo de la institución. Cada uno de mis equipos lidera diferentes proyectos de desarrollo, teniendo a cargo la gestión de la demanda de requerimientos, el análisis funcional y su implementación.", 
+            "en": "I am responsible for 6 specialized departments in the different business areas, that manage the institution's development project portfolio. Each one of my teams leads different development projects and they are responsible for managing demand requirements, functional analysis and implementation."
+        },
+
+        "trabajoProjectManagerSector": { 
+            "es": "PAMI - Subgerencia de Desarrollo", 
+            "en": "PAMI - IT Development Department"
+        },
+
+        "trabajoProjectManagerFecha": { 
+            "es": "Abril 2014 • Septiembre 2015", 
+            "en": "April 2014 • September 2015"
+        },
+
+        "trabajoProjectManagerText": { 
+            "es": "Responsable de la coordinación de 7 departamentos de desarrollo (PHP, HTML5, JavaScript, JQuery | Oracle). Gestión de la demanda, gestión de la capacidad, estimaciones y enlace con Infraestructura. Implementación de Jenkins para los despliegues a los diferentes ambientes de desarrollo.", 
+            "en": "Responsible for the coordination of 7 development departments (PHP, HTML5, JavaScript, JQuery | Oracle). Demand management, capacity management, estimates and link with infrastructure. Jenkins implementation for deployments to different development environments."
+        },
+
+        "trabajoDesaWebSector": { 
+            "es": "PAMI - Departamento Desarrollo Web", 
+            "en": "PAMI - IT Web Development Department"
+        },
+
+        "trabajoDesaWebFecha": { 
+            "es": "Julio 2012 • Abril 2014", 
+            "en": "July 2012 • April 2014"
+        },
+
+        "trabajoDesaWebText": { 
+            "es": "Líder Técnico del Departamento Desarrollo Web en la Coordinación de Sistemas, a cargo de un equipo de 7 desarrolladores. Análisis técnico, diseño, desarrollo y mantenimiento de sistemas de información (PHP, HTML5, JavaScript, JQuery | Oracle). Desarrollo e implementación de una solución Single Sign On que permitió integrar ~40 sistemas que se encontraban dispersos (CUP - Clave Única Pami). Desarrollo de un checksystem para monitorear la salud de los sistemas.", 
+            "en": "Technical Leader of the Web Development Department, responsible for a team of 7 developers. Technical analysis, design, development and maintenance of information systems (PHP, HTML5, JavaScript, JQuery | Oracle). Development and implementation of a Single Sign On solution that allowed the integration of ~ 40 systems that were scattered (CUP - Clave Única Pami). Development of a checksystem to monitor the health of the systems."
+        },
+
+        "trabajoDesaDeskSector": { 
+            "es": "PAMI - División Desarrollo de Aplicaciones y Soporte Informáico", 
+            "en": "PAMI - Division Chief Development of Desktop Applications"
+        },
+
+        "trabajoDesaDeskFecha": { 
+            "es": "Abril 2008 • Julio 2012", 
+            "en": "April 2008 • July 2012"
+        },
+
+        "trabajoDesaDeskText": { 
+            "es": "Líder técnico de un equipo de 4 desarrolladores. Análisis, diseño, desarrollo y mantenimiento de más de 30 sistemas de información y aplicaciones (Visual Basic .NET, C#, PHP, VB 6.0, VBA | Oracle, SQL Server y MySql).", 
+            "en": "Technical leader of a team of 4 developers. Analysis, design, development and maintenance of more than 30 information systems and applications (Visual Basic .NET, C#, PHP, VB 6.0, VBA | Oracle, SQL Server and MySql)."
+        },
+
+        "trabajoAnalisisSector": { 
+            "es": "PAMI - División Análisis Funcional", 
+            "en": "PAMI - Functional Technical Leader"
+        },
+
+        "trabajoAnalisisFecha": { 
+            "es": "Noviembre 2007 • Abril 2008", 
+            "en": "November 2007 • April 2008"
+        },
+
+        "trabajoAnalisisText": { 
+            "es": "Líder de un equipo de 4 analistas. Implementación del módulo de distribución de cápitas del Sistema Interactivo de Información (SII) en todo el país. Análisis de información con los sistemas gestores de bases de datos Oracle y SQL Server.", 
+            "en": "Leader of a team of 4 systems analysts. Information analysis with the Oracle and SQL Server database management systems. Implementation of the Interactive Information System (SII), core system of the organization."
+        },
+
+        "trabajoFreelanceSector": { 
+            "es": "Desarrollo Web y Mobile", 
+            "en": "Web Development and Mobile"
+        },
+
+        "trabajoFreelanceFecha": { 
+            "es": "Marzo 2010 • Presente", 
+            "en": "March 2010 • Present"
+        },
+
+        "trabajoFreelanceText": { 
+            "es": "He trabajado en diversos desarrollos independientes y de terceros en las tecnologías mencionadas.", 
+            "en": "I have worked in independent and third party developments in the mentioned technologies."
+        },
+
+        "docenciaTitulo": { 
+            "es": "Docencia", 
+            "en": "Teaching"
+        },
+
+        "docenciaFecha": { 
+            "es": "Marzo 2007 – Diciembre 2012", 
+            "en": "March 2007 – December de 2012"
+        },
+
+        "docenciaText": { 
+            "es": "Auxiliar Docente de las materias Construcción de Aplicaciones Informáticas, Análisis Numérico, Estadística II y Administración General en la Facultad de Ciencias Económicas de la UBA durante cinco años.", 
+            "en": "I was a Teaching Assistant of the subjects: Construction of Computer Applications, Numerical Analysis, Statistics II and General Administration at Facultad de Ciencias Económicas (UBA) for five years."
+        },
+
+        "skillsResponsabilidad": { 
+            "es": "Responsabilidad", 
+            "en": "Responsibility"
+        },
+
+        "skillsProactividad": { 
+            "es": "Proactividad", 
+            "en": "Proactivity"
+        },
+
+        "skillsComunicacion": { 
+            "es": "Comunicación", 
+            "en": "Communication"
+        },
+
+        "skillsMotivacion": { 
+            "es": "Motivación", 
+            "en": "Motivation"
+        },
+
+        "skillsDelegation": { 
+            "es": "Delegación", 
+            "en": "Delegation"
+        }
 
     }

@@ -6,7 +6,6 @@ import * as myContent from './content';
 
 import '../css/media-queries.css';
 
-let idioma = myFunctions.getIdiomaLocalStorage();
 let allContent = [];
 let content = {};
 let portfolio = [];
@@ -189,6 +188,7 @@ export const start = async function() {
                   myContent.getPortfolio()
                 ])
             .then(arr => {
+                const idioma = myFunctions.getIdiomaLocalStorage();
                 content = arr[0];
                 cursos =  arr[1];
                 portfolio = arr[2];

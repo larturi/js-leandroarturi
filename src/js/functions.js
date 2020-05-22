@@ -175,23 +175,6 @@ export function getIdiomaLocalStorage() {
     }
 }
 
-export function getIdLang(idioma) {
-
-    let idLang = 0;
-
-    switch (idioma) {
-        case 'es':
-            idLang = 0;
-        break;
-    
-        case 'en':
-            idLang = 1;
-        break;
-    }
-
-    return idLang;
-}
-
 export function myFadeFunction() {
     
     if (myopacity < 1) {

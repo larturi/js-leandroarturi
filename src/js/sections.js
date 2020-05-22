@@ -2,13 +2,12 @@ import * as myFunctions from './functions.js';
 
 export function cargarSecciones(idioma, allContent) {
 
-    let idLang = myFunctions.getIdLang(idioma);
     let version = myFunctions.getVersionApp();
 
-    showLoading(idLang, allContent);
+    showLoading(idioma, allContent);
 
     // Menu
-    showMenuSection(idLang, allContent);
+    showMenuSection(idioma, allContent);
 
     // Header
     showHeaderSection(idioma, allContent);
@@ -54,10 +53,8 @@ export function cambiarIdioma(idioma, allContent) {
         localStorage.setItem('lang', idioma);
     }
 
-    let idLang = myFunctions.getIdLang(idioma);
-
     // Loading
-    showLoading(idLang, allContent);
+    showLoading(idioma, allContent);
     // Menu
     showMenuSection(idioma, allContent);
     // Header
@@ -79,56 +76,48 @@ export function cambiarIdioma(idioma, allContent) {
 }
 
 export function showLoading(idioma, allContent) {
-    let idLang = myFunctions.getIdLang(idioma);
-    $("#loading").text(allContent.content.loading[idLang]);
+    $("#loading").text(allContent.content.loading[idioma]);
 }
 
 export function showMenuSection(idioma, allContent) {
 
-    let idLang = myFunctions.getIdLang(idioma);
-
-    $('#link-home').html(allContent.content.menu.inicio[idLang]).hide().fadeIn(1000);
-    $('#link-acerca').html(allContent.content.menu.acerca[idLang]).hide().fadeIn(1000);
-    $('#link-education').html(allContent.content.menu.educacion[idLang]).hide().fadeIn(1000);
-    $('#link-work').html(allContent.content.menu.trabajo[idLang]).hide().fadeIn(1000);
-    $('#link-skills').html(allContent.content.menu.skills[idLang]).hide().fadeIn(1000);
-    $('#link-portfolio').html(allContent.content.menu.portfolio[idLang]).hide().fadeIn(1000);
-    $('#lang').html(allContent.content.menu.idioma[idLang]).hide().fadeIn(1000);
+    $('#link-home').html(allContent.content.menu.inicio[idioma]).hide().fadeIn(1000);
+    $('#link-acerca').html(allContent.content.menu.acerca[idioma]).hide().fadeIn(1000);
+    $('#link-education').html(allContent.content.menu.educacion[idioma]).hide().fadeIn(1000);
+    $('#link-work').html(allContent.content.menu.trabajo[idioma]).hide().fadeIn(1000);
+    $('#link-skills').html(allContent.content.menu.skills[idioma]).hide().fadeIn(1000);
+    $('#link-portfolio').html(allContent.content.menu.portfolio[idioma]).hide().fadeIn(1000);
+    $('#lang').html(allContent.content.menu.idioma[idioma]).hide().fadeIn(1000);
 }
 
 export function showHeaderSection(idioma, allContent) {
-    let idLang = myFunctions.getIdLang(idioma);
 
     $("#content-header").hide();
 
-    $("#header1").text(allContent.content.header1[idLang]);
-    $("#header2").text(allContent.content.header2[idLang]);
-    $("#headerAnios").text(myFunctions.getExperiencia(idLang));
+    $("#header1").text(allContent.content.header1[idioma]);
+    $("#header2").text(allContent.content.header2[idioma]);
+    $("#headerAnios").text(myFunctions.getExperiencia(idioma));
 
     $("#content-header").fadeIn(1000);
 }
 
 export function showAboutSection(idioma, allContent) {
-
-    let idLang = myFunctions.getIdLang(idioma);
     
-    $("#aboutTitulo").text(allContent.content.aboutTitulo[idLang]).hide().fadeIn(1000);
-    $("#aboutParrafo").text(allContent.content.aboutParrafo[idLang]).hide().fadeIn(1000);
-    $("#aboutContacto").text(allContent.content.aboutContacto[idLang]).hide().fadeIn(1000);
+    $("#aboutTitulo").text(allContent.content.aboutTitulo[idioma]).hide().fadeIn(1000);
+    $("#aboutParrafo").text(allContent.content.aboutParrafo[idioma]).hide().fadeIn(1000);
+    $("#aboutContacto").text(allContent.content.aboutContacto[idioma]).hide().fadeIn(1000);
     $("#aboutLinks").hide().fadeIn(1000);
 }
 
 export function showEducationSection(idioma, allContent) {
     
-    let idLang = myFunctions.getIdLang(idioma);
-
     $('#education').hide();
 
-    $("#educationTitulo").text(allContent.content.educationTitulo[idLang]);
-    $("#educationLicenciado").text(allContent.content.educationLicenciado[idLang]);
-    $("#educationTecnicatura").text(allContent.content.educationTecnicatura[idLang]);
-    $("#educationPendienteUces").text(allContent.content.educationPendienteUces[idLang]);
-    $("#educationCursosTitulo").text(allContent.content.educationCursosTitulo[idLang]);
+    $("#educationTitulo").text(allContent.content.educationTitulo[idioma]);
+    $("#educationLicenciado").text(allContent.content.educationLicenciado[idioma]);
+    $("#educationTecnicatura").text(allContent.content.educationTecnicatura[idioma]);
+    $("#educationPendienteUces").text(allContent.content.educationPendienteUces[idioma]);
+    $("#educationCursosTitulo").text(allContent.content.educationCursosTitulo[idioma]);
 
     $('#education').fadeIn(1000);
 }
@@ -139,8 +128,6 @@ $('body').on('click', '#cargarMasCursos', function() {
 });
 
 export function showCursos(idioma, cursos) {
-
-    let idLang = myFunctions.getIdLang(idioma);
     
     var tituloCurso;
     var nombreCurso;
@@ -156,7 +143,7 @@ export function showCursos(idioma, cursos) {
 
         cantidadItems++;
 
-        if (idLang === 0) {
+        if (idioma === 'es') {
             nombreCurso = element.nombre;
             mostrarMasLink = 'Mostrar mas';
         } else {
@@ -216,57 +203,51 @@ export function showCursos(idioma, cursos) {
 
 export function showWorkSection(idioma, allContent) {
 
-    let idLang = myFunctions.getIdLang(idioma);
-
     $('#work').hide();
 
-    $("#trabajoTitulo").text(allContent.content.trabajoTitulo[idLang]);
+    $("#trabajoTitulo").text(allContent.content.trabajoTitulo[idioma]);
     
-    $("#trabajoItLeadSector").text(allContent.content.trabajoItLeadSector[idLang]);
-    $("#trabajoItLeadFecha").text(allContent.content.trabajoItLeadFecha[idLang]);
-    $("#trabajoItLeadText").text(allContent.content.trabajoItLeadText[idLang]);
+    $("#trabajoItLeadSector").text(allContent.content.trabajoItLeadSector[idioma]);
+    $("#trabajoItLeadFecha").text(allContent.content.trabajoItLeadFecha[idioma]);
+    $("#trabajoItLeadText").text(allContent.content.trabajoItLeadText[idioma]);
 
-    $("#trabajoProjectManagerSector").text(allContent.content.trabajoProjectManagerSector[idLang]);
-    $("#trabajoProjectManagerFecha").text(allContent.content.trabajoProjectManagerFecha[idLang]);
-    $("#trabajoProjectManagerText").text(allContent.content.trabajoProjectManagerText[idLang]);
+    $("#trabajoProjectManagerSector").text(allContent.content.trabajoProjectManagerSector[idioma]);
+    $("#trabajoProjectManagerFecha").text(allContent.content.trabajoProjectManagerFecha[idioma]);
+    $("#trabajoProjectManagerText").text(allContent.content.trabajoProjectManagerText[idioma]);
 
-    $("#trabajoDesaWebSector").text(allContent.content.trabajoDesaWebSector[idLang]);
-    $("#trabajoDesaWebFecha").text(allContent.content.trabajoDesaWebFecha[idLang]);
-    $("#trabajoDesaWebText").text(allContent.content.trabajoDesaWebText[idLang]);
+    $("#trabajoDesaWebSector").text(allContent.content.trabajoDesaWebSector[idioma]);
+    $("#trabajoDesaWebFecha").text(allContent.content.trabajoDesaWebFecha[idioma]);
+    $("#trabajoDesaWebText").text(allContent.content.trabajoDesaWebText[idioma]);
 
-    $("#trabajoDesaDeskSector").text(allContent.content.trabajoDesaDeskSector[idLang]);
-    $("#trabajoDesaDeskFecha").text(allContent.content.trabajoDesaDeskFecha[idLang]);
-    $("#trabajoDesaDeskText").text(allContent.content.trabajoDesaDeskText[idLang]);
+    $("#trabajoDesaDeskSector").text(allContent.content.trabajoDesaDeskSector[idioma]);
+    $("#trabajoDesaDeskFecha").text(allContent.content.trabajoDesaDeskFecha[idioma]);
+    $("#trabajoDesaDeskText").text(allContent.content.trabajoDesaDeskText[idioma]);
     
-    $("#trabajoAnalisisSector").text(allContent.content.trabajoAnalisisSector[idLang]);
-    $("#trabajoAnalisisFecha").text(allContent.content.trabajoAnalisisFecha[idLang]);
-    $("#trabajoAnalisisText").text(allContent.content.trabajoAnalisisText[idLang]);
+    $("#trabajoAnalisisSector").text(allContent.content.trabajoAnalisisSector[idioma]);
+    $("#trabajoAnalisisFecha").text(allContent.content.trabajoAnalisisFecha[idioma]);
+    $("#trabajoAnalisisText").text(allContent.content.trabajoAnalisisText[idioma]);
     
-    $("#trabajoFreelanceSector").text(allContent.content.trabajoFreelanceSector[idLang]);
-    $("#trabajoFreelanceFecha").text(allContent.content.trabajoFreelanceFecha[idLang]);
-    $("#trabajoFreelanceText").text(allContent.content.trabajoFreelanceText[idLang]);
+    $("#trabajoFreelanceSector").text(allContent.content.trabajoFreelanceSector[idioma]);
+    $("#trabajoFreelanceFecha").text(allContent.content.trabajoFreelanceFecha[idioma]);
+    $("#trabajoFreelanceText").text(allContent.content.trabajoFreelanceText[idioma]);
 
     $('#work').fadeIn(1000);
 }
 
 export function showDocenciaSection(idioma, allContent) {
 
-    let idLang = myFunctions.getIdLang(idioma);
-
-    $("#docenciaTitulo").text(allContent.content.docenciaTitulo[idLang]).hide().fadeIn(1000);
-    $("#docenciaFecha").text(allContent.content.docenciaFecha[idLang]).hide().fadeIn(1000);
-    $("#docenciaText").text(allContent.content.docenciaText[idLang]).hide().fadeIn(1000);
+    $("#docenciaTitulo").text(allContent.content.docenciaTitulo[idioma]).hide().fadeIn(1000);
+    $("#docenciaFecha").text(allContent.content.docenciaFecha[idioma]).hide().fadeIn(1000);
+    $("#docenciaText").text(allContent.content.docenciaText[idioma]).hide().fadeIn(1000);
 }
 
 export function showSkillsSection(idioma, allContent) {
 
-    let idLang = myFunctions.getIdLang(idioma);
-
-    $("#skillsResponsabilidad").text(allContent.content.skillsResponsabilidad[idLang]).hide().fadeIn(1000);
-    $("#skillsProactividad").text(allContent.content.skillsProactividad[idLang]).hide().fadeIn(1000);
-    $("#skillsComunicacion").text(allContent.content.skillsComunicacion[idLang]).hide().fadeIn(1000);
-    $("#skillsMotivacion").text(allContent.content.skillsMotivacion[idLang]).hide().fadeIn(1000);
-    $("#skillsDelegation").text(allContent.content.skillsDelegation[idLang]).hide().fadeIn(1000);
+    $("#skillsResponsabilidad").text(allContent.content.skillsResponsabilidad[idioma]).hide().fadeIn(1000);
+    $("#skillsProactividad").text(allContent.content.skillsProactividad[idioma]).hide().fadeIn(1000);
+    $("#skillsComunicacion").text(allContent.content.skillsComunicacion[idioma]).hide().fadeIn(1000);
+    $("#skillsMotivacion").text(allContent.content.skillsMotivacion[idioma]).hide().fadeIn(1000);
+    $("#skillsDelegation").text(allContent.content.skillsDelegation[idioma]).hide().fadeIn(1000);
 }
 
 $('body').on('click', '#cargarMasPortfolio', function() {
@@ -275,8 +256,6 @@ $('body').on('click', '#cargarMasPortfolio', function() {
 });
 
 export function showPortfolioSection(idioma, portfolio) {
-
-    let idLang = myFunctions.getIdLang(idioma);
 
     $('#portfolioContentVisible').html('');
     $('#portfolioContentOculto').html('');
@@ -291,14 +270,14 @@ export function showPortfolioSection(idioma, portfolio) {
 
     portfolio.forEach(element => {
 
-        switch (idLang) {
-            case 0:
+        switch (idioma) {
+            case 'es':
                 nombre = element.nombre;
                 resumen = element.resumen;
                 mostrarMasLink = 'Mostrar mas';
                 break;
 
-            case 1:
+            case 'en':
                 nombre = element.name;
                 resumen = element.summary;
                 mostrarMasLink = 'Show more';
