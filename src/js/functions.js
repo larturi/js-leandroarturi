@@ -3,7 +3,7 @@ var myopacity = 0;
 export function numeroEnLetras(num, idioma) {
 
     switch (idioma) {
-        case 0:
+        case 'es':
 
             switch (num) {
                 case 12:
@@ -70,7 +70,7 @@ export function numeroEnLetras(num, idioma) {
             
             break;
     
-        case 1:
+        case 'en':
 
             switch (num) {
                 case 12:
