@@ -70,14 +70,34 @@
             "en": "Degree in Information Systems for Organizations"
         },
 
+        "educationLicUBA": { 
+            "es": "Universidad de Buenos Aires", 
+            "en": "Universidad de Buenos Aires"
+        },
+
+        "educationLicPeriodo": { 
+            "es": "2003 • 2009", 
+            "en": "2003 • 2009"
+        },
+
         "educationTecnicatura": { 
             "es": "Tecnicatura en Programación de Sistemas", 
             "en": "Systems Programming Technician"
         },
 
+        "educationUCES": { 
+            "es": "Universidad de Ciencias Empresariales y Sociales", 
+            "en": "Universidad de Ciencias Empresariales y Sociales"
+        },
+
+        "educationUCESPeriodo": { 
+            "es": "2011 • 2012 (", 
+            "en": "2011 • 2012 ("
+        },
+
         "educationPendienteUces": { 
-            "es": "restan cinco materias.", 
-            "en": "five pending subjects"
+            "es": "restan cinco materias)", 
+            "en": "five pending subjects)"
         },
 
         "educationCursosTitulo": { 
@@ -88,6 +108,11 @@
         "trabajoTitulo": { 
             "es": "Trabajo", 
             "en": "Work"
+        },
+
+        "trabajoITLead": { 
+            "es": "IT Lead", 
+            "en": "IT Lead"
         },
 
         "trabajoPresente": { 
@@ -110,6 +135,11 @@
             "en": "I am responsible for 6 specialized departments in the different business areas, that manage the institution's development project portfolio. Each one of my teams leads different development projects and they are responsible for managing demand requirements, functional analysis and implementation."
         },
 
+        "trabajoPM": { 
+            "es": "IT Project Manager", 
+            "en": "IT Project Manager"
+        },
+
         "trabajoProjectManagerSector": { 
             "es": "PAMI - Subgerencia de Desarrollo", 
             "en": "PAMI - IT Development Department"
@@ -125,9 +155,19 @@
             "en": "Responsible for the coordination of 7 development departments (PHP, HTML5, JavaScript, JQuery | Oracle). Demand management, capacity management, estimates and link with infrastructure. Jenkins implementation for deployments to different development environments."
         },
 
+        "trabajoWebDeveloper": { 
+            "es": "Web Developer Technical Lead", 
+            "en": "Web Developer Technical Lead"
+        },
+
         "trabajoDesaWebSector": { 
             "es": "PAMI - Departamento Desarrollo Web", 
             "en": "PAMI - IT Web Development Department"
+        },
+
+        "trabajoNet": { 
+            "es": "Technical Lead .NET", 
+            "en": "Technical Lead .NET"
         },
 
         "trabajoDesaWebFecha": { 
@@ -165,6 +205,11 @@
             "en": "November 2007 • April 2008"
         },
 
+        "trabajoFuncional": { 
+            "es": "Functional Technical Leader", 
+            "en": "Functional Technical Leader"
+        },
+
         "trabajoAnalisisText": { 
             "es": "Líder de un equipo de 4 analistas. Implementación del módulo de distribución de cápitas del Sistema Interactivo de Información (SII) en todo el país. Análisis de información con los sistemas gestores de bases de datos Oracle y SQL Server.", 
             "en": "Leader of a team of 4 systems analysts. Information analysis with the Oracle and SQL Server database management systems. Implementation of the Interactive Information System (SII), core system of the organization."
@@ -178,6 +223,11 @@
         "trabajoFreelanceFecha": { 
             "es": "Marzo 2010 • Presente", 
             "en": "March 2010 • Present"
+        },
+
+        "trabajoFreelance": { 
+            "es": "Freelance Develope", 
+            "en": "Freelance Develope"
         },
 
         "trabajoFreelanceText": { 
@@ -198,6 +248,41 @@
         "docenciaText": { 
             "es": "Auxiliar Docente de las materias Construcción de Aplicaciones Informáticas, Análisis Numérico, Estadística II y Administración General en la Facultad de Ciencias Económicas de la UBA durante cinco años.", 
             "en": "I was a Teaching Assistant of the subjects: Construction of Computer Applications, Numerical Analysis, Statistics II and General Administration at Facultad de Ciencias Económicas (UBA) for five years."
+        },
+
+        "skillsLiderTitle": { 
+            "es": "LEADERSHIP & MANAGEMENT", 
+            "en": "LEADERSHIP & MANAGEMENT"
+        },
+
+        "skillsWebTitle": { 
+            "es": "WEB DEVELOPMENT", 
+            "en": "WEB DEVELOPMENT"
+        },
+
+        "skillsDBTitle": { 
+            "es": "DATABASE", 
+            "en": "DATABASE"
+        },
+
+        "skillsDeskTitle": { 
+            "es": "DESKTOP DEVELOPMENT", 
+            "en": "DESKTOP DEVELOPMENT"
+        },
+
+        "skillsMobileTitle": { 
+            "es": "MOBILE DEVELOPMENT", 
+            "en": "MOBILE DEVELOPMENT"
+        },
+
+        "skillsOtrosTitle": { 
+            "es": "OTROS SKILLS", 
+            "en": "OTROS SKILLS"
+        },
+
+        "skillsTitulo": { 
+            "es": "Skills", 
+            "en": "Skills"
         },
 
         "skillsResponsabilidad": { 
@@ -223,6 +308,116 @@
         "skillsDelegation": { 
             "es": "Delegación", 
             "en": "Delegation"
+        },
+
+        "skillsAgile": { 
+            "es": "Agile / Scrum", 
+            "en": "Agile / Scrum"
+        },
+
+        "skillsHtml": { 
+            "es": "HTML", 
+            "en": "HTML"
+        },
+
+        "skillsCss": { 
+            "es": "CSS", 
+            "en": "CSS"
+        },
+
+        "skillsJs": { 
+            "es": "JavaScript", 
+            "en": "JavaScript"
+        },
+
+        "skillsJquery": { 
+            "es": "jQuery", 
+            "en": "jQuery"
+        },
+
+        "skillsPhp": { 
+            "es": "Php", 
+            "en": "Php"
+        },
+
+        "skillsLaravel": { 
+            "es": "Laravel", 
+            "en": "Laravel"
+        },
+
+        "skillsAngular": { 
+            "es": "Angular", 
+            "en": "Angular"
+        },
+
+        "skillsNode": { 
+            "es": "Node", 
+            "en": "Node"
+        },
+
+        "skillsMySql": { 
+            "es": "MySql", 
+            "en": "MySql"
+        },
+
+        "skillsOracle": { 
+            "es": "Oracle", 
+            "en": "Oracle"
+        },
+
+        "skillsSqlServer": { 
+            "es": "Sql Server", 
+            "en": "Sql Server"
+        },
+
+        "skillsVb": { 
+            "es": "Visual Basic", 
+            "en": "Visual Basic"
+        },
+
+        "skillsVbNet": { 
+            "es": "Visual Basic .Net", 
+            "en": "Visual Basic .Net"
+        },
+
+        "skillsC": { 
+            "es": "C#", 
+            "en": "C#"
+        },
+
+        "skillsJava": { 
+            "es": "C / C++ / Java", 
+            "en": "C / C++ / Java"
+        },
+
+        "skillsAndroid": { 
+            "es": "Android Sdk", 
+            "en": "Android Sdk"
+        },
+
+        "skillsIonic": { 
+            "es": "Ionic", 
+            "en": "Ionic"
+        },
+
+        "skillsGit": { 
+            "es": "Git", 
+            "en": "Git"
+        },
+
+        "skillsVisio": { 
+            "es": "Visio / Office / Project", 
+            "en": "Visio / Office / Project"
+        },
+
+        "skillsJira": { 
+            "es": "Jira / Trello", 
+            "en": "Jira / Trello"
+        },
+
+        "skillsDocker": { 
+            "es": "Docker / Jenkins / Gitlab", 
+            "en": "Docker / Jenkins / Gitlab"
         }
 
     }
