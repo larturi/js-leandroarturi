@@ -226,8 +226,8 @@
         },
 
         "trabajoFreelance": { 
-            "es": "Freelance Develope", 
-            "en": "Freelance Develope"
+            "es": "Freelance Developer", 
+            "en": "Freelance Developer"
         },
 
         "trabajoFreelanceText": { 
@@ -277,7 +277,7 @@
 
         "skillsOtrosTitle": { 
             "es": "OTROS SKILLS", 
-            "en": "OTROS SKILLS"
+            "en": "OTHER SKILLS"
         },
 
         "skillsTitulo": { 

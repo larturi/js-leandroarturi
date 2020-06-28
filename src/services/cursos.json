@@ -32,6 +32,14 @@
         "url": "https://www.udemy.com/certificate/UC-e97ea70d-754d-4d58-a9c7-475e68616d4f/"
     },
     {
+        "nombre": "JavaScript: ECMAScript 6 y todos sus detalles",
+        "name": "JavaScript: ECMAScript 6 and all its details",
+        "anio": 2020,
+        "horas": 6,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-d89cb873-771d-4f09-be75-852b6d97f429/"
+    },
+    {
         "nombre": "TypeScript: Tu completa guía y manual de mano",
         "name": "TypeScript: The Complete Guide",
         "anio": 2020,
