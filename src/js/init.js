@@ -1,5 +1,3 @@
-// require("regenerator-runtime/runtime");
-
 import * as mySections from './sections';
 import * as myFunctions from './functions.js';
 import * as myContent from './content';
@@ -114,6 +112,11 @@ jQuery(document).ready(function($) {
         offset: '35%'
 
     });
+
+    // ==============================================================
+    // Assets
+    // ==============================================================
+    $('#profile-pic').attr('src', '..' + global.rootDir + '/src/assets/images/profilephoto.jpg');
 
     // ==============================================================
     // Make sure that #header-background-image height is = browser height

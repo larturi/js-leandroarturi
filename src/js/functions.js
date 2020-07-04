@@ -1,3 +1,10 @@
+// ==============================================================
+// Variable global del directorio root
+// ==============================================================
+
+global.rootDir = '';
+// global.rootDir = '/leandroarturi';
+
 var myopacity = 0;
 
 export function numeroEnLetras(num, idioma) {
@@ -185,3 +192,4 @@ export function myFadeFunction() {
     }
     document.getElementById('contenido').style.opacity = myopacity;
 }
+
