@@ -1,30 +1,12 @@
 [
     {
-        "nombre": "El Test de los Seis Sombreros",
-        "name": "The Six Hats Test",
-        "lenguaje": "#web-development #php",
-        "resumen": "Aplicación Web que permite realizar el Test de los Seis Sombreros de Edward De Bono.",
-        "summary": "Web application that allows you to do the Test of the Six Hats of Edward De Bono.",
-        "url": "http://www.projectsapps.com/sixhattest/el-test-de-los-seis-sombreros.php",
-        "anio": 2014
-    },
-    {
-        "nombre": "Famosos en Twitter",
-        "name": "Famous on Twitter",
-        "lenguaje": "#web-development #php",
-        "resumen": "Sitio Web que muestra los tweets mas relevantes de cuentas famosas en formato de noticias.",
-        "summary": "Website that shows the most relevant tweets of famous accounts in news format.",
-        "url": "http://www.famososentwitter.com/",
-        "anio": 2013
-    },
-    {
-        "nombre": "Mi Pami",
-        "name": "Mi Pami",
-        "lenguaje": "#mobile #android-sdk",
-        "resumen": "Aplicación para dispositivos Android que muestra las Agencias y Farmacias con cobertura PAMI mas cercanas. No productivo.",
-        "summary": "Android Application that shows the closest PAMI Agencies and Pharmacies. Non-productive.",
-        "url": "https://apkpure.com/es/mi-pami/com.mipami.larturi.mipami",
-        "anio": 2015
+        "nombre": "My Budget",
+        "name": "My Budget",
+        "lenguaje": "#web-development #angular #node #mongodb",
+        "resumen": "Sistema de control de gastos personales y gestión de presupuesto.",
+        "summary": "Personal expense control and budget management system",
+        "url": "http://mybudget.cloudapp.com.ar/#/login",
+        "anio": 2020
     },
     {
         "nombre": "Hoy Jugamos",
@@ -39,10 +21,19 @@
         "nombre": "Diseta",
         "name": "Diseta",
         "lenguaje": "#web-development #php",
-        "resumen": "Sitio oficial de Diseta.",
-        "summary": "Diseta official site.",
+        "resumen": "Sitio oficial de Diseta, empresa dedicada a la venta de ropa de mujer.",
+        "summary": "Diseta official site, company dedicated to the sale of women's clothing",
         "url": "http://www.diseta.com.ar",
         "anio": 2016
+    },
+    {
+        "nombre": "Mi Pami",
+        "name": "Mi Pami",
+        "lenguaje": "#mobile #android-sdk",
+        "resumen": "Aplicación para dispositivos Android que muestra las Agencias y Farmacias con cobertura PAMI mas cercanas. No productivo.",
+        "summary": "Android Application that shows the closest PAMI Agencies and Pharmacies. Non-productive.",
+        "url": "https://apkpure.com/es/mi-pami/com.mipami.larturi.mipami",
+        "anio": 2015
     },
     {
         "nombre": "Laboratorio Equis",
@@ -54,12 +45,30 @@
         "anio": 2015
     },
     {
+        "nombre": "El Test de los Seis Sombreros",
+        "name": "The Six Hats Test",
+        "lenguaje": "#web-development #php",
+        "resumen": "Aplicación Web que permite realizar el Test de los Seis Sombreros de Edward De Bono.",
+        "summary": "Web application that allows you to do the Test of the Six Hats of Edward De Bono.",
+        "url": "http://testsombreros.site/",
+        "anio": 2014
+    },
+    {
+        "nombre": "Famosos en Twitter",
+        "name": "Famous on Twitter",
+        "lenguaje": "#web-development #php",
+        "resumen": "Sitio Web que muestra los tweets mas relevantes de cuentas famosas en formato de noticias.",
+        "summary": "Website that shows the most relevant tweets of famous accounts in news format.",
+        "url": "http://www.famososentwitter.com/",
+        "anio": 2013
+    },
+    {
         "nombre": "Trivia Series",
         "name": "Trivia Series",
         "lenguaje": "#web-development #php",
         "resumen": "Trivia para poner a prueba tus conocimientos de Series de TV.",
         "summary": "Trivia to test your knowledge of TV Series.",
-        "url": "http://projectsapps.com/triviaseries/trivia_series.php",
+        "url": "http://triviaseries.cloudapp.com.ar/trivia_series.php",
         "anio": 2014
     },
     {
@@ -68,7 +77,7 @@
         "lenguaje": "#web-development #php",
         "resumen": "Sitio Web dedicado a los programadores para recordar su día cada año.",
         "summary": "Website dedicated to programmers to remember their day every year.",
-        "url": "http://programmerday.projectsapps.com/",
+        "url": "http://programmerday.cloudapp.com.ar/",
         "anio": 2014
     },
     {
@@ -77,7 +86,7 @@
         "lenguaje": "#web-development #javascript",
         "resumen": "Blackjack en Javascript (curso de Fernando Herrera)",
         "summary": "Blackjack with Javascript",
-        "url": "https://www.leandroarturi.com/demo/blackjack/",
+        "url": "http://www.leandroarturi.com.ar/demo/blackjack/",
         "anio": 2020
     },
     {
@@ -86,7 +95,7 @@
         "lenguaje": "#web-development #angular #firebase",
         "resumen": "Chat en Angular y Firebase con login por Google y Twitter (curso de Fernando Herrera)",
         "summary": "Angular and Firebase Chat with Google and Twitter login.",
-        "url": "https://www.leandroarturi.com/demo/firechat/",
+        "url": "http://www.leandroarturi.com.ar/demo/firechat/",
         "anio": 2020
     },
     {
@@ -95,7 +104,7 @@
         "lenguaje": "#web-development #angular #firebase",
         "resumen": "Permite hacer la votación y muestra en tiempo real la gráfica de resultados (curso de Fernando Herrera).",
         "summary": "Allows you to vote and shows the results graph in real time.",
-        "url": "https://www.leandroarturi.com/demo/goty/#/inicio",
+        "url": "http://www.leandroarturi.com.ar/demo/goty/#/inicio",
         "anio": 2020
     },
     {
@@ -104,7 +113,7 @@
         "lenguaje": "#web-development #angular #spotify-api",
         "resumen": "Aplicación Web que muestra las listas del momento de Spotify y permite buscar artistas y lista las canciones mas populares (curso de Fernando Herrera).",
         "summary": "Shows the lists of the moment from Spotify Api. You can search for artists and list the most popular songs.",
-        "url": "https://www.leandroarturi.com/demo/spotiapp/#/home",
+        "url": "http://www.leandroarturi.com.ar/demo/spotiapp/#/home",
         "anio": 2020
     },
     {
@@ -113,7 +122,7 @@
         "lenguaje": "#web-development #angular",
         "resumen": "Aplicación Web que se conecta a la api themoviedb.org y permite realizar busquedas de peliculas (curso de Fernando Herrera).",
         "summary": "Web application that connects to themoviedb.org api and allows you to search for movies.",
-        "url": "https://www.leandroarturi.com/demo/peliculas/#/home",
+        "url": "http://www.leandroarturi.com.ar/demo/peliculas/#/home",
         "anio": 2020
     },
     {
@@ -122,7 +131,7 @@
         "lenguaje": "#web-development #angular #spotify-api",
         "resumen": "Aplicación Web que se conecta a la api de Youtube y muestra los videos de una lista determinada (curso de Fernando Herrera).",
         "summary": "Web application that connects to YouTube api and show videos from a Youtube list.",
-        "url": "https://www.leandroarturi.com/demo/youtube-app/",
+        "url": "http://www.leandroarturi.com.ar/demo/youtube-app/",
         "anio": 2020
     },
     {
@@ -131,7 +140,7 @@
         "lenguaje": "#web-development #angular #node #firebase",
         "resumen": "Upload de fotos drag and drop con Angular y Firebase (curso de Fernando Herrera).",
         "summary": "Drag and drop photo upload with Angular and Firebase.",
-        "url": "https://www.leandroarturi.com/demo/upload-images/#/carga",
+        "url": "http://www.leandroarturi.com.ar/demo/upload-images/#/carga",
         "anio": 2020
     },
     {
@@ -149,7 +158,7 @@
         "lenguaje": "#web-development #php",
         "resumen": "Sitio web de chistes del programa Peligro Sin Codificar.",
         "summary": "Jokes website.",
-        "url": "http://chistescodificados.projectsapps.com/controllers/chiste.php?accion=listar",
+        "url": "http://chistescodificados.cloudapp.com.ar",
         "anio": 2014
     },
     {
@@ -158,7 +167,7 @@
         "lenguaje": "#web-development #php",
         "resumen": "Sitio homenaje a Javier Mascherano luego de las conocidas repercusiones en redes sociales en la copa del mundo 2014.",
         "summary": "Site honoring Javier Mascherano after the well-known repercussions on social networks at the 2014 World Cup.",
-        "url": "http://maschefacts.projectsapps.com/",
+        "url": "http://maschefacts.cloudapp.com.ar",
         "anio": 2014
     },
     {
@@ -167,7 +176,7 @@
         "lenguaje": "#web-development #javascript",
         "resumen": "Juego desarrollado en Javascript que pone a prueba la rapidez visual del jugador.",
         "summary": "A game developed in Javascript that tests the visual speed of the player.",
-        "url": "http://projectsapps.com/visiontest/",
+        "url": "http://visiontest.cloudapp.com.ar/",
         "anio": 2015
     }
 ]

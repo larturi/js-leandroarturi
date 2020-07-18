@@ -16,6 +16,14 @@
         "url": "https://www.udemy.com/certificate/UC-7dd74f29-2397-4f0f-843a-70679b07d8e4/"
     },
     {
+        "nombre": "Aprende Angular con 10 proyectos completos",
+        "name": "Learn Angular with 10 complete projects",
+        "anio": 2020,
+        "horas": 29,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-bc07dd32-7007-4af5-a756-bc5c13c88cbe/"
+    },
+    {
         "nombre": "Node.js de cero a experto",
         "name": "Node.js from the basics to expert",
         "anio": 2020,
@@ -64,22 +72,6 @@
         "url": "https://www.udemy.com/certificate/UC-08edb55a-cd92-4a36-80a5-f3bb6384d7ac/"
     },
     {
-        "nombre": "Visual Studio Code: Mejora tu velocidad para programar",
-        "name": "Visual Studio Code: Improve your speed to program",
-        "anio": 2020,
-        "horas": 1.5,
-        "institucion": "Udemy",
-        "url": "https://www.udemy.com/certificate/UC-307cfd40-8e9c-4914-b6b3-9f9c611b4410/"
-    },
-    {
-        "nombre": "Scrum Master + La Revolución Ágil",
-        "name": "Scrum Master + The Agile Revolution",
-        "anio": 2020,
-        "horas": 3,
-        "institucion": "Udemy",
-        "url": "https://www.udemy.com/certificate/UC-1O1ERB81/"
-    },
-    {
         "nombre": "Aprende Docker desde Cero a Swarm y Kubernetes",
         "name": "Learn Docker from the basics to Swarm and Kubernetes",
         "anio": 2020,
@@ -94,6 +86,22 @@
         "horas": 3,
         "institucion": "Udemy",
         "url": "https://www.udemy.com/certificate/UC-6b320205-bb1c-46dc-8be4-3353236cccec/"
+    },
+    {
+        "nombre": "Visual Studio Code: Mejora tu velocidad para programar",
+        "name": "Visual Studio Code: Improve your speed to program",
+        "anio": 2020,
+        "horas": 1.5,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-307cfd40-8e9c-4914-b6b3-9f9c611b4410/"
+    },
+    {
+        "nombre": "Scrum Master + La Revolución Ágil",
+        "name": "Scrum Master + The Agile Revolution",
+        "anio": 2020,
+        "horas": 3,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-1O1ERB81/"
     },
     {
         "nombre": "UX Design - Conceptos Básicos para principiantes",
