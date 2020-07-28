@@ -56,6 +56,14 @@
         "url": "https://www.udemy.com/certificate/UC-510dde09-b83d-4f0f-ba5c-493ebeb19c62/"
     },
     {
+        "nombre": "Dart: De cero hasta los detalles",
+        "name": "Dart: From the basics to details",
+        "anio": 2020,
+        "horas": 9,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-12aa503f-3e20-4a1e-a1d3-40a2222cb562/"
+    },
+    {
         "nombre": "GIT+GitHub: Todo un sistema de control de versiones de cero",
         "name": "GIT+GitHub: A complete version control system from the basics",
         "anio": 2020,

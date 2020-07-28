@@ -14,7 +14,7 @@
         "lenguaje": "#web-development #php #laravel",
         "resumen": "Web App social que permite organizar partidos de fútbol.",
         "summary": "Social Web App that allows you to organize soccer games.",
-        "url": "http://projectsapps.com/hoyjugamos/public",
+        "url": "http://hoyjugamos.cloudapp.com.ar/",
         "anio": 2017
     },
     {
@@ -59,7 +59,7 @@
         "lenguaje": "#web-development #php",
         "resumen": "Sitio Web que muestra los tweets mas relevantes de cuentas famosas en formato de noticias.",
         "summary": "Website that shows the most relevant tweets of famous accounts in news format.",
-        "url": "http://www.famososentwitter.com/",
+        "url": "http://www.famososentwitter.com.ar/",
         "anio": 2013
     },
     {
