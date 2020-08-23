@@ -7,11 +7,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install Dependencies
-        run: npm
-      - name: Build
-        run: npm run build
-
       - name: SFTP Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.0
         with:
