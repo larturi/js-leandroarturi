@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: deploy file
+      - name: SFTP Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.0
         with:
           username: 'root'
@@ -16,6 +16,4 @@ jobs:
           local_path: './*'
           remote_path: '/var/www/leandroarturi.com.ar/public_html'
           args: '-o ConnectTimeout=5'
-
-
 
