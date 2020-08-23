@@ -73,6 +73,11 @@ module.exports = {
                 { from: 'src/assets/images', to: 'assets/images' }
               ],
         }),
+        new CopyPlugin({
+            patterns: [
+                { from: 'src/assets/services', to: 'assets/services' }
+              ],
+        }),
         new MinifyPlugin(),
         new CleanWebpackPlugin(),
     ]
