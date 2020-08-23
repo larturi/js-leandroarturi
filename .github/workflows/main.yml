@@ -14,7 +14,7 @@ jobs:
           port: '5972'
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
           local_path: './*'
-          remote_path: '/var/www/leandroarturi.com.ar/public_html/'
+          remote_path: '/var/www/leandroarturi.com.ar/public_html'
           args: '-o ConnectTimeout=5'
 
 
