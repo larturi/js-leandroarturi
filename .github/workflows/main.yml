@@ -11,7 +11,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
-        ftp-server: vps-1802159-x.dattaweb.com/var/www/leandroarturi.com.ar/public_html
+        ftp-server: vps-1802159-x.dattaweb.com:5972/var/www/leandroarturi.com.ar/public_html
         ftp-username: root
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         
