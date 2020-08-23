@@ -9,12 +9,11 @@ jobs:
       with:
         fetch-depth: 2
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
-        ftp-server: vps-1802159-x.dattaweb.com:5972/var/www/leandroarturi.com.ar/public_html
-        ftp-username: root
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
-        
-        
-        
-        
+        username: 'root'
+        server: '66.97.46.237:5972'
+        ssh_private_key: ${{ secrets.FTP_PASSWORD }} 
+        local_path: './static/*'
+        remote_path: '/var/www/leandroarturi.com.ar/public_html/'
+        args: '-o ConnectTimeout=5'
