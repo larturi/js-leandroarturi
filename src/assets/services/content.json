@@ -1,0 +1,443 @@
+{
+        "menu": { 
+            "inicio": { 
+                "es": "Inicio", 
+                "en": "Home"
+            },
+            "acerca": { 
+                "es": "Acerca de mi", 
+                "en": "About me"
+            },
+            "educacion": { 
+                "es": "Educación", 
+                "en": "Education"
+            },
+            "trabajo": { 
+                "es": "Trabajo", 
+                "en": "Work"
+            },
+            "skills": { 
+                "es": "Skills", 
+                "en": "Skills"
+            },
+            "portfolio": { 
+                "es": "Portfolio", 
+                "en": "Portfolio"
+            },
+            "idioma": { 
+                "es": "ENGLISH", 
+                "en": "ESPAÑOL"
+            }
+        },
+
+        "loading": { 
+            "es": "Cargando...", 
+            "en": "Loading..."
+        },
+
+        "header1": { 
+            "es": "Licenciado en Sistemas de Información y Desarrollador con", 
+            "en": "Degree in Information Systems and Software Developer with"
+        },
+
+        "header2": { 
+            "es": " años de experiencia en desarrollo de software, gestión de proyectos y coordinación de equipos técnicos.", 
+            "en": " years of experience in software project development, project management and team leadership."
+        },
+
+        "aboutParrafo": { 
+            "es": "Licenciado en Sistemas y Desarrollador con amplia experiencia en desarrollo de aplicaciones y gestión de proyectos de software. A lo largo de mi carrera he cumplido diferentes roles, habiendo trabajado como Desarrollador, Analista Técnico Funcional, Líder de Proyectos y Coordinador de Desarrollo.", 
+            "en": "Degree in Information Systems and Software Developer with extensive experience in application development and software project management. Throughout my career I have worked at different roles, as a Developer, Functional Technical Analyst, Project Manager and Development Coordinator."
+        },
+
+        "aboutTitulo": { 
+            "es": "Acerca de mi", 
+            "en": "About me"
+        },
+
+        "aboutContacto": { 
+            "es": "Contactar", 
+            "en": "Contact"
+        },
+
+        "education": {
+            "educationTitulo": { 
+                "es": "Educación", 
+                "en": "Education"
+            },
+    
+            "educationLicenciado": { 
+                "es": "Licenciatura en Sistemas de Información de las Organizaciones", 
+                "en": "Degree in Information Systems for Organizations"
+            },
+    
+            "educationLicUBA": { 
+                "es": "Universidad de Buenos Aires", 
+                "en": "Universidad de Buenos Aires"
+            },
+    
+            "educationLicPeriodo": { 
+                "es": "2003 • 2009", 
+                "en": "2003 • 2009"
+            },
+    
+            "educationTecnicatura": { 
+                "es": "Tecnicatura en Programación de Sistemas", 
+                "en": "Systems Programming Technician"
+            },
+    
+            "educationUCES": { 
+                "es": "Universidad de Ciencias Empresariales y Sociales", 
+                "en": "Universidad de Ciencias Empresariales y Sociales"
+            },
+    
+            "educationUCESPeriodo": { 
+                "es": "2011 • 2012 (", 
+                "en": "2011 • 2012 ("
+            },
+    
+            "educationPendienteUces": { 
+                "es": "restan cinco materias)", 
+                "en": "five pending subjects)"
+            },
+
+            "educationCursosTitulo": { 
+                "es": "Cursos", 
+                "en": "Courses"
+            }
+    
+        },
+
+        "work": {
+            "trabajoTitulo": { 
+                "es": "Trabajo", 
+                "en": "Work"
+            },
+    
+            "trabajoITLead": { 
+                "es": "IT Lead", 
+                "en": "IT Lead"
+            },
+    
+            "trabajoPresente": { 
+                "es": "Presente", 
+                "en": "Present"
+            },
+    
+            "trabajoItLeadSector": { 
+                "es": "PAMI - Subgerencia de Desarrollo", 
+                "en": "PAMI - Demand Management Office"
+            },
+    
+            "trabajoItLeadFecha": { 
+                "es": "Septiembre 2015 • Presente", 
+                "en": "September 2015 • Present"
+            },
+    
+            "trabajoItLeadText": { 
+                "es": "Responsable de 6 departamentos especializados en las diferentes áreas de negocio, a través de los cuales se gestiona la cartera de proyectos de desarrollo de la institución. Cada uno de mis equipos lidera diferentes proyectos de desarrollo, teniendo a cargo la gestión de la demanda de requerimientos, el análisis funcional y su implementación.", 
+                "en": "I am responsible for 6 specialized departments in the different business areas, that manage the institution's development project portfolio. Each one of my teams leads different development projects and they are responsible for managing demand requirements, functional analysis and implementation."
+            },
+    
+            "trabajoPM": { 
+                "es": "IT Project Manager", 
+                "en": "IT Project Manager"
+            },
+    
+            "trabajoProjectManagerSector": { 
+                "es": "PAMI - Subgerencia de Desarrollo", 
+                "en": "PAMI - IT Development Department"
+            },
+    
+            "trabajoProjectManagerFecha": { 
+                "es": "Abril 2014 • Septiembre 2015", 
+                "en": "April 2014 • September 2015"
+            },
+    
+            "trabajoProjectManagerText": { 
+                "es": "Responsable de la coordinación de 7 departamentos de desarrollo (PHP, HTML5, JavaScript, JQuery | Oracle). Gestión de la demanda, gestión de la capacidad, estimaciones y enlace con Infraestructura. Implementación de Jenkins para los despliegues a los diferentes ambientes de desarrollo.", 
+                "en": "Responsible for the coordination of 7 development departments (PHP, HTML5, JavaScript, JQuery | Oracle). Demand management, capacity management, estimates and link with infrastructure. Jenkins implementation for deployments to different development environments."
+            },
+    
+            "trabajoWebDeveloper": { 
+                "es": "Web Developer Technical Lead", 
+                "en": "Web Developer Technical Lead"
+            },
+    
+            "trabajoDesaWebSector": { 
+                "es": "PAMI - Departamento Desarrollo Web", 
+                "en": "PAMI - IT Web Development Department"
+            },
+    
+            "trabajoNet": { 
+                "es": "Technical Lead .NET", 
+                "en": "Technical Lead .NET"
+            },
+    
+            "trabajoDesaWebFecha": { 
+                "es": "Julio 2012 • Abril 2014", 
+                "en": "July 2012 • April 2014"
+            },
+    
+            "trabajoDesaWebText": { 
+                "es": "Líder Técnico del Departamento Desarrollo Web en la Coordinación de Sistemas, a cargo de un equipo de 7 desarrolladores. Análisis técnico, diseño, desarrollo y mantenimiento de sistemas de información (PHP, HTML5, JavaScript, JQuery | Oracle). Desarrollo e implementación de una solución Single Sign On que permitió integrar ~40 sistemas que se encontraban dispersos (CUP - Clave Única Pami). Desarrollo de un checksystem para monitorear la salud de los sistemas.", 
+                "en": "Technical Leader of the Web Development Department, responsible for a team of 7 developers. Technical analysis, design, development and maintenance of information systems (PHP, HTML5, JavaScript, JQuery | Oracle). Development and implementation of a Single Sign On solution that allowed the integration of ~ 40 systems that were scattered (CUP - Clave Única Pami). Development of a checksystem to monitor the health of the systems."
+            },
+    
+            "trabajoDesaDeskSector": { 
+                "es": "PAMI - División Desarrollo de Aplicaciones y Soporte Informáico", 
+                "en": "PAMI - Division Chief Development of Desktop Applications"
+            },
+    
+            "trabajoDesaDeskFecha": { 
+                "es": "Abril 2008 • Julio 2012", 
+                "en": "April 2008 • July 2012"
+            },
+    
+            "trabajoDesaDeskText": { 
+                "es": "Líder técnico de un equipo de 4 desarrolladores. Análisis, diseño, desarrollo y mantenimiento de más de 30 sistemas de información y aplicaciones (Visual Basic .NET, C#, PHP, VB 6.0, VBA | Oracle, SQL Server y MySql).", 
+                "en": "Technical leader of a team of 4 developers. Analysis, design, development and maintenance of more than 30 information systems and applications (Visual Basic .NET, C#, PHP, VB 6.0, VBA | Oracle, SQL Server and MySql)."
+            },
+    
+            "trabajoAnalisisSector": { 
+                "es": "PAMI - División Análisis Funcional", 
+                "en": "PAMI - Functional Technical Leader"
+            },
+    
+            "trabajoAnalisisFecha": { 
+                "es": "Noviembre 2007 • Abril 2008", 
+                "en": "November 2007 • April 2008"
+            },
+    
+            "trabajoFuncional": { 
+                "es": "Functional Technical Leader", 
+                "en": "Functional Technical Leader"
+            },
+    
+            "trabajoAnalisisText": { 
+                "es": "Líder de un equipo de 4 analistas. Implementación del módulo de distribución de cápitas del Sistema Interactivo de Información (SII) en todo el país. Análisis de información con los sistemas gestores de bases de datos Oracle y SQL Server.", 
+                "en": "Leader of a team of 4 systems analysts. Information analysis with the Oracle and SQL Server database management systems. Implementation of the Interactive Information System (SII), core system of the organization."
+            },
+    
+            "trabajoFreelanceSector": { 
+                "es": "Desarrollo de Soluciones Informáticas", 
+                "en": "Software Solutions"
+            },
+    
+            "trabajoFreelanceFecha": { 
+                "es": "Marzo 2010 • Presente", 
+                "en": "March 2010 • Present"
+            },
+    
+            "trabajoFreelance": { 
+                "es": "Freelance Developer", 
+                "en": "Freelance Developer"
+            },
+    
+            "trabajoFreelanceText": { 
+                "es": "He trabajado en diversos desarrollos independientes y de terceros en las tecnologías mencionadas.", 
+                "en": "I have worked in independent and third party developments in the mentioned technologies."
+            }
+        },
+
+        "docencia": {
+            "docenciaTitulo": { 
+                "es": "Docencia", 
+                "en": "Teaching"
+            },
+    
+            "docenciaFecha": { 
+                "es": "Marzo 2007 – Diciembre 2012", 
+                "en": "March 2007 – December de 2012"
+            },
+    
+            "docenciaText": { 
+                "es": "Auxiliar Docente de las materias Construcción de Aplicaciones Informáticas, Análisis Numérico, Estadística II y Administración General en la Facultad de Ciencias Económicas de la UBA durante cinco años.", 
+                "en": "I was a Teaching Assistant of the subjects: Construction of Computer Applications, Numerical Analysis, Statistics II and General Administration at Facultad de Ciencias Económicas (UBA) for five years."
+            }
+        },
+
+        "skills": {
+
+            "skillsLiderTitle": { 
+                "es": "LEADERSHIP & MANAGEMENT", 
+                "en": "LEADERSHIP & MANAGEMENT"
+            },
+    
+            "skillsWebTitle": { 
+                "es": "WEB DEVELOPMENT", 
+                "en": "WEB DEVELOPMENT"
+            },
+    
+            "skillsDBTitle": { 
+                "es": "DATABASE", 
+                "en": "DATABASE"
+            },
+    
+            "skillsDeskTitle": { 
+                "es": "DESKTOP DEVELOPMENT", 
+                "en": "DESKTOP DEVELOPMENT"
+            },
+    
+            "skillsMobileTitle": { 
+                "es": "MOBILE DEVELOPMENT", 
+                "en": "MOBILE DEVELOPMENT"
+            },
+    
+            "skillsOtrosTitle": { 
+                "es": "OTROS SKILLS", 
+                "en": "OTHER SKILLS"
+            },
+    
+            "skillsTitulo": { 
+                "es": "Skills", 
+                "en": "Skills"
+            },
+
+            "skillsResponsabilidad": { 
+                "es": "Responsabilidad", 
+                "en": "Responsibility"
+            },
+    
+            "skillsProactividad": { 
+                "es": "Proactividad", 
+                "en": "Proactivity"
+            },
+    
+            "skillsComunicacion": { 
+                "es": "Comunicación", 
+                "en": "Communication"
+            },
+    
+            "skillsMotivacion": { 
+                "es": "Motivación", 
+                "en": "Motivation"
+            },
+    
+            "skillsDelegation": { 
+                "es": "Delegación", 
+                "en": "Delegation"
+            },
+    
+            "skillsAgile": { 
+                "es": "Agile / Scrum", 
+                "en": "Agile / Scrum"
+            },
+    
+            "skillsHtml": { 
+                "es": "HTML", 
+                "en": "HTML"
+            },
+    
+            "skillsCss": { 
+                "es": "CSS", 
+                "en": "CSS"
+            },
+    
+            "skillsJs": { 
+                "es": "JavaScript", 
+                "en": "JavaScript"
+            },
+    
+            "skillsJquery": { 
+                "es": "jQuery", 
+                "en": "jQuery"
+            },
+    
+            "skillsPhp": { 
+                "es": "Php", 
+                "en": "Php"
+            },
+    
+            "skillsLaravel": { 
+                "es": "Laravel", 
+                "en": "Laravel"
+            },
+    
+            "skillsAngular": { 
+                "es": "Angular", 
+                "en": "Angular"
+            },
+    
+            "skillsNode": { 
+                "es": "Node", 
+                "en": "Node"
+            },
+    
+            "skillsMySql": { 
+                "es": "MySql", 
+                "en": "MySql"
+            },
+    
+            "skillsOracle": { 
+                "es": "Oracle", 
+                "en": "Oracle"
+            },
+    
+            "skillsSqlServer": { 
+                "es": "Sql Server", 
+                "en": "Sql Server"
+            },
+    
+            "skillsMongo": { 
+                "es": "MongoDB", 
+                "en": "MongoDB"
+            },
+    
+            "skillsFirebase": { 
+                "es": "Firebase", 
+                "en": "Firebase"
+            },
+    
+            "skillsVb": { 
+                "es": "Visual Basic", 
+                "en": "Visual Basic"
+            },
+    
+            "skillsVbNet": { 
+                "es": "Visual Basic .Net", 
+                "en": "Visual Basic .Net"
+            },
+    
+            "skillsC": { 
+                "es": "C#", 
+                "en": "C#"
+            },
+    
+            "skillsJava": { 
+                "es": "C / C++ / Java", 
+                "en": "C / C++ / Java"
+            },
+    
+            "skillsAndroid": { 
+                "es": "Android Sdk", 
+                "en": "Android Sdk"
+            },
+    
+            "skillsIonic": { 
+                "es": "Ionic", 
+                "en": "Ionic"
+            },
+    
+            "skillsGit": { 
+                "es": "Git", 
+                "en": "Git"
+            },
+    
+            "skillsVisio": { 
+                "es": "Visio / Office / Project", 
+                "en": "Visio / Office / Project"
+            },
+    
+            "skillsJira": { 
+                "es": "Jira / Trello", 
+                "en": "Jira / Trello"
+            },
+    
+            "skillsDocker": { 
+                "es": "Docker / Jenkins / Gitlab", 
+                "en": "Docker / Jenkins / Gitlab"
+            }
+        }
+
+    }
