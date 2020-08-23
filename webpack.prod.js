@@ -70,12 +70,17 @@ module.exports = {
         }),
         new CopyPlugin({
             patterns: [
-                { from: 'src/assets/images', to: 'assets/images' }
+                { from: 'src/assets/images', to: 'src/assets/images' }
               ],
         }),
         new CopyPlugin({
             patterns: [
-                { from: 'src/assets/services', to: 'assets/services' }
+                { from: 'src/assets/js', to: 'src/assets/js' }
+              ],
+        }),
+        new CopyPlugin({
+            patterns: [
+                { from: 'src/services', to: 'src/services' }
               ],
         }),
         new MinifyPlugin(),
