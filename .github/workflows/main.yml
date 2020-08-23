@@ -1,15 +1,14 @@
 on: push
 name: Publish Website
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+  deploy_job:
     runs-on: ubuntu-latest
+    name: deploy
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 2
-    - name: FTP-Deploy-Action
-      uses: wlixcc/SFTP-Deploy-Action@v1.0
+    - name: Checkout
+        uses: actions/checkout@v2
+    - name: deploy file
+        uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
         username: 'root'
         server: '66.97.46.237'
