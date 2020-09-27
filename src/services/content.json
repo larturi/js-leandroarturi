@@ -333,6 +333,11 @@
                 "es": "CSS", 
                 "en": "CSS"
             },
+
+            "skillsBootstrap": { 
+                "es": "Bootstrap", 
+                "en": "Bootstrap"
+            },
     
             "skillsJs": { 
                 "es": "JavaScript", 
@@ -357,6 +362,11 @@
             "skillsAngular": { 
                 "es": "Angular", 
                 "en": "Angular"
+            },
+
+            "skillsVue": { 
+                "es": "Vue", 
+                "en": "Vue"
             },
     
             "skillsNode": { 
@@ -407,6 +417,16 @@
             "skillsJava": { 
                 "es": "C / C++ / Java", 
                 "en": "C / C++ / Java"
+            },
+
+            "skillsFlutter": { 
+                "es": "Flutter", 
+                "en": "Flutter"
+            },
+
+            "skillsDart": { 
+                "es": "Dart", 
+                "en": "Dart"
             },
     
             "skillsAndroid": { 
