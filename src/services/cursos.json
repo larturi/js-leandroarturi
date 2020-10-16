@@ -1,5 +1,21 @@
 [   
     {
+        "nombre": "Laravel - Aplicaciones y Sitios Web con PHP y MVC",
+        "name": "Laravel - Applications and Websites with PHP and MVC",
+        "anio": 2020,
+        "horas": 23,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-9c34aaff-25b7-429f-bd2c-2fa22fff4c2c/"
+    },
+    {
+        "nombre": "Dominando Laravel de principiante a experto",
+        "name": "Mastering laravel from beginner to expert",
+        "anio": 2020,
+        "horas": 20,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-52b32c69-2667-4e44-be6e-af84523b3148/"
+    },
+    {
         "nombre": "Angular Avanzado: Lleva tus bases al siguiente nivel",
         "name": "Advanced Angular: Take your bases to the next level",
         "anio": 2020,
@@ -54,14 +70,6 @@
         "horas": 6.5,
         "institucion": "Udemy",
         "url": "https://www.udemy.com/certificate/UC-510dde09-b83d-4f0f-ba5c-493ebeb19c62/"
-    },
-    {
-        "nombre": "Dominando Laravel de principiante a experto",
-        "name": "Mastering laravel from beginner to expert",
-        "anio": 2020,
-        "horas": 20,
-        "institucion": "Udemy",
-        "url": "https://www.udemy.com/certificate/UC-52b32c69-2667-4e44-be6e-af84523b3148/"
     },
     {
         "nombre": "Dart: De cero hasta los detalles",

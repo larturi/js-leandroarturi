@@ -115,8 +115,8 @@
             },
     
             "trabajoITLead": { 
-                "es": "IT Lead", 
-                "en": "IT Lead"
+                "es": "Gestión de la Demanda y Análisis de Sistemas", 
+                "en": "Demand Management and Systems Analysis"
             },
     
             "trabajoPresente": { 
@@ -135,13 +135,13 @@
             },
     
             "trabajoItLeadText": { 
-                "es": "Responsable de 6 departamentos especializados en las diferentes áreas de negocio, a través de los cuales se gestiona la cartera de proyectos de desarrollo de la institución. Cada uno de mis equipos lidera diferentes proyectos de desarrollo, teniendo a cargo la gestión de la demanda de requerimientos, el análisis funcional y su implementación.", 
-                "en": "I am responsible for 6 specialized departments in the different business areas, that manage the institution's development project portfolio. Each one of my teams leads different development projects and they are responsible for managing demand requirements, functional analysis and implementation."
+                "es": "Responsable de 6 equipos especializados por área de negocio. Análisis y gestión de la demanda, modelado de datos, revisiones de código, pruebas de concepto de nuevas tecnologías. Nexo con Infraestructura para DevOps. Arquitectura PHP, JavaScript, Oracle y Microservicios con Node.", 
+                "en": "I am responsible for 6 specialized departments in the different business areas, that manage the institution's development project portfolio. Each one of my teams leads different development projects and they are responsible for managing demand requirements, functional analysis and implementation. Data modeling, code reviews, proof of concept. Nexus with Infrastructure for DevOps. PHP, JavaScript, Oracle and Microservices architecture with Node."
             },
     
             "trabajoPM": { 
-                "es": "IT Project Manager", 
-                "en": "IT Project Manager"
+                "es": "Coordinador de Desarrollo", 
+                "en": "Development Coordinator"
             },
     
             "trabajoProjectManagerSector": { 
@@ -155,13 +155,13 @@
             },
     
             "trabajoProjectManagerText": { 
-                "es": "Responsable de la coordinación de 7 departamentos de desarrollo (PHP, HTML5, JavaScript, JQuery | Oracle). Gestión de la demanda, gestión de la capacidad, estimaciones y enlace con Infraestructura. Implementación de Jenkins para los despliegues a los diferentes ambientes de desarrollo.", 
-                "en": "Responsible for the coordination of 7 development departments (PHP, HTML5, JavaScript, JQuery | Oracle). Demand management, capacity management, estimates and link with infrastructure. Jenkins implementation for deployments to different development environments."
+                "es": "Coordinación técnica de 7 equipos de desarrollo (PHP, HTML5, JavaScript, JQuery | Oracle). Pruebas de concepto, hotfixes, documentación en Confluence. Implementación de Integración Continua con Jenkins. Desarrollo de un checksystem para monitorear la salud de los sistemas.", 
+                "en": "Technical coordination of 7 development teams (PHP, HTML5, JavaScript, JQuery | Oracle). Proofs of concept, hotfixes, documentation in Confluence. Implementation of Continuous Integration with Jenkins. Development of a checksystem to monitor the health of the systems."
             },
     
             "trabajoWebDeveloper": { 
-                "es": "Web Developer Technical Lead", 
-                "en": "Web Developer Technical Lead"
+                "es": "Líder de Equipo Desarrollo Web", 
+                "en": "Web Development Team Leader"
             },
     
             "trabajoDesaWebSector": { 
@@ -170,8 +170,8 @@
             },
     
             "trabajoNet": { 
-                "es": "Technical Lead .NET", 
-                "en": "Technical Lead .NET"
+                "es": "Líder de Equipo Desarrollo .NET", 
+                "en": ".NET Development Team Leader"
             },
     
             "trabajoDesaWebFecha": { 
@@ -180,8 +180,8 @@
             },
     
             "trabajoDesaWebText": { 
-                "es": "Líder Técnico del Departamento Desarrollo Web en la Coordinación de Sistemas, a cargo de un equipo de 7 desarrolladores. Análisis técnico, diseño, desarrollo y mantenimiento de sistemas de información (PHP, HTML5, JavaScript, JQuery | Oracle). Desarrollo e implementación de una solución Single Sign On que permitió integrar ~40 sistemas que se encontraban dispersos (CUP - Clave Única Pami). Desarrollo de un checksystem para monitorear la salud de los sistemas.", 
-                "en": "Technical Leader of the Web Development Department, responsible for a team of 7 developers. Technical analysis, design, development and maintenance of information systems (PHP, HTML5, JavaScript, JQuery | Oracle). Development and implementation of a Single Sign On solution that allowed the integration of ~ 40 systems that were scattered (CUP - Clave Única Pami). Development of a checksystem to monitor the health of the systems."
+                "es": "Diseño, desarrollo y mantenimiento (PHP, HTML5, JavaScript, JQuery | Oracle). Desarrollo e implementación de la Plataforma CUP, solución Single Sign On que permitió unificar la seguridad de más de 50 sistemas.", 
+                "en": "Design, development and maintenance (PHP, HTML5, JavaScript, JQuery | Oracle). Development and implementation of a Single Sign On solution that allowed the integration of more than 50 systems."
             },
     
             "trabajoDesaDeskSector": { 
@@ -195,8 +195,8 @@
             },
     
             "trabajoDesaDeskText": { 
-                "es": "Líder técnico de un equipo de 4 desarrolladores. Análisis, diseño, desarrollo y mantenimiento de más de 30 sistemas de información y aplicaciones (Visual Basic .NET, C#, PHP, VB 6.0, VBA | Oracle, SQL Server y MySql).", 
-                "en": "Technical leader of a team of 4 developers. Analysis, design, development and maintenance of more than 30 information systems and applications (Visual Basic .NET, C#, PHP, VB 6.0, VBA | Oracle, SQL Server and MySql)."
+                "es": "Diseño, desarrollo y mantenimiento de más de 30 sistemas de información y aplicaciones (Visual Basic NET, C#, VB 6.0, VBA, | Oracle, SQL Server y MySql).", 
+                "en": "Design, development and maintenance of more than 30 information systems and applications (Visual Basic NET, C #, VB 6.0, VBA, | Oracle, SQL Server and MySql)."
             },
     
             "trabajoAnalisisSector": { 
@@ -209,15 +209,36 @@
                 "en": "November 2007 • April 2008"
             },
     
+            "trabajoVB": { 
+                "es": "Desarrollador Visual Basic", 
+                "en": "Visual Basic Developer"
+            },
+    
+            "trabajoVBText": { 
+                "es": "Desarrollo en Visual Basic 6, Microsoft Access y VBA de Excel. Análisis de información con los sistemas gestores de bases de datos Oracle y SQL Server.", 
+                "en": "Development in Visual Basic 6, Microsoft Access and Excel VBA. Information analysis with Oracle and SQL Server database management systems."
+            },
+
+            "trabajoVBSector": { 
+                "es": "PAMI - Nuevo Modelo Prestacional", 
+                "en": "PAMI - Nuevo Modelo Prestacional"
+            },
+    
+            "trabajoVBFecha": { 
+                "es": "Sepriembre 2006 • Noviembre 2007", 
+                "en": "September 2007 • November 2007"
+            },
+    
             "trabajoFuncional": { 
-                "es": "Functional Technical Leader", 
-                "en": "Functional Technical Leader"
+                "es": "Líder de Equipo Análisis Funcional", 
+                "en": "Functional Analysis Team Leader"
             },
     
             "trabajoAnalisisText": { 
-                "es": "Líder de un equipo de 4 analistas. Implementación del módulo de distribución de cápitas del Sistema Interactivo de Información (SII) en todo el país. Análisis de información con los sistemas gestores de bases de datos Oracle y SQL Server.", 
+                "es": "Implementación del módulo de distribución de cápitas del Sistema Interactivo de Información en todo el país. Análisis de información con los sistemas gestores de bases de datos Oracle y SQL Server.", 
                 "en": "Leader of a team of 4 systems analysts. Information analysis with the Oracle and SQL Server database management systems. Implementation of the Interactive Information System (SII), core system of the organization."
             },
+
     
             "trabajoFreelanceSector": { 
                 "es": "Desarrollo de Soluciones Informáticas", 
@@ -230,13 +251,13 @@
             },
     
             "trabajoFreelance": { 
-                "es": "Freelance Developer", 
-                "en": "Freelance Developer"
+                "es": "Desarrollador Web Full Stack independiente", 
+                "en": "Freelance Full Stack Web Developer"
             },
     
             "trabajoFreelanceText": { 
-                "es": "He trabajado en diversos desarrollos independientes y de terceros en las tecnologías mencionadas.", 
-                "en": "I have worked in independent and third party developments in the mentioned technologies."
+                "es": "He trabajado en diversos proyectos independientes, especialmente en desarrollo web con Laravel / PHP / Vue / MySQL. Recientemente he incursionado con Angular / Node / Mongo en un proyecto de administración de finanzas personales.", 
+                "en": "I have worked in various independent projects, especially in web development with Laravel / PHP / Vue / MySQL. I have recently worked with Angular / Node / Mongo on a personal finance management project."
             }
         },
 
