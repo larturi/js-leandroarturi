@@ -40,6 +40,14 @@
         "url": "https://www.udemy.com/certificate/UC-bc07dd32-7007-4af5-a756-bc5c13c88cbe/"
     },
     {
+        "nombre": "Vue de cero a experto",
+        "name": "Vue from beginner to expert",
+        "anio": 2020,
+        "horas": 28,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-ad5b3c11-ae33-4120-862e-38b3ef96fb6f/"
+    },
+    {
         "nombre": "Node.js de cero a experto",
         "name": "Node.js from the basics to expert",
         "anio": 2020,
