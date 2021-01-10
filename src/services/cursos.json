@@ -1,5 +1,4 @@
-[   
-    {
+[{
         "nombre": "Laravel - Aplicaciones y Sitios Web con PHP y MVC",
         "name": "Laravel - Applications and Websites with PHP and MVC",
         "anio": 2020,
@@ -46,6 +45,14 @@
         "horas": 28,
         "institucion": "Udemy",
         "url": "https://www.udemy.com/certificate/UC-ad5b3c11-ae33-4120-862e-38b3ef96fb6f/"
+    },
+    {
+        "nombre": "Crea aplicaciones modernas con Vue",
+        "name": "Create modern applications with Vue",
+        "anio": 2021,
+        "horas": 12,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-f5371835-0c73-4007-b8f7-b4729ccac3fb/"
     },
     {
         "nombre": "Node.js de cero a experto",
@@ -232,4 +239,3 @@
         "url": ""
     }
 ]
-

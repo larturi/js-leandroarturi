@@ -1,5 +1,4 @@
-[
-    {
+[{
         "nombre": "My Budget",
         "name": "My Budget",
         "lenguaje": "#web-development #angular #node #mongodb",
@@ -7,6 +6,15 @@
         "summary": "Personal expense control and budget management system",
         "url": "http://mybudget.cloudapp.com.ar/#/login",
         "anio": 2020
+    },
+    {
+        "nombre": "Cartera de Sistemas",
+        "name": "Cartera de Sistemas",
+        "lenguaje": "#web-development #php #laravel #vue #mysql",
+        "resumen": "Permite administrar el portafolio de aplicaciones de una organización.",
+        "summary": "Allows you to manage an organization's application portfolio.",
+        "url": "http://www.carteradesistemas.cloudapp.com.ar/login",
+        "anio": 2021
     },
     {
         "nombre": "Hoy Jugamos",
@@ -99,15 +107,6 @@
         "anio": 2020
     },
     {
-        "nombre": "Game of the Year",
-        "name": "Game of the Year",
-        "lenguaje": "#web-development #angular #firebase",
-        "resumen": "Permite hacer la votación y muestra en tiempo real la gráfica de resultados (curso de Fernando Herrera).",
-        "summary": "Allows you to vote and shows the results graph in real time.",
-        "url": "http://www.leandroarturi.com.ar/demo/goty/#/inicio",
-        "anio": 2020
-    },
-    {
         "nombre": "SpotyApp",
         "name": "SpotyApp",
         "lenguaje": "#web-development #angular #spotify-api",
@@ -123,24 +122,6 @@
         "resumen": "Aplicación Web que se conecta a la api themoviedb.org y permite realizar busquedas de peliculas (curso de Fernando Herrera).",
         "summary": "Web application that connects to themoviedb.org api and allows you to search for movies.",
         "url": "http://www.leandroarturi.com.ar/demo/peliculas/#/home",
-        "anio": 2020
-    },
-    {
-        "nombre": "Youtube App",
-        "name": "Youtube App",
-        "lenguaje": "#web-development #angular #spotify-api",
-        "resumen": "Aplicación Web que se conecta a la api de Youtube y muestra los videos de una lista determinada (curso de Fernando Herrera).",
-        "summary": "Web application that connects to YouTube api and show videos from a Youtube list.",
-        "url": "http://www.leandroarturi.com.ar/demo/youtube-app/",
-        "anio": 2020
-    },
-    {
-        "nombre": "Upload de fotos",
-        "name": "Upload photos",
-        "lenguaje": "#web-development #angular #node #firebase",
-        "resumen": "Upload de fotos drag and drop con Angular y Firebase (curso de Fernando Herrera).",
-        "summary": "Drag and drop photo upload with Angular and Firebase.",
-        "url": "http://www.leandroarturi.com.ar/demo/upload-images/#/carga",
         "anio": 2020
     },
     {
