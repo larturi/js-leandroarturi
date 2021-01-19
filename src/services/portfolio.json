@@ -8,24 +8,6 @@
         "anio": 2020
     },
     {
-        "nombre": "Cartera de Sistemas",
-        "name": "Cartera de Sistemas",
-        "lenguaje": "#web-development #php #laravel #vue #mysql",
-        "resumen": "Permite administrar el portafolio de aplicaciones de una organización.",
-        "summary": "Allows you to manage an organization's application portfolio.",
-        "url": "http://www.carteradesistemas.cloudapp.com.ar/login",
-        "anio": 2021
-    },
-    {
-        "nombre": "Hoy Jugamos",
-        "name": "Hoy Jugamos",
-        "lenguaje": "#web-development #php #laravel",
-        "resumen": "Web App social que permite organizar partidos de fútbol.",
-        "summary": "Social Web App that allows you to organize soccer games.",
-        "url": "http://hoyjugamos.cloudapp.com.ar/",
-        "anio": 2017
-    },
-    {
         "nombre": "Diseta",
         "name": "Diseta",
         "lenguaje": "#web-development #php",
@@ -113,15 +95,6 @@
         "resumen": "Aplicación Web que muestra las listas del momento de Spotify y permite buscar artistas y lista las canciones mas populares (curso de Fernando Herrera).",
         "summary": "Shows the lists of the moment from Spotify Api. You can search for artists and list the most popular songs.",
         "url": "http://www.leandroarturi.com.ar/demo/spotiapp/#/home",
-        "anio": 2020
-    },
-    {
-        "nombre": "Api Peliculas",
-        "name": "Api Peliculas",
-        "lenguaje": "#web-development #angular",
-        "resumen": "Aplicación Web que se conecta a la api themoviedb.org y permite realizar busquedas de peliculas (curso de Fernando Herrera).",
-        "summary": "Web application that connects to themoviedb.org api and allows you to search for movies.",
-        "url": "http://www.leandroarturi.com.ar/demo/peliculas/#/home",
         "anio": 2020
     },
     {
