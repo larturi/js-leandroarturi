@@ -3,7 +3,7 @@
         "name": "My Budget",
         "lenguaje": "#web-development #angular #node #mongodb",
         "resumen": "Sistema de control de gastos personales y gestión de presupuesto.",
-        "summary": "Personal expense control and budget management system",
+        "summary": "Personal expense control and budget management system.",
         "url": "http://mybudget.cloudapp.com.ar/#/login",
         "anio": 2020
     },
@@ -12,7 +12,7 @@
         "name": "Diseta",
         "lenguaje": "#web-development #php",
         "resumen": "Sitio oficial de Diseta, empresa dedicada a la venta de ropa de mujer.",
-        "summary": "Diseta official site, company dedicated to the sale of women's clothing",
+        "summary": "Diseta official site, company dedicated to the sale of women's clothing.",
         "url": "http://www.diseta.com.ar",
         "anio": 2016
     },
