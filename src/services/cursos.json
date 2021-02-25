@@ -1,4 +1,13 @@
-[{
+[   
+    {
+        "nombre": "React: De cero a experto (Hooks y MERN)",
+        "name": "React: From the basics to expert (Hooks y MERN)",
+        "anio": 2021,
+        "horas": 43,
+        "institucion": "Udemy",
+        "url": "https://www.udemy.com/certificate/UC-c950e598-6cbc-4e30-a22c-9a8336b36bfc/"
+    },
+    {
         "nombre": "Laravel - Aplicaciones y Sitios Web con PHP y MVC",
         "name": "Laravel - Applications and Websites with PHP and MVC",
         "anio": 2020,
