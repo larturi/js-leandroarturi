@@ -385,6 +385,11 @@
             "en": "Angular"
         },
 
+        "skillsReact": {
+            "es": "React",
+            "en": "React"
+        },
+
         "skillsVue": {
             "es": "Vue",
             "en": "Vue"

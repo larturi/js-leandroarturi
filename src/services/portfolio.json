@@ -8,6 +8,87 @@
         "anio": 2020
     },
     {
+        "nombre": "Portfolio de Sistemas",
+        "name": "Portfolio de Sistemas",
+        "lenguaje": "#web-development #vue #laravel #mysql",
+        "resumen": "Administración de Portfolio de Sistemas de una Organización.",
+        "summary": "Management of an Organization's Systems Portfolio.",
+        "url": "http://www.carteradesistemas.cloudapp.com.ar/",
+        "anio": 2020
+    },
+    {
+        "nombre": "Journal React App",
+        "name": "Journal React App",
+        "lenguaje": "#web-development #react #firebase",
+        "resumen": "Aplicación de calendario con React.",
+        "summary": "Calendar app with React.",
+        "url": "https://react-calendar-app-mern.herokuapp.com/",
+        "anio": 2021
+    },
+    {
+        "nombre": "Cripto React App",
+        "name": "Cripto React App",
+        "lenguaje": "#web-development #react #api",
+        "resumen": "Cotización de Criptomonedas con React.",
+        "summary": "Cryptocurrency Quote with React.",
+        "url": "https://www.leandroarturi.com.ar/demo/cripto/",
+        "anio": 2021
+    },
+    {
+        "nombre": "Drinks React App",
+        "name": "Drinks React App",
+        "lenguaje": "#web-development #react #api",
+        "resumen": "Aplicación React que comsume la API thecocktaildb.com.",
+        "summary": "React application that with the thecocktaildb.com API.",
+        "url": "https://www.leandroarturi.com.ar/demo/drinks/",
+        "anio": 2021
+    },
+    {
+        "nombre": "Lyrics React",
+        "name": "React Lyrics",
+        "lenguaje": "#web-development #react",
+        "resumen": "Aplicación React que permite buscar letras de canciones.",
+        "summary": "React application that allows searching for song lyrics.",
+        "url": "https://www.leandroarturi.com.ar/demo/lyrics/",
+        "anio": 2021
+    },
+    {
+        "nombre": "Citas React",
+        "name": "React Appointments",
+        "lenguaje": "#web-development #react",
+        "resumen": "Aplicación React para gestionar citas.",
+        "summary": "React app to manage appointments.",
+        "url": "https://www.leandroarturi.com.ar/demo/citas/",
+        "anio": 2021
+    },
+    {
+        "nombre": "Blackjack",
+        "name": "Blackjack",
+        "lenguaje": "#web-development #javascript",
+        "resumen": "Blackjack en Javascript (curso de Fernando Herrera)",
+        "summary": "Blackjack with Javascript",
+        "url": "http://www.leandroarturi.com.ar/demo/blackjack/",
+        "anio": 2020
+    },
+    {
+        "nombre": "Chat Socket",
+        "name": "Chat Socket",
+        "lenguaje": "#web-development #angular #firebase",
+        "resumen": "Chat en Angular y Firebase con login por Google y Twitter (curso de Fernando Herrera)",
+        "summary": "Angular and Firebase Chat with Google and Twitter login.",
+        "url": "http://www.leandroarturi.com.ar/demo/firechat/",
+        "anio": 2020
+    },
+    {
+        "nombre": "SpotyApp",
+        "name": "SpotyApp",
+        "lenguaje": "#web-development #angular #spotify-api",
+        "resumen": "Aplicación Web que muestra las listas del momento de Spotify y permite buscar artistas y lista las canciones mas populares (curso de Fernando Herrera).",
+        "summary": "Shows the lists of the moment from Spotify Api. You can search for artists and list the most popular songs.",
+        "url": "http://www.leandroarturi.com.ar/demo/spotiapp/#/home",
+        "anio": 2020
+    },
+    {
         "nombre": "Diseta",
         "name": "Diseta",
         "lenguaje": "#web-development #php",
@@ -69,33 +150,6 @@
         "summary": "Website dedicated to programmers to remember their day every year.",
         "url": "http://programmerday.cloudapp.com.ar/",
         "anio": 2014
-    },
-    {
-        "nombre": "Blackjack",
-        "name": "Blackjack",
-        "lenguaje": "#web-development #javascript",
-        "resumen": "Blackjack en Javascript (curso de Fernando Herrera)",
-        "summary": "Blackjack with Javascript",
-        "url": "http://www.leandroarturi.com.ar/demo/blackjack/",
-        "anio": 2020
-    },
-    {
-        "nombre": "Chat Socket",
-        "name": "Chat Socket",
-        "lenguaje": "#web-development #angular #firebase",
-        "resumen": "Chat en Angular y Firebase con login por Google y Twitter (curso de Fernando Herrera)",
-        "summary": "Angular and Firebase Chat with Google and Twitter login.",
-        "url": "http://www.leandroarturi.com.ar/demo/firechat/",
-        "anio": 2020
-    },
-    {
-        "nombre": "SpotyApp",
-        "name": "SpotyApp",
-        "lenguaje": "#web-development #angular #spotify-api",
-        "resumen": "Aplicación Web que muestra las listas del momento de Spotify y permite buscar artistas y lista las canciones mas populares (curso de Fernando Herrera).",
-        "summary": "Shows the lists of the moment from Spotify Api. You can search for artists and list the most popular songs.",
-        "url": "http://www.leandroarturi.com.ar/demo/spotiapp/#/home",
-        "anio": 2020
     },
     {
         "nombre": "Calculadora del Viajero",
