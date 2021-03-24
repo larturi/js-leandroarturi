@@ -1,7 +1,7 @@
 [{
         "nombre": "My Budget",
         "name": "My Budget",
-        "lenguaje": "#web-development #angular #node #mongodb",
+        "lenguaje": "#angular #bootstrap #node #mongodb",
         "resumen": "Sistema de control de gastos personales y gestión de presupuesto.",
         "summary": "Personal expense control and budget management system.",
         "url": "http://mybudget.cloudapp.com.ar/#/login",
@@ -10,16 +10,34 @@
     {
         "nombre": "Portfolio de Sistemas",
         "name": "Portfolio de Sistemas",
-        "lenguaje": "#web-development #vue #laravel #mysql",
+        "lenguaje": "#laravel #vue #bootstrap #mysql",
         "resumen": "Administración de Portfolio de Sistemas de una Organización.",
         "summary": "Management of an Organization's Systems Portfolio.",
         "url": "http://www.carteradesistemas.cloudapp.com.ar/",
         "anio": 2020
     },
     {
+        "nombre": "Red Social de Recetas",
+        "name": "Cooking Recipes Social Network",
+        "lenguaje": "#laravel #vue #bootstrap #mysql",
+        "resumen": "Red Social de Recetas de Cocina.",
+        "summary": "Cooking Recipes Social Network.",
+        "url": "http://www.recetas.cloudapp.com.ar/",
+        "anio": 2021
+    },
+    {
+        "nombre": "DevJobs: Portal de Empleos IT",
+        "name": "DevJobs: IT Jobs Portal",
+        "lenguaje": "#laravel #vue #tailwind #mysql",
+        "resumen": "Portal de Empleos IT con Panel de Administración para el Reclutador.",
+        "summary": "IT Jobs Portal with Recruiter Admin Panel.",
+        "url": "http://www.devjobs.cloudapp.com.ar/",
+        "anio": 2021
+    },
+    {
         "nombre": "Journal React App",
         "name": "Journal React App",
-        "lenguaje": "#web-development #react #firebase",
+        "lenguaje": "#react #firebase",
         "resumen": "Aplicación de calendario con React.",
         "summary": "Calendar app with React.",
         "url": "https://react-calendar-app-mern.herokuapp.com/",
@@ -28,7 +46,7 @@
     {
         "nombre": "Cripto React App",
         "name": "Cripto React App",
-        "lenguaje": "#web-development #react #api",
+        "lenguaje": "#react",
         "resumen": "Cotización de Criptomonedas con React.",
         "summary": "Cryptocurrency Quote with React.",
         "url": "https://www.leandroarturi.com.ar/demo/cripto/",
@@ -37,7 +55,7 @@
     {
         "nombre": "Drinks React App",
         "name": "Drinks React App",
-        "lenguaje": "#web-development #react #api",
+        "lenguaje": "#react",
         "resumen": "Aplicación React que comsume la API thecocktaildb.com.",
         "summary": "React application that with the thecocktaildb.com API.",
         "url": "https://www.leandroarturi.com.ar/demo/drinks/",
@@ -46,7 +64,7 @@
     {
         "nombre": "Lyrics React",
         "name": "React Lyrics",
-        "lenguaje": "#web-development #react",
+        "lenguaje": "#react",
         "resumen": "Aplicación React que permite buscar letras de canciones.",
         "summary": "React application that allows searching for song lyrics.",
         "url": "https://www.leandroarturi.com.ar/demo/lyrics/",
@@ -55,17 +73,26 @@
     {
         "nombre": "Citas React",
         "name": "React Appointments",
-        "lenguaje": "#web-development #react",
+        "lenguaje": "#react",
         "resumen": "Aplicación React para gestionar citas.",
         "summary": "React app to manage appointments.",
         "url": "https://www.leandroarturi.com.ar/demo/citas/",
         "anio": 2021
     },
     {
+        "nombre": "Películas",
+        "name": "Movies",
+        "lenguaje": "#angular",
+        "resumen": "Buscador de Peliculas con Angular y Api TheMoviedDB",
+        "summary": "Movie Searching with Angular and Api TheMoviedDB",
+        "url": "https://www.leandroarturi.com.ar/demo/peliculas/#/home",
+        "anio": 2020
+    },
+    {
         "nombre": "Blackjack",
         "name": "Blackjack",
-        "lenguaje": "#web-development #javascript",
-        "resumen": "Blackjack en Javascript (curso de Fernando Herrera)",
+        "lenguaje": "#javascript",
+        "resumen": "Blackjack en Javascript",
         "summary": "Blackjack with Javascript",
         "url": "http://www.leandroarturi.com.ar/demo/blackjack/",
         "anio": 2020
@@ -73,7 +100,7 @@
     {
         "nombre": "Chat Socket",
         "name": "Chat Socket",
-        "lenguaje": "#web-development #angular #firebase",
+        "lenguaje": "#angular #firebase",
         "resumen": "Chat en Angular y Firebase con login por Google y Twitter (curso de Fernando Herrera)",
         "summary": "Angular and Firebase Chat with Google and Twitter login.",
         "url": "http://www.leandroarturi.com.ar/demo/firechat/",
@@ -82,8 +109,8 @@
     {
         "nombre": "SpotyApp",
         "name": "SpotyApp",
-        "lenguaje": "#web-development #angular #spotify-api",
-        "resumen": "Aplicación Web que muestra las listas del momento de Spotify y permite buscar artistas y lista las canciones mas populares (curso de Fernando Herrera).",
+        "lenguaje": "#angular #spotify-api",
+        "resumen": "Aplicación Web que muestra las listas del momento de Spotify y permite buscar artistas y lista las canciones mas populares.",
         "summary": "Shows the lists of the moment from Spotify Api. You can search for artists and list the most popular songs.",
         "url": "http://www.leandroarturi.com.ar/demo/spotiapp/#/home",
         "anio": 2020
@@ -91,7 +118,7 @@
     {
         "nombre": "Diseta",
         "name": "Diseta",
-        "lenguaje": "#web-development #php",
+        "lenguaje": "#php",
         "resumen": "Sitio oficial de Diseta, empresa dedicada a la venta de ropa de mujer.",
         "summary": "Diseta official site, company dedicated to the sale of women's clothing.",
         "url": "http://www.diseta.com.ar",
@@ -109,7 +136,7 @@
     {
         "nombre": "Laboratorio Equis",
         "name": "Laboratorio Equis",
-        "lenguaje": "#web-development #php",
+        "lenguaje": "#php",
         "resumen": "Sitio oficial de Laboratorio Equis, diagnóstico veterinario.",
         "summary": "Laboratorio Equis official site, veterinary diagnosis.",
         "url": "http://laboratorioequis.com.ar/",
@@ -118,7 +145,7 @@
     {
         "nombre": "El Test de los Seis Sombreros",
         "name": "The Six Hats Test",
-        "lenguaje": "#web-development #php",
+        "lenguaje": "#php",
         "resumen": "Aplicación Web que permite realizar el Test de los Seis Sombreros de Edward De Bono.",
         "summary": "Web application that allows you to do the Test of the Six Hats of Edward De Bono.",
         "url": "http://testsombreros.site/",
@@ -127,7 +154,7 @@
     {
         "nombre": "Famosos en Twitter",
         "name": "Famous on Twitter",
-        "lenguaje": "#web-development #php",
+        "lenguaje": "#php",
         "resumen": "Sitio Web que muestra los tweets mas relevantes de cuentas famosas en formato de noticias.",
         "summary": "Website that shows the most relevant tweets of famous accounts in news format.",
         "url": "http://www.famososentwitter.com.ar/",
@@ -136,7 +163,7 @@
     {
         "nombre": "Trivia Series",
         "name": "Trivia Series",
-        "lenguaje": "#web-development #php",
+        "lenguaje": "#php",
         "resumen": "Trivia para poner a prueba tus conocimientos de Series de TV.",
         "summary": "Trivia to test your knowledge of TV Series.",
         "url": "http://triviaseries.cloudapp.com.ar/trivia_series.php",
@@ -145,7 +172,7 @@
     {
         "nombre": "Programmer Day",
         "name": "Programmer Day",
-        "lenguaje": "#web-development #php",
+        "lenguaje": "#php",
         "resumen": "Sitio Web dedicado a los programadores para recordar su día cada año.",
         "summary": "Website dedicated to programmers to remember their day every year.",
         "url": "http://programmerday.cloudapp.com.ar/",
@@ -163,7 +190,7 @@
     {
         "nombre": "Chistes Sin Codificar",
         "name": "Jokes Website",
-        "lenguaje": "#web-development #php",
+        "lenguaje": "#php",
         "resumen": "Sitio web de chistes del programa Peligro Sin Codificar.",
         "summary": "Jokes website.",
         "url": "http://chistescodificados.cloudapp.com.ar",
@@ -172,7 +199,7 @@
     {
         "nombre": "Los Mejores Maschefacts",
         "name": "The Best Maschefacts",
-        "lenguaje": "#web-development #php",
+        "lenguaje": "#php",
         "resumen": "Sitio homenaje a Javier Mascherano luego de las conocidas repercusiones en redes sociales en la copa del mundo 2014.",
         "summary": "Site honoring Javier Mascherano after the well-known repercussions on social networks at the 2014 World Cup.",
         "url": "http://maschefacts.cloudapp.com.ar",
@@ -181,7 +208,7 @@
     {
         "nombre": "The Vision Test",
         "name": "The Vision Test",
-        "lenguaje": "#web-development #javascript",
+        "lenguaje": "#javascript",
         "resumen": "Juego desarrollado en Javascript que pone a prueba la rapidez visual del jugador.",
         "summary": "A game developed in Javascript that tests the visual speed of the player.",
         "url": "http://visiontest.cloudapp.com.ar/",
