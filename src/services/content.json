@@ -426,8 +426,8 @@
         },
 
         "skillsVb": {
-            "es": "Visual Basic / Visual Basic .Net",
-            "en": "Visual Basic / Visual Basic .Net"
+            "es": "Visual Basic / VB .Net",
+            "en": "Visual Basic / VB .Net"
         },
 
         "skillsC": {
@@ -456,8 +456,8 @@
         },
 
         "skillsGit": {
-            "es": "Git / GitHub / Gitlab / Bitbucket",
-            "en": "Git / GitHub / Gitlab / Bitbucket"
+            "es": "Git / GitHub / Gitlab",
+            "en": "Git / GitHub / Gitlab"
         },
 
         "skillsVisio": {
