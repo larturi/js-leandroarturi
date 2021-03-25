@@ -285,14 +285,24 @@
             "en": "LEADERSHIP & MANAGEMENT"
         },
 
-        "skillsWebTitle": {
-            "es": "WEB DEVELOPMENT",
-            "en": "WEB DEVELOPMENT"
+        "skillsFrontendTitle": {
+            "es": "FRONTEND",
+            "en": "FRONTEND"
+        },
+
+        "skillsBackendTitle": {
+            "es": "BACKEND",
+            "en": "BACKEND"
         },
 
         "skillsDBTitle": {
             "es": "DATABASE",
             "en": "DATABASE"
+        },
+
+        "skillsDevOpsTitle": {
+            "es": "DEVOPS",
+            "en": "DEVOPS"
         },
 
         "skillsDeskTitle": {
@@ -335,11 +345,6 @@
             "en": "Motivation"
         },
 
-        "skillsDelegation": {
-            "es": "Delegación",
-            "en": "Delegation"
-        },
-
         "skillsAgile": {
             "es": "Agile / Scrum",
             "en": "Agile / Scrum"
@@ -371,13 +376,8 @@
         },
 
         "skillsPhp": {
-            "es": "Php",
-            "en": "Php"
-        },
-
-        "skillsLaravel": {
-            "es": "Laravel",
-            "en": "Laravel"
+            "es": "Php / Laravel",
+            "en": "Php / Laravel"
         },
 
         "skillsAngular": {
@@ -396,8 +396,8 @@
         },
 
         "skillsNode": {
-            "es": "Node",
-            "en": "Node"
+            "es": "Node / Express",
+            "en": "Node / Express"
         },
 
         "skillsMySql": {
@@ -426,13 +426,8 @@
         },
 
         "skillsVb": {
-            "es": "Visual Basic",
-            "en": "Visual Basic"
-        },
-
-        "skillsVbNet": {
-            "es": "Visual Basic .Net",
-            "en": "Visual Basic .Net"
+            "es": "Visual Basic / Visual Basic .Net",
+            "en": "Visual Basic / Visual Basic .Net"
         },
 
         "skillsC": {
@@ -446,13 +441,8 @@
         },
 
         "skillsFlutter": {
-            "es": "Flutter",
-            "en": "Flutter"
-        },
-
-        "skillsDart": {
-            "es": "Dart",
-            "en": "Dart"
+            "es": "Flutter / Dart",
+            "en": "Flutter / Dart"
         },
 
         "skillsAndroid": {
@@ -466,23 +456,28 @@
         },
 
         "skillsGit": {
-            "es": "Git",
-            "en": "Git"
+            "es": "Git / GitHub / Gitlab / Bitbucket",
+            "en": "Git / GitHub / Gitlab / Bitbucket"
         },
 
         "skillsVisio": {
-            "es": "Visio / Office / Project",
-            "en": "Visio / Office / Project"
+            "es": "Visio / Office / VBA / Project",
+            "en": "Visio / Office / VBA / Project"
         },
 
         "skillsJira": {
-            "es": "Jira / Trello",
-            "en": "Jira / Trello"
+            "es": "Jira / Trello / Confluence",
+            "en": "Jira / Trello / Confluence"
         },
 
         "skillsDocker": {
-            "es": "Docker / Jenkins / Gitlab",
-            "en": "Docker / Jenkins / Gitlab"
+            "es": "Docker",
+            "en": "Docker"
+        },
+
+        "skillsVPS": {
+            "es": "VPS / Linux / Ubuntu",
+            "en": "VPS / Linux / Ubuntu"
         }
     }
 

@@ -11,7 +11,7 @@
         "nombre": "Portfolio de Sistemas",
         "name": "Portfolio de Sistemas",
         "lenguaje": "#laravel #vue #bootstrap #mysql",
-        "resumen": "Administración de Portfolio de Sistemas de una Organización.",
+        "resumen": "Administración de Portfolio de Sistemas.",
         "summary": "Management of an Organization's Systems Portfolio.",
         "url": "http://www.carteradesistemas.cloudapp.com.ar/",
         "anio": 2020
@@ -26,8 +26,8 @@
         "anio": 2021
     },
     {
-        "nombre": "DevJobs: Portal de Empleos IT",
-        "name": "DevJobs: IT Jobs Portal",
+        "nombre": "DevJobs - Portal de Empleos IT",
+        "name": "DevJobs - IT Jobs Portal",
         "lenguaje": "#laravel #vue #tailwind #mysql",
         "resumen": "Portal de Empleos IT con Panel de Administración para el Reclutador.",
         "summary": "IT Jobs Portal with Recruiter Admin Panel.",
@@ -35,17 +35,17 @@
         "anio": 2021
     },
     {
-        "nombre": "Journal React App",
-        "name": "Journal React App",
+        "nombre": "Journal App",
+        "name": "Journal App",
         "lenguaje": "#react #firebase",
-        "resumen": "Aplicación de calendario con React.",
+        "resumen": "Aplicación React tipo Google Calendar.",
         "summary": "Calendar app with React.",
         "url": "https://react-calendar-app-mern.herokuapp.com/",
         "anio": 2021
     },
     {
-        "nombre": "Cripto React App",
-        "name": "Cripto React App",
+        "nombre": "Cripto App",
+        "name": "Cripto App",
         "lenguaje": "#react",
         "resumen": "Cotización de Criptomonedas con React.",
         "summary": "Cryptocurrency Quote with React.",
@@ -53,8 +53,8 @@
         "anio": 2021
     },
     {
-        "nombre": "Drinks React App",
-        "name": "Drinks React App",
+        "nombre": "Drinks App",
+        "name": "Drinks App",
         "lenguaje": "#react",
         "resumen": "Aplicación React que comsume la API thecocktaildb.com.",
         "summary": "React application that with the thecocktaildb.com API.",
@@ -62,8 +62,8 @@
         "anio": 2021
     },
     {
-        "nombre": "Lyrics React",
-        "name": "React Lyrics",
+        "nombre": "Lyrics",
+        "name": "Lyrics",
         "lenguaje": "#react",
         "resumen": "Aplicación React que permite buscar letras de canciones.",
         "summary": "React application that allows searching for song lyrics.",
@@ -71,8 +71,8 @@
         "anio": 2021
     },
     {
-        "nombre": "Citas React",
-        "name": "React Appointments",
+        "nombre": "Citas",
+        "name": "Appointments",
         "lenguaje": "#react",
         "resumen": "Aplicación React para gestionar citas.",
         "summary": "React app to manage appointments.",
@@ -83,8 +83,8 @@
         "nombre": "Películas",
         "name": "Movies",
         "lenguaje": "#angular",
-        "resumen": "Buscador de Peliculas con Angular y Api TheMoviedDB",
-        "summary": "Movie Searching with Angular and Api TheMoviedDB",
+        "resumen": "Buscador de Peliculas con Angular y Api TheMoviedDB.",
+        "summary": "Movie Searching with Angular and Api TheMoviedDB.",
         "url": "https://www.leandroarturi.com.ar/demo/peliculas/#/home",
         "anio": 2020
     },
@@ -92,8 +92,8 @@
         "nombre": "Blackjack",
         "name": "Blackjack",
         "lenguaje": "#javascript",
-        "resumen": "Blackjack en Javascript",
-        "summary": "Blackjack with Javascript",
+        "resumen": "Blackjack en Javascript.",
+        "summary": "Blackjack with Javascript.",
         "url": "http://www.leandroarturi.com.ar/demo/blackjack/",
         "anio": 2020
     },
@@ -101,7 +101,7 @@
         "nombre": "Chat Socket",
         "name": "Chat Socket",
         "lenguaje": "#angular #firebase",
-        "resumen": "Chat en Angular y Firebase con login por Google y Twitter (curso de Fernando Herrera)",
+        "resumen": "Chat en Angular y Firebase con login por Google y Twitter.",
         "summary": "Angular and Firebase Chat with Google and Twitter login.",
         "url": "http://www.leandroarturi.com.ar/demo/firechat/",
         "anio": 2020
@@ -131,15 +131,6 @@
         "resumen": "Aplicación para dispositivos Android que muestra las Agencias y Farmacias con cobertura PAMI mas cercanas. No productivo.",
         "summary": "Android Application that shows the closest PAMI Agencies and Pharmacies. Non-productive.",
         "url": "https://apkpure.com/es/mi-pami/com.mipami.larturi.mipami",
-        "anio": 2015
-    },
-    {
-        "nombre": "Laboratorio Equis",
-        "name": "Laboratorio Equis",
-        "lenguaje": "#php",
-        "resumen": "Sitio oficial de Laboratorio Equis, diagnóstico veterinario.",
-        "summary": "Laboratorio Equis official site, veterinary diagnosis.",
-        "url": "http://laboratorioequis.com.ar/",
         "anio": 2015
     },
     {
