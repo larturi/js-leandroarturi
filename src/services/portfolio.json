@@ -44,6 +44,15 @@
         "anio": 2021
     },
     {
+        "nombre": "Burger Queen",
+        "name": "Burger Queen",
+        "lenguaje": "#angular #firebase",
+        "resumen": "Autogestión de pedidos de hamburguesas.",
+        "summary": "Self-management of hamburger orders.",
+        "url": "https://www.leandroarturi.com.ar/demo/burgers/",
+        "anio": 2020
+    },
+    {
         "nombre": "Cripto App",
         "name": "Cripto App",
         "lenguaje": "#react",

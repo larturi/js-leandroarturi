@@ -1,7 +1,7 @@
 [   
     {
-        "nombre": "React: De cero a experto (Hooks y MERN)",
-        "name": "React: From the basics to expert (Hooks y MERN)",
+        "nombre": "React (Hooks y MERN)",
+        "name": "React (Hooks y MERN)",
         "anio": 2021,
         "horas": 43,
         "institucion": "Udemy",
@@ -16,8 +16,8 @@
         "url": "https://www.udemy.com/certificate/UC-9c34aaff-25b7-429f-bd2c-2fa22fff4c2c/"
     },
     {
-        "nombre": "Dominando Laravel de principiante a experto",
-        "name": "Mastering laravel from beginner to expert",
+        "nombre": "Laravel de principiante a experto",
+        "name": "laravel from beginner to expert",
         "anio": 2020,
         "horas": 20,
         "institucion": "Udemy",
@@ -40,8 +40,8 @@
         "url": "https://www.udemy.com/certificate/UC-7dd74f29-2397-4f0f-843a-70679b07d8e4/"
     },
     {
-        "nombre": "Aprende Angular con 10 proyectos completos",
-        "name": "Learn Angular with 10 complete projects",
+        "nombre": "Angular 10 proyectos completos",
+        "name": "Angular 10 complete projects",
         "anio": 2020,
         "horas": 29,
         "institucion": "Udemy",
@@ -56,8 +56,8 @@
         "url": "https://www.udemy.com/certificate/UC-ad5b3c11-ae33-4120-862e-38b3ef96fb6f/"
     },
     {
-        "nombre": "Crea aplicaciones modernas con Vue",
-        "name": "Create modern applications with Vue",
+        "nombre": "Vue: Crea aplicaciones modernas",
+        "name": "Vue: Create modern applications",
         "anio": 2021,
         "horas": 12,
         "institucion": "Udemy",
@@ -120,8 +120,8 @@
         "url": "https://www.udemy.com/certificate/UC-d95b9bbc-a8cc-4f59-8bcd-921cfbef140d/"
     },
     {
-        "nombre": "Bootstrap 4: El Curso Completo y Practico",
-        "name": "Bootstrap 4: The Complete and Practical Course",
+        "nombre": "Bootstrap: El Curso Completo y Practico",
+        "name": "Bootstrap: The Complete and Practical Course",
         "anio": 2020,
         "horas": 19,
         "institucion": "Udemy",
@@ -136,16 +136,16 @@
         "url": "https://www.udemy.com/certificate/UC-08edb55a-cd92-4a36-80a5-f3bb6384d7ac/"
     },
     {
-        "nombre": "Aprende Docker desde Cero a Swarm y Kubernetes",
-        "name": "Learn Docker from the basics to Swarm and Kubernetes",
+        "nombre": "Docker desde Cero a Swarm y Kubernetes",
+        "name": "Docker from the basics to Swarm and Kubernetes",
         "anio": 2020,
         "horas": 11,
         "institucion": "Udemy",
         "url": "https://www.udemy.com/certificate/UC-d0b356ad-73e3-4ad6-91bc-c0ce5b7d2dca/"
     },
     {
-        "nombre": "Aprende a dominar GIT de cero a experto",
-        "name": "Learn to master GIT from the basics to expert",
+        "nombre": "GIT de cero a experto",
+        "name": "GIT from the basics to expert",
         "anio": 2020,
         "horas": 3,
         "institucion": "Udemy",
