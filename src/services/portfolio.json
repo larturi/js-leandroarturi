@@ -134,11 +134,11 @@
         "anio": 2020
     },
     {
-        "nombre": "Angular Todolist",
-        "name": "Angular Todolist",
-        "lenguaje": "#angular",
-        "resumen": "Lista de tareas con Angular.",
-        "summary": "Angular Todolist.",
+        "nombre": "Ionic Todolist",
+        "name": "Ionic Todolist",
+        "lenguaje": "#ionic",
+        "resumen": "Lista de tareas con Ionic.",
+        "summary": "Ionic Todolist.",
         "url": "https://www.leandroarturi.com.ar/demo/todolist-ng/#/tabs/tab1",
         "anio": 2020
     },
