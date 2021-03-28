@@ -143,6 +143,24 @@
         "anio": 2020
     },
     {
+        "nombre": "Angular Heroes",
+        "name": "Angular Heroes",
+        "lenguaje": "#angular",
+        "resumen": "Angular Heroes.",
+        "summary": "Angular Heroes.",
+        "url": "https://www.leandroarturi.com.ar/demo/heroes-ng/#/heroes",
+        "anio": 2020
+    },
+    {
+        "nombre": "Angular Flags Drag & Drop",
+        "name": "Angular Flags Drag & Drop",
+        "lenguaje": "#angular",
+        "resumen": "Angular Flags Drag & Drop.",
+        "summary": "Angular Flags Drag & Drop.",
+        "url": "https://www.leandroarturi.com.ar/demo/flags/#/list-countries/",
+        "anio": 2020
+    },
+    {
         "nombre": "Diseta",
         "name": "Diseta",
         "lenguaje": "#php",
@@ -195,6 +213,15 @@
         "summary": "Website dedicated to programmers to remember their day every year.",
         "url": "http://programmerday.cloudapp.com.ar/",
         "anio": 2014
+    },
+    {
+        "nombre": "Giphy ReactApp",
+        "name": "Giphy ReactApp",
+        "lenguaje": "#react #tailwind",
+        "resumen": "Buscador de GIF en giphy.com con React y Tailwind.",
+        "summary": "Giphy.com GIF Finder with React and Tailwind.",
+        "url": "https://www.leandroarturi.com.ar/demo/gif-react/",
+        "anio": 2021
     },
     {
         "nombre": "Calculadora del Viajero",
