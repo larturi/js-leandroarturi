@@ -89,6 +89,15 @@
         "anio": 2021
     },
     {
+        "nombre": "HoyJugamos",
+        "name": "HoyJugamos",
+        "lenguaje": "#laravel",
+        "resumen": "Aplicación para organizar partidos de futbol.",
+        "summary": "Application to organize soccer matches.",
+        "url": "http://hoyjugamos.cloudapp.com.ar/home/",
+        "anio": 2015
+    },
+    {
         "nombre": "Citas",
         "name": "Appointments",
         "lenguaje": "#react",
