@@ -121,7 +121,8 @@ export function showEducationSection(idioma, allContent) {
     $('#education').fadeIn(1000);
 }
 
-$('body').on('click', '#cargarMasCursos', function() {
+$('body').on('click', '#cargarMasCursos', function(event) {
+    event.preventDefault();
     $('#cursosContentOculto').css('display', 'block');
     $('#cargarMasCursos').remove();
 });
@@ -227,7 +228,8 @@ export function showSkillsSection(idioma, allContent) {
     });
 }
 
-$('body').on('click', '#cargarMasPortfolio', function() {
+$('body').on('click', '#cargarMasPortfolio', function(event) {
+    event.preventDefault();
     $('#portfolioContentOculto').css('display', 'block');
     $('#cargarMasPortfolio').remove();
 });

@@ -123,7 +123,7 @@ header .social li a { color: #fff; }
 header .social li a:hover { color: #d8d5d1; }
 
 .logo-texto {
-    margin-left: 10px;
+    margin-left: 8px;
     font-size: 15px;
 }
 
@@ -247,7 +247,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #ab987a; }
 
 
 /* Listas
@@ -376,24 +376,25 @@ img {
 /* About
 ---------------------------------------------------------- */
 #about {
-    background: #2B2B2B;
+    background: #f5f5f5;
     padding-top: 96px;
     padding-bottom: 60px;
     overflow: hidden;
+    color:#0f0f0f;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #a2a2a2; }
+#about a, #about a:visited  { color: #0f0f0f; }
+#about a:hover, #about a:focus { color: #2F2D2E; }
 
 #about h2 {
     font: 22px/30px 'Open Sans', sans-serif;
-    color: #fff;
+    color: #555555;
     margin-bottom: 12px;
     font-weight: 800;
 }
 #about p {
     line-height: 30px;
-    color: #9B9B9B;
+    color: #0f0f0f;
 }
 #about h2{
     margin-bottom: 20px;
@@ -703,6 +704,7 @@ footer a:hover, footer a:focus { color: #fff; }
 footer .copyright {
     margin: 0;
     padding: 0;
+    padding-bottom: 45px;
 }
 footer .copyright li {
     display: inline-block;
@@ -733,7 +735,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #ab987a;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -844,7 +846,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 #education {
-    padding-top: 80px;
+    padding-top: 55px;
 }
 
 #work {
@@ -888,6 +890,7 @@ seccion-profile  a, seccion-profile a:visited  { color: #555555; }
     font-size: 14px !important;
     margin-bottom: 20px;
     margin-top: -3px;
+    font-weight: 100;
 }  
 
 .seccion-profile .date {
@@ -895,4 +898,16 @@ seccion-profile  a, seccion-profile a:visited  { color: #555555; }
     margin-top: 6px;
     margin-left: 6px;
     color: #BEBEBE;
+}
+
+.icono-footer  {
+    font-size: 16px;
+}
+
+.icono-header {
+    font-size: 16px;
+}
+
+.bars h2 {
+    font-size: 1.6rem;
 }

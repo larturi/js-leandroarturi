@@ -155,8 +155,8 @@
         },
 
         "trabajoProjectManagerText": {
-            "es": "Coordinación técnica de 7 equipos de desarrollo (PHP, HTML5, JavaScript, JQuery | Oracle). Pruebas de concepto, hotfixes, documentación en Confluence. Implementación de Integración Continua con Jenkins. Desarrollo de un checksystem para monitorear la salud de los sistemas.",
-            "en": "Technical coordination of 7 development teams (PHP, HTML5, JavaScript, JQuery | Oracle). Proofs of concept, hotfixes, documentation in Confluence. Implementation of Continuous Integration with Jenkins. Development of a checksystem to monitor the health of the systems."
+            "es": "Coordinación técnica de 7 equipos de desarrollo (PHP, HTML5, JavaScript, JQuery, Oracle). Pruebas de concepto, hotfixes, documentación en Confluence. Implementación de Integración Continua con Jenkins. Desarrollo de un checksystem para monitorear la salud de los sistemas.",
+            "en": "Technical coordination of 7 development teams (PHP, HTML5, JavaScript, JQuery, Oracle). Proofs of concept, hotfixes, documentation in Confluence. Implementation of Continuous Integration with Jenkins. Development of a checksystem to monitor the health of the systems."
         },
 
         "trabajoWebDeveloper": {
@@ -180,8 +180,8 @@
         },
 
         "trabajoDesaWebText": {
-            "es": "Diseño, desarrollo y mantenimiento (PHP, HTML5, JavaScript, JQuery | Oracle). Desarrollo e implementación de la Plataforma CUP, solución Single Sign On que permitió unificar la seguridad de más de 50 sistemas.",
-            "en": "Design, development and maintenance (PHP, HTML5, JavaScript, JQuery | Oracle). Development and implementation of a Single Sign On solution that allowed the integration of more than 50 systems."
+            "es": "Diseño, desarrollo y mantenimiento (PHP, HTML5, JavaScript, JQuery, Oracle). Desarrollo e implementación de la Plataforma CUP, solución Single Sign On que permitió unificar la seguridad de más de 50 sistemas.",
+            "en": "Design, development and maintenance (PHP, HTML5, JavaScript, JQuery, Oracle). Development and implementation of a Single Sign On solution that allowed the integration of more than 50 systems."
         },
 
         "trabajoDesaDeskSector": {
@@ -195,8 +195,8 @@
         },
 
         "trabajoDesaDeskText": {
-            "es": "Diseño, desarrollo y mantenimiento de más de 30 sistemas de información y aplicaciones (Visual Basic NET, C#, VB 6.0, VBA, | Oracle, SQL Server y MySql).",
-            "en": "Design, development and maintenance of more than 30 information systems and applications (Visual Basic NET, C #, VB 6.0, VBA, | Oracle, SQL Server and MySql)."
+            "es": "Diseño, desarrollo y mantenimiento de más de 30 sistemas de información y aplicaciones (Visual Basic NET, C#, VB 6.0, VBA, Oracle, SQL Server y MySql).",
+            "en": "Design, development and maintenance of more than 30 information systems and applications (Visual Basic NET, C #, VB 6.0, VBA, Oracle, SQL Server and MySql)."
         },
 
         "trabajoAnalisisSector": {
