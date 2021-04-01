@@ -14,6 +14,9 @@ let previousScrollPosition = 0;
 
 jQuery(document).ready(function($) {
 
+    // ==============================================================
+    // Handle Scrolling
+    // ==============================================================
     const isScrollingDown = () => {
         let scrolledPosition = window.scrollY;
         let isScrollDown;
@@ -28,11 +31,19 @@ jQuery(document).ready(function($) {
     }
       
     const handleNavScroll = () => {
-        const scrolling = isScrollingDown();
+        const scrollingDown = isScrollingDown();
+        if(scrollingDown) {
+
+            if (allContent.length === 0) {
+                setTimeout(() => {
+                    //$('#showAllSections').click();
+                }, 200);
+            }
+        }
     }
 
     window.addEventListener('scroll', () => {
-        handleNavScroll()
+        handleNavScroll();
     })
 
     $('#showAllSections').on('click', function(e) {
@@ -41,8 +52,6 @@ jQuery(document).ready(function($) {
         if (!allContent) {
             loadAllSections();
         }
-
-        $('#menu-acerca').addClass("current");
     });
 
     // ==============================================================
@@ -71,13 +80,14 @@ jQuery(document).ready(function($) {
     var sections = $("section");
     var navigation_links = $("#nav-wrap a");
 
-
     sections.waypoint({
         handler: function(event, direction) {
 
             var active_section;
 
             active_section = $(this);
+
+            console.log(active_section)
             
             if (direction === "up")
                 active_section = active_section.prev();
@@ -90,8 +100,9 @@ jQuery(document).ready(function($) {
             // Color barra browser
             var current_section = active_section.attr("id");
 
+
             // Cambio el hash de la url para que quede fija la pagina si cambia el idioma
-            window.location.hash = current_section;
+            //window.location.hash = current_section;
 
             if(current_section==='skills'){
                 $('.bar-expand').removeClass('progress').addClass('progress');
@@ -110,8 +121,9 @@ jQuery(document).ready(function($) {
     // ==============================================================
     // Make sure that #header-background-image height is = browser height
     // ==============================================================
-    $('header').css({'height': $(window).height()});
-       $(window).on('resize', function() {
+    $('header').css({'height': $(window).height() + 1});
+    
+    $(window).on('resize', function() {
         $('header').css({'height': $(window).height()});
         $('body').css({'width': $(window).width()});
     });
@@ -162,10 +174,8 @@ jQuery(document).ready(function($) {
         var buttonMenu = $('#nav-wrap').children().eq(1);
 
         if(current_section !== '#portfolio') {
-            console.log('limpio')
             $("#portfolio").parent().removeClass("current");
         }
-
 
         $("#lang").parent().removeClass("current");
 
@@ -192,7 +202,6 @@ export const start = async function() {
         mySections.cargarLanding(idioma, landingContent);
         mySections.cargarImagenBackground();
         fixClearSelectedMenu();
-
     });
         
 };
@@ -203,6 +212,7 @@ export function fixClearSelectedMenu() {
     if(Number(countChangesLanguage) === 0) {
         $('#menu-portfolio').removeClass("current");
         $('#menu-inicio').addClass("current");
+        window.location.hash = '#home';
     }
 
     localStorage.setItem('countChangesLanguage', Number(countChangesLanguage) + 1);
@@ -214,13 +224,20 @@ export function loadAllSections() {
     $('#about').show();
     $('#education').show();
     $('.education').show();
+    $('#cursosDivTitulo').show();
     $('#cursosContent').show();
-    $('#cursosContent').show();
-    $('.seccion-profile').show();
-    $('#docencia').show();
-    $('#skills').show();
-    $('#portfolio').show();
-    $('#footer').show();
+
+    // Delay para que no se vaya hasta abajo y suba
+    setTimeout(() => {
+        
+        $('.seccion-profile').show();
+        $('#docencia').show();
+        $('#skills').show();
+        $('#portfolio').show();
+        $('#footer').show();
+        
+    }, 1000);
+    
 
     Promise.all([
                   myContent.getContenido(), 
