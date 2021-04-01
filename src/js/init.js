@@ -6,12 +6,34 @@ import '../css/media-queries.css';
 
 let allContent = [];
 let landingContent = [];
-let landing = {};
 let content = {};
 let portfolio = [];
 let cursos = [];
+const mainNav = document.querySelector("#contenido");
+let previousScrollPosition = 0;
 
 jQuery(document).ready(function($) {
+
+    const isScrollingDown = () => {
+        let scrolledPosition = window.scrollY;
+        let isScrollDown;
+
+        if (scrolledPosition > previousScrollPosition) {
+          isScrollDown = true;
+        } else {
+          isScrollDown = false;
+        }
+        previousScrollPosition = scrolledPosition;
+        return isScrollDown;
+    }
+      
+    const handleNavScroll = () => {
+        const scrolling = isScrollingDown();
+    }
+
+    window.addEventListener('scroll', () => {
+        handleNavScroll()
+    })
 
     $('#showAllSections').on('click', function(e) {
         e.preventDefault();
@@ -49,13 +71,14 @@ jQuery(document).ready(function($) {
     var sections = $("section");
     var navigation_links = $("#nav-wrap a");
 
+
     sections.waypoint({
         handler: function(event, direction) {
 
             var active_section;
 
             active_section = $(this);
-
+            
             if (direction === "up")
                 active_section = active_section.prev();
 
@@ -64,45 +87,11 @@ jQuery(document).ready(function($) {
             navigation_links.parent().removeClass("current");
             active_link.parent().addClass("current");
 
-            //Color barra browser
+            // Color barra browser
             var current_section = active_section.attr("id");
 
-            switch(current_section){
-                case 'home':
-                    $('meta[name=theme-color]').remove();
-                    $('head').append('<meta name="theme-color" content="#24004a">');
-                break;
-
-                case 'about':
-                    $('meta[name=theme-color]').remove();
-                    $('head').append('<meta name="theme-color" content="#292929">');
-                break;
-
-                case 'education':
-                    $('meta[name=theme-color]').remove();
-                    $('head').append('<meta name="theme-color" content="#24004a">');
-                break;
-
-                case 'work':
-                    $('meta[name=theme-color]').remove();
-                    $('head').append('<meta name="theme-color" content="#24004a">');
-                break;
-
-                case 'docencia':
-                    $('meta[name=theme-color]').remove();
-                    $('head').append('<meta name="theme-color" content="#24004a">');
-                break;
-
-                case 'skills':
-                    $('meta[name=theme-color]').remove();
-                    $('head').append('<meta name="theme-color" content="#24004a">');
-                break;
-
-                case 'portfolio':
-                    $('meta[name=theme-color]').remove();
-                    $('head').append('<meta name="theme-color" content="#292929">');
-                break;
-            }
+            // Cambio el hash de la url para que quede fija la pagina si cambia el idioma
+            window.location.hash = current_section;
 
             if(current_section==='skills'){
                 $('.bar-expand').removeClass('progress').addClass('progress');
