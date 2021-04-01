@@ -54,7 +54,6 @@
     #about .profile-pic {
         width: 100px;
         height: 100px;
-        margin-left: 12px;
     }
     #about .contact-details { width: 50%; }
     #about .download { width: 50%; }
@@ -285,7 +284,6 @@
     ------------------------------- */
     #about .profile-pic {
         text-align: center;
-        margin-left: 33%;
         margin-bottom: 20px;
         margin-top: -50px;
     }
