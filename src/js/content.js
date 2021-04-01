@@ -6,6 +6,7 @@ export const getContenido = async function() {
     const result = await $.ajax({
         url: '..' + global.rootDir + '/src/services/content.json?v='+version
     });
+    console.log(result)
     return result;
 };
 
