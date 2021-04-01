@@ -1,20 +1,5 @@
 {
 
-    "aboutParrafo": {
-        "es": "Licenciado en Sistemas y Desarrollador con amplia experiencia en desarrollo de aplicaciones y gestión de proyectos de software. A lo largo de mi carrera he trabajado como Desarrollador, Analista Técnico Funcional, Líder de Proyectos y Coordinador de Desarrollo.",
-        "en": "Degree in Information Systems and Software Developer with extensive experience in application development and software project management. Throughout my career I have worked at different roles, as a Developer, Functional Technical Analyst, Project Manager and Development Coordinator."
-    },
-
-    "aboutTitulo": {
-        "es": "Acerca de mi",
-        "en": "About me"
-    },
-
-    "aboutContacto": {
-        "es": "Contactar",
-        "en": "Contact"
-    },
-
     "education": {
         "educationTitulo": {
             "es": "Educación",

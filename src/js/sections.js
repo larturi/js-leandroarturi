@@ -1,4 +1,5 @@
 import * as myFunctions from './functions.js';
+import { loadAllSections } from './init.js';
 
 export function cargarLanding(idioma, landingContent) {
 
@@ -14,6 +15,9 @@ export function cargarLanding(idioma, landingContent) {
     setTimeout(function() {
         $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
     }, 1);
+
+    // About
+    showAboutSection(idioma, landingContent);
     
 }
 
@@ -21,9 +25,6 @@ export function cargarLanding(idioma, landingContent) {
 export function cargarSecciones(idioma, allContent) {
 
     let version = myFunctions.getVersionApp();
-
-    // About
-    showAboutSection(idioma, allContent);
 
     // Educacion
     showEducationSection(idioma, allContent);
@@ -53,33 +54,16 @@ export function cargarSecciones(idioma, allContent) {
 }
 
 export function cambiarIdioma(idioma, allContent) {
+    
+    if(allContent.length === 0 || allContent.length === 'undefined') {
+        loadAllSections();
+    }
 
     const idiomaLocalStorage = myFunctions.getIdiomaLocalStorage();
 
     if(idiomaLocalStorage !== idioma) {
         localStorage.setItem('lang', idioma);
     }
-
-    // Loading
-    showLoading(idioma, allContent);
-    // Menu
-    showMenuSection(idioma, allContent);
-    // Header
-    showHeaderSection(idioma, allContent);
-    // About
-    showAboutSection(idioma, allContent);
-    // Education
-    showEducationSection(idioma, allContent);
-    // Cursos
-    showCursos(idioma, allContent.cursos);
-    // Education
-    showWorkSection(idioma, allContent);
-    // Docencia
-    showDocenciaSection(idioma, allContent);
-    // Skills
-    showSkillsSection(idioma, allContent);
-    // Portfolio
-    showPortfolioSection(idioma, allContent.portfolio);
 }
 
 export function showLoading(idioma, allContent) {
@@ -110,9 +94,9 @@ export function showHeaderSection(idioma, allContent) {
 
 export function showAboutSection(idioma, allContent) {
     
-    $("#aboutTitulo").text(allContent.content.aboutTitulo[idioma]).hide().fadeIn(1000);
-    $("#aboutParrafo").text(allContent.content.aboutParrafo[idioma]).hide().fadeIn(1000);
-    $("#aboutContacto").text(allContent.content.aboutContacto[idioma]).hide().fadeIn(1000);
+    $("#aboutTitulo").text(allContent.aboutTitulo[idioma]).hide().fadeIn(1000);
+    $("#aboutParrafo").text(allContent.aboutParrafo[idioma]).hide().fadeIn(1000);
+    $("#aboutContacto").text(allContent.aboutContacto[idioma]).hide().fadeIn(1000);
     $("#aboutLinks").hide().fadeIn(1000);
 }
 
@@ -221,7 +205,6 @@ export function showWorkSection(idioma, allContent) {
 }
 
 export function showDocenciaSection(idioma, allContent) {
-
     Object.entries(allContent.content.docencia).forEach(entry => {
         const [key, value] = entry;
         $("#" + key).text(value[idioma]).hide().fadeIn(1000);

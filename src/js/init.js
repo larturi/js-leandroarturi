@@ -15,37 +15,8 @@ jQuery(document).ready(function($) {
 
     $('#showAllSections').on('click', function(e) {
         e.preventDefault();
-
         loadAllSections();
     });
-
-    function loadAllSections() {
-        $('#about').show();
-        $('#education').show();
-        $('.education').show();
-        $('#cursosContent').show();
-        $('#cursosContent').show();
-        $('.seccion-profile').show();
-        $('#docencia').show();
-        $('#skills').show();
-        $('#portfolio').show();
-        $('#footer').show();
-
-        Promise.all([
-                      myContent.getContenido(), 
-                      myContent.getCursos(), 
-                      myContent.getPortfolio()
-                    ])
-                .then(arr => {
-                    const idioma = myFunctions.getIdiomaLocalStorage();
-                    content = arr[0];
-                    cursos =  arr[1];
-                    portfolio = arr[2];
-                    allContent = {content, cursos, portfolio};
-                    mySections.cargarSecciones(idioma, allContent);
-                    mySections.cargarImagenBackground();
-                });
-    }
 
     // ==============================================================
     // Smooth Scrolling
@@ -176,7 +147,7 @@ jQuery(document).ready(function($) {
     // ==============================================================
     // Cambiar Idioma
     // ==============================================================
-    $('#lang').click(function(e) {
+    $('#lang').click( async function(e) {
 
         let idioma = 'es';
 
@@ -197,6 +168,9 @@ jQuery(document).ready(function($) {
 
         $("#lang").parent().removeClass("current");
 
+        await start();
+        loadAllSections();
+
         mySections.cambiarIdioma(idioma, allContent);
 
         buttonMenu.click();
@@ -207,21 +181,6 @@ jQuery(document).ready(function($) {
 });
 
 export const start = async function() {
-
-    // Promise.all([
-    //               myContent.getContenido(), 
-    //               myContent.getCursos(), 
-    //               myContent.getPortfolio()
-    //             ])
-    //         .then(arr => {
-    //             const idioma = myFunctions.getIdiomaLocalStorage();
-    //             content = arr[0];
-    //             cursos =  arr[1];
-    //             portfolio = arr[2];
-    //             allContent = {content, cursos, portfolio};
-    //             mySections.cargarSecciones(idioma, allContent);
-    //             mySections.cargarImagenBackground();
-    //         });
 
     Promise.all([
         myContent.getLanding()
@@ -234,3 +193,31 @@ export const start = async function() {
     });
         
 };
+
+export function loadAllSections() {
+    $('#education').show();
+    $('.education').show();
+    $('#cursosContent').show();
+    $('#cursosContent').show();
+    $('.seccion-profile').show();
+    $('#docencia').show();
+    $('#skills').show();
+    $('#portfolio').show();
+    $('#footer').show();
+
+    Promise.all([
+                  myContent.getContenido(), 
+                  myContent.getCursos(), 
+                  myContent.getPortfolio()
+                ])
+            .then(arr => {
+                const idioma = myFunctions.getIdiomaLocalStorage();
+                content = arr[0];
+                cursos =  arr[1];
+                portfolio = arr[2];
+                allContent = {content, cursos, portfolio};
+                mySections.cargarSecciones(idioma, allContent);
+                mySections.cargarImagenBackground();
+            });
+
+}
