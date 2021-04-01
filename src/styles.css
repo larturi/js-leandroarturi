@@ -129,6 +129,7 @@ header .social li a:hover { color: #d8d5d1; }
 .logo-texto {
     margin-left: 8px;
     font-size: 15px;
+    color: #d8d5d1;
 }
 
 /* Scrolldown Link
@@ -905,6 +906,7 @@ seccion-profile  a, seccion-profile a:visited  { color: #555555; }
 
 .icono-footer  {
     font-size: 16px;
+    color: #d8d5d1;
 }
 
 .icono-header {
