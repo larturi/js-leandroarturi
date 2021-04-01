@@ -17,13 +17,19 @@
    ------------------------------------------------------------------ */
     header .banner { padding-bottom: 12px; }
     header .banner-text h1 {
-        font: 78px/1.1em 'Open Sans', sans-serif;
-        letter-spacing: -1px;
-        font-weight: 800;      
+        height: auto;
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.5em;
+        color: #71798F;
+        font-weight: 400;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        font-size: 15px;   
     }
     header .banner-text h2 {
-        font: 17px/1.9em 'Open Sans', sans-serif;
-        width: 80%;
+        font: 18px/1.9em 'Open Sans', sans-serif;
     }
     header .banner-text hr {
         width: 65%;
@@ -244,12 +250,19 @@
         padding-top: 6px;
     }
     header .banner-text h1 { 
-        font: 55px/1.1em 'Open Sans', sans-serif; 
-        font-weight: 800;
+        height: auto;
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.5em;
+        color: #71798F;
+        font-weight: 400;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        font-size: 15px;
     }
     header .banner-text h2 {
         font: 16px/1.9em 'Open Sans', serif;
-        width: 85%;
     }
     header .banner-text hr {
         width: 33%;
@@ -366,13 +379,19 @@
     ------------------------------- */
     header .banner { padding-top: 24px; }
     header .banner-text h1 {
-        font: 40px/1.1em 'Open Sans', sans-serif;      
-        margin: 0 auto 24px auto;
-        font-weight: 800 !important;
+        height: auto;
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.5em;
+        color: #71798F;
+        font-weight: 400;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        font-size: 15px;
     }
     header .banner-text h2 {
-        font: 14px/1.9em 'Open Sans', sans-serif;
-        width: 83%;
+        font: 18px/1.9em 'Open Sans', sans-serif;
     }
 
     /* header social links */
