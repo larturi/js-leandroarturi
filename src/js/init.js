@@ -196,6 +196,7 @@ export const start = async function() {
 
 export function loadAllSections() {
     
+    $('#about').show();
     $('#education').show();
     $('.education').show();
     $('#cursosContent').show();
