@@ -15,9 +15,6 @@ export function cargarLanding(idioma, landingContent) {
     setTimeout(function() {
         $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
     }, 1);
-
-    // About
-    showAboutSection(idioma, landingContent);
     
 }
 
@@ -25,6 +22,9 @@ export function cargarLanding(idioma, landingContent) {
 export function cargarSecciones(idioma, allContent) {
 
     let version = myFunctions.getVersionApp();
+
+    // About
+    showAboutSection(idioma, allContent);
 
     // Educacion
     showEducationSection(idioma, allContent);
@@ -72,13 +72,13 @@ export function showLoading(idioma, allContent) {
 
 export function showMenuSection(idioma, allContent) {
 
-    $('#link-home').html(allContent.menu.inicio[idioma]).hide().fadeIn(1000);
-    $('#link-acerca').html(allContent.menu.acerca[idioma]).hide().fadeIn(1000);
-    $('#link-education').html(allContent.menu.educacion[idioma]).hide().fadeIn(1000);
-    $('#link-work').html(allContent.menu.trabajo[idioma]).hide().fadeIn(1000);
-    $('#link-skills').html(allContent.menu.skills[idioma]).hide().fadeIn(1000);
-    $('#link-portfolio').html(allContent.menu.portfolio[idioma]).hide().fadeIn(1000);
-    $('#lang').html(allContent.menu.idioma[idioma]).hide().fadeIn(1000);
+    $('#link-home').html(allContent.menu.inicio[idioma]).hide().fadeIn(300);
+    $('#link-acerca').html(allContent.menu.acerca[idioma]).hide().fadeIn(300);
+    $('#link-education').html(allContent.menu.educacion[idioma]).hide().fadeIn(300);
+    $('#link-work').html(allContent.menu.trabajo[idioma]).hide().fadeIn(300);
+    $('#link-skills').html(allContent.menu.skills[idioma]).hide().fadeIn(300);
+    $('#link-portfolio').html(allContent.menu.portfolio[idioma]).hide().fadeIn(300);
+    $('#lang').html(allContent.menu.idioma[idioma]).hide().fadeIn(300);
 }
 
 export function showHeaderSection(idioma, allContent) {
@@ -89,15 +89,15 @@ export function showHeaderSection(idioma, allContent) {
     $("#header2").text(allContent.header2[idioma]);
     $("#headerAnios").text(myFunctions.getExperiencia(idioma));
 
-    $("#content-header").fadeIn(1000);
+    $("#content-header").fadeIn(300);
 }
 
 export function showAboutSection(idioma, allContent) {
     
-    $("#aboutTitulo").text(allContent.aboutTitulo[idioma]).hide().fadeIn(1000);
-    $("#aboutParrafo").text(allContent.aboutParrafo[idioma]).hide().fadeIn(1000);
-    $("#aboutContacto").text(allContent.aboutContacto[idioma]).hide().fadeIn(1000);
-    $("#aboutLinks").hide().fadeIn(1000);
+    $("#aboutTitulo").text(allContent.content.aboutTitulo[idioma]).hide().fadeIn(300);
+    $("#aboutParrafo").text(allContent.content.aboutParrafo[idioma]).hide().fadeIn(300);
+    $("#aboutContacto").text(allContent.content.aboutContacto[idioma]).hide().fadeIn(300);
+    $("#aboutLinks").hide().fadeIn(300);
 }
 
 export function showEducationSection(idioma, allContent) {
@@ -106,10 +106,10 @@ export function showEducationSection(idioma, allContent) {
 
     Object.entries(allContent.content.education).forEach(entry => {
         const [key, value] = entry;
-        $("#" + key).text(value[idioma]).hide().fadeIn(1000);
+        $("#" + key).text(value[idioma]).hide().fadeIn(300);
     });
 
-    $('#education').fadeIn(1000);
+    $('#education').fadeIn(300);
 }
 
 $('body').on('click', '#cargarMasCursos', function(event) {
@@ -187,7 +187,7 @@ export function showCursos(idioma, cursos) {
         </div>
     `);
 
-    $('#cursosContentVisible').fadeIn(1000);
+    $('#cursosContentVisible').fadeIn(300);
 
 
 }
@@ -198,23 +198,23 @@ export function showWorkSection(idioma, allContent) {
 
     Object.entries(allContent.content.work).forEach(entry => {
         const [key, value] = entry;
-        $("#" + key).text(value[idioma]).hide().fadeIn(1000);
+        $("#" + key).text(value[idioma]).hide().fadeIn(300);
     });
 
-    $('#work').fadeIn(1000);
+    $('#work').fadeIn(300);
 }
 
 export function showDocenciaSection(idioma, allContent) {
     Object.entries(allContent.content.docencia).forEach(entry => {
         const [key, value] = entry;
-        $("#" + key).text(value[idioma]).hide().fadeIn(1000);
+        $("#" + key).text(value[idioma]).hide().fadeIn(300);
     });
 }
 
 export function showSkillsSection(idioma, allContent) {
     Object.entries(allContent.content.skills).forEach(entry => {
         const [key, value] = entry;
-        $("#" + key).text(value[idioma]).hide().fadeIn(1000);
+        $("#" + key).text(value[idioma]).hide().fadeIn(300);
     });
 }
 
@@ -226,7 +226,7 @@ $('body').on('click', '#cargarMasPortfolio', function(event) {
 
 export function showPortfolioSection(idioma, portfolio) {
 
-    $("#portfolioTitle").text('Portfolio').hide().fadeIn(1000);
+    $("#portfolioTitle").text('Portfolio').hide().fadeIn(300);
 
     $('#portfolioContentVisible').html('');
     $('#portfolioContentOculto').html('');
@@ -296,7 +296,7 @@ export function showPortfolioSection(idioma, portfolio) {
         </div>
     `);
 
-    $('#portfolioContentVisible').fadeIn(1000);
+    $('#portfolioContentVisible').fadeIn(300);
 
 }
 
