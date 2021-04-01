@@ -15,7 +15,12 @@ jQuery(document).ready(function($) {
 
     $('#showAllSections').on('click', function(e) {
         e.preventDefault();
-        loadAllSections();
+
+        if (!allContent) {
+            loadAllSections();
+        }
+
+        $('#menu-acerca').addClass("current");
     });
 
     // ==============================================================
@@ -36,6 +41,7 @@ jQuery(document).ready(function($) {
             window.location.hash = target;
         });
     });
+    
 
     // ==============================================================
     // Highlight the current section in the navigation bar
