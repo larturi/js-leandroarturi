@@ -86,8 +86,6 @@ jQuery(document).ready(function($) {
             var active_section;
 
             active_section = $(this);
-
-            console.log(active_section)
             
             if (direction === "up")
                 active_section = active_section.prev();
@@ -99,10 +97,6 @@ jQuery(document).ready(function($) {
 
             // Color barra browser
             var current_section = active_section.attr("id");
-
-
-            // Cambio el hash de la url para que quede fija la pagina si cambia el idioma
-            //window.location.hash = current_section;
 
             if(current_section==='skills'){
                 $('.bar-expand').removeClass('progress').addClass('progress');
