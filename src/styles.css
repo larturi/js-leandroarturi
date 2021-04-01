@@ -45,7 +45,7 @@ body {
     font-weight: normal;
     font-size: 15px;
     line-height: 30px;
-    color: #838C95;
+    color: #555555;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
 }
@@ -89,7 +89,7 @@ header .banner-text h1 {
     margin: 0 auto 18px auto;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
-header .banner-text h3 {
+header .banner-text h2 {
     font: 16px/1.7em 'verdana', serif;
     color: #e8e8e8;
     margin: 0 auto;
@@ -121,6 +121,11 @@ header .social li {
 }
 header .social li a { color: #fff; }
 header .social li a:hover { color: #d8d5d1; }
+
+.logo-texto {
+    margin-left: 10px;
+    font-size: 15px;
+}
 
 /* Scrolldown Link
 ---------------------------------------------------------- */
@@ -185,13 +190,13 @@ ul#nav li {
 /* Titulos
 ---------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-    color: #313131;
+    color: #555555;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; font-weight: 800;}
-h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; font-weight: 800;}
+h2 { font-size: 19px; line-height: 30px; margin-bottom: 8px; font-weight: 800;}
 h3 { font-size: 19px; line-height: 30px; margin-bottom: 8px; font-weight: 800;}
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; font-weight: 800;}
 h5 { font-size: 18px; line-height: 30px; font-weight: 800;}
@@ -215,14 +220,14 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
     text-decoration: none;
     outline: 0;
-    color: #313131;
+    color: #555555;
 
     -webkit-transition: color .3s ease-in-out;
     -moz-transition: color .3s ease-in-out;
     -o-transition: color .3s ease-in-out;
     transition: color .3s ease-in-out;
 }
-a:hover, a:focus { color: #313131; }
+a:hover, a:focus { color: #555555; }
 p a, p a:visited { line-height: inherit; }
 
 ul#nav li a {
@@ -439,7 +444,7 @@ img {
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
-    color: #313131;
+    color: #555555;
     font-weight: 800;
 }
 
@@ -464,7 +469,7 @@ img {
 }
 .bars li em {
     font: 15px 'Open Sans', sans-serif;
-    color: #313131;
+    color: #555555;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 800;    
@@ -477,7 +482,7 @@ img {
     top: 0;
     margin: 0;
     padding-right: 0px;
-    background: #313131;
+    background: #555555;
     display: inline-block;
     height: 8px;
     line-height: 42px;
@@ -491,7 +496,7 @@ img {
 
 /********** Progress Bar Animation 55% **********/
 .progress.cincuentaycinco {
-    background-color: #313131;
+    background-color: #555555;
     animation: progressBarCincuentaycinco 3s ease-in-out;
     animation-fill-mode:both; 
     -webkit-animation: progressBarCincuentaycinco 3s ease-in-out;
@@ -510,7 +515,7 @@ img {
 
 /********** Progress Bar Animation 60% **********/
 .progress.sesenta {
-    background-color: #313131;
+    background-color: #555555;
     animation: progressBarSesenta 3s ease-in-out;
     animation-fill-mode:both; 
     -webkit-animation: progressBarSesenta 3s ease-in-out;
@@ -529,7 +534,7 @@ img {
 
 /********** Progress Bar Animation 65% **********/
 .progress.sesentaycinco {
-    background-color: #313131;
+    background-color: #555555;
     animation: progressBarSesentaCinco 3s ease-in-out;
     animation-fill-mode:both; 
     -webkit-animation: progressBarSesentaCinco 3s ease-in-out;
@@ -548,7 +553,7 @@ img {
 
 /********** Progress Bar Animation 70% **********/
 .progress.setenta {
-    background-color: #313131;
+    background-color: #555555;
     animation: progressBarSetenta 3s ease-in-out;
     animation-fill-mode:both; 
     -webkit-animation: progressBarSetenta 3s ease-in-out;
@@ -567,7 +572,7 @@ img {
 
 /********** Progress Bar Animation 75% **********/
 .progress.setentaycinco {
-    background-color: #313131;
+    background-color: #555555;
     animation: progressBarSetentaCinco 3s ease-in-out;
     animation-fill-mode:both; 
     -webkit-animation: progressBarSetentaCinco 3s ease-in-out;
@@ -586,7 +591,7 @@ img {
 
 /********** Progress Bar Animation 80% **********/
 .progress.ochenta {
-    background-color: #313131;
+    background-color: #555555;
     animation: progressBarOchenta 3s ease-in-out;
     animation-fill-mode:both; 
     -webkit-animation: progressBarOchenta 3s ease-in-out;
@@ -605,7 +610,7 @@ img {
 
 /********** Progress Bar Animation 85% **********/
 .progress.ochentaycinco {
-    background-color: #313131;
+    background-color: #555555;
     animation: progressBarOchentaCinco 3s ease-in-out;
     animation-fill-mode:both; 
     -webkit-animation: progressBarOchentaCinco 3s ease-in-out;
@@ -624,7 +629,7 @@ img {
 
 /********** Progress Bar Animation 90% **********/
 .progress.noventa {
-    background-color: #313131;
+    background-color: #555555;
     animation: progressBarNoventa 3s ease-in-out;
     animation-fill-mode:both; 
     -webkit-animation: progressBarNoventa 3s ease-in-out;
@@ -643,7 +648,7 @@ img {
 
 /********** Progress Bar Animation 95% **********/
 .progress.noventaycinco {
-    background-color: #313131;
+    background-color: #555555;
     animation: progressBarNoventaCinco 3s ease-in-out;
     animation-fill-mode:both; 
     -webkit-animation: progressBarNoventaCinco 3s ease-in-out;
@@ -663,7 +668,7 @@ img {
 
 /********** Progress Bar Animation 100% **********/
 .progress.cien {
-    background-color: #313131;
+    background-color: #555555;
     animation: progressBarCien 3s ease-in-out;
     animation-fill-mode:both; 
     -webkit-animation: progressBarCien 3s ease-in-out;
@@ -822,7 +827,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .color-dark {
-    color: #838A91;
+    color: #555555;
 }
 
 .education {
@@ -861,8 +866,8 @@ footer .social-links li:first-child { margin-left: 0; }
     overflow: hidden;
 }
 
-seccion-profile  a, seccion-profile a:visited  { color: #313131; }
-.seccion-profile a:hover, .seccion-profile a:focus { color: #313131; }
+seccion-profile  a, seccion-profile a:visited  { color: #555555; }
+.seccion-profile a:hover, .seccion-profile a:focus { color: #555555; }
 
 .seccion-profile h1 {
     font: 18px/24px 'Open Sans', sans-serif;

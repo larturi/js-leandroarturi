@@ -21,7 +21,7 @@
         letter-spacing: -1px;
         font-weight: 800;      
     }
-    header .banner-text h3 {
+    header .banner-text h2 {
         font: 17px/1.9em 'Open Sans', sans-serif;
         width: 80%;
     }
@@ -247,7 +247,7 @@
         font: 55px/1.1em 'Open Sans', sans-serif; 
         font-weight: 800;
     }
-    header .banner-text h3 {
+    header .banner-text h2 {
         font: 16px/1.9em 'Open Sans', serif;
         width: 85%;
     }
@@ -370,7 +370,7 @@
         margin: 0 auto 24px auto;
         font-weight: 800 !important;
     }
-    header .banner-text h3 {
+    header .banner-text h2 {
         font: 14px/1.9em 'Open Sans', sans-serif;
         width: 83%;
     }

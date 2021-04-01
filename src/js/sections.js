@@ -151,7 +151,7 @@ export function showCursos(idioma, cursos) {
         }
 
         if(element.url.length > 1) {
-            tituloCurso = `<a href="${element.url}" target="_blank">
+            tituloCurso = `<a href="${element.url}" target="_blank" rel="noreferrer">
                                 <h3>${nombreCurso}</h3>
                             </a>`;
         } else {
@@ -191,7 +191,7 @@ export function showCursos(idioma, cursos) {
 
     $('#cursosContentMostrarMas').append(`
         <div>
-            <a id="cargarMasCursos" style="cursor: pointer;">${mostrarMasLink}</a>
+            <a href="#" id="cargarMasCursos" style="cursor: pointer;">${mostrarMasLink}</a>
         </div>
     `);
 
@@ -269,7 +269,7 @@ export function showPortfolioSection(idioma, portfolio) {
             $('#portfolioContentVisible').append(`
                 <div class="row">
                     <div class="twelve columns">
-                    <h3><a href="${element.url}" target="_blank">${nombre}</a></h3>
+                    <h3><a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a></h3>
                         <p class="detalle-cursos">
                             <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
                             ${resumen}
@@ -281,7 +281,7 @@ export function showPortfolioSection(idioma, portfolio) {
             $('#portfolioContentOculto').append(`
                 <div class="row">
                     <div class="twelve columns">
-                        <h3><a href="${element.url}" target="_blank">${nombre}</a></h3>
+                        <h3><a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a></h3>
                             <p class="detalle-cursos">
                                 <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
                                 ${resumen}
@@ -300,7 +300,7 @@ export function showPortfolioSection(idioma, portfolio) {
 
     $('#portfolioContent').append(`
         <div>
-            <a id="cargarMasPortfolio" style="cursor: pointer;">${mostrarMasLink}</a>
+            <a href="#" id="cargarMasPortfolio" style="cursor: pointer;">${mostrarMasLink}</a>
         </div>
     `);
 
@@ -309,14 +309,5 @@ export function showPortfolioSection(idioma, portfolio) {
 }
 
 export function cargarImagenBackground() {
-    // Imagen de fondo y opacidad al inicio
-    // var img1 = document.createElement("img");
-    // img1.src = '..' + global.rootDir + '/src/assets/images/home-background/home-background-1.jpg';
-    // img1.onload = function() {
-    //     $('header').css('background', "url('.." + global.rootDir + "/src/assets/images/home-background/home-background-1.jpg') no-repeat top center" );
-    //     myFunctions.myFadeFunction();
-    //     $('.loading').css('display', 'none');
-    // };
     $('.loading').css('display', 'none');
-
 }
