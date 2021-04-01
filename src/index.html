@@ -136,7 +136,7 @@
         <!-- =========================================================== -->
 
         <!-- About -->
-        <section id="about">
+        <section id="about" style="display: none;">
             <div class="row">
                 <div class="three columns">
                     <img class="profile-pic" id="profile-pic" />
@@ -184,8 +184,9 @@
         </section>
 
         <!-- Education -->
-        <section id="education" class="seccion-profile">
-            <div class="row education">
+        <section id="education" class="seccion-profile" style="display: none;">
+            
+            <div class="row education" style="display: none;">
 
                 <div class="three columns header-col">
                     <h1><span id="educationTitulo"></span></h1>
@@ -230,7 +231,7 @@
             <!-- End Education -->
 
             <!-- Cursos -->
-            <div class="row education" style="margin-top: 50px;">
+            <div class="row education" style="margin-top: 50px; display: none;">
 
                 <div class="three columns header-col">
                     <h1><span id="educationCursosTitulo"></span></h1>
@@ -252,7 +253,7 @@
 
         <!-- Work -->
         <section id="work" class="seccion-profile">
-            <div class="row education">
+            <div class="row education" style="display: none;">
                 <div class="three columns header-col">
                     <h1><span id="trabajoTitulo"></span></h1>
                 </div>
@@ -357,7 +358,7 @@
         </section>
 
         <!-- Docencia -->
-        <section id="docencia" class="seccion-profile">
+        <section id="docencia" class="seccion-profile" style="display: none;">
             <div class="row education">
 
                 <div class="three columns header-col">
@@ -385,7 +386,7 @@
         </section>
 
         <!-- Skills -->
-        <section id="skills" class="seccion-profile">
+        <section id="skills" class="seccion-profile" style="display: none;">
             <div class="row education">
                 <div class="three columns header-col">
                     <h1><span id="skillsTitulo"></span></h1>
@@ -462,7 +463,7 @@
         </section>
 
         <!-- Portfolio -->
-        <section id="portfolio" class="seccion-profile">
+        <section id="portfolio" class="seccion-profile" style="display: none;">
             <div class="row education last-section">
 
                 <div class="three columns header-col">
@@ -480,7 +481,7 @@
         </section>
 
         <!-- Footer -->
-        <footer id="footer">
+        <footer id="footer" style="display: none;">
             <div class="row">
 
                 <div class="twelve columns">
@@ -512,13 +513,10 @@
         <!-- Java Script                                                 -->
         <!-- =========================================================== -->
 
-        <!-- <script src="./src/assets/js/min/jquery.min.js"></script> -->
-        <!-- <script src="./src/assets/js/min/jquery.flexslider.min.js"></script> -->
-        <!-- <script src="./src/assets/js/min/waypoints.min.js"></script> -->
-
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43659401-7"></script>
-        <script>
+       
+       <script>
             window.dataLayer = window.dataLayer || [];
 
             function gtag() {

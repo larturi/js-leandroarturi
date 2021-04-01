@@ -10,21 +10,6 @@ let portfolio = [];
 let cursos = [];
 
 jQuery(document).ready(function($) {
-    
-    // ==============================================================
-    // Flexslider
-    // ==============================================================
-    $('.flexslider').flexslider({
-        namespace: "flex-",
-        controlsContainer: ".flex-container",
-        animation: 'slide',
-        controlNav: true,
-        directionNav: false,
-        smoothHeight: true,
-        slideshowSpeed: 7000,
-        animationSpeed: 400,
-        randomize: false,
-    });
 
     // ==============================================================
     // Smooth Scrolling

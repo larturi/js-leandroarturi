@@ -61,7 +61,8 @@ header {
     -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;
-    background: #240048;
+    /* background: #240048; */
+    background: #00071D;
 }
 
 header:before {
@@ -803,7 +804,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
 #contenido {
     display: block;
-    opacity: 0;
+    opacity: 1;
 }
 
 .detalle-cursos {
@@ -813,7 +814,7 @@ footer .social-links li:first-child { margin-left: 0; }
 .detalle-cursos-em  {
   margin-left: 0px !important;
   font: 14px/20px 'Open Sans', sans-serif;
-  color: #ababab;
+  color: #555555;
 }
 
 .mb-5 {
@@ -870,7 +871,7 @@ seccion-profile  a, seccion-profile a:visited  { color: #313131; }
     font-weight: 800;
 }
 .seccion-profile h1 span {
-    border-bottom: 3px solid #640C98;
+    border-bottom: 3px solid #00071D;
     padding-bottom: 6px;
 }
 
@@ -878,7 +879,7 @@ seccion-profile  a, seccion-profile a:visited  { color: #313131; }
 .seccion-profile .main-col { padding-right: 10%; }
 
 .seccion-profile .info {
-    color: #ababab;
+    color: #555555;
     font-size: 14px !important;
     margin-bottom: 20px;
     margin-top: -3px;

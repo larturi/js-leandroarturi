@@ -13,7 +13,7 @@ export function cargarSecciones(idioma, allContent) {
     showHeaderSection(idioma, allContent);
     setTimeout(function() {
         $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
-    }, 50);
+    }, 1);
 
     // About
     showAboutSection(idioma, allContent);
@@ -310,11 +310,13 @@ export function showPortfolioSection(idioma, portfolio) {
 
 export function cargarImagenBackground() {
     // Imagen de fondo y opacidad al inicio
-    var img1 = document.createElement("img");
-    img1.src = '..' + global.rootDir + '/src/assets/images/home-background/home-background-1.jpg';
-    img1.onload = function() {
-        $('header').css('background', "url('.." + global.rootDir + "/src/assets/images/home-background/home-background-1.jpg') no-repeat top center" );
-        myFunctions.myFadeFunction();
-        $('.loading').css('display', 'none');
-    };
+    // var img1 = document.createElement("img");
+    // img1.src = '..' + global.rootDir + '/src/assets/images/home-background/home-background-1.jpg';
+    // img1.onload = function() {
+    //     $('header').css('background', "url('.." + global.rootDir + "/src/assets/images/home-background/home-background-1.jpg') no-repeat top center" );
+    //     myFunctions.myFadeFunction();
+    //     $('.loading').css('display', 'none');
+    // };
+    $('.loading').css('display', 'none');
+
 }
