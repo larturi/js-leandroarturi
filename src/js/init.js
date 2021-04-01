@@ -161,6 +161,12 @@ jQuery(document).ready(function($) {
         var current_section = $("#nav li.current").children().attr('href');
         var buttonMenu = $('#nav-wrap').children().eq(1);
 
+        if(current_section !== '#portfolio') {
+            console.log('limpio')
+            $("#portfolio").parent().removeClass("current");
+        }
+
+
         $("#lang").parent().removeClass("current");
 
         await start();
@@ -185,9 +191,23 @@ export const start = async function() {
         landingContent = arr[0];
         mySections.cargarLanding(idioma, landingContent);
         mySections.cargarImagenBackground();
+        fixClearSelectedMenu();
+
     });
         
 };
+
+export function fixClearSelectedMenu() {
+    const countChangesLanguage = localStorage.getItem('countChangesLanguage');
+
+    if(Number(countChangesLanguage) === 0) {
+        $('#menu-portfolio').removeClass("current");
+        $('#menu-inicio').addClass("current");
+    }
+
+    localStorage.setItem('countChangesLanguage', Number(countChangesLanguage) + 1);
+
+}
 
 export function loadAllSections() {
     

@@ -1,5 +1,5 @@
 import * as myFunctions from './functions.js';
-import { loadAllSections } from './init.js';
+import { loadAllSections, fixClearSelectedMenu } from './init.js';
 
 export function cargarLanding(idioma, landingContent) {
 
@@ -59,8 +59,10 @@ export function cambiarIdioma(idioma, allContent) {
         loadAllSections();
     }
 
-    const idiomaLocalStorage = myFunctions.getIdiomaLocalStorage();
+    fixClearSelectedMenu();
 
+    const idiomaLocalStorage = myFunctions.getIdiomaLocalStorage();
+    
     if(idiomaLocalStorage !== idioma) {
         localStorage.setItem('lang', idioma);
     }
@@ -80,8 +82,6 @@ export function showMenuSection(idioma, allContent) {
     $('#link-portfolio').html(allContent.menu.portfolio[idioma]).hide().fadeIn(300);
     $('#lang').html(allContent.menu.idioma[idioma]).hide().fadeIn(300);
 
-    $('#menu-inicio').addClass("current");
-    $('#menu-portfolio').removeClass("current");
 }
 
 export function showHeaderSection(idioma, allContent) {
