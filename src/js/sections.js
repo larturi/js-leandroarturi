@@ -1,19 +1,26 @@
 import * as myFunctions from './functions.js';
 
-export function cargarSecciones(idioma, allContent) {
+export function cargarLanding(idioma, landingContent) {
 
     let version = myFunctions.getVersionApp();
 
-    showLoading(idioma, allContent);
+    showLoading(idioma, landingContent);
 
     // Menu
-    showMenuSection(idioma, allContent);
+    showMenuSection(idioma, landingContent);
 
     // Header
-    showHeaderSection(idioma, allContent);
+    showHeaderSection(idioma, landingContent);
     setTimeout(function() {
         $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
     }, 1);
+    
+}
+
+
+export function cargarSecciones(idioma, allContent) {
+
+    let version = myFunctions.getVersionApp();
 
     // About
     showAboutSection(idioma, allContent);
@@ -76,26 +83,26 @@ export function cambiarIdioma(idioma, allContent) {
 }
 
 export function showLoading(idioma, allContent) {
-    $("#loading").text(allContent.content.loading[idioma]);
+    $("#loading").text(allContent.loading[idioma]);
 }
 
 export function showMenuSection(idioma, allContent) {
 
-    $('#link-home').html(allContent.content.menu.inicio[idioma]).hide().fadeIn(1000);
-    $('#link-acerca').html(allContent.content.menu.acerca[idioma]).hide().fadeIn(1000);
-    $('#link-education').html(allContent.content.menu.educacion[idioma]).hide().fadeIn(1000);
-    $('#link-work').html(allContent.content.menu.trabajo[idioma]).hide().fadeIn(1000);
-    $('#link-skills').html(allContent.content.menu.skills[idioma]).hide().fadeIn(1000);
-    $('#link-portfolio').html(allContent.content.menu.portfolio[idioma]).hide().fadeIn(1000);
-    $('#lang').html(allContent.content.menu.idioma[idioma]).hide().fadeIn(1000);
+    $('#link-home').html(allContent.menu.inicio[idioma]).hide().fadeIn(1000);
+    $('#link-acerca').html(allContent.menu.acerca[idioma]).hide().fadeIn(1000);
+    $('#link-education').html(allContent.menu.educacion[idioma]).hide().fadeIn(1000);
+    $('#link-work').html(allContent.menu.trabajo[idioma]).hide().fadeIn(1000);
+    $('#link-skills').html(allContent.menu.skills[idioma]).hide().fadeIn(1000);
+    $('#link-portfolio').html(allContent.menu.portfolio[idioma]).hide().fadeIn(1000);
+    $('#lang').html(allContent.menu.idioma[idioma]).hide().fadeIn(1000);
 }
 
 export function showHeaderSection(idioma, allContent) {
 
     $("#content-header").hide();
 
-    $("#header1").text(allContent.content.header1[idioma]);
-    $("#header2").text(allContent.content.header2[idioma]);
+    $("#header1").text(allContent.header1[idioma]);
+    $("#header2").text(allContent.header2[idioma]);
     $("#headerAnios").text(myFunctions.getExperiencia(idioma));
 
     $("#content-header").fadeIn(1000);

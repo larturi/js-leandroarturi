@@ -2,11 +2,17 @@ import * as myFunctions from './functions.js';
 
 const version = myFunctions.getVersionApp();
 
+export const getLanding = async function() {
+    const result = await $.ajax({
+        url: '..' + global.rootDir + '/src/services/landing.json?v='+version
+    });
+    return result;
+};
+
 export const getContenido = async function() {
     const result = await $.ajax({
         url: '..' + global.rootDir + '/src/services/content.json?v='+version
     });
-    console.log(result)
     return result;
 };
 

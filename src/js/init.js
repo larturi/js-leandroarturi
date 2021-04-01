@@ -5,17 +5,55 @@ import * as myContent from './content';
 import '../css/media-queries.css';
 
 let allContent = [];
+let landingContent = [];
+let landing = {};
 let content = {};
 let portfolio = [];
 let cursos = [];
 
 jQuery(document).ready(function($) {
 
+    $('#showAllSections').on('click', function(e) {
+        e.preventDefault();
+
+        loadAllSections();
+    });
+
+    function loadAllSections() {
+        $('#about').show();
+        $('#education').show();
+        $('.education').show();
+        $('#cursosContent').show();
+        $('#cursosContent').show();
+        $('.seccion-profile').show();
+        $('#docencia').show();
+        $('#skills').show();
+        $('#portfolio').show();
+        $('#footer').show();
+
+        Promise.all([
+                      myContent.getContenido(), 
+                      myContent.getCursos(), 
+                      myContent.getPortfolio()
+                    ])
+                .then(arr => {
+                    const idioma = myFunctions.getIdiomaLocalStorage();
+                    content = arr[0];
+                    cursos =  arr[1];
+                    portfolio = arr[2];
+                    allContent = {content, cursos, portfolio};
+                    mySections.cargarSecciones(idioma, allContent);
+                    mySections.cargarImagenBackground();
+                });
+    }
+
     // ==============================================================
     // Smooth Scrolling
     // ==============================================================
     $('.smoothscroll').on('click', function(e) {
         e.preventDefault();
+
+        loadAllSections();
 
         var target = this.hash;
         
@@ -170,24 +208,29 @@ jQuery(document).ready(function($) {
 
 export const start = async function() {
 
+    // Promise.all([
+    //               myContent.getContenido(), 
+    //               myContent.getCursos(), 
+    //               myContent.getPortfolio()
+    //             ])
+    //         .then(arr => {
+    //             const idioma = myFunctions.getIdiomaLocalStorage();
+    //             content = arr[0];
+    //             cursos =  arr[1];
+    //             portfolio = arr[2];
+    //             allContent = {content, cursos, portfolio};
+    //             mySections.cargarSecciones(idioma, allContent);
+    //             mySections.cargarImagenBackground();
+    //         });
+
     Promise.all([
-                  myContent.getContenido(), 
-                  myContent.getCursos(), 
-                  myContent.getPortfolio()
-                ])
-            .then(arr => {
-                const idioma = myFunctions.getIdiomaLocalStorage();
-                content = arr[0];
-                cursos =  arr[1];
-                portfolio = arr[2];
-                allContent = {content, cursos, portfolio};
-                mySections.cargarSecciones(idioma, allContent);
-                mySections.cargarImagenBackground();
-            });
-    
+        myContent.getLanding()
+      ])
+    .then(arr => {
+        const idioma = myFunctions.getIdiomaLocalStorage();
+        landingContent = arr[0];
+        mySections.cargarLanding(idioma, landingContent);
+        mySections.cargarImagenBackground();
+    });
+        
 };
-
-
-
-
-

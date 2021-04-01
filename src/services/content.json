@@ -1,49 +1,4 @@
 {
-    "menu": {
-        "inicio": {
-            "es": "Inicio",
-            "en": "Home"
-        },
-        "acerca": {
-            "es": "Acerca de mi",
-            "en": "About me"
-        },
-        "educacion": {
-            "es": "Educación",
-            "en": "Education"
-        },
-        "trabajo": {
-            "es": "Trabajo",
-            "en": "Work"
-        },
-        "skills": {
-            "es": "Skills",
-            "en": "Skills"
-        },
-        "portfolio": {
-            "es": "Portfolio",
-            "en": "Portfolio"
-        },
-        "idioma": {
-            "es": "ENGLISH",
-            "en": "ESPAÑOL"
-        }
-    },
-
-    "loading": {
-        "es": "Cargando...",
-        "en": "Loading..."
-    },
-
-    "header1": {
-        "es": "Licenciado en Sistemas de Información y Desarrollador con",
-        "en": "Degree in Information Systems and Software Developer with"
-    },
-
-    "header2": {
-        "es": " años de experiencia en desarrollo de software, gestión de proyectos y coordinación de equipos técnicos.",
-        "en": " years of experience in software project development, project management and team leadership."
-    },
 
     "aboutParrafo": {
         "es": "Licenciado en Sistemas y Desarrollador con amplia experiencia en desarrollo de aplicaciones y gestión de proyectos de software. A lo largo de mi carrera he trabajado como Desarrollador, Analista Técnico Funcional, Líder de Proyectos y Coordinador de Desarrollo.",
