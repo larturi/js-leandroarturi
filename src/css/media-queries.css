@@ -29,7 +29,7 @@
         font-size: 15px;   
     }
     header .banner-text h2 {
-        font: 18px/1.9em 'Open Sans', sans-serif;
+        font: 24px/1.9em 'Open Sans', sans-serif;
     }
     header .banner-text hr {
         width: 65%;
@@ -261,7 +261,7 @@
         font-size: 15px;
     }
     header .banner-text h2 {
-        font: 16px/1.9em 'Open Sans', serif;
+        font: 24px/1.9em 'Open Sans', serif;
     }
     header .banner-text hr {
         width: 33%;
@@ -371,7 +371,6 @@
 
      /* Header
     ------------------------------- */
-    header .banner { padding-top: 24px; }
     header .banner-text h1 {
         height: auto;
         text-align: left;

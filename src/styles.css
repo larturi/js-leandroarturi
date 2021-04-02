@@ -61,8 +61,7 @@ header {
     -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;
-    /* background: #240048; */
-    background: #00071D;
+    background: #0e0e0e;
 }
 
 header:before {
@@ -880,7 +879,7 @@ footer .social-links li:first-child { margin-left: 0; }
     font-weight: 800;
 }
 .seccion-profile h1 span {
-    border-bottom: 3px solid #00071D;
+    border-bottom: 3px solid #0e0e0e;
     padding-bottom: 6px;
 }
 
