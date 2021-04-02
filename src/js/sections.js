@@ -80,6 +80,7 @@ export function showMenuSection(idioma, allContent) {
     $('#link-skills').html(allContent.menu.skills[idioma]).hide().fadeIn(300);
     $('#link-portfolio').html(allContent.menu.portfolio[idioma]).hide().fadeIn(300);
     $('#lang').html(allContent.menu.idioma[idioma]).hide().fadeIn(300);
+
 }
 
 export function showHeaderSection(idioma, allContent) {
