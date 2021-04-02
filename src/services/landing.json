@@ -43,6 +43,16 @@
     "header2": {
         "es": " años de experiencia en desarrollo de software, gestión de proyectos y coordinación de equipos técnicos.",
         "en": " years of experience in software project development, project management and team leadership."
+    },
+
+    "header3": {
+        "es": " Conoce mas",
+        "en": " I invite you to know more"
+    },
+
+    "header4": {
+        "es": " acerca de mi.",
+        "en": " about me."
     }
 
 }

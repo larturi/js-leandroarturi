@@ -36,8 +36,8 @@ jQuery(document).ready(function($) {
 
             if (allContent.length === 0) {
                 setTimeout(() => {
-                    //$('#showAllSections').click();
-                }, 200);
+                    $('#showAllSections').click();
+                }, 1);
             }
         }
     }
@@ -83,12 +83,11 @@ jQuery(document).ready(function($) {
     sections.waypoint({
         handler: function(event, direction) {
 
-            var active_section;
-
-            active_section = $(this);
+            var active_section = $(this);
             
-            if (direction === "up")
+            if (direction === "up") { 
                 active_section = active_section.prev();
+            }
 
             var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
 
@@ -167,9 +166,9 @@ jQuery(document).ready(function($) {
         var current_section = $("#nav li.current").children().attr('href');
         var buttonMenu = $('#nav-wrap').children().eq(1);
 
-        if(current_section !== '#portfolio') {
-            $("#portfolio").parent().removeClass("current");
-        }
+        // if(current_section !== '#portfolio') {
+        //     $("#portfolio").parent().removeClass("current");
+        // }
 
         $("#lang").parent().removeClass("current");
 
@@ -220,17 +219,15 @@ export function loadAllSections() {
     $('.education').show();
     $('#cursosDivTitulo').show();
     $('#cursosContent').show();
+    $('.seccion-profile').show();
+    $('#docencia').show();
+    $('#skills').show();
 
     // Delay para que no se vaya hasta abajo y suba
     setTimeout(() => {
-        
-        $('.seccion-profile').show();
-        $('#docencia').show();
-        $('#skills').show();
         $('#portfolio').show();
         $('#footer').show();
-        
-    }, 1000);
+    }, 300);
     
 
     Promise.all([

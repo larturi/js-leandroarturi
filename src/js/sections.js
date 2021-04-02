@@ -90,6 +90,8 @@ export function showHeaderSection(idioma, allContent) {
 
     $("#header1").text(allContent.header1[idioma]);
     $("#header2").text(allContent.header2[idioma]);
+    $("#header3").text(allContent.header3[idioma]);
+    $("#showAllSections").text(allContent.header4[idioma]);
     $("#headerAnios").text(myFunctions.getExperiencia(idioma));
 
     $("#content-header").fadeIn(300);

@@ -94,7 +94,7 @@ header .banner-text h1 {
     font-size: 18px;
 }
 header .banner-text h2 {
-    font: 24px/1.7em 'verdana', serif;
+    font: 26px/1.7em 'verdana', serif;
     color: #e8e8e8;
     margin: 0 auto;
     text-align: left;
@@ -141,8 +141,6 @@ header .scrolldown a {
     margin-left: -19px;
     color: #fff;
     display: block;
-    height: 42px;
-    width: 42px;
     font-size: 45px;
     line-height: 42px;
     color: #fff;
@@ -872,7 +870,7 @@ footer .social-links li:first-child { margin-left: 0; }
     overflow: hidden;
 }
 
-seccion-profile  a, seccion-profile a:visited  { color: #555555; }
+.seccion-profile  a, seccion-profile a:visited  { color: #555555; }
 .seccion-profile a:hover, .seccion-profile a:focus { color: #555555; }
 
 .seccion-profile h1 {
@@ -917,3 +915,16 @@ seccion-profile  a, seccion-profile a:visited  { color: #555555; }
     font-size: 1.6rem;
 }
 
+.fa-chevron-circle-down {
+    font-size: 16px;
+}
+
+.about-me-text {
+    font-weight: 600;
+    color: #ab987a;
+}
+
+a:visited.about-me-text {
+    font-weight: 600;
+    color: #ab987a;
+}
