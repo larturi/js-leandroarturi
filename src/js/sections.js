@@ -40,10 +40,6 @@ export function cargarSecciones(idioma, allContent) {
     var current_section = $("#nav li.current").text();
     showSkillsSection(idioma, allContent);
 
-    if(current_section==="Skills") {
-        $('.bar-expand').removeClass('progress').addClass('progress');
-    }
-
     // Portfolio
     showPortfolioSection(idioma, allContent.portfolio);
 

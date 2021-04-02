@@ -98,7 +98,10 @@ jQuery(document).ready(function($) {
             var current_section = active_section.attr("id");
 
             if(current_section==='skills'){
-                $('.bar-expand').removeClass('progress').addClass('progress');
+                $('.bar-expand').removeClass('progress');
+                setTimeout(() => {
+                    $('.bar-expand').addClass('progress');
+                }, 300);
             }
             
         },
