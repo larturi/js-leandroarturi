@@ -73,7 +73,6 @@ export function showLoading(idioma, allContent) {
 }
 
 export function showMenuSection(idioma, allContent) {
-
     $('#link-home').html(allContent.menu.inicio[idioma]).hide().fadeIn(300);
     $('#link-acerca').html(allContent.menu.acerca[idioma]).hide().fadeIn(300);
     $('#link-education').html(allContent.menu.educacion[idioma]).hide().fadeIn(300);
@@ -81,7 +80,6 @@ export function showMenuSection(idioma, allContent) {
     $('#link-skills').html(allContent.menu.skills[idioma]).hide().fadeIn(300);
     $('#link-portfolio').html(allContent.menu.portfolio[idioma]).hide().fadeIn(300);
     $('#lang').html(allContent.menu.idioma[idioma]).hide().fadeIn(300);
-
 }
 
 export function showHeaderSection(idioma, allContent) {
