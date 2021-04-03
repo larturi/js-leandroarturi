@@ -40,6 +40,7 @@ export function cargarSecciones(idioma, allContent) {
     var current_section = $("#nav li.current").text();
     showSkillsSection(idioma, allContent);
 
+
     // Portfolio
     showPortfolioSection(idioma, allContent.portfolio);
 
@@ -111,12 +112,6 @@ export function showEducationSection(idioma, allContent) {
 
     $('#education').fadeIn(300);
 }
-
-$('body').on('click', '#cargarMasCursos', function(event) {
-    event.preventDefault();
-    $('#cursosContentOculto').css('display', 'block');
-    $('#cargarMasCursos').remove();
-});
 
 export function showCursos(idioma, cursos) {
     
@@ -218,11 +213,7 @@ export function showSkillsSection(idioma, allContent) {
     });
 }
 
-$('body').on('click', '#cargarMasPortfolio', function(event) {
-    event.preventDefault();
-    $('#portfolioContentOculto').css('display', 'block');
-    $('#cargarMasPortfolio').remove();
-});
+
 
 export function showPortfolioSection(idioma, portfolio) {
 

@@ -14,6 +14,19 @@ let previousScrollPosition = 0;
 
 jQuery(document).ready(function($) {
 
+    $('body').on('click', '#cargarMasCursos', function(event) {
+        event.preventDefault();
+        $('#cursosContentOculto').css('display', 'block');
+        $('#cargarMasCursos').remove();
+    });
+
+    $('body').on('click', '#cargarMasPortfolio', function(event) {
+        event.preventDefault();
+        $('#portfolioContentOculto').css('display', 'block');
+        $('#cargarMasPortfolio').remove();
+    });
+
+
     // ==============================================================
     // Handle Scrolling
     // ==============================================================
@@ -80,34 +93,37 @@ jQuery(document).ready(function($) {
     var sections = $("section");
     var navigation_links = $("#nav-wrap a");
 
-    sections.waypoint({
-        handler: function(event, direction) {
 
-            var active_section = $(this);
+
+
+    // sections.waypoint({
+    //     handler: function(event, direction) {
+
+    //         var active_section = $(this);
             
-            if (direction === "up") { 
-                active_section = active_section.prev();
-            }
+    //         if (direction === "up") { 
+    //             active_section = active_section.prev();
+    //         }
 
-            var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
+    //         var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
 
-            navigation_links.parent().removeClass("current");
-            active_link.parent().addClass("current");
+    //         navigation_links.parent().removeClass("current");
+    //         active_link.parent().addClass("current");
 
-            // Color barra browser
-            var current_section = active_section.attr("id");
+    //         // Color barra browser
+    //         var current_section = active_section.attr("id");
 
-            if(current_section==='skills'){
-                $('.bar-expand').removeClass('progress');
-                setTimeout(() => {
-                    $('.bar-expand').addClass('progress');
-                }, 300);
-            }
+    //         if(current_section==='skills'){
+    //             $('.bar-expand').removeClass('progress');
+    //             setTimeout(() => {
+    //                 $('.bar-expand').addClass('progress');
+    //             }, 300);
+    //         }
             
-        },
-        offset: '35%'
+    //     },
+    //     offset: '35%'
 
-    });
+    // });
 
     // ==============================================================
     // Assets
@@ -168,10 +184,6 @@ jQuery(document).ready(function($) {
 
         var current_section = $("#nav li.current").children().attr('href');
         var buttonMenu = $('#nav-wrap').children().eq(1);
-
-        // if(current_section !== '#portfolio') {
-        //     $("#portfolio").parent().removeClass("current");
-        // }
 
         $("#lang").parent().removeClass("current");
 
