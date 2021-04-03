@@ -57,6 +57,7 @@ jQuery(document).ready(function($) {
 
     window.addEventListener('scroll', () => {
         handleNavScroll();
+        changeLinkState();
     })
 
     $('#showAllSections').on('click', function(e) {
@@ -90,41 +91,30 @@ jQuery(document).ready(function($) {
     // ==============================================================
     // Highlight the current section in the navigation bar
     // ==============================================================
-    var sections = $("section");
-    var navigation_links = $("#nav-wrap a");
 
+    const links = document.querySelectorAll('.li-menu-item');
+    const sections = document.querySelectorAll('section');
 
+    function changeLinkState() {
+        let index = sections.length;
+      
+        while(--index && window.scrollY + 50 < sections[index].offsetTop) {}
+        
+        links.forEach((link) => link.classList.remove('current'));
 
+        if(links[index]) {
+            links[index].classList.add('current');
+        }
 
-    // sections.waypoint({
-    //     handler: function(event, direction) {
+        if(index===4){
+            $('.bar-expand').removeClass('progress');
+            setTimeout(() => {
+                $('.bar-expand').addClass('progress');
+            }, 300);
+        }
 
-    //         var active_section = $(this);
-            
-    //         if (direction === "up") { 
-    //             active_section = active_section.prev();
-    //         }
-
-    //         var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
-
-    //         navigation_links.parent().removeClass("current");
-    //         active_link.parent().addClass("current");
-
-    //         // Color barra browser
-    //         var current_section = active_section.attr("id");
-
-    //         if(current_section==='skills'){
-    //             $('.bar-expand').removeClass('progress');
-    //             setTimeout(() => {
-    //                 $('.bar-expand').addClass('progress');
-    //             }, 300);
-    //         }
-            
-    //     },
-    //     offset: '35%'
-
-    // });
-
+      }
+      
     // ==============================================================
     // Assets
     // ==============================================================
