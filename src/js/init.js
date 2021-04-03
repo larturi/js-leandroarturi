@@ -94,6 +94,7 @@ jQuery(document).ready(function($) {
 
     const links = document.querySelectorAll('.li-menu-item');
     const sections = document.querySelectorAll('section');
+    localStorage.setItem('cargarSkillsBars', "false");
 
     function changeLinkState() {
         let index = sections.length;
@@ -106,11 +107,18 @@ jQuery(document).ready(function($) {
             links[index].classList.add('current');
         }
 
-        if(index===4){
+
+        if(index===4 && localStorage.getItem('cargarSkillsBars') === "false") {
+            localStorage.setItem('cargarSkillsBars', "true");
+
             $('.bar-expand').removeClass('progress');
             setTimeout(() => {
                 $('.bar-expand').addClass('progress');
             }, 300);
+        } 
+
+        if (index !== 4) {
+            localStorage.setItem('cargarSkillsBars', "false");
         }
 
       }
