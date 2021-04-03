@@ -26,37 +26,32 @@ jQuery(document).ready(function($) {
         $('#cargarMasPortfolio').remove();
     });
 
-
     // ==============================================================
     // Handle Scrolling
     // ==============================================================
-    const isScrollingDown = () => {
-        let scrolledPosition = window.scrollY;
-        let isScrollDown;
+    document.addEventListener("wheel", function (e) {
 
-        if (scrolledPosition > previousScrollPosition) {
-          isScrollDown = true;
-        } else {
-          isScrollDown = false;
+        if (allContent.length === 0) {
+            setTimeout(() => {
+                $('#showAllSections').click();
+            }, 1);
         }
-        previousScrollPosition = scrolledPosition;
-        return isScrollDown;
-    }
-      
-    const handleNavScroll = () => {
-        const scrollingDown = isScrollingDown();
-        if(scrollingDown) {
+        return false;
+        
+    }, true);
 
-            if (allContent.length === 0) {
-                setTimeout(() => {
-                    $('#showAllSections').click();
-                }, 1);
-            }
+    document.addEventListener("keydown", function (e) {
+
+        if (allContent.length === 0) {
+            setTimeout(() => {
+                $('#showAllSections').click();
+            }, 1);
         }
-    }
+        return false;
+        
+    }, true);
 
     window.addEventListener('scroll', () => {
-        handleNavScroll();
         changeLinkState();
     })
 
@@ -131,7 +126,7 @@ jQuery(document).ready(function($) {
     // ==============================================================
     // Make sure that #header-background-image height is = browser height
     // ==============================================================
-    $('header').css({'height': $(window).height() + 1});
+    $('header').css({'height': $(window).height()});
     
     $(window).on('resize', function() {
         $('header').css({'height': $(window).height()});
