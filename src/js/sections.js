@@ -139,10 +139,10 @@ export function showCursos(idioma, cursos) {
 
         if(element.url.length > 1) {
             tituloCurso = `<a href="${element.url}" target="_blank" rel="noreferrer">
-                                <h3>${nombreCurso}</h3>
+                                <h2>${nombreCurso}</h2>
                             </a>`;
         } else {
-            tituloCurso = `<h3>${nombreCurso}</h3>`;
+            tituloCurso = `<h2>${nombreCurso}</h2>`;
         }
 
         if (cantidadItems <= 10) {
@@ -252,7 +252,7 @@ export function showPortfolioSection(idioma, portfolio) {
             $('#portfolioContentVisible').append(`
                 <div class="row">
                     <div class="twelve columns">
-                    <h3><a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a></h3>
+                    <h2><a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a></h2>
                         <p class="detalle-cursos">
                             <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
                             ${resumen}
@@ -264,7 +264,7 @@ export function showPortfolioSection(idioma, portfolio) {
             $('#portfolioContentOculto').append(`
                 <div class="row">
                     <div class="twelve columns">
-                        <h3><a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a></h3>
+                        <h2><a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a></h2>
                             <p class="detalle-cursos">
                                 <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
                                 ${resumen}
