@@ -112,22 +112,21 @@ header .banner-text hr {
 }
 
 header .social {
-    margin: 24px 0;
+    margin: 15px 0;
     padding: 0;
     font-size: 30px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 header .social li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 30px;
     padding: 0;
 }
 header .social li a { color: #fff; }
 header .social li a:hover { color: #d8d5d1; }
 
 .logo-texto {
-    margin-left: 8px;
-    font-size: 15px;
+    font-size: 14px;
     color: #d8d5d1;
 }
 
@@ -705,9 +704,8 @@ footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
 footer .copyright {
-    margin: 0;
     padding: 0;
-    padding-bottom: 45px;
+    padding-bottom: 10px;
 }
 footer .copyright li {
     display: inline-block;
@@ -907,7 +905,8 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .icono-header {
-    font-size: 16px;
+    font-size: 20px;
+    display: block;
 }
 
 .bars h2 {

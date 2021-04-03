@@ -274,7 +274,7 @@
         font-size: 24px;
         line-height: 36px;      
     }
-    header .social li { margin: 0 10px; }
+    header .social li { margin: 0 30px; }
 
    /* About Section
     ------------------------------- */
@@ -333,7 +333,10 @@
     ------------------------------- */
     /* copyright */
     footer .copyright li:before { content: none; }
-    footer .copyright li { margin-right: 12px; }
+    footer .copyright li { 
+        margin-top: 15px;
+        font-size: 12px;
+    }
 
     /* social links */
     footer .social-links { font-size: 22px; }
@@ -342,9 +345,9 @@
     /* Go To Top Button */
     #go-top { margin-left: -22px; }
     #go-top a {
-        width: 54px;
-        height: 54px;
-        font-size: 18px;
+        width: 45px;
+        height: 45px;
+        font-size: 4px;
         line-height: 54px;
     }
 
@@ -389,7 +392,7 @@
 
     /* header social links */
     header .social { font-size: 20px;}
-    header .social li { margin: 0 6px; }
+    header .social li { margin: 0 23px; }
 
     /* Footer
     ------------------------------- */
