@@ -92,7 +92,7 @@
                     "en": "I am responsible for 6 specialized departments in the different business areas, that manage the institution's development project portfolio. Each one of my teams leads different development projects and they are responsible for managing demand requirements, functional analysis and implementation. Data modeling, code reviews, proof of concept. Nexus with Infrastructure for DevOps."
                 },
         
-                "tecnologias": ["php", "javascript", "oracle", "node"]
+                "tecnologias": ["php", "javascript", "oracle", "node", "leadership"]
             },
             {
                 "titulo": {
@@ -115,7 +115,7 @@
                     "en": "I have worked in various independent projects, especially in web development with Laravel / PHP / Vue / MySQL and Angular / Node / Mongo"
                 },
         
-                "tecnologias": ["php", "laravel", "node", "mysql", "angular", "react", "vue"]
+                "tecnologias": ["php", "laravel", "node", "mysql", "angular", "react", "vue", "mongo"]
             },
             {
                 "titulo": {
@@ -138,7 +138,7 @@
                     "en": "Technical coordination of 7 development teams. Proofs of concept, hotfixes, documentation in Confluence. Implementation of Continuous Integration with Jenkins. Development of a checksystem to monitor the health of the systems."
                 },
         
-                "tecnologias": ["php", "html", "javascript", "jquery", "oracle"]
+                "tecnologias": ["php", "html", "javascript", "jquery", "oracle", "leadership"]
             },
             {
                 "titulo": {
@@ -161,7 +161,7 @@
                     "en": "Design, development and maintenance. Development and implementation of a Single Sign On solution that allowed the integration of more than 50 systems."
                 },
         
-                "tecnologias": ["php", "html", "javascript", "jquery", "oracle"]
+                "tecnologias": ["php", "html", "javascript", "jquery", "oracle", "leadership"]
             },
             {
                 "titulo": {
@@ -185,7 +185,7 @@
                     "en": "Design, development and maintenance of more than 30 information systems and applications."
                 },
         
-                "tecnologias": [".net", "c#", "vb6", "vba", "oracle", "sqlserver"]
+                "tecnologias": [".net", "c#", "vb6", "vba", "oracle", "sqlserver", "leadership"]
             },
             {
                 "titulo": {
@@ -208,7 +208,7 @@
                     "en": "Leader of a team of 4 systems analysts. Information analysis with the Oracle and SQL Server database management systems. Implementation of the Interactive Information System (SII), core system of the organization."
                 },
         
-                "tecnologias": ["vb6", "access", "vba", "oracle", "sqlserver"]
+                "tecnologias": ["vb6", "access", "vba", "oracle", "sqlserver", "leadership"]
             },
             {
                 "titulo": {

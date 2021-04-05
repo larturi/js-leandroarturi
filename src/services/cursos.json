@@ -149,7 +149,7 @@
         "anio": 2020,
         "horas": 5,
         "institucion": "Udemy",
-        "tecnologias": [],
+        "tecnologias": ["scrum", "agile"],
         "url": "https://www.udemy.com/certificate/UC-08edb55a-cd92-4a36-80a5-f3bb6384d7ac/"
     },
     {
@@ -176,7 +176,7 @@
         "anio": 2020,
         "horas": 1.5,
         "institucion": "Udemy",
-        "tecnologias": [],
+        "tecnologias": ["vsc"],
         "url": "https://www.udemy.com/certificate/UC-307cfd40-8e9c-4914-b6b3-9f9c611b4410/"
     },
     {
@@ -185,7 +185,7 @@
         "anio": 2020,
         "horas": 3,
         "institucion": "Udemy",
-        "tecnologias": [],
+        "tecnologias": ["scrum", "agile"],
         "url": "https://www.udemy.com/certificate/UC-1O1ERB81/"
     },
     {
@@ -194,7 +194,7 @@
         "anio": 2020,
         "horas": 1,
         "institucion": "Udemy",
-        "tecnologias": [],
+        "tecnologias": ["ux"],
         "url": "https://www.udemy.com/certificate/UC-2e0fcccc-6c1a-426d-a6fc-79abda193a3e/"
     },
     {
@@ -203,7 +203,7 @@
         "anio": 2019,
         "horas": 34,
         "institucion": "ONTI",
-        "tecnologias": [],
+        "tecnologias": ["docker", "cloud", "devops"],
         "url": ""
     },
     {
@@ -212,7 +212,7 @@
         "anio": 2018,
         "horas": 16,
         "institucion": "INAP",
-        "tecnologias": [],
+        "tecnologias": ["leadership"],
         "url": ""
     },
     {
@@ -230,7 +230,7 @@
         "anio": 2014,
         "horas": 18,
         "institucion": "UBA",
-        "tecnologias": [],
+        "tecnologias": ["leadership"],
         "url": ""
     },
     {
@@ -239,7 +239,7 @@
         "anio": 2013,
         "horas": 8,
         "institucion": "Subsecretaría de Tecnologías de Gestión",
-        "tecnologias": [],
+        "tecnologias": ["cloud"],
         "url": ""
     },
     {
@@ -248,7 +248,7 @@
         "anio": 2013,
         "horas": 18,
         "institucion": "UBA",
-        "tecnologias": [],
+        "tecnologias": ["leadership"],
         "url": ""
     },
     {
@@ -257,7 +257,7 @@
         "anio": 2011,
         "horas": 40,
         "institucion": "UBA",
-        "tecnologias": [],
+        "tecnologias": ["leadership"],
         "url": ""
     },
     {
