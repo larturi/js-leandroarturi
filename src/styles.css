@@ -926,3 +926,39 @@ a:visited.about-me-text {
     font-weight: 600;
     color: #ab987a;
 }
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    margin-right: 4px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #bd8937;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #252525;
+}
+
+h2.titulo-portfolio-item {
+    margin-bottom: 2px !important;
+}
+
+p.portfolio-item {
+    margin: 2px 0 10px;
+}
+
+p.trabajo-detalle {
+    margin-bottom: 20px;
+}

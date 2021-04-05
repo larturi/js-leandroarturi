@@ -40,7 +40,6 @@ export function cargarSecciones(idioma, allContent) {
     var current_section = $("#nav li.current").text();
     showSkillsSection(idioma, allContent);
 
-
     // Portfolio
     showPortfolioSection(idioma, allContent.portfolio);
 
@@ -189,14 +188,37 @@ export function showCursos(idioma, cursos) {
 
 export function showWorkSection(idioma, allContent) {
 
+    $('#trabajos').html('');
     $('#work').hide();
 
-    Object.entries(allContent.content.work).forEach(entry => {
-        const [key, value] = entry;
-        $("#" + key).text(value[idioma]).hide().fadeIn(300);
+    $('#trabajoTitulo').text(allContent.content.work.trabajoTitulo[idioma]);
+
+    allContent.content.work.trabajos.forEach( trabajo => {
+
+
+        let tecnologias = '';
+        trabajo.tecnologias.forEach(tecnologia => {
+            tecnologias = tecnologias + '<span class="badge badge-primary">#' + tecnologia + '</span>';
+        });
+
+        $('#trabajos').append(`
+            <div class="row item">
+                <div class="twelve columns">
+                    <h3>${trabajo.titulo[idioma]}</h3>
+                    <p class="info">
+                        <span>${trabajo.sector[idioma]}</span><br />
+                        <span>${trabajo.fechas[idioma]}</span><br />
+                    </p>
+                    <p class="trabajo-detalle">${trabajo.detalle[idioma]}</p>
+                    <p>${tecnologias}</p>
+                </div>
+            </div>
+        `);
+
     });
 
     $('#work').fadeIn(300);
+    
 }
 
 export function showDocenciaSection(idioma, allContent) {
@@ -248,15 +270,20 @@ export function showPortfolioSection(idioma, portfolio) {
 
         cantidadItems++;
 
+        let tecnologias = '';
+        element.tecnologias.forEach(tecnologia => {
+            tecnologias = tecnologias + '<span class="badge badge-primary">#' + tecnologia + '</span>';
+        });
+
         if (cantidadItems <= 10) {
             $('#portfolioContentVisible').append(`
                 <div class="row">
                     <div class="twelve columns">
-                    <h2><a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a></h2>
-                        <p class="detalle-cursos">
-                            <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
-                            ${resumen}
-                        </p>
+                        <h2 class="titulo-portfolio-item">
+                            <a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a>
+                        </h2>
+                        <div>${tecnologias}</div>
+                        <p class="portfolio-item">${resumen}</p>
                     </div>
                 </div>
             `);
@@ -264,11 +291,11 @@ export function showPortfolioSection(idioma, portfolio) {
             $('#portfolioContentOculto').append(`
                 <div class="row">
                     <div class="twelve columns">
-                        <h2><a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a></h2>
-                            <p class="detalle-cursos">
-                                <em class="detalle-cursos-em hash-lenguaje"><span>${element.lenguaje}</em></span><br />
-                                ${resumen}
-                            </p>
+                        <h2 class="titulo-portfolio-item">
+                            <a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a>
+                        </h2>
+                        <div>${tecnologias}</div>
+                        <p class="portfolio-item">${resumen}</p>
                     </div>
                 </div>
             `);

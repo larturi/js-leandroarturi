@@ -109,7 +109,7 @@ jQuery(document).ready(function($) {
             $('.bar-expand').removeClass('progress');
             setTimeout(() => {
                 $('.bar-expand').addClass('progress');
-            }, 300);
+            }, 100);
         } 
 
         if (index !== 4) {
