@@ -29,7 +29,7 @@
         font-size: 15px;   
     }
     header .banner-text h2 {
-        font: 24px/1.9em 'Open Sans', sans-serif;
+        font: 21px/1.9em 'Open Sans', sans-serif;
     }
     header .banner-text hr {
         width: 65%;
@@ -261,7 +261,7 @@
         font-size: 15px;
     }
     header .banner-text h2 {
-        font: 24px/1.9em 'Open Sans', serif;
+        font: 21px/1.9em 'Open Sans', serif;
     }
     header .banner-text hr {
         width: 33%;
@@ -453,6 +453,10 @@
 --------------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
     .wide .row { max-width: 1180px; }
+
+    header .banner-text h2 {
+        font: 26px/1.7em 'verdana', serif;
+    }
 }
 
 
