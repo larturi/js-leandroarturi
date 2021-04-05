@@ -144,6 +144,11 @@ export function showCursos(idioma, cursos) {
             tituloCurso = `<h2>${nombreCurso}</h2>`;
         }
 
+        let tecnologias = '';
+        element.tecnologias.forEach(tecnologia => {
+            tecnologias = tecnologias + '<span class="badge badge-secondary">#' + tecnologia + '</span>';
+        });
+
         if (cantidadItems <= 10) {
             $('#cursosContentVisible').append(`
                 <div class="row item">
@@ -152,6 +157,7 @@ export function showCursos(idioma, cursos) {
                                 <em class="detalle-cursos-em">${element.anio} • ${element.horas}h • ${element.institucion}</em>
                                 <br/>
                         </p>
+                        <div class="cursos-tecnologias">${tecnologias}</div>
                     </div>
                 </div>
             `);
@@ -163,6 +169,7 @@ export function showCursos(idioma, cursos) {
                                 <em class="detalle-cursos-em">${element.anio} • ${element.horas}h • ${element.institucion}</em>
                                 <br/>
                         </p>
+                        <div class="cursos-tecnologias">${tecnologias}</div>
                     </div>
                 </div>
             `);
@@ -195,10 +202,9 @@ export function showWorkSection(idioma, allContent) {
 
     allContent.content.work.trabajos.forEach( trabajo => {
 
-
         let tecnologias = '';
         trabajo.tecnologias.forEach(tecnologia => {
-            tecnologias = tecnologias + '<span class="badge badge-primary">#' + tecnologia + '</span>';
+            tecnologias = tecnologias + '<span class="badge badge-secondary">#' + tecnologia + '</span>';
         });
 
         $('#trabajos').append(`
@@ -236,7 +242,6 @@ export function showSkillsSection(idioma, allContent) {
 }
 
 
-
 export function showPortfolioSection(idioma, portfolio) {
 
     $("#portfolioTitle").text('Portfolio').hide().fadeIn(300);
@@ -272,7 +277,7 @@ export function showPortfolioSection(idioma, portfolio) {
 
         let tecnologias = '';
         element.tecnologias.forEach(tecnologia => {
-            tecnologias = tecnologias + '<span class="badge badge-primary">#' + tecnologia + '</span>';
+            tecnologias = tecnologias + '<span class="badge badge-secondary">#' + tecnologia + '</span>';
         });
 
         if (cantidadItems <= 10) {
@@ -282,8 +287,8 @@ export function showPortfolioSection(idioma, portfolio) {
                         <h2 class="titulo-portfolio-item">
                             <a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a>
                         </h2>
-                        <div>${tecnologias}</div>
                         <p class="portfolio-item">${resumen}</p>
+                        <div class="portfolio-tecnologias">${tecnologias}</div>
                     </div>
                 </div>
             `);
@@ -294,8 +299,8 @@ export function showPortfolioSection(idioma, portfolio) {
                         <h2 class="titulo-portfolio-item">
                             <a href="${element.url}" target="_blank" rel="noreferrer">${nombre}</a>
                         </h2>
-                        <div>${tecnologias}</div>
                         <p class="portfolio-item">${resumen}</p>
+                        <div class="portfolio-tecnologias">${tecnologias}</div>
                     </div>
                 </div>
             `);

@@ -814,7 +814,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .detalle-cursos {
-    margin: -6px 0 16px 0;
+    margin: 0px 0 8px 0;
 }
 
 .detalle-cursos-em  {
@@ -948,7 +948,7 @@ a:visited.about-me-text {
 
 .badge-secondary {
     color: #fff;
-    background-color: #252525;
+    background-color: #848484;
 }
 
 h2.titulo-portfolio-item {
@@ -956,9 +956,17 @@ h2.titulo-portfolio-item {
 }
 
 p.portfolio-item {
-    margin: 2px 0 10px;
+    margin: 2px 0 2px;
 }
 
 p.trabajo-detalle {
     margin-bottom: 20px;
+}
+
+.portfolio-tecnologias {
+    margin-bottom: 20px;
+}
+
+.cursos-tecnologias {
+    margin-bottom: 30px;
 }
