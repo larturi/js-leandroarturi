@@ -210,7 +210,7 @@ export function showWorkSection(idioma, allContent) {
         $('#trabajos').append(`
             <div class="row item">
                 <div class="twelve columns">
-                    <h3>${trabajo.titulo[idioma]}</h3>
+                    <h2>${trabajo.titulo[idioma]}</h2>
                     <p class="info">
                         <span>${trabajo.sector[idioma]}</span><br />
                         <span>${trabajo.fechas[idioma]}</span><br />
