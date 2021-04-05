@@ -82,8 +82,8 @@
         "nombre": "Drinks App",
         "name": "Drinks App",
         "lenguaje": "#react",
-        "resumen": "Aplicación React que comsume la API thecocktaildb.com.",
-        "summary": "React application that with the thecocktaildb.com API.",
+        "resumen": "Aplicación React que consume la API thecocktaildb.com.",
+        "summary": "React application consuming the thecocktaildb.com API.",
         "url": "https://www.leandroarturi.com.ar/demo/drinks/",
         "anio": 2021,
         "tecnologias": ["angular"]
