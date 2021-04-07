@@ -88,8 +88,8 @@
                 },
         
                 "detalle": {
-                    "es": "Responsable de 6 equipos especializados por área de negocio. Análisis y gestión de la demanda, modelado de datos, revisiones de código, pruebas de concepto de nuevas tecnologías. Nexo con Infraestructura para DevOps.",
-                    "en": "I am responsible for 6 specialized departments in the different business areas, that manage the institution's development project portfolio. Each one of my teams leads different development projects and they are responsible for managing demand requirements, functional analysis and implementation. Data modeling, code reviews, proof of concept. Nexus with Infrastructure for DevOps."
+                    "es": "Responsable de 6 equipos especializados por área de negocio. Análisis y gestión de la demanda, modelado de datos, revisiones de código, pruebas de concepto de nuevas tecnologías.",
+                    "en": "Responsible for 6 specialized teams per business area. Demand analysis and management, data modeling, code reviews, proof of concept of new technologies."
                 },
         
                 "tecnologias": ["php", "javascript", "oracle", "node", "leadership"]
@@ -111,8 +111,8 @@
                 },
         
                 "detalle": {
-                    "es": "He trabajado en diversos proyectos independientes, especialmente en desarrollo web con Laravel / PHP / Vue / MySQL y Angular / Node / Mongo.",
-                    "en": "I have worked in various independent projects, especially in web development with Laravel / PHP / Vue / MySQL and Angular / Node / Mongo"
+                    "es": "He trabajado en múltiples proyectos, especialmente en desarrollo web.",
+                    "en": "I have worked on multiple independent projects, especially in web development."
                 },
         
                 "tecnologias": ["php", "laravel", "node", "mysql", "angular", "react", "vue", "mongo"]
@@ -260,11 +260,6 @@
 
     "skills": {
 
-        "skillsLiderTitle": {
-            "es": "LEADERSHIP & MANAGEMENT",
-            "en": "LEADERSHIP & MANAGEMENT"
-        },
-
         "skillsFrontendTitle": {
             "es": "FRONTEND",
             "en": "FRONTEND"
@@ -356,8 +351,8 @@
         },
 
         "skillsPhp": {
-            "es": "<i class='fab fa-php'></i> Php <i class='fab fa-laravel'></i> Laravel",
-            "en": "<i class='fab fa-php'></i> Php <i class='fab fa-laravel'></i> Laravel"
+            "es": "<i class='fab fa-php'></i> Php & Laravel",
+            "en": "<i class='fab fa-php'></i> Php & Laravel"
         },
 
         "skillsAngular": {
@@ -376,8 +371,8 @@
         },
 
         "skillsNode": {
-            "es": "<i class='fab fa-node-js'></i> Node / Express",
-            "en": "<i class='fab fa-node-js'></i> Node / Express"
+            "es": "<i class='fab fa-node-js'></i> Node & Express",
+            "en": "<i class='fab fa-node-js'></i> Node & Express"
         },
 
         "skillsMySql": {
