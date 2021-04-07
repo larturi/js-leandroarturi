@@ -138,7 +138,7 @@ export function showCursos(idioma, cursos) {
 
         if(element.url.length > 1) {
             tituloCurso = `<a href="${element.url}" target="_blank" rel="noreferrer">
-                                <h2>${nombreCurso}</h2>
+                                <h2><i class="${element.logo}"></i> ${nombreCurso}</h2>
                             </a>`;
         } else {
             tituloCurso = `<h2>${nombreCurso}</h2>`;
@@ -204,7 +204,7 @@ export function showWorkSection(idioma, allContent) {
 
         let tecnologias = '';
         trabajo.tecnologias.forEach(tecnologia => {
-            tecnologias = tecnologias + '<span class="badge badge-secondary">#' + tecnologia + '</span>';
+            tecnologias = tecnologias + '<span class="badge badge-white">#' + tecnologia + '</span>';
         });
 
         $('#trabajos').append(`
@@ -237,7 +237,7 @@ export function showDocenciaSection(idioma, allContent) {
 export function showSkillsSection(idioma, allContent) {
     Object.entries(allContent.content.skills).forEach(entry => {
         const [key, value] = entry;
-        $("#" + key).text(value[idioma]).hide().fadeIn(300);
+        $("#" + key).html(value[idioma]).hide().fadeIn(300);
     });
 }
 

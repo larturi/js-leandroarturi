@@ -331,23 +331,23 @@
         },
 
         "skillsHtml": {
-            "es": "HTML",
-            "en": "HTML"
+            "es": "<i class='fab fa-html5'></i> HTML",
+            "en": "<i class='fab fa-html5'></i> HTML"
         },
 
         "skillsCss": {
-            "es": "CSS",
-            "en": "CSS"
+            "es": "<i class='fab fa-css3-alt'></i> CSS",
+            "en": "<i class='fab fa-css3-alt'></i> CSS"
         },
 
         "skillsBootstrap": {
-            "es": "Bootstrap",
-            "en": "Bootstrap"
+            "es": "<i class='fab fa-bootstrap'></i> Bootstrap",
+            "en": "<i class='fab fa-bootstrap'></i> Bootstrap"
         },
 
         "skillsJs": {
-            "es": "JavaScript",
-            "en": "JavaScript"
+            "es": "<i class='fab fa-js'></i> JavaScript",
+            "en": "<i class='fab fa-js'></i> JavaScript"
         },
 
         "skillsJquery": {
@@ -356,28 +356,28 @@
         },
 
         "skillsPhp": {
-            "es": "Php / Laravel",
-            "en": "Php / Laravel"
+            "es": "<i class='fab fa-php'></i> Php <i class='fab fa-laravel'></i> Laravel",
+            "en": "<i class='fab fa-php'></i> Php <i class='fab fa-laravel'></i> Laravel"
         },
 
         "skillsAngular": {
-            "es": "Angular",
-            "en": "Angular"
+            "es": "<i class='fab fa-angular'></i> Angular",
+            "en": "<i class='fab fa-angular'></i> Angular"
         },
 
         "skillsReact": {
-            "es": "React",
-            "en": "React"
+            "es": "<i class='fab fa-react'></i> React",
+            "en": "<i class='fab fa-react'></i> React"
         },
 
         "skillsVue": {
-            "es": "Vue",
-            "en": "Vue"
+            "es": "<i class='fab fa-vuejs'></i> Vue",
+            "en": "<i class='fab fa-vuejs'></i> Vue"
         },
 
         "skillsNode": {
-            "es": "Node / Express",
-            "en": "Node / Express"
+            "es": "<i class='fab fa-node-js'></i> Node / Express",
+            "en": "<i class='fab fa-node-js'></i> Node / Express"
         },
 
         "skillsMySql": {
@@ -436,8 +436,8 @@
         },
 
         "skillsGit": {
-            "es": "Git / GitHub / Gitlab",
-            "en": "Git / GitHub / Gitlab"
+            "es": "<i class='fab fa-github'></i> Git / GitHub / Gitlab",
+            "en": "<i class='fab fa-github'></i> Git / GitHub / Gitlab"
         },
 
         "skillsVisio": {
@@ -451,13 +451,13 @@
         },
 
         "skillsDocker": {
-            "es": "Docker",
-            "en": "Docker"
+            "es": "<i class='fab fa-docker'></i> Docker",
+            "en": "<i class='fab fa-docker'></i> Docker"
         },
 
         "skillsVPS": {
-            "es": "VPS / Linux / Ubuntu",
-            "en": "VPS / Linux / Ubuntu"
+            "es": "<i class='fab fa-ubuntu'></i> VPS / Linux / Ubuntu",
+            "en": "<i class='fab fa-ubuntu'></i> VPS / Linux / Ubuntu"
         }
     }
 

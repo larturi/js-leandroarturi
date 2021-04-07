@@ -951,6 +951,13 @@ a:visited.about-me-text {
     background-color: #848484;
 }
 
+.badge-white {
+    color: #3b3b3b;
+    background-color: #ffffff;
+    border: solid 1px #555555;
+    font-weight: 600;
+}
+
 h2.titulo-portfolio-item {
     margin-bottom: 2px !important;
 }
