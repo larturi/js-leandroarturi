@@ -29,7 +29,6 @@ jQuery(document).ready(function($) {
     });
 
     $('#menu-oculto').on('click', function(event) {
-        //event.preventDefault();
         let section = localStorage.getItem('section');
         $('#menu-oculto').attr("href", section);
     });
@@ -102,6 +101,10 @@ jQuery(document).ready(function($) {
         if(links[index]) {
             links[index].classList.add('current');
         }
+
+        // Actualizo la seccion en LocalStorage
+        var selectedSection = links[index].children[0].attributes['href'].value;
+        localStorage.setItem('section', selectedSection);
 
         // Recargo las barras de skils cuando pasa por esa seccion
         if(index===4 && localStorage.getItem('cargarSkillsBars') === "false") {
