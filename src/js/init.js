@@ -10,6 +10,10 @@ let content = {};
 let portfolio = [];
 let cursos = [];
 
+const links = document.querySelectorAll('.li-menu-item');
+const sections = document.querySelectorAll('section');
+localStorage.setItem('cargarSkillsBars', "false");
+
 jQuery(document).ready(function($) {
 
     $('body').on('click', '#cargarMasCursos', function(event) {
@@ -22,6 +26,12 @@ jQuery(document).ready(function($) {
         event.preventDefault();
         $('#portfolioContentOculto').css('display', 'block');
         $('#cargarMasPortfolio').remove();
+    });
+
+    $('#menu-oculto').on('click', function(event) {
+        //event.preventDefault();
+        let section = localStorage.getItem('section');
+        $('#menu-oculto').attr("href", section);
     });
 
     // ==============================================================
@@ -73,19 +83,14 @@ jQuery(document).ready(function($) {
             'scrollTop': $target.offset().top
         }, 600, 'swing', function() {
             window.location.hash = target;
+            localStorage.setItem('section', target);
         });
-
-        ;
     });
     
 
     // ==============================================================
     // Highlight the current section in the navigation bar
     // ==============================================================
-
-    const links = document.querySelectorAll('.li-menu-item');
-    const sections = document.querySelectorAll('section');
-    localStorage.setItem('cargarSkillsBars', "false");
 
     function changeLinkState() {
         let index = sections.length;
@@ -97,10 +102,6 @@ jQuery(document).ready(function($) {
         if(links[index]) {
             links[index].classList.add('current');
         }
-
-        // Actualizo hash segun la seccion en la que se encuentra
-        // var selectedSection = links[index].children[0].attributes['href'].value;
-        // window.history.replaceState(null, null, selectedSection);
 
         // Recargo las barras de skils cuando pasa por esa seccion
         if(index===4 && localStorage.getItem('cargarSkillsBars') === "false") {
