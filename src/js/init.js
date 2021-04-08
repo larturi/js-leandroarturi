@@ -24,11 +24,6 @@ jQuery(document).ready(function($) {
         $('#cargarMasPortfolio').remove();
     });
 
-    // $('body').on('click', '#home', function(event) {
-    //     event.preventDefault();
-    //     validateAndShowAllSections();
-    // });
-
     // ==============================================================
     // Handle Scrolling
     // ==============================================================
