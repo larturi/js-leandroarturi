@@ -24,10 +24,10 @@ jQuery(document).ready(function($) {
         $('#cargarMasPortfolio').remove();
     });
 
-    $('body').on('click', '#home', function(event) {
-        event.preventDefault();
-        validateAndShowAllSections();
-    });
+    // $('body').on('click', '#home', function(event) {
+    //     event.preventDefault();
+    //     validateAndShowAllSections();
+    // });
 
     // ==============================================================
     // Handle Scrolling
@@ -79,6 +79,8 @@ jQuery(document).ready(function($) {
         }, 600, 'swing', function() {
             window.location.hash = target;
         });
+
+        ;
     });
     
 
@@ -102,10 +104,9 @@ jQuery(document).ready(function($) {
         }
 
         // Actualizo hash segun la seccion en la que se encuentra
-        var selectedSection = links[index].children[0].attributes['href'].value;
-        window.history.replaceState(null, null, selectedSection);
+        // var selectedSection = links[index].children[0].attributes['href'].value;
+        // window.history.replaceState(null, null, selectedSection);
 
-        
         // Recargo las barras de skils cuando pasa por esa seccion
         if(index===4 && localStorage.getItem('cargarSkillsBars') === "false") {
             localStorage.setItem('cargarSkillsBars', "true");
