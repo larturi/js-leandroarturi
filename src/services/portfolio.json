@@ -39,6 +39,16 @@
         "tecnologias": ["angular"]
     },
     {
+        "nombre": "Product Store",
+        "name": "Product Store",
+        "lenguaje": "#react",
+        "resumen": "Tienda de productos con login y abm de productos.",
+        "summary": "Product store with login and crud.",
+        "url": "https://product-hunt-1f8d8.web.app/",
+        "anio": 2021,
+        "tecnologias": ["next", "react", "firebase"]
+    },
+    {
         "nombre": "MERN Tasks",
         "name": "MERN Tasks",
         "lenguaje": "#react #node #mongo",
