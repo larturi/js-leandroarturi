@@ -9,8 +9,6 @@ let landingContent = [];
 let content = {};
 let portfolio = [];
 let cursos = [];
-const mainNav = document.querySelector("#contenido");
-let previousScrollPosition = 0;
 
 jQuery(document).ready(function($) {
 
@@ -26,29 +24,30 @@ jQuery(document).ready(function($) {
         $('#cargarMasPortfolio').remove();
     });
 
+    $('body').on('click', '#home', function(event) {
+        event.preventDefault();
+        validateAndShowAllSections();
+    });
+
     // ==============================================================
     // Handle Scrolling
     // ==============================================================
-    document.addEventListener("wheel", function (e) {
-
+    function validateAndShowAllSections() {
         if (allContent.length === 0) {
             setTimeout(() => {
                 $('#showAllSections').click();
             }, 1);
         }
         return false;
-        
+    }
+
+    document.addEventListener("wheel", function () {
+        validateAndShowAllSections();
     }, true);
 
-    document.addEventListener("keydown", function (e) {
-
-        if (allContent.length === 0) {
-            setTimeout(() => {
-                $('#showAllSections').click();
-            }, 1);
-        }
+    document.addEventListener("keydown", function () {
+        validateAndShowAllSections();
         return false;
-        
     }, true);
 
     window.addEventListener('scroll', () => {
@@ -64,7 +63,7 @@ jQuery(document).ready(function($) {
     });
 
     // ==============================================================
-    // Smooth Scrolling
+    // Al hacer clic en un elemento, actualizo hash de la url
     // ==============================================================
     $('.smoothscroll').on('click', function(e) {
         e.preventDefault();
@@ -102,7 +101,12 @@ jQuery(document).ready(function($) {
             links[index].classList.add('current');
         }
 
+        // Actualizo hash segun la seccion en la que se encuentra
+        var selectedSection = links[index].children[0].attributes['href'].value;
+        window.history.replaceState(null, null, selectedSection);
 
+        
+        // Recargo las barras de skils cuando pasa por esa seccion
         if(index===4 && localStorage.getItem('cargarSkillsBars') === "false") {
             localStorage.setItem('cargarSkillsBars', "true");
 
@@ -201,7 +205,7 @@ export const start = async function() {
         const idioma = myFunctions.getIdiomaLocalStorage();
         landingContent = arr[0];
         mySections.cargarLanding(idioma, landingContent);
-        mySections.cargarImagenBackground();
+        mySections.hideLoadingMsg();
         fixClearSelectedMenu();
     });
         
@@ -250,7 +254,7 @@ export function loadAllSections() {
                 portfolio = arr[2];
                 allContent = {content, cursos, portfolio};
                 mySections.cargarSecciones(idioma, allContent);
-                mySections.cargarImagenBackground();
+                mySections.hideLoadingMsg();
             });
 
 }

@@ -18,7 +18,6 @@ export function cargarLanding(idioma, landingContent) {
     
 }
 
-
 export function cargarSecciones(idioma, allContent) {
 
     let version = myFunctions.getVersionApp();
@@ -37,7 +36,6 @@ export function cargarSecciones(idioma, allContent) {
     showDocenciaSection(idioma, allContent);
 
     // Skills
-    var current_section = $("#nav li.current").text();
     showSkillsSection(idioma, allContent);
 
     // Portfolio
@@ -241,7 +239,6 @@ export function showSkillsSection(idioma, allContent) {
     });
 }
 
-
 export function showPortfolioSection(idioma, portfolio) {
 
     $("#portfolioTitle").text('Portfolio').hide().fadeIn(300);
@@ -323,6 +320,6 @@ export function showPortfolioSection(idioma, portfolio) {
 
 }
 
-export function cargarImagenBackground() {
+export function hideLoadingMsg() {
     $('.loading').css('display', 'none');
 }
