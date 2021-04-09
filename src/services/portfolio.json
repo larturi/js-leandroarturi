@@ -16,7 +16,7 @@
         "summary": "Management of an Organization's Systems Portfolio.",
         "url": "http://www.carteradesistemas.cloudapp.com.ar/",
         "anio": 2020,
-        "tecnologias": ["angular"]
+        "tecnologias": ["laravel", "vue", "bootstrap", "mysql"]
     },
     {
         "nombre": "Red Social de Recetas",
@@ -26,7 +26,7 @@
         "summary": "Cooking Recipes Social Network.",
         "url": "http://www.recetas.cloudapp.com.ar/",
         "anio": 2021,
-        "tecnologias": ["angular"]
+        "tecnologias": ["laravel", "vue", "bootstrap", "mysql"]
     },
     {
         "nombre": "DevJobs - Portal de Empleos IT",
@@ -36,7 +36,7 @@
         "summary": "IT Jobs Portal with Recruiter Admin Panel.",
         "url": "http://www.devjobs.cloudapp.com.ar/",
         "anio": 2021,
-        "tecnologias": ["angular"]
+        "tecnologias": ["laravel", "vue", "tailwind", "mysql"]
     },
     {
         "nombre": "Product Store",
@@ -56,7 +56,7 @@
         "summary": "CRUD of Projects and Tasks with Login and User Registration.",
         "url": "https://affectionate-torvalds-20598f.netlify.app/",
         "anio": 2021,
-        "tecnologias": ["angular"]
+        "tecnologias": ["react", "node", "mongodb"]
     },
     {
         "nombre": "Journal App",
@@ -66,7 +66,7 @@
         "summary": "Calendar app with React.",
         "url": "https://react-calendar-app-mern.herokuapp.com/",
         "anio": 2021,
-        "tecnologias": ["angular"]
+        "tecnologias": ["react", "firebase"]
     },
     {
         "nombre": "Burger Queen",
@@ -76,7 +76,7 @@
         "summary": "Self-management of hamburger orders.",
         "url": "https://www.leandroarturi.com.ar/demo/burgers/",
         "anio": 2020,
-        "tecnologias": ["angular"]
+        "tecnologias": ["angular", "firebase"]
     },
     {
         "nombre": "Cripto App",
@@ -86,7 +86,7 @@
         "summary": "Cryptocurrency Quote with React.",
         "url": "https://www.leandroarturi.com.ar/demo/cripto/",
         "anio": 2021,
-        "tecnologias": ["angular"]
+        "tecnologias": ["react"]
     },
     {
         "nombre": "Drinks App",
@@ -96,7 +96,7 @@
         "summary": "React application consuming the thecocktaildb.com API.",
         "url": "https://www.leandroarturi.com.ar/demo/drinks/",
         "anio": 2021,
-        "tecnologias": ["angular"]
+        "tecnologias": ["react"]
     },
     {
         "nombre": "Lyrics",
@@ -106,7 +106,7 @@
         "summary": "React application that allows searching for song lyrics.",
         "url": "https://www.leandroarturi.com.ar/demo/lyrics/",
         "anio": 2021,
-        "tecnologias": ["angular"]
+        "tecnologias": ["react"]
     },
     {
         "nombre": "Hoy Jugamos",
@@ -116,7 +116,7 @@
         "summary": "Application to organize soccer matches.",
         "url": "http://hoyjugamos.cloudapp.com.ar/home/",
         "anio": 2015,
-        "tecnologias": ["laravel", "mysql", "bootstrap"]
+        "tecnologias": ["laravel", "bootstrap", "mysql"]
     },
     {
         "nombre": "Citas",
@@ -132,8 +132,8 @@
         "nombre": "Películas",
         "name": "Movies",
         "lenguaje": "#angular",
-        "resumen": "Buscador de Peliculas con Angular y Api TheMoviedDB.",
-        "summary": "Movie Searching with Angular and Api TheMoviedDB.",
+        "resumen": "Buscador de Peliculas con Angular y Api TheMovieDB.",
+        "summary": "Movie Searching with Angular and Api TheMovieDB.",
         "url": "https://www.leandroarturi.com.ar/demo/peliculas/#/home",
         "anio": 2020,
         "tecnologias": ["angular"]
@@ -226,7 +226,7 @@
         "summary": "Web application that allows you to do the Test of the Six Hats of Edward De Bono.",
         "url": "http://testsombreros.site/",
         "anio": 2014,
-        "tecnologias": ["php"]
+        "tecnologias": ["php", "javascript"]
     },
     {
         "nombre": "Famosos en Twitter",
@@ -236,7 +236,7 @@
         "summary": "Website that shows the most relevant tweets of famous accounts in news format.",
         "url": "http://www.famososentwitter.com.ar/",
         "anio": 2013,
-        "tecnologias": ["php"]
+        "tecnologias": ["php", "mysql", "twitter-api"]
     },
     {
         "nombre": "Trivia Series",
@@ -246,7 +246,7 @@
         "summary": "Trivia to test your knowledge of TV Series.",
         "url": "http://triviaseries.cloudapp.com.ar/trivia_series.php",
         "anio": 2014,
-        "tecnologias": ["php"]
+        "tecnologias": ["php", "javascript"]
     },
     {
         "nombre": "Programmer Day",
@@ -256,7 +256,7 @@
         "summary": "Website dedicated to programmers to remember their day every year.",
         "url": "http://programmerday.cloudapp.com.ar/",
         "anio": 2014,
-        "tecnologias": ["php"]
+        "tecnologias": ["php", "javascript"]
     },
     {
         "nombre": "Giphy ReactApp",
@@ -266,7 +266,7 @@
         "summary": "Giphy.com GIF Finder with React and Tailwind.",
         "url": "https://www.leandroarturi.com.ar/demo/gif-react/",
         "anio": 2021,
-        "tecnologias": ["react", "tailwind"]
+        "tecnologias": ["react", "tailwind", "giphy-api"]
     },
     {
         "nombre": "Calculadora del Viajero",
