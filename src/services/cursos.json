@@ -164,6 +164,7 @@
         "horas": 5,
         "institucion": "Udemy",
         "tecnologias": ["scrum", "agile"],
+        "logo": "fab fa-jira",
         "url": "https://www.udemy.com/certificate/UC-08edb55a-cd92-4a36-80a5-f3bb6384d7ac/"
     },
     {
@@ -183,6 +184,7 @@
         "horas": 3,
         "institucion": "Udemy",
         "tecnologias": ["scrum", "agile"],
+        "logo": "fab fa-jira",
         "url": "https://www.udemy.com/certificate/UC-1O1ERB81/"
     },
     {
@@ -210,6 +212,7 @@
         "horas": 21,
         "institucion": "UTN",
         "tecnologias": ["android-sdk"],
+        "logo": "fab fa-android",
         "url": ""
     },
     {
