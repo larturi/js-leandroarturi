@@ -125,7 +125,7 @@ jQuery(document).ready(function($) {
     // ==============================================================
     // Assets
     // ==============================================================
-    $('#profile-pic').attr('src', '..' + global.rootDir + '/src/assets/images/profilephoto.jpg');
+    $('#profile-pic').attr('data', '..' + global.rootDir + '/src/assets/images/profilephoto.svg');
 
     // ==============================================================
     // Make sure that #header-background-image height is = browser height

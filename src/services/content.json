@@ -321,8 +321,8 @@
         },
 
         "skillsAgile": {
-            "es": "Agile / Scrum",
-            "en": "Agile / Scrum"
+            "es": "<i class='fab fa-trello'></i> Agile / Scrum",
+            "en": "<i class='fab fa-trello'></i> Agile / Scrum"
         },
 
         "skillsHtml": {
@@ -346,8 +346,8 @@
         },
 
         "skillsJquery": {
-            "es": "jQuery",
-            "en": "jQuery"
+            "es": "<object type='image/svg+xml' data='/src/assets/images/logos/jquery.svg' style='width: 12px; height: 12px;'></object> jQuery",
+            "en": "<object type='image/svg+xml' data='/src/assets/images/logos/jquery.svg' style='width: 12px; height: 12px;'></object> jQuery"
         },
 
         "skillsPhp": {
@@ -376,33 +376,33 @@
         },
 
         "skillsMySql": {
-            "es": "MySql",
-            "en": "MySql"
+            "es": "<object type='image/svg+xml' data='/src/assets/images/logos/mysql.svg' style='width: 15px; height: 15px;'></object> MySql",
+            "en": "<object type='image/svg+xml' data='/src/assets/images/logos/mysql.svg' style='width: 15px; height: 15px;'></object> MySql"
         },
 
         "skillsOracle": {
-            "es": "Oracle",
-            "en": "Oracle"
+            "es": "<object type='image/svg+xml' data='/src/assets/images/logos/oracle.svg' style='width: 12px; height: 12px;'></object> Oracle",
+            "en": "<object type='image/svg+xml' data='/src/assets/images/logos/oracle.svg' style='width: 12px; height: 12px;'></object> Oracle"
         },
 
         "skillsSqlServer": {
-            "es": "Sql Server",
-            "en": "Sql Server"
+            "es": "<i class='fas fa-database'></i> Sql Server",
+            "en": "<i class='fas fa-database'></i> Sql Server"
         },
 
         "skillsMongo": {
-            "es": "MongoDB",
-            "en": "MongoDB"
+            "es": "<object type='image/svg+xml' data='/src/assets/images/logos/mongo.svg' style='width: 15px; height: 15px;'></object> MongoDB",
+            "en": "<object type='image/svg+xml' data='/src/assets/images/logos/mongo.svg' style='width: 15px; height: 15px;'></object> MongoDB"
         },
 
         "skillsFirebase": {
-            "es": "Firebase",
-            "en": "Firebase"
+            "es": "<object type='image/svg+xml' data='/src/assets/images/logos/firebase.svg' style='width: 14px; height: 14px;'></object> Firebase",
+            "en": "<object type='image/svg+xml' data='/src/assets/images/logos/firebase.svg' style='width: 14px; height: 14px;'></object> Firebase"
         },
 
         "skillsVb": {
-            "es": "Visual Basic / VB .Net",
-            "en": "Visual Basic / VB .Net"
+            "es": "<object type='image/svg+xml' data='/src/assets/images/logos/vb.svg' style='width: 12px; height: 12px;'></object> Visual Basic / VB .Net",
+            "en": "<object type='image/svg+xml' data='/src/assets/images/logos/vb.svg' style='width: 12px; height: 12px;'></object> Visual Basic / VB .Net"
         },
 
         "skillsC": {
@@ -416,18 +416,18 @@
         },
 
         "skillsFlutter": {
-            "es": "Flutter / Dart",
-            "en": "Flutter / Dart"
+            "es": "<object type='image/svg+xml' data='/src/assets/images/logos/flutter.svg' style='width: 12px; height: 12px;'></object> Flutter / Dart",
+            "en": "<object type='image/svg+xml' data='/src/assets/images/logos/flutter.svg' style='width: 12px; height: 12px;'></object> Flutter / Dart"
         },
 
         "skillsAndroid": {
-            "es": "Android Sdk",
-            "en": "Android Sdk"
+            "es": "<i class='fab fa-android'></i> Android Sdk",
+            "en": "<i class='fab fa-android'></i> Android Sdk"
         },
 
         "skillsIonic": {
-            "es": "Ionic",
-            "en": "Ionic"
+            "es": "<object type='image/svg+xml' data='/src/assets/images/logos/ionic.svg' style='width: 15px; height: 15px;'></object> Ionic",
+            "en": "<object type='image/svg+xml' data='/src/assets/images/logos/ionic.svg' style='width: 15px; height: 15px;'></object> Ionic"
         },
 
         "skillsGit": {
@@ -436,13 +436,13 @@
         },
 
         "skillsVisio": {
-            "es": "Visio / Office / VBA / Project",
-            "en": "Visio / Office / VBA / Project"
+            "es": "<i class='fab fa-microsoft'></i> Visio / Office / VBA / Project",
+            "en": "<i class='fab fa-microsoft'></i> Visio / Office / VBA / Project"
         },
 
         "skillsJira": {
-            "es": "Jira / Trello / Confluence",
-            "en": "Jira / Trello / Confluence"
+            "es": "<i class='fab fa-jira'></i> Jira / Trello / Confluence",
+            "en": "<i class='fab fa-jira'></i> Jira / Trello / Confluence"
         },
 
         "skillsDocker": {
