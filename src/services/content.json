@@ -1,8 +1,8 @@
 {
 
     "aboutParrafo": {
-        "es": "Licenciado en Sistemas y Desarrollador con amplia experiencia en desarrollo de aplicaciones y gestión de proyectos de software. A lo largo de mi carrera he trabajado como Desarrollador, Analista Técnico Funcional, Líder de Proyectos y Coordinador de Desarrollo.",
-        "en": "Degree in Information Systems and Software Developer with extensive experience in application development and software project management. Throughout my career I have worked at different roles, as a Developer, Functional Technical Analyst, Project Manager and Development Coordinator."
+        "es": "Soy una persona apasionada por la profesión, lo que me mantiene en constante aprendizaje. Me considero pragmático, flexible y organizado. Siempre estoy dispuesto a aprender y a brindar mi ayuda. Me motivan los proyectos a largo plazo pero también disfruto resolver problemas. A lo largo de mi carrera he trabajado como Desarrollador, Analista Técnico Funcional, Líder de Proyectos y Coordinador de Desarrollo.",
+        "en": "I am passionate about the profession, which keeps me constantly learning. I consider myself pragmatic, flexible and organized. I am always willing to learn and help. I am motivated by long-term projects but I also enjoy solving problems. Throughout my career I have worked as a Developer, Functional, Project Leader and Development Coordinator."
     },
 
     "aboutTitulo": {
@@ -111,8 +111,8 @@
                 },
         
                 "detalle": {
-                    "es": "He trabajado en múltiples proyectos, especialmente en desarrollo web.",
-                    "en": "I have worked on multiple independent projects, especially in web development."
+                    "es": "Diseño y desarrollo de aplicaciones web y consultoría.",
+                    "en": "Design and development of web applications and consulting."
                 },
         
                 "tecnologias": ["php", "laravel", "node", "mysql", "angular", "react", "vue", "mongo"]
