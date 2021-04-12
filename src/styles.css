@@ -40,7 +40,7 @@ html {
 }
 
 body {
-    background: #fff;
+    background: #0e0e0e;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 15px;
@@ -977,3 +977,32 @@ p.trabajo-detalle {
 .cursos-tecnologias {
     margin-bottom: 30px;
 }
+
+/* Typewriter */
+
+.typewriter {
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 1.9s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  .nombre-landing {
+    width: 173px;
+  }

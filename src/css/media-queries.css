@@ -2,10 +2,16 @@
 -------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
     header .banner-text h1 {
-        font: 16px/1.1em 'Open Sans', sans-serif;
-        letter-spacing: -1px;
-        margin: 0 auto 12px auto;
+        height: auto;
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.5em;
+        color: #e7e7e7;
         font-weight: 400;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        font-size: 18px;
     }
 }
 
@@ -66,6 +72,10 @@
         line-height: 66px;
     }
     #contact .section-head p.lead { font: 17px/33px 'Open Sans', sans-serif; }
+
+    .nombre-landing {
+        width: 145px;
+    }
 
 }
 
@@ -135,6 +145,9 @@
     .row .offset-10   { margin-left: 0%; }
     .row .offset-11   { margin-left: 0%; }
 
+    .nombre-landing {
+        width: 145px;
+    }
 
     /* ESPECIFICO
     ------------------------------- */
@@ -399,6 +412,10 @@
     /* social links */
     footer .social-links { font-size: 20px; }
     footer .social-links li { margin-left: 14px; }   
+
+    .nombre-landing {
+        width: 145px;
+    }
 
     .fa{
         font-size: 16px;

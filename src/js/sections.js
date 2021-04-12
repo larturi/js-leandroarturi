@@ -12,9 +12,6 @@ export function cargarLanding(idioma, landingContent) {
 
     // Header
     showHeaderSection(idioma, landingContent);
-    setTimeout(function() {
-        $('.fa.fa-chevron-circle-down').removeClass("hidden").hide().fadeIn(50);
-    }, 1);
     
 }
 
@@ -87,7 +84,13 @@ export function showHeaderSection(idioma, allContent) {
     $("#showAllSections").text(allContent.header4[idioma]);
     $("#headerAnios").text(myFunctions.getExperiencia(idioma));
 
-    $("#content-header").fadeIn(300);
+    $("#content-header").fadeIn(1000);
+
+    $(".landing-github").hide().slideDown('normal');
+    $(".landing-linkedin").hide().slideDown('normal');
+    $(".landing-twitter").hide().slideDown('normal');
+
+
 }
 
 export function showAboutSection(idioma, allContent) {

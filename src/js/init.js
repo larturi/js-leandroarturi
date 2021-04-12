@@ -215,12 +215,12 @@ export function fixClearSelectedMenu() {
     const countChangesLanguage = localStorage.getItem('countChangesLanguage');
 
     if(Number(countChangesLanguage) === 0) {
-        $('#menu-portfolio').removeClass("current");
-        $('#menu-inicio').addClass("current");
-        window.location.hash = '#home';
+        setTimeout(() => {
+            $('#menu-portfolio').removeClass("current");
+            $('#menu-inicio').addClass("current");
+            window.location.hash = '#home';  
+        }, 200);
     }
-
-    localStorage.setItem('countChangesLanguage', Number(countChangesLanguage) + 1);
 
 }
 
