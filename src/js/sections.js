@@ -84,12 +84,11 @@ export function showHeaderSection(idioma, allContent) {
     $("#showAllSections").text(allContent.header4[idioma]);
     $("#headerAnios").text(myFunctions.getExperiencia(idioma));
 
-    $("#content-header").fadeIn(1000);
+    $("#content-header").fadeIn(200);
 
     $(".landing-github").hide().slideDown('normal');
     $(".landing-linkedin").hide().slideDown('normal');
     $(".landing-twitter").hide().slideDown('normal');
-
 
 }
 

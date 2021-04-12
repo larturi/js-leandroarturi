@@ -982,7 +982,7 @@ p.trabajo-detalle {
 
 .typewriter {
     overflow: hidden; 
-    border-right: .15em solid orange; 
+    border-right: .15em solid #bd8937; 
     white-space: nowrap; 
     margin: 0 auto; 
     letter-spacing: .15em; 
@@ -1000,7 +1000,7 @@ p.trabajo-detalle {
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange; }
+    50% { border-color: #bd8937; }
   }
 
   .nombre-landing {
