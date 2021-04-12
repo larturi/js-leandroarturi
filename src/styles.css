@@ -215,8 +215,6 @@ p.lead {
 
 em { font: 15px/30px 'Open Sans', sans-serif; }
 
-hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
-
 /* Links
 ---------------------------------------------------------- */
 a, a:visited {
@@ -257,19 +255,12 @@ ul#nav li.current a { color: #ab987a; }
 ul, ol { margin-bottom: 24px; margin-top: 12px; }
 ul { list-style: none outside; }
 ol { list-style: decimal; }
-ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
-ul.square { list-style: square outside; }
-ul.circle { list-style: circle outside; }
-ul.disc { list-style: disc outside; }
+
 ul ul, ul ol,
 ol ol, ol ul { margin: 6px 0 6px 30px; }
 ul ul li, ul ol li,
 ol ol li, ol ul li { margin-bottom: 6px; }
 li { line-height: 18px; margin-bottom: 12px; }
-
-dl { margin: 12px 0; }
-dt { margin: 0; color:#11ABB0; }
-dd { margin: 0 0 0 20px; }
 
 /* Imagenes
 ---------------------------------------------------------- */
@@ -307,10 +298,6 @@ img {
     padding: 0 20px;
     min-height: 1px;
     float: left;
-}
-.column.centered, .columns.centered  {
-    float: none;
-    margin: 0 auto;
 }
 
 /* removed gutters */
@@ -426,14 +413,6 @@ img {
     font-size: 20px;
 }
 
-/* Trabajo
----------------------------------------------------------- */
-.iconos-cv {
-    font-size: 14px !important;
-    color: #C5C5C5 !important;
-    margin-right: 2px !important;
-}
-
 /* Portfolio
 ---------------------------------------------------------- */
 #portfolio {
@@ -495,25 +474,6 @@ img {
 .meter span {
     display: block;
     height: 100%;
-}
-
-/********** Progress Bar Animation 55% **********/
-.progress.cincuentaycinco {
-    background-color: #555555;
-    animation: progressBarCincuentaycinco 3s ease-in-out;
-    animation-fill-mode:both; 
-    -webkit-animation: progressBarCincuentaycinco 3s ease-in-out;
-    -webkit-animation-fill-mode:both; 
-    -moz-animation: progressBarCincuentaycinco 3s ease-in-out;
-    -moz-animation-fill-mode:both; 
-}
-@keyframes progressBarCincuentaycinco {
-  0% { width: 0; }
-  100% { width: 55%; }
-}
-@-moz-keyframes progressBarCincuentaycinco {
-  0% { width: 0; }
-  100% { width: 55%; }
 }
 
 /********** Progress Bar Animation 60% **********/
@@ -779,11 +739,6 @@ footer .social-links li:first-child { margin-left: 0; }
     visibility: hidden;
 }
 
-.hash-lenguaje {
-    color: #adacac;
-    font-style: italic!important;
-}
-
 .profile-pic-tw{
     width: 40px;
     border-radius: 100px;
@@ -899,11 +854,6 @@ footer .social-links li:first-child { margin-left: 0; }
     color: #BEBEBE;
 }
 
-.icono-footer  {
-    font-size: 16px;
-    color: #d8d5d1;
-}
-
 .icono-header {
     font-size: 20px;
     display: block;
@@ -911,10 +861,6 @@ footer .social-links li:first-child { margin-left: 0; }
 
 .bars h2 {
     font-size: 1.6rem;
-}
-
-.fa-chevron-circle-down {
-    font-size: 16px;
 }
 
 .about-me-text {
@@ -939,11 +885,6 @@ a:visited.about-me-text {
     margin-right: 4px;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.badge-primary {
-    color: #fff;
-    background-color: #bd8937;
 }
 
 .badge-secondary {
