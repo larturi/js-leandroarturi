@@ -72,7 +72,9 @@ jQuery(document).ready(function($) {
     $('.smoothscroll').on('click', function(e) {
         e.preventDefault();
 
-        loadAllSections();
+        if (allContent.length === 0) {
+            loadAllSections();
+        }
 
         var target = this.hash;
         
@@ -163,7 +165,7 @@ jQuery(document).ready(function($) {
     // ==============================================================
     // Cambiar Idioma
     // ==============================================================
-    $('#lang').click( async function(e) {
+    $('#lang').on('click', async function(e) {
 
         let idioma = 'es';
 
@@ -220,8 +222,7 @@ export function fixClearSelectedMenu() {
             $('#menu-inicio').addClass("current");
             window.location.hash = '#home';  
         }, 200);
-    }
-
+    } 
 }
 
 export function loadAllSections() {

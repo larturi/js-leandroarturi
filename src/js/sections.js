@@ -45,10 +45,15 @@ export function cargarSecciones(idioma, allContent) {
 }
 
 export function cambiarIdioma(idioma, allContent) {
+
+    let countChangesLanguage = localStorage.getItem('countChangesLanguage');
     
     if(allContent.length === 0 || allContent.length === 'undefined') {
         loadAllSections();
+    } else {
+        localStorage.setItem('countChangesLanguage', Number(countChangesLanguage) + 1);
     }
+
 
     fixClearSelectedMenu();
 
