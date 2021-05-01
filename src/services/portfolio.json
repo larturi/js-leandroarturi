@@ -19,6 +19,16 @@
         "tecnologias": ["laravel", "vue", "bootstrap", "mysql"]
     },
     {
+        "nombre": "FileTransfer App",
+        "name": "FileTransfer App",
+        "lenguaje": "#react #node #mongo #next",
+        "resumen": "Upload de archivos para compartir",
+        "summary": "Upload files to share.",
+        "url": "https://react-filetransfer-cliente.vercel.app/",
+        "anio": 2021,
+        "tecnologias": ["laravel", "vue", "bootstrap", "mysql"]
+    },
+    {
         "nombre": "Red Social de Recetas",
         "name": "Cooking Recipes Social Network",
         "lenguaje": "#laravel #vue #bootstrap #mysql",

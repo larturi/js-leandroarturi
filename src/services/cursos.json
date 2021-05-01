@@ -3,6 +3,16 @@
         "nombre": "React",
         "name": "React",
         "anio": 2021,
+        "horas": 44,
+        "institucion": "Udemy",
+        "tecnologias": ["react", "mongo", "node", "next", "gatsby"],
+        "logo": "fab fa-react",
+        "url": "https://www.udemy.com/certificate/UC-a7b61db7-2b6e-48cd-97d5-30b020a913a4/"
+    },
+    {
+        "nombre": "React",
+        "name": "React",
+        "anio": 2021,
         "horas": 43,
         "institucion": "Udemy",
         "tecnologias": ["react", "mongo", "node"],
