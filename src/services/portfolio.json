@@ -26,7 +26,7 @@
         "summary": "Upload files to share.",
         "url": "https://react-filetransfer-cliente.vercel.app/",
         "anio": 2021,
-        "tecnologias": ["laravel", "vue", "bootstrap", "mysql"]
+        "tecnologias": ["react", "node", "mongo", "next"]
     },
     {
         "nombre": "Red Social de Recetas",
