@@ -30,6 +30,16 @@
         "url": "https://www.udemy.com/certificate/UC-f5371835-0c73-4007-b8f7-b4729ccac3fb/"
     },
     {
+        "nombre": "Blockchain: Comprende Bitcoin y desarrolla tu Criptomoneda",
+        "name": "Blockchain: Understand Bitcoin and develop your Cryptocurrency",
+        "anio": 2021,
+        "horas": 5,
+        "institucion": "Udemy",
+        "tecnologias": ["js", "node", "jest"],
+        "logo": "fab fa-node-js",
+        "url": "https://www.udemy.com/certificate/UC-5221b594-ec4f-4ea4-860d-4d28c359c02e/"
+    },
+    {
         "nombre": "Laravel",
         "name": "Laravel",
         "anio": 2020,
