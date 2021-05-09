@@ -1,7 +1,7 @@
 [   
     {
-        "nombre": "React",
-        "name": "React",
+        "nombre": "React: Guía Completa: Hooks Context Redux MERN +15 Apps",
+        "name": "React: Complete Guide: Hooks Context Redux MERN +15 Apps",
         "anio": 2021,
         "horas": 44,
         "institucion": "Udemy",
@@ -10,8 +10,8 @@
         "url": "https://www.udemy.com/certificate/UC-a7b61db7-2b6e-48cd-97d5-30b020a913a4/"
     },
     {
-        "nombre": "React",
-        "name": "React",
+        "nombre": "React: Hooks & MERN",
+        "name": "React: Hooks & MERN",
         "anio": 2021,
         "horas": 43,
         "institucion": "Udemy",
@@ -20,8 +20,8 @@
         "url": "https://www.udemy.com/certificate/UC-c950e598-6cbc-4e30-a22c-9a8336b36bfc/"
     },
     {
-        "nombre": "Vue",
-        "name": "Vue",
+        "nombre": "Vue: Crea Aplicaciones Web Modernas con Vue",
+        "name": "Vue: Create Modern Web Applications with Vue",
         "anio": 2021,
         "horas": 12,
         "institucion": "Udemy",
@@ -40,18 +40,18 @@
         "url": "https://www.udemy.com/certificate/UC-5221b594-ec4f-4ea4-860d-4d28c359c02e/"
     },
     {
-        "nombre": "Laravel",
-        "name": "Laravel",
+        "nombre": "Laravel: Crea Aplicaciones y Sitios Web con PHP y MVC",
+        "name": "Laravel: Create Applications and Websites with PHP and MVC",
         "anio": 2020,
         "horas": 23,
         "institucion": "Udemy",
-        "tecnologias": ["php", "laravel", "mysql", "sass", "bootstrap", "tailwind"],
+        "tecnologias": ["php", "laravel", "mysql", "bootstrap", "tailwind"],
         "logo": "fab fa-laravel",
         "url": "https://www.udemy.com/certificate/UC-9c34aaff-25b7-429f-bd2c-2fa22fff4c2c/"
     },
     {
-        "nombre": "Laravel",
-        "name": "Laravel",
+        "nombre": "Laravel: Dominando Laravel",
+        "name": "Laravel: Mastering Laravel",
         "anio": 2020,
         "horas": 20,
         "institucion": "Udemy",
@@ -60,8 +60,8 @@
         "url": "https://www.udemy.com/certificate/UC-52b32c69-2667-4e44-be6e-af84523b3148/"
     },
     {
-        "nombre": "Angular",
-        "name": "Angular",
+        "nombre": "Angular Avanzado: Lleva tus bases al siguiente nivel - MEAN",
+        "name": "Angular Advanced: Take your foundations to the next level - MEAN",
         "anio": 2020,
         "horas": 30,
         "institucion": "Udemy",
@@ -70,8 +70,8 @@
         "url": "https://www.udemy.com/certificate/UC-b688434a-254a-451a-b7f6-ea5b0c9cf57d/"
     },
     {
-        "nombre": "Angular",
-        "name": "Angular",
+        "nombre": "Angular: De cero a experto",
+        "name": "Angular: From zero to expert",
         "anio": 2020,
         "horas": 33.5,
         "institucion": "Udemy",
@@ -80,8 +80,8 @@
         "url": "https://www.udemy.com/certificate/UC-7dd74f29-2397-4f0f-843a-70679b07d8e4/"
     },
     {
-        "nombre": "Angular",
-        "name": "Angular",
+        "nombre": "Angular: 10 proyectos",
+        "name": "Angular: 10 projects",
         "anio": 2020,
         "horas": 29,
         "institucion": "Udemy",
@@ -90,8 +90,8 @@
         "url": "https://www.udemy.com/certificate/UC-bc07dd32-7007-4af5-a756-bc5c13c88cbe/"
     },
     {
-        "nombre": "Vue",
-        "name": "Vue",
+        "nombre": "Vue: Firebase + MEVN",
+        "name": "Vue: Firebase + MEVN",
         "anio": 2020,
         "horas": 28,
         "institucion": "Udemy",
