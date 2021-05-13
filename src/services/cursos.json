@@ -40,6 +40,16 @@
         "url": "https://www.udemy.com/certificate/UC-5221b594-ec4f-4ea4-860d-4d28c359c02e/"
     },
     {
+        "nombre": "Python 3",
+        "name": "Python 3",
+        "anio": 2021,
+        "horas": 12,
+        "institucion": "Udemy",
+        "tecnologias": ["python"],
+        "logo": "fab fa-python",
+        "url": "https://www.udemy.com/certificate/UC-87ad17fd-2870-414a-b6eb-1b9cb37da4da/"
+    },
+    {
         "nombre": "Laravel: Crea Aplicaciones y Sitios Web con PHP y MVC",
         "name": "Laravel: Create Applications and Websites with PHP and MVC",
         "anio": 2020,
