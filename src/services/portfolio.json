@@ -59,8 +59,18 @@
         "tecnologias": ["next", "react", "firebase"]
     },
     {
-        "nombre": "MERN Tasks",
-        "name": "MERN Tasks",
+        "nombre": "MERN Tasks Simple",
+        "name": "Simple MERN Tasks",
+        "lenguaje": "#next #react #node #mysql #typescript",
+        "resumen": "CRUD de Tareas.",
+        "summary": "CRUD of Tasks.",
+        "url": "http://www.todolist-mern.cloudapp.com.ar/",
+        "anio": 2021,
+        "tecnologias": ["react", "node", "mongodb"]
+    },
+    {
+        "nombre": "MERN Tasks Avanzado",
+        "name": "Advanced MERN Tasks",
         "lenguaje": "#react #node #mongo",
         "resumen": "CRUD de Proyectos y Tareas con Login y Registro de usuarios.",
         "summary": "CRUD of Projects and Tasks with Login and User Registration.",
