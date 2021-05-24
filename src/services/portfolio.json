@@ -24,7 +24,7 @@
         "lenguaje": "#react #node #mongo #next",
         "resumen": "Upload de archivos para compartir",
         "summary": "Upload files to share.",
-        "url": "https://react-filetransfer-cliente.vercel.app/",
+        "url": "http://filetransfer.cloudapp.com.ar",
         "anio": 2021,
         "tecnologias": ["react", "node", "mongo", "next"]
     },
