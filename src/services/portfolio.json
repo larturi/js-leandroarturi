@@ -294,7 +294,7 @@
         "lenguaje": "#mobile #android-sdk",
         "resumen": "Calculadora que permite configurar el tipo de cambio y el porcentaje de percepción de impuestos para luego calcular el importe en pesos de una compra (2015).",
         "summary": "Calculator that allows you to configure the exchange rate and tax to calculate the amount in argentine pesos of a purchase (2015).",
-        "url": "https://play.google.com/store/apps/details?id=com.larturi.calculadoraviajeroargento",
+        "url": "https://m.apkpure.com/es/calculadora-del-viajero/com.larturi.calculadoraviajeroargento",
         "anio": 2015,
         "tecnologias": ["android-sdk"]
     },
