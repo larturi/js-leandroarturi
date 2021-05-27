@@ -69,26 +69,6 @@
         "tecnologias": ["next", "react", "node", "mysql", "typescript"]
     },
     {
-        "nombre": "MERN Tasks Avanzado",
-        "name": "Advanced MERN Tasks",
-        "lenguaje": "#react #node #mongo",
-        "resumen": "CRUD de Proyectos y Tareas con Login y Registro de usuarios.",
-        "summary": "CRUD of Projects and Tasks with Login and User Registration.",
-        "url": "https://affectionate-torvalds-20598f.netlify.app/",
-        "anio": 2021,
-        "tecnologias": ["react", "node", "mongodb"]
-    },
-    {
-        "nombre": "Journal App",
-        "name": "Journal App",
-        "lenguaje": "#react #firebase",
-        "resumen": "Aplicación React tipo Google Calendar.",
-        "summary": "Calendar app with React.",
-        "url": "https://react-calendar-app-mern.herokuapp.com/",
-        "anio": 2021,
-        "tecnologias": ["react", "firebase"]
-    },
-    {
         "nombre": "Burger Queen",
         "name": "Burger Queen",
         "lenguaje": "#angular #firebase",
