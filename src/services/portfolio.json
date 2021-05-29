@@ -82,8 +82,8 @@
         "nombre": "MERN Tasks Pro",
         "name": "Advanced MERN Tasks",
         "lenguaje": "#react #node #mongo",
-        "resumen": "CRUD de Tareas.",
-        "summary": "CRUD of Tasks.",
+        "resumen": "CRUD de Proyectos y Tareas.",
+        "summary": "CRUD of Projects and Tasks.",
         "url": "http://mern-tasks.cloudapp.com.ar/",
         "anio": 2021,
         "tecnologias": ["react", "node", "mongo"]
