@@ -19,6 +19,16 @@
         "tecnologias": ["laravel", "vue", "bootstrap", "mysql"]
     },
     {
+        "nombre": "Calendar React App",
+        "name": "Calendar React App",
+        "lenguaje": "#react #node #mongo",
+        "resumen": "Calendar App con React y Node",
+        "summary": "Calendar App with React and Node",
+        "url": "http://calendar-react.cloudapp.com.ar",
+        "anio": 2021,
+        "tecnologias": ["react", "node", "mongo"]
+    },
+    {
         "nombre": "FileTransfer App",
         "name": "FileTransfer App",
         "lenguaje": "#react #node #mongo #next",
