@@ -79,6 +79,16 @@
         "tecnologias": ["next", "react", "node", "mysql", "typescript"]
     },
     {
+        "nombre": "MERN Tasks Pro",
+        "name": "Advanced MERN Tasks",
+        "lenguaje": "#react #node #mongo",
+        "resumen": "CRUD de Tareas.",
+        "summary": "CRUD of Tasks.",
+        "url": "http://mern-tasks.cloudapp.com.ar/",
+        "anio": 2021,
+        "tecnologias": ["react", "node", "mongo"]
+    },
+    {
         "nombre": "Burger Queen",
         "name": "Burger Queen",
         "lenguaje": "#angular #firebase",
