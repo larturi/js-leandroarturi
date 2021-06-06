@@ -29,6 +29,16 @@
         "tecnologias": ["react", "node", "mongo"]
     },
     {
+        "nombre": "El Test de los Seis Sombreros",
+        "name": "The Six Hats Test",
+        "lenguaje": "#php",
+        "resumen": "Aplicación Web que permite realizar el Test de los Seis Sombreros de Edward De Bono.",
+        "summary": "Web application that allows you to do the Test of the Six Hats of Edward De Bono.",
+        "url": "http://testsombreros.site/",
+        "anio": 2014,
+        "tecnologias": ["php", "javascript"]
+    },
+    {
         "nombre": "FileTransfer App",
         "name": "FileTransfer App",
         "lenguaje": "#react #node #mongo #next",
@@ -99,26 +109,6 @@
         "tecnologias": ["angular", "firebase"]
     },
     {
-        "nombre": "Cripto App",
-        "name": "Cripto App",
-        "lenguaje": "#react",
-        "resumen": "Cotización de Criptomonedas con React.",
-        "summary": "Cryptocurrency Quote with React.",
-        "url": "https://www.leandroarturi.com.ar/demo/cripto/",
-        "anio": 2021,
-        "tecnologias": ["react"]
-    },
-    {
-        "nombre": "Drinks App",
-        "name": "Drinks App",
-        "lenguaje": "#react",
-        "resumen": "Aplicación React que consume la API thecocktaildb.com.",
-        "summary": "React application consuming the thecocktaildb.com API.",
-        "url": "https://www.leandroarturi.com.ar/demo/drinks/",
-        "anio": 2021,
-        "tecnologias": ["react"]
-    },
-    {
         "nombre": "Lyrics",
         "name": "Lyrics",
         "lenguaje": "#react",
@@ -137,16 +127,6 @@
         "url": "http://hoyjugamos.cloudapp.com.ar/home/",
         "anio": 2015,
         "tecnologias": ["laravel", "bootstrap", "mysql"]
-    },
-    {
-        "nombre": "Citas",
-        "name": "Appointments",
-        "lenguaje": "#react",
-        "resumen": "Aplicación React para gestionar citas.",
-        "summary": "React app to manage appointments.",
-        "url": "https://www.leandroarturi.com.ar/demo/citas/",
-        "anio": 2021,
-        "tecnologias": ["react"]
     },
     {
         "nombre": "Películas",
@@ -199,6 +179,26 @@
         "tecnologias": ["ionic"]
     },
     {
+        "nombre": "Giphy ReactApp",
+        "name": "Giphy ReactApp",
+        "lenguaje": "#react #tailwind",
+        "resumen": "Buscador de GIF en giphy.com con React y Tailwind.",
+        "summary": "Giphy.com GIF Finder with React and Tailwind.",
+        "url": "https://www.leandroarturi.com.ar/demo/gif-react/",
+        "anio": 2021,
+        "tecnologias": ["react", "tailwind", "giphy-api"]
+    },
+    {
+        "nombre": "Drinks App",
+        "name": "Drinks App",
+        "lenguaje": "#react",
+        "resumen": "Aplicación React que consume la API thecocktaildb.com.",
+        "summary": "React application consuming the thecocktaildb.com API.",
+        "url": "https://www.leandroarturi.com.ar/demo/drinks/",
+        "anio": 2021,
+        "tecnologias": ["react"]
+    },
+    {
         "nombre": "Angular Heroes",
         "name": "Angular Heroes",
         "lenguaje": "#angular",
@@ -207,6 +207,16 @@
         "url": "https://www.leandroarturi.com.ar/demo/heroes-ng/#/heroes",
         "anio": 2020,
         "tecnologias": ["angular"]
+    },
+    {
+        "nombre": "Cripto App",
+        "name": "Cripto App",
+        "lenguaje": "#react",
+        "resumen": "Cotización de Criptomonedas con React.",
+        "summary": "Cryptocurrency Quote with React.",
+        "url": "https://www.leandroarturi.com.ar/demo/cripto/",
+        "anio": 2021,
+        "tecnologias": ["react"]
     },
     {
         "nombre": "Angular Flags Drag & Drop",
@@ -239,16 +249,6 @@
         "tecnologias": ["android-sdk"]
     },
     {
-        "nombre": "El Test de los Seis Sombreros",
-        "name": "The Six Hats Test",
-        "lenguaje": "#php",
-        "resumen": "Aplicación Web que permite realizar el Test de los Seis Sombreros de Edward De Bono.",
-        "summary": "Web application that allows you to do the Test of the Six Hats of Edward De Bono.",
-        "url": "http://testsombreros.site/",
-        "anio": 2014,
-        "tecnologias": ["php", "javascript"]
-    },
-    {
         "nombre": "Famosos en Twitter",
         "name": "Famous on Twitter",
         "lenguaje": "#php",
@@ -279,26 +279,6 @@
         "tecnologias": ["php", "javascript"]
     },
     {
-        "nombre": "Giphy ReactApp",
-        "name": "Giphy ReactApp",
-        "lenguaje": "#react #tailwind",
-        "resumen": "Buscador de GIF en giphy.com con React y Tailwind.",
-        "summary": "Giphy.com GIF Finder with React and Tailwind.",
-        "url": "https://www.leandroarturi.com.ar/demo/gif-react/",
-        "anio": 2021,
-        "tecnologias": ["react", "tailwind", "giphy-api"]
-    },
-    {
-        "nombre": "Calculadora del Viajero",
-        "name": "Traveler's Calculator",
-        "lenguaje": "#mobile #android-sdk",
-        "resumen": "Calculadora que permite configurar el tipo de cambio y el porcentaje de percepción de impuestos para luego calcular el importe en pesos de una compra (2015).",
-        "summary": "Calculator that allows you to configure the exchange rate and tax to calculate the amount in argentine pesos of a purchase (2015).",
-        "url": "https://m.apkpure.com/es/calculadora-del-viajero/com.larturi.calculadoraviajeroargento",
-        "anio": 2015,
-        "tecnologias": ["android-sdk"]
-    },
-    {
         "nombre": "Chistes Sin Codificar",
         "name": "Jokes Website",
         "lenguaje": "#php",
@@ -317,6 +297,16 @@
         "url": "http://maschefacts.cloudapp.com.ar",
         "anio": 2014,
         "tecnologias": ["php", "mysql"]
+    },
+    {
+        "nombre": "Calculadora del Viajero",
+        "name": "Traveler's Calculator",
+        "lenguaje": "#mobile #android-sdk",
+        "resumen": "Calculadora que permite configurar el tipo de cambio y el porcentaje de percepción de impuestos para luego calcular el importe en pesos de una compra (2015).",
+        "summary": "Calculator that allows you to configure the exchange rate and tax to calculate the amount in argentine pesos of a purchase (2015).",
+        "url": "https://m.apkpure.com/es/calculadora-del-viajero/com.larturi.calculadoraviajeroargento",
+        "anio": 2015,
+        "tecnologias": ["android-sdk"]
     },
     {
         "nombre": "The Vision Test",

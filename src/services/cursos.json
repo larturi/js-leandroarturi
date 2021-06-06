@@ -10,6 +10,16 @@
         "url": "https://www.udemy.com/certificate/UC-a7b61db7-2b6e-48cd-97d5-30b020a913a4/"
     },
     {
+        "nombre": "React: Aplicaciones en tiempo real con Socket-io",
+        "name": "React: Real-time applications with Socket-io",
+        "anio": 2021,
+        "horas": 16,
+        "institucion": "Udemy",
+        "tecnologias": ["react", "node", "socket.io", "mongo"],
+        "logo": "fab fa-react",
+        "url": "https://www.udemy.com/certificate/UC-c950e598-6cbc-4e30-a22c-9a8336b36bfc/"
+    },
+    {
         "nombre": "React: Hooks & MERN",
         "name": "React: Hooks & MERN",
         "anio": 2021,
@@ -17,7 +27,7 @@
         "institucion": "Udemy",
         "tecnologias": ["react", "mongo", "node"],
         "logo": "fab fa-react",
-        "url": "https://www.udemy.com/certificate/UC-c950e598-6cbc-4e30-a22c-9a8336b36bfc/"
+        "url": "https://www.udemy.com/certificate/UC-0ebd26c2-1510-4e3a-aed8-a72da00c090a/"
     },
     {
         "nombre": "Vue: Crea Aplicaciones Web Modernas con Vue",
