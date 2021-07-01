@@ -79,14 +79,24 @@
         "tecnologias": ["next", "react", "firebase"]
     },
     {
-        "nombre": "MERN Tasks Simple",
+        "nombre": "Next & Node Todolist",
         "name": "Simple MERN Tasks",
         "lenguaje": "#next #react #node #mysql #typescript",
-        "resumen": "CRUD de Tareas.",
-        "summary": "CRUD of Tasks.",
+        "resumen": "Next & Node Todolist.",
+        "summary": "Next & Node Todolist.",
         "url": "http://www.todolist-mern.cloudapp.com.ar/",
         "anio": 2021,
         "tecnologias": ["next", "react", "node", "mysql", "typescript"]
+    },
+    {
+        "nombre": "Nuxt & Laravel Todolist",
+        "name": "Simple MERN Tasks",
+        "lenguaje": "#nuxt #vue #laravel #mysql #taildwind",
+        "resumen": "Nuxt & Laravel Todolist.",
+        "summary": "Nuxt & Laravel Todolist.",
+        "url": "http://todolist-vue.cloudapp.com.ar/dist/",
+        "anio": 2021,
+        "tecnologias": ["nuxt", "vue", "laravel", "mysql", "taildwind"]
     },
     {
         "nombre": "MERN Tasks Pro",
@@ -97,6 +107,16 @@
         "url": "http://mern-tasks.cloudapp.com.ar/",
         "anio": 2021,
         "tecnologias": ["react", "node", "mongo"]
+    },
+    {
+        "nombre": "Ionic Todolist",
+        "name": "Ionic Todolist",
+        "lenguaje": "#ionic",
+        "resumen": "Lista de tareas con Ionic.",
+        "summary": "Ionic Todolist.",
+        "url": "https://www.leandroarturi.com.ar/demo/todolist-ng/#/tabs/tab1",
+        "anio": 2020,
+        "tecnologias": ["ionic"]
     },
     {
         "nombre": "Burger Queen",
@@ -167,16 +187,6 @@
         "url": "http://www.leandroarturi.com.ar/demo/spotiapp/#/home",
         "anio": 2020,
         "tecnologias": ["angular", "spotify-api"]
-    },
-    {
-        "nombre": "Ionic Todolist",
-        "name": "Ionic Todolist",
-        "lenguaje": "#ionic",
-        "resumen": "Lista de tareas con Ionic.",
-        "summary": "Ionic Todolist.",
-        "url": "https://www.leandroarturi.com.ar/demo/todolist-ng/#/tabs/tab1",
-        "anio": 2020,
-        "tecnologias": ["ionic"]
     },
     {
         "nombre": "Giphy ReactApp",
