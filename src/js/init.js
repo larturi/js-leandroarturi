@@ -18,13 +18,13 @@ jQuery(document).ready(function($) {
 
     $('body').on('click', '#cargarMasCursos', function(event) {
         event.preventDefault();
-        $('#cursosContentOculto').css('display', 'block');
+        $('#cursosContentOculto').fadeIn(600);
         $('#cargarMasCursos').remove();
     });
 
     $('body').on('click', '#cargarMasPortfolio', function(event) {
         event.preventDefault();
-        $('#portfolioContentOculto').css('display', 'block');
+        $('#portfolioContentOculto').fadeIn(600);
         $('#cargarMasPortfolio').remove();
     });
 
@@ -37,17 +37,18 @@ jQuery(document).ready(function($) {
     // Handle Scrolling
     // ==============================================================
     function validateAndShowAllSections() {
-        if (allContent.length === 0) {
-            setTimeout(() => {
-                $('#showAllSections').click();
-            }, 1);
-        }
+        // if (allContent.length === 0) {
+        //     setTimeout(() => {
+        //         $('#showAllSections').click();
+        //     }, 1);
+        // }
         return false;
     }
 
     document.addEventListener("wheel", function () {
         validateAndShowAllSections();
     }, true);
+
 
     document.addEventListener("keydown", function () {
         validateAndShowAllSections();
@@ -60,10 +61,7 @@ jQuery(document).ready(function($) {
 
     $('#showAllSections').on('click', function(e) {
         e.preventDefault();
-
-        if (!allContent) {
-            loadAllSections();
-        }
+        loadAllSections();
     });
 
     // ==============================================================
@@ -237,10 +235,10 @@ export function loadAllSections() {
     $('#skills').show();
 
     // Delay para que no se vaya hasta abajo y suba
-    setTimeout(() => {
-        $('#portfolio').show();
-        $('#footer').show();
-    }, 300);
+    // setTimeout(() => {
+    //     $('#portfolio').show();
+    //     $('#footer').show();
+    // }, 300);
     
 
     Promise.all([
