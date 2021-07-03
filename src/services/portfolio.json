@@ -91,12 +91,12 @@
     {
         "nombre": "Nuxt & Laravel Todolist",
         "name": "Simple MERN Tasks",
-        "lenguaje": "#nuxt #vue #laravel #mysql #taildwind",
+        "lenguaje": "#nuxt #vue #laravel #mysql #tailwind",
         "resumen": "Nuxt & Laravel Todolist.",
         "summary": "Nuxt & Laravel Todolist.",
         "url": "http://todolist-vue.cloudapp.com.ar/dist/",
         "anio": 2021,
-        "tecnologias": ["nuxt", "vue", "laravel", "mysql", "taildwind"]
+        "tecnologias": ["nuxt", "vue", "laravel", "mysql", "tailwind"]
     },
     {
         "nombre": "MERN Tasks Pro",
