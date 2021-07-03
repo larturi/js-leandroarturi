@@ -1,5 +1,15 @@
 [   
     {
+        "nombre": "React Avanzado: Fullstack Next.js, Apollo, MongoDB y GraphQL",
+        "name": "React Advanced: Fullstack Next.js, Apollo, MongoDB and GraphQL",
+        "anio": 2021,
+        "horas": 27,
+        "institucion": "Udemy",
+        "tecnologias": ["react", "next", "mongo", "node", "apollo", "graphql"],
+        "logo": "fab fa-react",
+        "url": "https://www.udemy.com/certificate/UC-5631d098-74a7-414c-a00a-8e8a04211cc1/"
+    },
+    {
         "nombre": "React: Guía Completa: Hooks Context Redux MERN +15 Apps",
         "name": "React: Complete Guide: Hooks Context Redux MERN +15 Apps",
         "anio": 2021,
