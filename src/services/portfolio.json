@@ -39,6 +39,16 @@
         "tecnologias": ["php", "javascript"]
     },
     {
+        "nombre": "CRM Next & Apollo & GraphQL",
+        "name": "CRM Next & Apollo & GraphQL",
+        "lenguaje": "#react #node #mongo #next #graphql #apollo",
+        "resumen": "CRM Next & Apollo & GraphQL",
+        "summary": "CRM Next & Apollo & GraphQL",
+        "url": "http://cloudapp.com.ar/crm-next-apollo",
+        "anio": 2021,
+        "tecnologias": ["react", "node", "mongo", "next", "graphql", "apollo"]
+    },
+    {
         "nombre": "FileTransfer App",
         "name": "FileTransfer App",
         "lenguaje": "#react #node #mongo #next",
