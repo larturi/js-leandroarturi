@@ -1,11 +1,34 @@
-[   
+[
+    {
+        "nombre": "Next JS: Crea tu tienda online completa",
+        "name": "Next JS: Create your complete online store",
+        "anio": 2021,
+        "horas": 18,
+        "institucion": "Udemy",
+        "tecnologias": [
+            "react",
+            "next",
+            "mongo",
+            "node",
+            "strapi"
+        ],
+        "logo": "fab fa-react",
+        "url": "https://www.udemy.com/certificate/UC-6abe5d32-87b3-4c40-947a-dd2a877b6d1e/"
+    },
     {
         "nombre": "React Avanzado: Fullstack Next.js, Apollo, MongoDB y GraphQL",
         "name": "React Advanced: Fullstack Next.js, Apollo, MongoDB and GraphQL",
         "anio": 2021,
         "horas": 27,
         "institucion": "Udemy",
-        "tecnologias": ["react", "next", "mongo", "node", "apollo", "graphql"],
+        "tecnologias": [
+            "react",
+            "next",
+            "mongo",
+            "node",
+            "apollo",
+            "graphql"
+        ],
         "logo": "fab fa-react",
         "url": "https://www.udemy.com/certificate/UC-5631d098-74a7-414c-a00a-8e8a04211cc1/"
     },
@@ -15,7 +38,13 @@
         "anio": 2021,
         "horas": 44,
         "institucion": "Udemy",
-        "tecnologias": ["react", "mongo", "node", "next", "gatsby"],
+        "tecnologias": [
+            "react",
+            "mongo",
+            "node",
+            "next",
+            "gatsby"
+        ],
         "logo": "fab fa-react",
         "url": "https://www.udemy.com/certificate/UC-a7b61db7-2b6e-48cd-97d5-30b020a913a4/"
     },
@@ -25,7 +54,12 @@
         "anio": 2021,
         "horas": 16,
         "institucion": "Udemy",
-        "tecnologias": ["react", "node", "socket.io", "mongo"],
+        "tecnologias": [
+            "react",
+            "node",
+            "socket.io",
+            "mongo"
+        ],
         "logo": "fab fa-react",
         "url": "https://www.udemy.com/certificate/UC-c950e598-6cbc-4e30-a22c-9a8336b36bfc/"
     },
@@ -35,7 +69,11 @@
         "anio": 2021,
         "horas": 43,
         "institucion": "Udemy",
-        "tecnologias": ["react", "mongo", "node"],
+        "tecnologias": [
+            "react",
+            "mongo",
+            "node"
+        ],
         "logo": "fab fa-react",
         "url": "https://www.udemy.com/certificate/UC-0ebd26c2-1510-4e3a-aed8-a72da00c090a/"
     },
@@ -45,7 +83,11 @@
         "anio": 2021,
         "horas": 12,
         "institucion": "Udemy",
-        "tecnologias": ["vue", "mongo", "firebase"],
+        "tecnologias": [
+            "vue",
+            "mongo",
+            "firebase"
+        ],
         "logo": "fab fa-vuejs",
         "url": "https://www.udemy.com/certificate/UC-f5371835-0c73-4007-b8f7-b4729ccac3fb/"
     },
@@ -55,7 +97,11 @@
         "anio": 2021,
         "horas": 5,
         "institucion": "Udemy",
-        "tecnologias": ["js", "node", "jest"],
+        "tecnologias": [
+            "js",
+            "node",
+            "jest"
+        ],
         "logo": "fab fa-node-js",
         "url": "https://www.udemy.com/certificate/UC-5221b594-ec4f-4ea4-860d-4d28c359c02e/"
     },
@@ -65,7 +111,9 @@
         "anio": 2021,
         "horas": 12,
         "institucion": "Udemy",
-        "tecnologias": ["python"],
+        "tecnologias": [
+            "python"
+        ],
         "logo": "fab fa-python",
         "url": "https://www.udemy.com/certificate/UC-87ad17fd-2870-414a-b6eb-1b9cb37da4da/"
     },
@@ -75,7 +123,13 @@
         "anio": 2020,
         "horas": 23,
         "institucion": "Udemy",
-        "tecnologias": ["php", "laravel", "mysql", "bootstrap", "tailwind"],
+        "tecnologias": [
+            "php",
+            "laravel",
+            "mysql",
+            "bootstrap",
+            "tailwind"
+        ],
         "logo": "fab fa-laravel",
         "url": "https://www.udemy.com/certificate/UC-9c34aaff-25b7-429f-bd2c-2fa22fff4c2c/"
     },
@@ -85,7 +139,11 @@
         "anio": 2020,
         "horas": 20,
         "institucion": "Udemy",
-        "tecnologias": ["php", "laravel", "mysql"],
+        "tecnologias": [
+            "php",
+            "laravel",
+            "mysql"
+        ],
         "logo": "fab fa-laravel",
         "url": "https://www.udemy.com/certificate/UC-52b32c69-2667-4e44-be6e-af84523b3148/"
     },
@@ -95,7 +153,12 @@
         "anio": 2020,
         "horas": 30,
         "institucion": "Udemy",
-        "tecnologias": ["angular", "node", "mongo", "firebase"],
+        "tecnologias": [
+            "angular",
+            "node",
+            "mongo",
+            "firebase"
+        ],
         "logo": "fab fa-angular",
         "url": "https://www.udemy.com/certificate/UC-b688434a-254a-451a-b7f6-ea5b0c9cf57d/"
     },
@@ -105,7 +168,12 @@
         "anio": 2020,
         "horas": 33.5,
         "institucion": "Udemy",
-        "tecnologias": ["angular", "node", "mongo", "firebase"],
+        "tecnologias": [
+            "angular",
+            "node",
+            "mongo",
+            "firebase"
+        ],
         "logo": "fab fa-angular",
         "url": "https://www.udemy.com/certificate/UC-7dd74f29-2397-4f0f-843a-70679b07d8e4/"
     },
@@ -115,7 +183,12 @@
         "anio": 2020,
         "horas": 29,
         "institucion": "Udemy",
-        "tecnologias": ["angular", "node", "mongo", "firebase"],
+        "tecnologias": [
+            "angular",
+            "node",
+            "mongo",
+            "firebase"
+        ],
         "logo": "fab fa-angular",
         "url": "https://www.udemy.com/certificate/UC-bc07dd32-7007-4af5-a756-bc5c13c88cbe/"
     },
@@ -125,7 +198,12 @@
         "anio": 2020,
         "horas": 28,
         "institucion": "Udemy",
-        "tecnologias": ["vue", "node", "mongo", "firebase"],
+        "tecnologias": [
+            "vue",
+            "node",
+            "mongo",
+            "firebase"
+        ],
         "logo": "fab fa-vuejs",
         "url": "https://www.udemy.com/certificate/UC-ad5b3c11-ae33-4120-862e-38b3ef96fb6f/"
     },
@@ -135,7 +213,10 @@
         "anio": 2020,
         "horas": 20,
         "institucion": "Udemy",
-        "tecnologias": ["node", "mongo"],
+        "tecnologias": [
+            "node",
+            "mongo"
+        ],
         "logo": "fab fa-node-js",
         "url": "https://www.udemy.com/certificate/UC-36f27f2c-aea9-42a2-bebd-4c1a156b7444/"
     },
@@ -145,7 +226,10 @@
         "anio": 2020,
         "horas": 17.5,
         "institucion": "Udemy",
-        "tecnologias": ["javascript", "webpack"],
+        "tecnologias": [
+            "javascript",
+            "webpack"
+        ],
         "logo": "fab fa-js",
         "url": "https://www.udemy.com/certificate/UC-e97ea70d-754d-4d58-a9c7-475e68616d4f/"
     },
@@ -155,7 +239,10 @@
         "anio": 2020,
         "horas": 6,
         "institucion": "Udemy",
-        "tecnologias": ["javascript", "webpack"],
+        "tecnologias": [
+            "javascript",
+            "webpack"
+        ],
         "logo": "fab fa-js",
         "url": "https://www.udemy.com/certificate/UC-d89cb873-771d-4f09-be75-852b6d97f429/"
     },
@@ -165,7 +252,11 @@
         "anio": 2020,
         "horas": 6.5,
         "institucion": "Udemy",
-        "tecnologias": ["typescript", "javascript", "webpack"],
+        "tecnologias": [
+            "typescript",
+            "javascript",
+            "webpack"
+        ],
         "logo": "fab fa-js",
         "url": "https://www.udemy.com/certificate/UC-510dde09-b83d-4f0f-ba5c-493ebeb19c62/"
     },
@@ -175,7 +266,9 @@
         "anio": 2020,
         "horas": 9,
         "institucion": "Udemy",
-        "tecnologias": ["dart"],
+        "tecnologias": [
+            "dart"
+        ],
         "url": "https://www.udemy.com/certificate/UC-12aa503f-3e20-4a1e-a1d3-40a2222cb562/"
     },
     {
@@ -184,7 +277,10 @@
         "anio": 2020,
         "horas": 31.5,
         "institucion": "Udemy",
-        "tecnologias": ["flutter", "dart"],
+        "tecnologias": [
+            "flutter",
+            "dart"
+        ],
         "url": "https://www.udemy.com/certificate/UC-cb015977-093d-4ad5-ab52-9199518b34bb/"
     },
     {
@@ -193,7 +289,10 @@
         "anio": 2020,
         "horas": 7,
         "institucion": "Udemy",
-        "tecnologias": ["git", "github"],
+        "tecnologias": [
+            "git",
+            "github"
+        ],
         "logo": "fab fa-github",
         "url": "https://www.udemy.com/certificate/UC-d95b9bbc-a8cc-4f59-8bcd-921cfbef140d/"
     },
@@ -203,7 +302,11 @@
         "anio": 2020,
         "horas": 19,
         "institucion": "Udemy",
-        "tecnologias": ["bootstrap", "css", "html"],
+        "tecnologias": [
+            "bootstrap",
+            "css",
+            "html"
+        ],
         "logo": "fab fa-bootstrap",
         "url": "https://www.udemy.com/certificate/UC-4c6de8cf-9fb8-4657-a79c-4ec23cb087ea/"
     },
@@ -213,7 +316,10 @@
         "anio": 2020,
         "horas": 5,
         "institucion": "Udemy",
-        "tecnologias": ["scrum", "agile"],
+        "tecnologias": [
+            "scrum",
+            "agile"
+        ],
         "logo": "fab fa-jira",
         "url": "https://www.udemy.com/certificate/UC-08edb55a-cd92-4a36-80a5-f3bb6384d7ac/"
     },
@@ -223,7 +329,9 @@
         "anio": 2020,
         "horas": 11,
         "institucion": "Udemy",
-        "tecnologias": ["docker"],
+        "tecnologias": [
+            "docker"
+        ],
         "logo": "fab fa-docker",
         "url": "https://www.udemy.com/certificate/UC-d0b356ad-73e3-4ad6-91bc-c0ce5b7d2dca/"
     },
@@ -233,7 +341,10 @@
         "anio": 2020,
         "horas": 3,
         "institucion": "Udemy",
-        "tecnologias": ["scrum", "agile"],
+        "tecnologias": [
+            "scrum",
+            "agile"
+        ],
         "logo": "fab fa-jira",
         "url": "https://www.udemy.com/certificate/UC-1O1ERB81/"
     },
@@ -243,7 +354,11 @@
         "anio": 2019,
         "horas": 34,
         "institucion": "ONTI",
-        "tecnologias": ["docker", "cloud", "devops"],
+        "tecnologias": [
+            "docker",
+            "cloud",
+            "devops"
+        ],
         "url": ""
     },
     {
@@ -252,7 +367,9 @@
         "anio": 2018,
         "horas": 16,
         "institucion": "INAP",
-        "tecnologias": ["leadership"],
+        "tecnologias": [
+            "leadership"
+        ],
         "url": ""
     },
     {
@@ -261,7 +378,9 @@
         "anio": 2015,
         "horas": 21,
         "institucion": "UTN",
-        "tecnologias": ["android-sdk"],
+        "tecnologias": [
+            "android-sdk"
+        ],
         "logo": "fab fa-android",
         "url": ""
     },
@@ -271,7 +390,9 @@
         "anio": 2014,
         "horas": 18,
         "institucion": "UBA",
-        "tecnologias": ["leadership"],
+        "tecnologias": [
+            "leadership"
+        ],
         "url": ""
     },
     {
@@ -280,7 +401,9 @@
         "anio": 2013,
         "horas": 8,
         "institucion": "Subsecretaría de Tecnologías de Gestión",
-        "tecnologias": ["cloud"],
+        "tecnologias": [
+            "cloud"
+        ],
         "url": ""
     },
     {
@@ -289,7 +412,9 @@
         "anio": 2013,
         "horas": 18,
         "institucion": "UBA",
-        "tecnologias": ["leadership"],
+        "tecnologias": [
+            "leadership"
+        ],
         "url": ""
     },
     {
@@ -298,7 +423,9 @@
         "anio": 2011,
         "horas": 40,
         "institucion": "UBA",
-        "tecnologias": ["leadership"],
+        "tecnologias": [
+            "leadership"
+        ],
         "url": ""
     },
     {
@@ -307,7 +434,12 @@
         "anio": 2010,
         "horas": 72,
         "institucion": "UTN",
-        "tecnologias": ["html", "css", "javascript", "php"],
+        "tecnologias": [
+            "html",
+            "css",
+            "javascript",
+            "php"
+        ],
         "url": ""
     },
     {
@@ -316,7 +448,12 @@
         "anio": 2010,
         "horas": 114,
         "institucion": "UTN",
-        "tecnologias": ["html", "css", "javascript", "php"],
+        "tecnologias": [
+            "html",
+            "css",
+            "javascript",
+            "php"
+        ],
         "url": ""
     }
 ]

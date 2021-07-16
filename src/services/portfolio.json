@@ -1,4 +1,5 @@
-[{
+[
+    {
         "nombre": "My Budget",
         "name": "My Budget",
         "lenguaje": "#angular #bootstrap #node #mongodb",
@@ -6,7 +7,12 @@
         "summary": "Personal expense control and budget management system.",
         "url": "http://mybudget.cloudapp.com.ar/#/login",
         "anio": 2020,
-        "tecnologias": ["angular", "bootstrap", "node", "mongodb"]
+        "tecnologias": [
+            "angular",
+            "bootstrap",
+            "node",
+            "mongodb"
+        ]
     },
     {
         "nombre": "Portfolio de Sistemas",
@@ -16,7 +22,12 @@
         "summary": "Management of an Organization's Systems Portfolio.",
         "url": "http://www.carteradesistemas.cloudapp.com.ar/",
         "anio": 2020,
-        "tecnologias": ["laravel", "vue", "bootstrap", "mysql"]
+        "tecnologias": [
+            "laravel",
+            "vue",
+            "bootstrap",
+            "mysql"
+        ]
     },
     {
         "nombre": "Calendar React App",
@@ -26,7 +37,11 @@
         "summary": "Calendar App with React and Node",
         "url": "http://calendar-react.cloudapp.com.ar",
         "anio": 2021,
-        "tecnologias": ["react", "node", "mongo"]
+        "tecnologias": [
+            "react",
+            "node",
+            "mongo"
+        ]
     },
     {
         "nombre": "El Test de los Seis Sombreros",
@@ -36,7 +51,10 @@
         "summary": "Web application that allows you to do the Test of the Six Hats of Edward De Bono.",
         "url": "http://testsombreros.site/",
         "anio": 2014,
-        "tecnologias": ["php", "javascript"]
+        "tecnologias": [
+            "php",
+            "javascript"
+        ]
     },
     {
         "nombre": "CRM Next & Apollo & GraphQL",
@@ -46,7 +64,14 @@
         "summary": "CRM Next & Apollo & GraphQL",
         "url": "http://cloudapp.com.ar/crm-next-apollo",
         "anio": 2021,
-        "tecnologias": ["react", "node", "mongo", "next", "graphql", "apollo"]
+        "tecnologias": [
+            "react",
+            "node",
+            "mongo",
+            "next",
+            "graphql",
+            "apollo"
+        ]
     },
     {
         "nombre": "FileTransfer App",
@@ -56,7 +81,12 @@
         "summary": "Upload files to share.",
         "url": "http://lab.apirest.com.ar:3006",
         "anio": 2021,
-        "tecnologias": ["react", "node", "mongo", "next"]
+        "tecnologias": [
+            "react",
+            "node",
+            "mongo",
+            "next"
+        ]
     },
     {
         "nombre": "Red Social de Recetas",
@@ -66,7 +96,12 @@
         "summary": "Cooking Recipes Social Network.",
         "url": "http://www.recetas.cloudapp.com.ar/",
         "anio": 2021,
-        "tecnologias": ["laravel", "vue", "bootstrap", "mysql"]
+        "tecnologias": [
+            "laravel",
+            "vue",
+            "bootstrap",
+            "mysql"
+        ]
     },
     {
         "nombre": "DevJobs - Portal de Empleos IT",
@@ -76,7 +111,12 @@
         "summary": "IT Jobs Portal with Recruiter Admin Panel.",
         "url": "http://www.devjobs.cloudapp.com.ar/",
         "anio": 2021,
-        "tecnologias": ["laravel", "vue", "tailwind", "mysql"]
+        "tecnologias": [
+            "laravel",
+            "vue",
+            "tailwind",
+            "mysql"
+        ]
     },
     {
         "nombre": "Product Store",
@@ -86,7 +126,11 @@
         "summary": "Product store with login and crud.",
         "url": "https://product-hunt-1f8d8.web.app/",
         "anio": 2021,
-        "tecnologias": ["next", "react", "firebase"]
+        "tecnologias": [
+            "next",
+            "react",
+            "firebase"
+        ]
     },
     {
         "nombre": "Next & Node Todolist",
@@ -96,7 +140,13 @@
         "summary": "Next & Node Todolist.",
         "url": "http://www.todolist-mern.cloudapp.com.ar/",
         "anio": 2021,
-        "tecnologias": ["next", "react", "node", "mysql", "typescript"]
+        "tecnologias": [
+            "next",
+            "react",
+            "node",
+            "mysql",
+            "typescript"
+        ]
     },
     {
         "nombre": "Nuxt & Laravel Todolist",
@@ -106,7 +156,13 @@
         "summary": "Nuxt & Laravel Todolist.",
         "url": "http://todolist-vue.cloudapp.com.ar/dist/",
         "anio": 2021,
-        "tecnologias": ["nuxt", "vue", "laravel", "mysql", "tailwind"]
+        "tecnologias": [
+            "nuxt",
+            "vue",
+            "laravel",
+            "mysql",
+            "tailwind"
+        ]
     },
     {
         "nombre": "MERN Tasks Pro",
@@ -116,7 +172,11 @@
         "summary": "CRUD of Projects and Tasks.",
         "url": "http://mern-tasks.cloudapp.com.ar/",
         "anio": 2021,
-        "tecnologias": ["react", "node", "mongo"]
+        "tecnologias": [
+            "react",
+            "node",
+            "mongo"
+        ]
     },
     {
         "nombre": "Ionic Todolist",
@@ -126,7 +186,9 @@
         "summary": "Ionic Todolist.",
         "url": "https://www.leandroarturi.com.ar/demo/todolist-ng/#/tabs/tab1",
         "anio": 2020,
-        "tecnologias": ["ionic"]
+        "tecnologias": [
+            "ionic"
+        ]
     },
     {
         "nombre": "Burger Queen",
@@ -136,17 +198,10 @@
         "summary": "Self-management of hamburger orders.",
         "url": "https://www.leandroarturi.com.ar/demo/burgers/",
         "anio": 2020,
-        "tecnologias": ["angular", "firebase"]
-    },
-    {
-        "nombre": "Lyrics",
-        "name": "Lyrics",
-        "lenguaje": "#react",
-        "resumen": "Aplicación React que permite buscar letras de canciones.",
-        "summary": "React application that allows searching for song lyrics.",
-        "url": "https://www.leandroarturi.com.ar/demo/lyrics/",
-        "anio": 2021,
-        "tecnologias": ["react"]
+        "tecnologias": [
+            "angular",
+            "firebase"
+        ]
     },
     {
         "nombre": "Hoy Jugamos",
@@ -156,7 +211,11 @@
         "summary": "Application to organize soccer matches.",
         "url": "http://hoyjugamos.cloudapp.com.ar/home/",
         "anio": 2015,
-        "tecnologias": ["laravel", "bootstrap", "mysql"]
+        "tecnologias": [
+            "laravel",
+            "bootstrap",
+            "mysql"
+        ]
     },
     {
         "nombre": "Películas",
@@ -166,7 +225,9 @@
         "summary": "Movie Searching with Angular and Api TheMovieDB.",
         "url": "https://www.leandroarturi.com.ar/demo/peliculas/#/home",
         "anio": 2020,
-        "tecnologias": ["angular"]
+        "tecnologias": [
+            "angular"
+        ]
     },
     {
         "nombre": "Blackjack",
@@ -176,7 +237,9 @@
         "summary": "Blackjack with Javascript.",
         "url": "http://www.leandroarturi.com.ar/demo/blackjack/",
         "anio": 2020,
-        "tecnologias": ["javascript"]
+        "tecnologias": [
+            "javascript"
+        ]
     },
     {
         "nombre": "Chat Socket",
@@ -186,7 +249,10 @@
         "summary": "Angular and Firebase Chat with Google and Twitter login.",
         "url": "http://www.leandroarturi.com.ar/demo/firechat/",
         "anio": 2020,
-        "tecnologias": ["angular", "firebase"]
+        "tecnologias": [
+            "angular",
+            "firebase"
+        ]
     },
     {
         "nombre": "SpotyApp",
@@ -196,7 +262,10 @@
         "summary": "Shows the lists of the moment from Spotify Api. You can search for artists and list the most popular songs.",
         "url": "http://www.leandroarturi.com.ar/demo/spotiapp/#/home",
         "anio": 2020,
-        "tecnologias": ["angular", "spotify-api"]
+        "tecnologias": [
+            "angular",
+            "spotify-api"
+        ]
     },
     {
         "nombre": "Giphy ReactApp",
@@ -206,7 +275,11 @@
         "summary": "Giphy.com GIF Finder with React and Tailwind.",
         "url": "https://www.leandroarturi.com.ar/demo/gif-react/",
         "anio": 2021,
-        "tecnologias": ["react", "tailwind", "giphy-api"]
+        "tecnologias": [
+            "react",
+            "tailwind",
+            "giphy-api"
+        ]
     },
     {
         "nombre": "Drinks App",
@@ -216,7 +289,9 @@
         "summary": "React application consuming the thecocktaildb.com API.",
         "url": "https://www.leandroarturi.com.ar/demo/drinks/",
         "anio": 2021,
-        "tecnologias": ["react"]
+        "tecnologias": [
+            "react"
+        ]
     },
     {
         "nombre": "Angular Heroes",
@@ -226,17 +301,9 @@
         "summary": "Angular Heroes.",
         "url": "https://www.leandroarturi.com.ar/demo/heroes-ng/#/heroes",
         "anio": 2020,
-        "tecnologias": ["angular"]
-    },
-    {
-        "nombre": "Cripto App",
-        "name": "Cripto App",
-        "lenguaje": "#react",
-        "resumen": "Cotización de Criptomonedas con React.",
-        "summary": "Cryptocurrency Quote with React.",
-        "url": "https://www.leandroarturi.com.ar/demo/cripto/",
-        "anio": 2021,
-        "tecnologias": ["react"]
+        "tecnologias": [
+            "angular"
+        ]
     },
     {
         "nombre": "Angular Flags Drag & Drop",
@@ -246,7 +313,9 @@
         "summary": "Angular Flags Drag & Drop.",
         "url": "https://www.leandroarturi.com.ar/demo/flags/#/list-countries/",
         "anio": 2020,
-        "tecnologias": ["angular"]
+        "tecnologias": [
+            "angular"
+        ]
     },
     {
         "nombre": "Diseta",
@@ -256,7 +325,9 @@
         "summary": "Diseta official site, company dedicated to the sale of women's clothing.",
         "url": "http://www.diseta.com.ar",
         "anio": 2016,
-        "tecnologias": ["php"]
+        "tecnologias": [
+            "php"
+        ]
     },
     {
         "nombre": "Mi Pami",
@@ -266,7 +337,9 @@
         "summary": "Android Application that shows the closest PAMI Agencies and Pharmacies. Non-productive.",
         "url": "https://apkpure.com/es/mi-pami/com.mipami.larturi.mipami",
         "anio": 2015,
-        "tecnologias": ["android-sdk"]
+        "tecnologias": [
+            "android-sdk"
+        ]
     },
     {
         "nombre": "Famosos en Twitter",
@@ -276,17 +349,11 @@
         "summary": "Website that shows the most relevant tweets of famous accounts in news format.",
         "url": "http://www.famososentwitter.com.ar/",
         "anio": 2013,
-        "tecnologias": ["php", "mysql", "twitter-api"]
-    },
-    {
-        "nombre": "Trivia Series",
-        "name": "Trivia Series",
-        "lenguaje": "#php",
-        "resumen": "Trivia para poner a prueba tus conocimientos de Series de TV.",
-        "summary": "Trivia to test your knowledge of TV Series.",
-        "url": "http://triviaseries.cloudapp.com.ar/trivia_series.php",
-        "anio": 2014,
-        "tecnologias": ["php", "javascript"]
+        "tecnologias": [
+            "php",
+            "mysql",
+            "twitter-api"
+        ]
     },
     {
         "nombre": "Programmer Day",
@@ -296,7 +363,10 @@
         "summary": "Website dedicated to programmers to remember their day every year.",
         "url": "http://programmerday.cloudapp.com.ar/",
         "anio": 2014,
-        "tecnologias": ["php", "javascript"]
+        "tecnologias": [
+            "php",
+            "javascript"
+        ]
     },
     {
         "nombre": "Chistes Sin Codificar",
@@ -306,17 +376,10 @@
         "summary": "Jokes website.",
         "url": "http://chistescodificados.cloudapp.com.ar",
         "anio": 2014,
-        "tecnologias": ["php", "mysql"]
-    },
-    {
-        "nombre": "Los Mejores Maschefacts",
-        "name": "The Best Maschefacts",
-        "lenguaje": "#php",
-        "resumen": "Sitio homenaje a Javier Mascherano luego de las conocidas repercusiones en redes sociales en la copa del mundo 2014.",
-        "summary": "Site honoring Javier Mascherano after the well-known repercussions on social networks at the 2014 World Cup.",
-        "url": "http://maschefacts.cloudapp.com.ar",
-        "anio": 2014,
-        "tecnologias": ["php", "mysql"]
+        "tecnologias": [
+            "php",
+            "mysql"
+        ]
     },
     {
         "nombre": "Calculadora del Viajero",
@@ -326,16 +389,8 @@
         "summary": "Calculator that allows you to configure the exchange rate and tax to calculate the amount in argentine pesos of a purchase (2015).",
         "url": "https://m.apkpure.com/es/calculadora-del-viajero/com.larturi.calculadoraviajeroargento",
         "anio": 2015,
-        "tecnologias": ["android-sdk"]
-    },
-    {
-        "nombre": "The Vision Test",
-        "name": "The Vision Test",
-        "lenguaje": "#javascript",
-        "resumen": "Juego desarrollado en Javascript que pone a prueba la rapidez visual del jugador.",
-        "summary": "A game developed in Javascript that tests the visual speed of the player.",
-        "url": "http://visiontest.cloudapp.com.ar/",
-        "anio": 2015,
-        "tecnologias": ["javascript"]
+        "tecnologias": [
+            "android-sdk"
+        ]
     }
 ]
