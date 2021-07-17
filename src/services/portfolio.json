@@ -1,5 +1,21 @@
 [
     {
+        "nombre": "E-commerce Games",
+        "name": "E-commerce Games",
+        "lenguaje": "#next #react #node #strapi",
+        "resumen": "E-commerce de juegos de consola.",
+        "summary": "Games E-commerce.",
+        "url": "http://cloudapp.com.ar/ecommerce-games/",
+        "anio": 2021,
+        "tecnologias": [
+            "next",
+            "react",
+            "node",
+            "strapi",
+            "sass"
+        ]
+    },
+    {
         "nombre": "My Budget",
         "name": "My Budget",
         "lenguaje": "#angular #bootstrap #node #mongodb",
