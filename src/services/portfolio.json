@@ -1,11 +1,11 @@
 [
     {
-        "nombre": "E-commerce Games",
-        "name": "E-commerce Games",
+        "nombre": "E-Commerce Games",
+        "name": "E-Commerce Games",
         "lenguaje": "#next #react #node #strapi",
         "resumen": "E-commerce de juegos de consola.",
-        "summary": "Games E-commerce.",
-        "url": "http://cloudapp.com.ar/ecommerce-games/",
+        "summary": "Games E-Commerce.",
+        "url": "http://lab.apirest.com.ar:3010/",
         "anio": 2021,
         "tecnologias": [
             "next",
