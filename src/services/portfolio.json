@@ -95,7 +95,7 @@
         "lenguaje": "#react #node #mongo #next",
         "resumen": "Upload de archivos para compartir",
         "summary": "Upload files to share.",
-        "url": "https://react-filetransfer-cliente-8tqnggd3g-larturi.vercel.app",
+        "url": "https://react-filetransfer-cliente.vercel.app/",
         "anio": 2021,
         "tecnologias": [
             "react",
