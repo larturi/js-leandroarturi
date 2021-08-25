@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  -- Vanilla JavaScript --
+  -- Vanilla JavaScript & Webpack --
 </h3>
 
 <h5 align="center">
