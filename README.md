@@ -1,14 +1,6 @@
-<h1 align="center">
-  Leandro Arturi's Old Portfolio
-</h1>
+# Leandro Arturi's Old Portfolio
 
-<h3 align="center">
-  -- Vanilla JavaScript & Webpack --
-</h3>
-
-<h5 align="center">
-  Made with ❤️ by Leandro Arturi
-</h5>
+### Vanilla JavaScript & Webpack
 
 ## 🚀 Quick start
 
@@ -23,3 +15,6 @@ Build the app for production
 ```shell
 npm run build
 ```
+
+##### Made with ❤️ by Leandro Arturi
+
